@@ -16,11 +16,14 @@ all: general_exam_jp.pdf
 # "raw2tex" and "dat2tex" are just placeholders for whatever custom steps
 # you might have.
 
-%.tex: %.raw
-	./raw2tex $< > $@
+# %.tex: %.raw
+# 	./raw2tex $< > $@
+#
+# %.tex: %.dat
+# 	./dat2tex $< > $@
 
-%.tex: %.dat
-	./dat2tex $< > $@
+%.tex: %.markdown
+	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
 
 # MAIN LATEXMK RULE
 
