@@ -38,6 +38,7 @@ general_exam_jp.pdf: general_exam_jp.tex
 	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make general_exam_jp.tex
 
 clean:
+	rm q*.tex
 	latexmk -CA
 
 
