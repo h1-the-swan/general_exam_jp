@@ -1,13 +1,29 @@
+# https://drewsilcock.co.uk/using-make-and-latexmk
 # https://tex.stackexchange.com/questions/40738/how-to-properly-make-a-latex-project
+
+LATEX=pdflatex
+LATEXOPT=--shell-escape
+NONSTOP=--interaction=nonstopmode
+
+LATEXMK=latexmk
+LATEXMKOPT=-pdf -use-make
+CONTINUOUS=-pvc
+
+MAIN=general_exam_jp
+MARKDOWN_INPUTS := $(wildcard markdown_sections/*.markdown) $(wildcard markdowwn_sections/*.md)
+SOURCES := $(MAIN).tex Makefile $(wildcard source*.tex)
 #
 # You want latexmk to *always* run, because make does not have all the info.
 # Also, include non-file targets in .PHONY so they are run regardless of any
 # file of the given name existing.
-.PHONY: general_exam_jp.pdf all clean
+.PHONY: $(MAIN).pdf all clean print mdconvert
 
 # The first rule in a Makefile is the one executed by default ("make"). It
 # should always be the "all" rule, so that "make" and "make all" are identical.
-all: general_exam_jp.pdf
+all: $(MAIN).pdf
+
+.refresh:
+	touch .refresh
 
 # CUSTOM BUILD RULES
 
@@ -16,13 +32,14 @@ all: general_exam_jp.pdf
 # "raw2tex" and "dat2tex" are just placeholders for whatever custom steps
 # you might have.
 
-# %.tex: %.raw
-# 	./raw2tex $< > $@
-#
-# %.tex: %.dat
-# 	./dat2tex $< > $@
+print:
+	echo $(SOURCES)
 
-%.tex: %.markdown
+mdconvert:
+	pandoc --filter=pandoc-citeproc -o source000-general_exam_questions_email_jw.tex --biblatex markdown_sections/000-general_exam_questions_email_jw.md
+
+# $(SOURCES): $(MARKDOWN_INPUTS)
+source%.tex: $(MARKDOWN_INPUTS)
 	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
 
 # MAIN LATEXMK RULE
@@ -33,12 +50,14 @@ all: general_exam_jp.pdf
 
 # -interaction=nonstopmode keeps the pdflatex backend from stopping at a
 # missing file reference and interactively asking you for an alternative.
+#
+# Note that %O is replaced by latexmk with the options given to latexmk, and %S is replaced with the source file name
 
-general_exam_jp.pdf: general_exam_jp.tex
-	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make general_exam_jp.tex
+$(MAIN).pdf: $(MAIN).tex .refresh $(SOURCES) $(MARKDOWN_INPUTS)
+	$(LATEXMK) $(LATEXMKOPT) \
+		-pdflatex="$(LATEX) $(LATEXOPT) $(NONSTOP) %O %S" $(MAIN)
 
 clean:
-	rm q*.tex
 	latexmk -CA
 
 

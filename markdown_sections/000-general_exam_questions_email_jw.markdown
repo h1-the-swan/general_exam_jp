@@ -1,5 +1,3 @@
-Hi Jason,
-
 *Please answer questions 1-4 in approximately 4-5 pages, not including references. For question 5, provide a link to your github/bitbucket repository with a 1-2 pg summary of what you did.*
 
 1. **What is community detection?** What are the common algorithms and history? How is this problem approached in various disciplines such as computer science, physics and network science? How does one evaluate a community detection algorithm? What are the top performing algorithms? Please give special attention to the evaluation part of this question.
