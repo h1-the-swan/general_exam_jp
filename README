@@ -9,3 +9,8 @@ make
 
 2017-05-16
 Makefile is kind of broken. Don't use it for now. Come back to it.
+
+use
+`make mdconvert`
+then
+`make`

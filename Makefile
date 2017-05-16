@@ -36,7 +36,8 @@ print:
 	echo $(SOURCES)
 
 mdconvert:
-	pandoc --filter=pandoc-citeproc -o source000-general_exam_questions_email_jw.tex --biblatex markdown_sections/000-general_exam_questions_email_jw.md
+	pandoc --filter=pandoc-citeproc -o source000-general_exam_questions_email_jw.tex --biblatex 000-general_exam_questions_email_jw.markdown
+	pandoc --filter=pandoc-citeproc -o source010-history_and_algorithms.tex --biblatex 010-history_and_algorithms.markdown
 
 # $(SOURCES): $(MARKDOWN_INPUTS)
 source%.tex: $(MARKDOWN_INPUTS)
