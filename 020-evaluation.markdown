@@ -8,6 +8,13 @@ Because of this, much of the work around evaluating community detection methods 
 
 ## Comparison measures
 
+Evaluating a community detection method against either a synthetic benchmark network or a real-world network with known community structure requires some measure of comparison between the clustering found by the method and the ground truth clustering. The popular measures that have been adopted fall into one of three categories: (1) measures based on *pair counting*, (2) measures based on *set matching*, or (3) measures based on *information theory* [@meila_comparing_2007; @vinh_information_2010]. These are all general measures comparing data (not just network) clusterings; they work by viewing the network as data points with communities as cluster assignments. 
+
+*Pair counting measures* work by taking every possible pair of nodes in the network and classifying them based on their co-occurrence in the clusterings. Each of these categories is then counted:
++ $$N_11$$: the number of pairs that co-occur in the same cluster in both clusterings
++ $$N_00$$: the number of pairs that do not co-occur in either clustering
++ $$N_10$$ or $$N_01$$: the number of pairs that co-occur in one clustering but not the other.
+
 ## Synthetic benchmark networks
 
 ## Evaluation on real-world networks
