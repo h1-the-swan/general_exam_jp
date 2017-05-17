@@ -24,7 +24,7 @@ This measure has a value between zero and one, with one representing perfect agr
 
 *Set matching measures* compare clusterings by finding matches between the clusters---for example, by treating the cluster assignments as labels and calculating the classification error rate. This approach has problems when the two clusterings to be compared have different numbers of clusters, however. Even within the clusters that match, these measures only consider the matched part of each cluster pair, leaving out the parts that do not match. For these reasons, these measures are not very widely used [@meila_comparing_2007; @vinh_information_2010].
 
-*Information theoretic measures* use elements of information theory to compare clusterings. The *entropy* $H\mathcal{C}$ of clustering $\mathcal{C}$ is the average amount of information (in bits) needed to encode and transmit each label.
+*Information theoretic measures* use elements of information theory to compare clusterings. The *entropy* $H(\mathcal{C})$ of clustering $\mathcal{C}$ is the average amount of information (in bits) needed to encode and transmit each label.
 
 ## Synthetic benchmark networks
 
