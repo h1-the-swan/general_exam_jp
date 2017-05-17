@@ -56,11 +56,28 @@ assignments.
 
 \emph{Pair counting measures} work by taking every possible pair of
 nodes in the network and classifying them based on their co-occurrence
-in the clusterings. Each of these categories is then counted: +
-\(N_{11}\): the number of pairs that co-occur in the same cluster in
-both clusterings + \(N_{00}\): the number of pairs that do not co-occur
-in either clustering + \(N_{10}\) or \(N_{01}\): the number of pairs
-that co-occur in one clustering but not the other.
+in the clusterings. Each of these categories is then counted:
+
+\begin{itemize}
+\tightlist
+\item
+  \(N_{11}\): the number of pairs that co-occur in the same cluster in
+  both clusterings
+\item
+  \(N_{00}\): the number of pairs that do not co-occur in either
+  clustering
+\item
+  \(N_{10}\) or \(N_{01}\): the number of pairs that co-occur in one
+  clustering but not the other.
+\end{itemize}
+
+Examples of measures that use these counts include the Fowlkes-Mallows
+index \autocite{fowlkes_method_1983} and the Rand index
+\autocite{rand_objective_1971}. The Rand index, for example, is the
+ratio of pairs correctly classified in both clusterings to the total
+number of pairs:
+
+\[\frac{N_{11} + N_{00}}{N_{11} + N_{00} + N_{10} + N_{01}}\]
 
 \subsection{Synthetic benchmark
 networks}\label{synthetic-benchmark-networks}

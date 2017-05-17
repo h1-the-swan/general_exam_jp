@@ -11,9 +11,16 @@ Because of this, much of the work around evaluating community detection methods 
 Evaluating a community detection method against either a synthetic benchmark network or a real-world network with known community structure requires some measure of comparison between the clustering found by the method and the ground truth clustering. The popular measures that have been adopted fall into one of three categories: (1) measures based on *pair counting*, (2) measures based on *set matching*, or (3) measures based on *information theory* [@meila_comparing_2007; @vinh_information_2010]. These are all general measures comparing data (not just network) clusterings; they work by viewing the network as data points with communities as cluster assignments. 
 
 *Pair counting measures* work by taking every possible pair of nodes in the network and classifying them based on their co-occurrence in the clusterings. Each of these categories is then counted:
+
 + $N_{11}$: the number of pairs that co-occur in the same cluster in both clusterings
 + $N_{00}$: the number of pairs that do not co-occur in either clustering
 + $N_{10}$ or $N_{01}$: the number of pairs that co-occur in one clustering but not the other.
+
+Examples of measures that use these counts include the Fowlkes-Mallows index [@fowlkes_method_1983] and the Rand index [@rand_objective_1971]. The Rand index, for example, is the ratio of pairs correctly classified in both clusterings to the total number of pairs:
+
+$$\frac{N_{11} + N_{00}}{N_{11} + N_{00} + N_{10} + N_{01}}$$
+
+This measure has a value between zero and one, with one representing perfect agreement between the clusterings and zero representing no agreement whatsoever. In practice, it is rare to see values on the lower end of this range, so a transformation is usually applied that sets a baseline that accounts for chance---this is known as the adjusted Rand index.
 
 ## Synthetic benchmark networks
 
