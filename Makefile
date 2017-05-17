@@ -10,8 +10,8 @@ LATEXMKOPT=-pdf -use-make
 CONTINUOUS=-pvc
 
 MAIN=general_exam_jp
-MARKDOWN_INPUTS := $(wildcard markdown_sections/*.markdown) $(wildcard markdowwn_sections/*.md)
-SOURCES := $(MAIN).tex Makefile $(wildcard source*.tex)
+MARKDOWN_INPUTS := $(wildcard inputs/*.markdown)
+SOURCES := $(wildcard inputs/*.tex)
 #
 # You want latexmk to *always* run, because make does not have all the info.
 # Also, include non-file targets in .PHONY so they are run regardless of any
@@ -39,6 +39,9 @@ mdconvert:
 	pandoc --filter=pandoc-citeproc -o source000-general_exam_questions_email_jw.tex --biblatex 000-general_exam_questions_email_jw.markdown
 	pandoc --filter=pandoc-citeproc -o source010-history_and_algorithms.tex --biblatex 010-history_and_algorithms.markdown
 
+inputs/%.tex: inputs/%.markdown
+	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
+
 # $(SOURCES): $(MARKDOWN_INPUTS)
 source%.tex: $(MARKDOWN_INPUTS)
 	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
@@ -54,7 +57,7 @@ source%.tex: $(MARKDOWN_INPUTS)
 #
 # Note that %O is replaced by latexmk with the options given to latexmk, and %S is replaced with the source file name
 
-$(MAIN).pdf: $(MAIN).tex .refresh $(SOURCES) $(MARKDOWN_INPUTS)
+$(MAIN).pdf: $(MAIN).tex .refresh $(SOURCES)
 	$(LATEXMK) $(LATEXMKOPT) \
 		-pdflatex="$(LATEX) $(LATEXOPT) $(NONSTOP) %O %S" $(MAIN)
 
