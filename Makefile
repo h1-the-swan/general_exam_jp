@@ -35,15 +35,7 @@ all: $(MAIN).pdf
 print:
 	echo $(SOURCES)
 
-mdconvert:
-	pandoc --filter=pandoc-citeproc -o source000-general_exam_questions_email_jw.tex --biblatex 000-general_exam_questions_email_jw.markdown
-	pandoc --filter=pandoc-citeproc -o source010-history_and_algorithms.tex --biblatex 010-history_and_algorithms.markdown
-
 inputs/%.tex: inputs/%.markdown
-	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
-
-# $(SOURCES): $(MARKDOWN_INPUTS)
-source%.tex: $(MARKDOWN_INPUTS)
 	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
 
 # MAIN LATEXMK RULE
@@ -62,6 +54,6 @@ $(MAIN).pdf: $(MAIN).tex .refresh $(SOURCES)
 		-pdflatex="$(LATEX) $(LATEXOPT) $(NONSTOP) %O %S" $(MAIN)
 
 clean:
-	latexmk -CA
+	latexmk -C
 
 
