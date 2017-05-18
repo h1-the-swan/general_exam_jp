@@ -99,7 +99,23 @@ not very widely used
 \emph{Information theoretic measures} use elements of information theory
 to compare clusterings. The \emph{entropy} \(H(\mathcal{C})\) of
 clustering \(\mathcal{C}\) is the average amount of information (in
-bits) needed to encode and transmit each label.
+bits) needed to encode and transmit each label. The \emph{mutual
+information} between two clusterings \(\mathcal{C}\) and
+\(\mathcal{C'}\) is the entropy of \(\mathcal{C}\) minus the conditional
+entropy of \(\mathcal{C}\) given \(\mathcal{C'}\), or vice versa:
+\(H(\mathcal{C}) - H(\mathcal{C}|\mathcal{C'}) = I(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C'}) - H(\mathcal{C'}|\mathcal{C'})\).
+If we let \(P(k), k = 1, \ldots, K\) and \(P'(k'), k' = 1, \ldots, K'\)
+be the random variables associated with the clusterings \(\mathcal{C}\)
+and \(\mathcal{C'}\), respectively, and \(P(k, k')\) be the joint
+probability---the probability that a point belongs to \(C_k\) in
+clustering \(\mathcal{C}\) and to \(C'_{k'}\) in clustering
+\(\mathcal{C'}\), then:
+
+\[I(\mathcal{C}, \mathcal{C'}) = \sum_{k=1}^{K} \sum_{k'=1}^{K'} P(k, k') \log \frac{P(k, k')}{P(k) P'(k')}\]
+
+The mutual information tells us, on average, how much knowing the
+cluster assignment of a point in \(\mathcal{C}\) reduces our uncertainty
+of which cluster it belongs to in \(\mathcal{C'}\).
 
 \subsection{Synthetic benchmark
 networks}\label{synthetic-benchmark-networks}
@@ -107,5 +123,4 @@ networks}\label{synthetic-benchmark-networks}
 \subsection{Evaluation on real-world
 networks}\label{evaluation-on-real-world-networks}
 
-\subsection*{Visualization}\label{visualization}
-\addcontentsline{toc}{subsection}{Visualization}
+\subsection{Visualization}\label{visualization}

@@ -24,7 +24,11 @@ This measure has a value between zero and one, with one representing perfect agr
 
 *Set matching measures* compare clusterings by finding matches between the clusters---for example, by treating the cluster assignments as labels and calculating the classification error rate. This approach has problems when the two clusterings to be compared have different numbers of clusters, however. Even within the clusters that match, these measures only consider the matched part of each cluster pair, leaving out the parts that do not match. For these reasons, these measures are not very widely used [@meila_comparing_2007; @vinh_information_2010].
 
-*Information theoretic measures* use elements of information theory to compare clusterings. The *entropy* $H(\mathcal{C})$ of clustering $\mathcal{C}$ is the average amount of information (in bits) needed to encode and transmit each label.
+*Information theoretic measures* use elements of information theory to compare clusterings. The *entropy* $H(\mathcal{C})$ of clustering $\mathcal{C}$ is the average amount of information (in bits) needed to encode and transmit each label. The *mutual information* between two clusterings $\mathcal{C}$ and $\mathcal{C'}$ is the entropy of $\mathcal{C}$ minus the conditional entropy of $\mathcal{C}$ given $\mathcal{C'}$, or vice versa: $H(\mathcal{C}) - H(\mathcal{C}|\mathcal{C'}) = I(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C'}) - H(\mathcal{C'}|\mathcal{C'})$. If we let $P(k), k = 1, \ldots, K$ and $P'(k'), k' = 1, \ldots, K'$ be the random variables associated with the clusterings $\mathcal{C}$ and $\mathcal{C'}$, respectively, and $P(k, k')$ be the joint probability---the probability that a point belongs to $C_k$ in clustering $\mathcal{C}$ and to $C'_{k'}$ in clustering $\mathcal{C'}$, then:
+
+$$I(\mathcal{C}, \mathcal{C'}) = \sum_{k=1}^{K} \sum_{k'=1}^{K'} P(k, k') \log \frac{P(k, k')}{P(k) P'(k')}$$
+
+The mutual information tells us, on average, how much knowing the cluster assignment of a point in $\mathcal{C}$ reduces our uncertainty of which cluster it belongs to in $\mathcal{C'}$.
 
 ## Synthetic benchmark networks
 
