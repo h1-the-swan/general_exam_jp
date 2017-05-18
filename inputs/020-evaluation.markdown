@@ -28,7 +28,11 @@ This measure has a value between zero and one, with one representing perfect agr
 
 $$I(\mathcal{C}, \mathcal{C'}) = \sum_{k=1}^{K} \sum_{k'=1}^{K'} P(k, k') \log \frac{P(k, k')}{P(k) P'(k')}$$
 
-The mutual information tells us, on average, how much knowing the cluster assignment of a point in $\mathcal{C}$ reduces our uncertainty of which cluster it belongs to in $\mathcal{C'}$.
+The mutual information tells us, on average, how much knowing the cluster assignment of a point in $\mathcal{C}$ reduces our uncertainty of which cluster it belongs to in $\mathcal{C'}$. Several variations of the mutual information measure have been proposed, including normalized versions that are meant to vary between 0 (the clusterings are independent of one another) and 1 (the clusterings are identical); and versions adjusted for chance [@vinh_information_2010]. Another measure is the *variation of information*:
+
+$$VI(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C}) + H(\mathcal{C'}) - 2I(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C}|\mathcal{C'}) + H(\mathcal{C'}|\mathcal{C})$$
+
+Finally, Lancichinetti et al. proposed a version of the normalized mutual information that can handle the case of *covers*, clusterings in which a node can be assigned to more than one cluster [@lancichinetti_detecting_2009]. While the authors point out that their measure is not a true extension of normalized mutual information because it gives different values when used to compare normal "hard" clusterings, they contend that the difference is small [@lancichinetti_community_2009].
 
 ## Synthetic benchmark networks
 
