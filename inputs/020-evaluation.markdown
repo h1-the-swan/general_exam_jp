@@ -36,6 +36,8 @@ Finally, Lancichinetti et al. proposed a version of the normalized mutual inform
 
 ## Synthetic benchmark networks
 
+Evaluating community detection methods can mean comparing their results with the expected results on some network with known community structure, using the above similarity measures. One class of these networks constitutes computer-generated synthetic benchmarks networks, which are created with some notion of built-in community structure. While there is no clear consensus on exactly what this structure should look like, some standard benchmarks have emerged.
+
 ## Evaluation on real-world networks
 
 ## Visualization
