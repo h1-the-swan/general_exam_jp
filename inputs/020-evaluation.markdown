@@ -36,9 +36,9 @@ Finally, Lancichinetti et al. proposed a version of the normalized mutual inform
 
 ## Synthetic benchmark networks
 
-Evaluating community detection methods can mean comparing their results with the expected results on some network with known community structure, using the above similarity measures. One class of these networks constitutes computer-generated synthetic benchmarks networks, which are created with some notion of built-in community structure. While there is no clear consensus on exactly what this structure should look like, some standard benchmarks have emerged.
+Evaluating community detection methods can mean comparing their results with the expected results on some network with known community structure, using the above similarity measures. One way to get such a network is by using computer-generated synthetic benchmarks networks, which are created with some notion of built-in community structure. While there is no clear consensus on exactly what this structure should look like, some standard benchmarks have emerged.
 
-The planted $\ell$-partition
+The *planted $\ell$-partition model* is one method of generating such a benchmark network. In this model, a graph is created with a certain number of clusters, each having the same number of nodes. Nodes are connected with edges to other nodes in the same cluster with probability $p_{in}$, and to nodes in other clusters with probability $p_{out}$; as long as $p_{in} > p{out}$, the graph has some community structure. The version of this model that has become standard is known as the Girvan and Newman (GM) benchmark. In this version, the number of clusters is set at 4, with 32 nodes per cluster, and an average total degree of 12. The parameter one uses to change how pronounced is the community structure of the generated network is $z{out}$---the expected external degree of a node.
 
 ## Evaluation on real-world networks
 
