@@ -103,7 +103,7 @@ bits) needed to encode and transmit each label. The \emph{mutual
 information} between two clusterings \(\mathcal{C}\) and
 \(\mathcal{C'}\) is the entropy of \(\mathcal{C}\) minus the conditional
 entropy of \(\mathcal{C}\) given \(\mathcal{C'}\), or vice versa:
-\(H(\mathcal{C}) - H(\mathcal{C}|\mathcal{C'}) = I(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C'}) - H(\mathcal{C'}|\mathcal{C'})\).
+\(H(\mathcal{C}) - H(\mathcal{C}|\mathcal{C'}) = I(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C'}) - H(\mathcal{C'}|\mathcal{C})\).
 If we let \(P(k), k = 1, \ldots, K\) and \(P'(k'), k' = 1, \ldots, K'\)
 be the random variables associated with the clusterings \(\mathcal{C}\)
 and \(\mathcal{C'}\), respectively, and \(P(k, k')\) be the joint
@@ -115,10 +115,36 @@ clustering \(\mathcal{C}\) and to \(C'_{k'}\) in clustering
 
 The mutual information tells us, on average, how much knowing the
 cluster assignment of a point in \(\mathcal{C}\) reduces our uncertainty
-of which cluster it belongs to in \(\mathcal{C'}\).
+of which cluster it belongs to in \(\mathcal{C'}\). Several variations
+of the mutual information measure have been proposed, including
+normalized versions that are meant to vary between 0 (the clusterings
+are independent of one another) and 1 (the clusterings are identical);
+and versions adjusted for chance \autocite{vinh_information_2010}.
+Another measure is the \emph{variation of information}:
+
+\[VI(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C}) + H(\mathcal{C'}) - 2I(\mathcal{C}, \mathcal{C'}) = H(\mathcal{C}|\mathcal{C'}) + H(\mathcal{C'}|\mathcal{C})\]
+
+Finally, Lancichinetti et al. proposed a version of the normalized
+mutual information that can handle the case of \emph{covers},
+clusterings in which a node can be assigned to more than one cluster
+\autocite{lancichinetti_detecting_2009}. While the authors point out
+that their measure is not a true extension of normalized mutual
+information because it gives different values when used to compare
+normal ``hard'' clusterings, they contend that the difference is small
+\autocite{lancichinetti_community_2009}.
 
 \subsection{Synthetic benchmark
 networks}\label{synthetic-benchmark-networks}
+
+Evaluating community detection methods can mean comparing their results
+with the expected results on some network with known community
+structure, using the above similarity measures. One class of these
+networks constitutes computer-generated synthetic benchmarks networks,
+which are created with some notion of built-in community structure.
+While there is no clear consensus on exactly what this structure should
+look like, some standard benchmarks have emerged.
+
+The planted \(\ell\)-partition
 
 \subsection{Evaluation on real-world
 networks}\label{evaluation-on-real-world-networks}
