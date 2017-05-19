@@ -1,0 +1,6 @@
+# Visualizing community structure in networks
+
+http://groups-in-graphs.corinna-vehlow.com/
++ Labs:
+	+ Stuttgart: Beck, Weiskopf
+	+ 
