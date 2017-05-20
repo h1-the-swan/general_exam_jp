@@ -49,4 +49,8 @@ The weakness of the GN benchmarks and the planted $\ell$-partition model in gene
 
 ## Evaluation on real-world networks
 
+A second approach to evaluate community detection methods is to use some real-world network data and compare the results of the method against known metadata attributes, which are treated as ground-truth community structure. The most famous of these networks is the Zachary karate club dataset [@zachary_information_1977], which is a network representation of the social interactions between 34 members of a university karate club. A conflict between the club president and the instructor resulted in the formation of two groups of members who had allegiance to one leader or the other. Community detection methods can be judged according to how well they are able to infer this group division from the network structure alone. This network has become so widely used as a benchmark in network science that researchers who are first to use it as an example at a conference are awarded a trophy and inducted into the prestigious "Zachary Karate Club Club".[^karateclubclub]
+
+[^karateclubclub]: See <http://networkkarate.tumblr.com/>
+
 ## Visualization
