@@ -9,7 +9,3 @@
 4. **Measuring our confidence in communities.**  How does one measure confidence for a given cluster? How much would the partitions change with a different seed for a given algorithm or removal of a link or node in the raw network? To narrow your answer, please focus most of your answer on InfoMap since this is the algorithm you are most familiar with.
 
 5. **Coding community detection algorithms.** To test your coding skills and your knowledge of community detection, recode in python a rudimentary version for minimizing the MapEquation, with a particular focus on the search algorithm. There are open source versions available (e.g., InfoMap) and you can refer to these, but I want you to focus on some of your own search solutions for minimizing the map equation. For example, you could employ a greedy algorithm or Monte Carlo based version. You can run this on a small example network. I do not expect a full scale code base. I just want to see some of your ideas for how you would minimize the MapEquation.  
-
-If you have any questions, let me know.
-
-Good luck!
