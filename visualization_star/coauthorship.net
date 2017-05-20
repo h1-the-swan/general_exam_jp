@@ -1,1402 +1,1402 @@
 *vertices 457
-1 "Wu, Jie" 0.0 0.0 ellipse
-2 "Smith, Adam" 0.0 0.0 ellipse
-3 "Nakazawa, Rina" 0.0 0.0 ellipse
-4 "Mader, Martin" 0.0 0.0 ellipse
-5 "Sangal, Neeraj" 0.0 0.0 ellipse
-6 "Elmqvist, Niklas" 0.0 0.0 ellipse
-7 "Philippi, Stephan" 0.0 0.0 ellipse
-8 "Vernik, Rudi" 0.0 0.0 ellipse
-9 "Goesmann, Alexander" 0.0 0.0 ellipse
-10 "Tanaka, Jiro" 0.0 0.0 ellipse
-11 "Mary, Patrick" 0.0 0.0 ellipse
-12 "Nguyen, QuanHoang" 0.0 0.0 ellipse
-13 "Kramer, Andrei" 0.0 0.0 ellipse
-14 "Jackson, Daniel" 0.0 0.0 ellipse
-15 "Mellor, Joe" 0.0 0.0 ellipse
-16 "Sagot, Marie-France" 0.0 0.0 ellipse
-17 "Roseman, Mark" 0.0 0.0 ellipse
-18 "Timmer, Jens" 0.0 0.0 ellipse
-19 "Eliassi-Rad, Tina" 0.0 0.0 ellipse
-20 "Krishnan, Neeraj" 0.0 0.0 ellipse
-21 "Rucevskis, Peteris" 0.0 0.0 ellipse
-22 "Kalkofen, Denis" 0.0 0.0 ellipse
-23 "Rufiange, S{\'e}bastien" 0.0 0.0 ellipse
-24 "Termeer, Maurice" 0.0 0.0 ellipse
-25 "Ho, Joshua" 0.0 0.0 ellipse
-26 "Gilbert, Fr\'ed\'eric" 0.0 0.0 ellipse
-27 "Taubert, Jan" 0.0 0.0 ellipse
-28 "Breitkreutz, Bobby-Joe" 0.0 0.0 ellipse
-29 "Lenhof, Hans-Peter" 0.0 0.0 ellipse
-30 "Zachariah, R." 0.0 0.0 ellipse
-31 "Krause, Alexander" 0.0 0.0 ellipse
-32 "Junker, Bj\QUOT_REPLACEorn" 0.0 0.0 ellipse
-33 "Kruijff, Ernst" 0.0 0.0 ellipse
-34 "Faith, Joe" 0.0 0.0 ellipse
-35 "Yan, Youliang" 0.0 0.0 ellipse
-36 "Bartram, Lyn" 0.0 0.0 ellipse
-37 "Wu, Yanhong" 0.0 0.0 ellipse
-38 "Greenberg, Saul" 0.0 0.0 ellipse
-39 "Fritz, Peter" 0.0 0.0 ellipse
-40 "Munzner, Tamara" 0.0 0.0 ellipse
-41 "Chaturvedi, S." 0.0 0.0 ellipse
-42 "Haubrock, Martin" 0.0 0.0 ellipse
-43 "Auber, David" 0.0 0.0 ellipse
-44 "Du, Xiaolin" 0.0 0.0 ellipse
-45 "Nguyen, Quang" 0.0 0.0 ellipse
-46 "Niermann, Peter" 0.0 0.0 ellipse
-47 "Zhou, Qi" 0.0 0.0 ellipse
-48 "Kao, David" 0.0 0.0 ellipse
-49 "Gansner, Emden" 0.0 0.0 ellipse
-50 "Liu, Shixia" 0.0 0.0 ellipse
-51 "Thornton, Janet" 0.0 0.0 ellipse
-52 "Schmidt, Benjamin" 0.0 0.0 ellipse
-53 "Hlawatsch, Marcel" 0.0 0.0 ellipse
-54 "Theis, Fabian" 0.0 0.0 ellipse
-55 "Yuan, Xiaoru" 0.0 0.0 ellipse
-56 "Xu, Panpan" 0.0 0.0 ellipse
-57 "Royer, Loic" 0.0 0.0 ellipse
-58 "Buzluca, Feza" 0.0 0.0 ellipse
-59 "Schaffer, Doug" 0.0 0.0 ellipse
-60 "Grilli, Luca" 0.0 0.0 ellipse
-61 "Tan, Li" 0.0 0.0 ellipse
-62 "Stark, Chris" 0.0 0.0 ellipse
-63 "Chau, Duen" 0.0 0.0 ellipse
-64 "Lin, Yu-Ru" 0.0 0.0 ellipse
-65 "Klukas, Christian" 0.0 0.0 ellipse
-66 "Barsky, Aaron" 0.0 0.0 ellipse
-67 "Wang, Taowei" 0.0 0.0 ellipse
-68 "Saito, Takafumi" 0.0 0.0 ellipse
-69 "Jordan, Ev" 0.0 0.0 ellipse
-70 "Kasyanov, Victor" 0.0 0.0 ellipse
-71 "Lange, Christian" 0.0 0.0 ellipse
-72 "Raitner, Marcus" 0.0 0.0 ellipse
-73 "Kahng, Minsuk" 0.0 0.0 ellipse
-74 "Zhang, Kang" 0.0 0.0 ellipse
-75 "Sun, Yao" 0.0 0.0 ellipse
-76 "Unger, Andrea" 0.0 0.0 ellipse
-77 "Beck, Fabian" 0.0 0.0 ellipse
-78 "Saga, Ryosuke" 0.0 0.0 ellipse
-79 "Paduano, Francesco" 0.0 0.0 ellipse
-80 "Huang, Xiaohui" 0.0 0.0 ellipse
-81 "Heer, Jeffrey" 0.0 0.0 ellipse
-82 "Shi, Lei" 0.0 0.0 ellipse
-83 "Faris, Robert" 0.0 0.0 ellipse
-84 "Forster, Michael" 0.0 0.0 ellipse
-85 "Quigley, Aaron" 0.0 0.0 ellipse
-86 "Archambault, Daniel" 0.0 0.0 ellipse
-87 "Kumar, Pushpa" 0.0 0.0 ellipse
-88 "Civril, Ali" 0.0 0.0 ellipse
-89 "Fischer, Michael" 0.0 0.0 ellipse
-90 "Wang, Eric" 0.0 0.0 ellipse
-91 "Bach, Benjamin" 0.0 0.0 ellipse
-92 "Zhou, Hong" 0.0 0.0 ellipse
-93 "Sallaberry, Arnaud" 0.0 0.0 ellipse
-94 "Liu, Qing" 0.0 0.0 ellipse
-95 "Collins, Christopher" 0.0 0.0 ellipse
-96 "Fagnan, Justin" 0.0 0.0 ellipse
-97 "Marai, G." 0.0 0.0 ellipse
-98 "Hong, Seok-Hee" 0.0 0.0 ellipse
-99 "Queyroi, Francois" 0.0 0.0 ellipse
-100 "Goebel, Randy" 0.0 0.0 ellipse
-101 "Palladino, Pietro" 0.0 0.0 ellipse
-102 "Hasenauer, Jan" 0.0 0.0 ellipse
-103 "Burch, Michael" 0.0 0.0 ellipse
-104 "Gibson, Helen" 0.0 0.0 ellipse
-105 "Krebs, Valdis" 0.0 0.0 ellipse
-106 "Yoghourdjian, Vahan" 0.0 0.0 ellipse
-107 "Paulovich, Fernando" 0.0 0.0 ellipse
-108 "Gratzl, Samuel" 0.0 0.0 ellipse
-109 "Liu, Yujie" 0.0 0.0 ellipse
-110 "Rusu, Adrian" 0.0 0.0 ellipse
-111 "Chang, Chin-Lung" 0.0 0.0 ellipse
-112 "Chang, Yi-Chien" 0.0 0.0 ellipse
-113 "Li, Yueping" 0.0 0.0 ellipse
-114 "Goodell, Howard" 0.0 0.0 ellipse
-115 "Fekete, Jean-Daniel" 0.0 0.0 ellipse
-116 "Henry, Nathalie" 0.0 0.0 ellipse
-117 "Enright, Anton" 0.0 0.0 ellipse
-118 "Itoh, Takayuki" 0.0 0.0 ellipse
-119 "Feng, Qing-Wen" 0.0 0.0 ellipse
-120 "Tal, Ayellet" 0.0 0.0 ellipse
-121 "Cruz, Juan" 0.0 0.0 ellipse
-122 "Gou, Liang" 0.0 0.0 ellipse
-123 "Belviranli, Mehmet" 0.0 0.0 ellipse
-124 "Kalinowski, J\QUOT_REPLACEorn" 0.0 0.0 ellipse
-125 "Liggesmeyer, Peter" 0.0 0.0 ellipse
-126 "Wuchner, Egon" 0.0 0.0 ellipse
-127 "Lisitsyn, Ivan" 0.0 0.0 ellipse
-128 "Staples, Mathew" 0.0 0.0 ellipse
-129 "Tollis, Ioannis" 0.0 0.0 ellipse
-130 "Pinaud, Bruno" 0.0 0.0 ellipse
-131 "Xiang, Yang" 0.0 0.0 ellipse
-132 "Goldovsky, Leon" 0.0 0.0 ellipse
-133 "Sprenger, Thomas" 0.0 0.0 ellipse
-134 "Ramos, Gonzalo" 0.0 0.0 ellipse
-135 "Graham, M." 0.0 0.0 ellipse
-136 "Diehl, Stephan" 0.0 0.0 ellipse
-137 "Wang, Xiting" 0.0 0.0 ellipse
-138 "Freeman, Tom" 0.0 0.0 ellipse
-139 "Mothe, Josiane" 0.0 0.0 ellipse
-140 "Pattison, Tim" 0.0 0.0 ellipse
-141 "Bristow, Michael" 0.0 0.0 ellipse
-142 "Weiskopf, Daniel" 0.0 0.0 ellipse
-143 "Poulet, Fran\c{c}ois" 0.0 0.0 ellipse
-144 "Wijk, Jarke" 0.0 0.0 ellipse
-145 "Sinha, Vineet" 0.0 0.0 ellipse
-146 "Frishman, Yaniv" 0.0 0.0 ellipse
-147 "Misue, Kazuo" 0.0 0.0 ellipse
-148 "Salomonis, Nathan" 0.0 0.0 ellipse
-149 "Zaiane, Osmar" 0.0 0.0 ellipse
-150 "Omote, Hiroki" 0.0 0.0 ellipse
-151 "Petkov, Radoslav" 0.0 0.0 ellipse
-152 "Kwee, AgusTrisnajaya" 0.0 0.0 ellipse
-153 "Gall, Harald" 0.0 0.0 ellipse
-154 "Zhao, Ye" 0.0 0.0 ellipse
-155 "Deussen, Oliver" 0.0 0.0 ellipse
-156 "Goel, Aakash" 0.0 0.0 ellipse
-157 "Fittkau, Florian" 0.0 0.0 ellipse
-158 "Noack, Andreas" 0.0 0.0 ellipse
-159 "Gardy, Jennifer" 0.0 0.0 ellipse
-160 "Ghoniem, Mohammad" 0.0 0.0 ellipse
-161 "Zimmer, Bj{\QUOT_REPLACE{o}}rn" 0.0 0.0 ellipse
-162 "Abuthawabeh, Ala" 0.0 0.0 ellipse
-163 "G\QUOT_REPLACE{o}rg, Carsten" 0.0 0.0 ellipse
-164 "Montecchiani, Fabrizio" 0.0 0.0 ellipse
-165 "Li, Liangyue" 0.0 0.0 ellipse
-166 "Peng, Wu" 0.0 0.0 ellipse
-167 "Knab, Patrick" 0.0 0.0 ellipse
-168 "Guo, Baining" 0.0 0.0 ellipse
-169 "Veeramoni, Sankar" 0.0 0.0 ellipse
-170 "Jin, Ruoming" 0.0 0.0 ellipse
-171 "Kottler, Stephan" 0.0 0.0 ellipse
-172 "Lin, Zhiyuan" 0.0 0.0 ellipse
-173 "Abello, James" 0.0 0.0 ellipse
-174 "Dilek, Alptug" 0.0 0.0 ellipse
-175 "Tong, Hanghang" 0.0 0.0 ellipse
-176 "Wu, Wenbin" 0.0 0.0 ellipse
-177 "Smit, Martine" 0.0 0.0 ellipse
-178 "Bezerianos, Anastasia" 0.0 0.0 ellipse
-179 "Radde, Nicole" 0.0 0.0 ellipse
-180 "Kitano, Hiroaki" 0.0 0.0 ellipse
-181 "Shneiderman, Ben" 0.0 0.0 ellipse
-182 "Hasco\QUOT_REPLACE{e}t, Mountaz" 0.0 0.0 ellipse
-183 "Wagner, Dorothea" 0.0 0.0 ellipse
-184 "Krieger, Michael" 0.0 0.0 ellipse
-185 "B{\QUOT_REPLACEo}rner, Katy" 0.0 0.0 ellipse
-186 "Didimo, Walter" 0.0 0.0 ellipse
-187 "Woodward, Michael" 0.0 0.0 ellipse
-188 "Chaudron, Michel" 0.0 0.0 ellipse
-189 "Kalkusch, Michael" 0.0 0.0 ellipse
-190 "Hu, Yifan" 0.0 0.0 ellipse
-191 "Purchase, Helen" 0.0 0.0 ellipse
-192 "Barlowe, Scott" 0.0 0.0 ellipse
-193 "Faeder, James" 0.0 0.0 ellipse
-194 "Chen, Ding-Yi" 0.0 0.0 ellipse
-195 "Dkaki, Taoufiq" 0.0 0.0 ellipse
-196 "Williams, Rohan" 0.0 0.0 ellipse
-197 "Zou, Futai" 0.0 0.0 ellipse
-198 "Dai, Bing" 0.0 0.0 ellipse
-199 "Forbes, Angus" 0.0 0.0 ellipse
-200 "Raue, Andreas" 0.0 0.0 ellipse
-201 "Demir, Emek" 0.0 0.0 ellipse
-202 "Yamada, Takuji" 0.0 0.0 ellipse
-203 "K\QUOT_REPLACEuntzer, Jan" 0.0 0.0 ellipse
-204 "Giegerich, Robert" 0.0 0.0 ellipse
-205 "Brosch, Markus" 0.0 0.0 ellipse
-206 "Reinhardt, Thomas" 0.0 0.0 ellipse
-207 "Wang, Yuke" 0.0 0.0 ellipse
-208 "Sokolov, Konstantin" 0.0 0.0 ellipse
-209 "Hanspers, Kristina" 0.0 0.0 ellipse
-210 "Fu, Xiaoyan" 0.0 0.0 ellipse
-211 "Dinkla, Kasper" 0.0 0.0 ellipse
-212 "Chen, Jianfei" 0.0 0.0 ellipse
-213 "Xu, Kai" 0.0 0.0 ellipse
-214 "Jusufi, Ilir" 0.0 0.0 ellipse
-215 "Saket, Bahador" 0.0 0.0 ellipse
-216 "Miyamoto, Isao" 0.0 0.0 ellipse
-217 "Dekker, Anthony" 0.0 0.0 ellipse
-218 "Skusa, Andre" 0.0 0.0 ellipse
-219 "Schmalstieg, Dieter" 0.0 0.0 ellipse
-220 "Zaidi, Faraz" 0.0 0.0 ellipse
-221 "Shen, Zeqian" 0.0 0.0 ellipse
-222 "Schreiber, Falk" 0.0 0.0 ellipse
-223 "Yang, Jing" 0.0 0.0 ellipse
-224 "Sese, Jun" 0.0 0.0 ellipse
-225 "Bothorel, C{\'e}cile" 0.0 0.0 ellipse
-226 "Reimann, Matthias" 0.0 0.0 ellipse
-227 "Melan\c{c}on, Guy" 0.0 0.0 ellipse
-228 "Partl, Christian" 0.0 0.0 ellipse
-229 "Kieffer, Steve" 0.0 0.0 ellipse
-230 "Theocharidis, Athanasios" 0.0 0.0 ellipse
-231 "Yang, Sixiao" 0.0 0.0 ellipse
-232 "Daniel, Donny" 0.0 0.0 ellipse
-233 "Ham, Frank" 0.0 0.0 ellipse
-234 "Gerasch, Andreas" 0.0 0.0 ellipse
-235 "Liotta, Giuseppe" 0.0 0.0 ellipse
-236 "Ogawa, Michael" 0.0 0.0 ellipse
-237 "Dragan, Feodor" 0.0 0.0 ellipse
-238 "Efrat, Alon" 0.0 0.0 ellipse
-239 "Renoust, Benjamin" 0.0 0.0 ellipse
-240 "Lin, Xuemin" 0.0 0.0 ellipse
-241 "Jansson, Andreas" 0.0 0.0 ellipse
-242 "Pietriga, Emmanuel" 0.0 0.0 ellipse
-243 "Klein, Karsten" 0.0 0.0 ellipse
-244 "Gotz, David" 0.0 0.0 ellipse
-245 "Carpendale, Sheelagh" 0.0 0.0 ellipse
-246 "Byelas, Heorhiy" 0.0 0.0 ellipse
-247 "Hung, Jui-Hung" 0.0 0.0 ellipse
-248 "Hu, Zhenjun" 0.0 0.0 ellipse
-249 "Kumar, Gautam" 0.0 0.0 ellipse
-250 "Kobourov, Stephen" 0.0 0.0 ellipse
-251 "Cetintas, Ahmet" 0.0 0.0 ellipse
-252 "Pinzger, Martin" 0.0 0.0 ellipse
-253 "Terada, Aika" 0.0 0.0 ellipse
-254 "Qu, Huamin" 0.0 0.0 ellipse
-255 "Kincaid, Robert" 0.0 0.0 ellipse
-256 "Tsigas, Philippas" 0.0 0.0 ellipse
-257 "Speckmann, Bettina" 0.0 0.0 ellipse
-258 "Neumann, Petra" 0.0 0.0 ellipse
-259 "Kerren, Andreas" 0.0 0.0 ellipse
-260 "Jianu, Radu" 0.0 0.0 ellipse
-261 "Giral, Erhan" 0.0 0.0 ellipse
-262 "Six, Janet" 0.0 0.0 ellipse
-263 "Dunne, Cody" 0.0 0.0 ellipse
-264 "Stal, Michael" 0.0 0.0 ellipse
-265 "Schulz, Hans-J\QUOT_REPLACE{o}rg" 0.0 0.0 ellipse
-266 "Foerster, Florian" 0.0 0.0 ellipse
-267 "Kohlbacher, Oliver" 0.0 0.0 ellipse
-268 "Ersoy, Ozan" 0.0 0.0 ellipse
-269 "Pupyrev, Sergey" 0.0 0.0 ellipse
-270 "Pico, Alexander" 0.0 0.0 ellipse
-271 "Perer, Adam" 0.0 0.0 ellipse
-272 "Vihrovs, Jevgenijs" 0.0 0.0 ellipse
-273 "Lex, Alexander" 0.0 0.0 ellipse
-274 "Davis, Darcy" 0.0 0.0 ellipse
-275 "Dimicco, Joan" 0.0 0.0 ellipse
-276 "Vehlow, Corinna" 0.0 0.0 ellipse
-277 "Hurter, Christophe" 0.0 0.0 ellipse
-278 "Cao, Nan" 0.0 0.0 ellipse
-279 "Meyer, Folker" 0.0 0.0 ellipse
-280 "B\QUOT_REPLACEorner, Katy" 0.0 0.0 ellipse
-281 "Pretorius, A." 0.0 0.0 ellipse
-282 "DeLisi, Charles" 0.0 0.0 ellipse
-283 "Schumann, Heidrun" 0.0 0.0 ellipse
-284 "Grafenhain, Katja" 0.0 0.0 ellipse
-285 "Ashktorab, Zahra" 0.0 0.0 ellipse
-286 "Telea, Alexandru" 0.0 0.0 ellipse
-287 "Di Giacomo, Emilio" 0.0 0.0 ellipse
-288 "Wattenberg, Michael" 0.0 0.0 ellipse
-289 "Dill, John" 0.0 0.0 ellipse
-290 "Stuckey, Peter" 0.0 0.0 ellipse
-291 "Balzer, Michael" 0.0 0.0 ellipse
-292 "Zhang, Xiaolong" 0.0 0.0 ellipse
-293 "Dinkla, K." 0.0 0.0 ellipse
-294 "Rohrschneider, Markus" 0.0 0.0 ellipse
-295 "Du, Fan" 0.0 0.0 ellipse
-296 "Marriott, Kim" 0.0 0.0 ellipse
-297 "H\QUOT_REPLACEoferlin, Markus" 0.0 0.0 ellipse
-298 "Kanehisa, Minoru" 0.0 0.0 ellipse
-299 "McGuffin, Michael" 0.0 0.0 ellipse
-300 "Lalanne, Fr\'ed\'eric" 0.0 0.0 ellipse
-301 "Dubois, Jonathan" 0.0 0.0 ellipse
-302 "Nagamochi, Hiroshi" 0.0 0.0 ellipse
-303 "Huang, Mao" 0.0 0.0 ellipse
-304 "Yeang, Chen-Hsiang" 0.0 0.0 ellipse
-305 "Dubs, Shelli" 0.0 0.0 ellipse
-306 "Garland, Michael" 0.0 0.0 ellipse
-307 "Liu, Jiayi" 0.0 0.0 ellipse
-308 "Mazi\'{e}re, Pierre" 0.0 0.0 ellipse
-309 "Taggart, Douglas" 0.0 0.0 ellipse
-310 "Cottret, Ludovic" 0.0 0.0 ellipse
-311 "Santamar\'ia, Rodrigo" 0.0 0.0 ellipse
-312 "Hug, Sabine" 0.0 0.0 ellipse
-313 "Cohen, Robert" 0.0 0.0 ellipse
-314 "Ratzinger, Jacek" 0.0 0.0 ellipse
-315 "Tekin, Umut" 0.0 0.0 ellipse
-316 "Qian, Weihong" 0.0 0.0 ellipse
-317 "Madden, Patrick" 0.0 0.0 ellipse
-318 "Huyck, Matt" 0.0 0.0 ellipse
-319 "Vingron, Martin" 0.0 0.0 ellipse
-320 "Tyers, Mike" 0.0 0.0 ellipse
-321 "Felmlee, Diane" 0.0 0.0 ellipse
-322 "Koren, Yehuda" 0.0 0.0 ellipse
-323 "Holten, Danny" 0.0 0.0 ellipse
-324 "Streit, Marc" 0.0 0.0 ellipse
-325 "Brandes, Ulrik" 0.0 0.0 ellipse
-326 "Yamashita, Takafumi" 0.0 0.0 ellipse
-327 "Lim, Ee-Peng" 0.0 0.0 ellipse
-328 "K\QUOT_REPLACE{o}hler, Jacob" 0.0 0.0 ellipse
-329 "Holloway, Dustin" 0.0 0.0 ellipse
-330 "Riche, N." 0.0 0.0 ellipse
-331 "Brunella, R" 0.0 0.0 ellipse
-332 "Kennedy, J.B." 0.0 0.0 ellipse
-333 "Karp, Peter" 0.0 0.0 ellipse
-334 "Czerwinski, Mary" 0.0 0.0 ellipse
-335 "Chawla, Nitesh" 0.0 0.0 ellipse
-336 "Yusufov, Roman" 0.0 0.0 ellipse
-337 "Zatloukal, Kurt" 0.0 0.0 ellipse
-338 "Plaisant, Catherine" 0.0 0.0 ellipse
-339 "McPherson, Jonathan" 0.0 0.0 ellipse
-340 "Siderius, Marco" 0.0 0.0 ellipse
-341 "Ther\'on, Roberto" 0.0 0.0 ellipse
-342 "Zhang, Xin" 0.0 0.0 ellipse
-343 "Freilich, Shiri" 0.0 0.0 ellipse
-344 "Bourqui, Romain" 0.0 0.0 ellipse
-345 "Zhao, Jian" 0.0 0.0 ellipse
-346 "Xu, Dong" 0.0 0.0 ellipse
-347 "Schroeder, Michael" 0.0 0.0 ellipse
-348 "Munz, Tanja" 0.0 0.0 ellipse
-349 "AlTarawneh, Ragaad" 0.0 0.0 ellipse
-350 "Boyd, Danah" 0.0 0.0 ellipse
-351 "Muelder, Chris" 0.0 0.0 ellipse
-352 "Zuo, Zhengping" 0.0 0.0 ellipse
-353 "Verrier, Paul" 0.0 0.0 ellipse
-354 "Ma, Kwan-Liu" 0.0 0.0 ellipse
-355 "Si-Kun, Li" 0.0 0.0 ellipse
-356 "Lacroix, Vincent" 0.0 0.0 ellipse
-357 "Prusis, Krisjanis" 0.0 0.0 ellipse
-358 "Hagen, Hans" 0.0 0.0 ellipse
-359 "Sun, Jimeng" 0.0 0.0 ellipse
-360 "Schlechtweg, Stefan" 0.0 0.0 ellipse
-361 "Bieman, James" 0.0 0.0 ellipse
-362 "Lehmann, Katharina" 0.0 0.0 ellipse
-363 "Andreopoulos, Bill" 0.0 0.0 ellipse
-364 "Bork, Peer" 0.0 0.0 ellipse
-365 "Xu, Wen" 0.0 0.0 ellipse
-366 "Wang, Guodong" 0.0 0.0 ellipse
-367 "Alper, Basak" 0.0 0.0 ellipse
-368 "Gross, Markus" 0.0 0.0 ellipse
-369 "Stolper, Charles" 0.0 0.0 ellipse
-370 "Reichenbach, Andr{\'e}" 0.0 0.0 ellipse
-371 "Scheidegger, Carlos" 0.0 0.0 ellipse
-372 "Zeckzer, Dirk" 0.0 0.0 ellipse
-373 "Westenberg, Michel" 0.0 0.0 ellipse
-374 "Ye, Yunming" 0.0 0.0 ellipse
-375 "Reitz, Florian" 0.0 0.0 ellipse
-376 "Cornelissen, Bas" 0.0 0.0 ellipse
-377 "Madden, Brendan" 0.0 0.0 ellipse
-378 "Chuang, Tyng-Ruey" 0.0 0.0 ellipse
-379 "Schultz, Johannes" 0.0 0.0 ellipse
-380 "Bucur, Cristina-Iulia" 0.0 0.0 ellipse
-381 "Gao, Jie" 0.0 0.0 ellipse
-382 "Sansen, Joris" 0.0 0.0 ellipse
-383 "Melancon, Guy" 0.0 0.0 ellipse
-384 "Pich, Christian" 0.0 0.0 ellipse
-385 "Erdemir, Ural" 0.0 0.0 ellipse
-386 "Dogrusoz, Ugur" 0.0 0.0 ellipse
-387 "Stitz, Holger" 0.0 0.0 ellipse
-388 "Dwyer, Tim" 0.0 0.0 ellipse
-389 "Eades, Peter" 0.0 0.0 ellipse
-390 "Rawlings, Chris" 0.0 0.0 ellipse
-391 "Fuhrman, Christopher" 0.0 0.0 ellipse
-392 "Chevalier, Fanny" 0.0 0.0 ellipse
-393 "Meidiana, Amyra" 0.0 0.0 ellipse
-394 "Lau, Raymond" 0.0 0.0 ellipse
-395 "Dongen, Stijn" 0.0 0.0 ellipse
-396 "Scheuermann, Gerik" 0.0 0.0 ellipse
-397 "Freivalds, Karlis" 0.0 0.0 ellipse
-398 "Zhang, Chao" 0.0 0.0 ellipse
-399 "Westenberg, M.A." 0.0 0.0 ellipse
-400 "Aris, Aleks" 0.0 0.0 ellipse
-401 "Kashofer, Karl" 0.0 0.0 ellipse
-402 "Zhang, Ji" 0.0 0.0 ellipse
-403 "Schmauder, Hansj{\QUOT_REPLACE{o}}rg" 0.0 0.0 ellipse
-404 "Gange, Graeme" 0.0 0.0 ellipse
-405 "Bondarev, Egor" 0.0 0.0 ellipse
-406 "Henry Riche, Nathalie" 0.0 0.0 ellipse
-407 "Wang, Xiaobo" 0.0 0.0 ellipse
-408 "Dragicevic, Pierre" 0.0 0.0 ellipse
-409 "Mears, Christopher" 0.0 0.0 ellipse
-410 "Cantareiro, Gabriel" 0.0 0.0 ellipse
-411 "Hua, Jie" 0.0 0.0 ellipse
-412 "John, Mathias" 0.0 0.0 ellipse
-413 "Lewerentz, Claus" 0.0 0.0 ellipse
-414 "Jirstrand, Mats" 0.0 0.0 ellipse
-415 "Heine, Christian" 0.0 0.0 ellipse
-416 "Baumbach, Jan" 0.0 0.0 ellipse
-417 "Kreveld, Marc" 0.0 0.0 ellipse
-418 "Faber, Daniel" 0.0 0.0 ellipse
-419 "Kaufmann, Michael" 0.0 0.0 ellipse
-420 "Chiricota, Yves" 0.0 0.0 ellipse
-421 "Simonetto, Paolo" 0.0 0.0 ellipse
-422 "Letunic, Ivica" 0.0 0.0 ellipse
-423 "Fuhry, David" 0.0 0.0 ellipse
-424 "Romeo, Salvatore" 0.0 0.0 ellipse
-425 "Crnovrsanin, Tarik" 0.0 0.0 ellipse
-426 "Elzen, Stef" 0.0 0.0 ellipse
-427 "Phillips, Matthew" 0.0 0.0 ellipse
-428 "Grocock, Russell" 0.0 0.0 ellipse
-429 "Kuchinsky, Allan" 0.0 0.0 ellipse
-430 "Lambert, Antoine" 0.0 0.0 ellipse
-431 "Paris, Gilles" 0.0 0.0 ellipse
-432 "Auw{\QUOT_REPLACEa}rter, Patrick" 0.0 0.0 ellipse
-433 "Dang, N." 0.0 0.0 ellipse
-434 "Shi, Conglei" 0.0 0.0 ellipse
-435 "Jourdan, Fabien" 0.0 0.0 ellipse
-436 "Wybrow, Michael" 0.0 0.0 ellipse
-437 "Pohl, Mathias" 0.0 0.0 ellipse
-438 "Sugiyama, Kozo" 0.0 0.0 ellipse
-439 "Wang, Yan" 0.0 0.0 ellipse
-440 "Specht, Michael" 0.0 0.0 ellipse
-441 "Stasko, John" 0.0 0.0 ellipse
-442 "Zhu, Jun" 0.0 0.0 ellipse
-443 "Humayoun, Shah" 0.0 0.0 ellipse
-444 "R\QUOT_REPLACE{u}egg, Alexander" 0.0 0.0 ellipse
-445 "Do, Thanh-Nghi" 0.0 0.0 ellipse
-446 "El-Kebir, Mohammed" 0.0 0.0 ellipse
-447 "Greilich, Martin" 0.0 0.0 ellipse
-448 "Huang, Chia-Ling" 0.0 0.0 ellipse
-449 "Melville, A.G." 0.0 0.0 ellipse
-450 "Ahmed, Adel" 0.0 0.0 ellipse
-451 "Lin, Ching-Yung" 0.0 0.0 ellipse
-452 "Hasselbring, Wilhelm" 0.0 0.0 ellipse
-453 "Klau, Gunnar" 0.0 0.0 ellipse
-454 "Balakrishnan, Ravin" 0.0 0.0 ellipse
-455 "Ito, Takao" 0.0 0.0 ellipse
-456 "Paley, Suzanne" 0.0 0.0 ellipse
-457 "Hunter, Lawrence" 0.0 0.0 ellipse
+1 "Wu, Jie"
+2 "Smith, Adam"
+3 "Nakazawa, Rina"
+4 "Hasco{e}t, Mountaz"
+5 "Sangal, Neeraj"
+6 "Elmqvist, Niklas"
+7 "Zimmer, Bj{{o}}rn"
+8 "Philippi, Stephan"
+9 "Vernik, Rudi"
+10 "Goesmann, Alexander"
+11 "Tanaka, Jiro"
+12 "Mary, Patrick"
+13 "Nguyen, QuanHoang"
+14 "Schmauder, Hansj{{o}}rg"
+15 "Kramer, Andrei"
+16 "Jackson, Daniel"
+17 "Mellor, Joe"
+18 "Sagot, Marie-France"
+19 "Roseman, Mark"
+20 "Timmer, Jens"
+21 "Eliassi-Rad, Tina"
+22 "Krishnan, Neeraj"
+23 "Rucevskis, Peteris"
+24 "Kalkofen, Denis"
+25 "Rufiange, S{\'e}bastien"
+26 "Termeer, Maurice"
+27 "Ho, Joshua"
+28 "Gilbert, Fr\'ed\'eric"
+29 "Taubert, Jan"
+30 "Breitkreutz, Bobby-Joe"
+31 "Lenhof, Hans-Peter"
+32 "Zachariah, R."
+33 "Krause, Alexander"
+34 "Kruijff, Ernst"
+35 "Faith, Joe"
+36 "Yan, Youliang"
+37 "Bartram, Lyn"
+38 "Wu, Yanhong"
+39 "Greenberg, Saul"
+40 "Fritz, Peter"
+41 "Munzner, Tamara"
+42 "Kalinowski, Jorn"
+43 "Chaturvedi, S."
+44 "Haubrock, Martin"
+45 "Auber, David"
+46 "Du, Xiaolin"
+47 "Nguyen, Quang"
+48 "Niermann, Peter"
+49 "Zhou, Qi"
+50 "Kao, David"
+51 "Gansner, Emden"
+52 "Liu, Shixia"
+53 "Thornton, Janet"
+54 "Schmidt, Benjamin"
+55 "Hlawatsch, Marcel"
+56 "Theis, Fabian"
+57 "Yuan, Xiaoru"
+58 "Xu, Panpan"
+59 "Schulz, Hans-J{o}rg"
+60 "Royer, Loic"
+61 "Buzluca, Feza"
+62 "Schaffer, Doug"
+63 "Grilli, Luca"
+64 "Tan, Li"
+65 "Stark, Chris"
+66 "Chau, Duen"
+67 "Lin, Yu-Ru"
+68 "Klukas, Christian"
+69 "Barsky, Aaron"
+70 "K{o}hler, Jacob"
+71 "Wang, Taowei"
+72 "Saito, Takafumi"
+73 "Jordan, Ev"
+74 "Kasyanov, Victor"
+75 "Lange, Christian"
+76 "Raitner, Marcus"
+77 "Kahng, Minsuk"
+78 "Zhang, Kang"
+79 "Sun, Yao"
+80 "Beck, Fabian"
+81 "Saga, Ryosuke"
+82 "Paduano, Francesco"
+83 "Huang, Xiaohui"
+84 "Heer, Jeffrey"
+85 "Shi, Lei"
+86 "Faris, Robert"
+87 "Forster, Michael"
+88 "Quigley, Aaron"
+89 "Archambault, Daniel"
+90 "Kumar, Pushpa"
+91 "Civril, Ali"
+92 "Fischer, Michael"
+93 "Wang, Eric"
+94 "Bach, Benjamin"
+95 "Zhou, Hong"
+96 "Sallaberry, Arnaud"
+97 "Liu, Qing"
+98 "Collins, Christopher"
+99 "Fagnan, Justin"
+100 "Marai, G."
+101 "Hong, Seok-Hee"
+102 "Queyroi, Francois"
+103 "Goebel, Randy"
+104 "Palladino, Pietro"
+105 "Hasenauer, Jan"
+106 "Burch, Michael"
+107 "Gibson, Helen"
+108 "Krebs, Valdis"
+109 "Yoghourdjian, Vahan"
+110 "Paulovich, Fernando"
+111 "Gratzl, Samuel"
+112 "Liu, Yujie"
+113 "Rusu, Adrian"
+114 "Chang, Chin-Lung"
+115 "Chang, Yi-Chien"
+116 "Li, Yueping"
+117 "Goodell, Howard"
+118 "Fekete, Jean-Daniel"
+119 "Henry, Nathalie"
+120 "Enright, Anton"
+121 "Itoh, Takayuki"
+122 "Feng, Qing-Wen"
+123 "Tal, Ayellet"
+124 "Cruz, Juan"
+125 "Gou, Liang"
+126 "Belviranli, Mehmet"
+127 "Liggesmeyer, Peter"
+128 "Wuchner, Egon"
+129 "Lisitsyn, Ivan"
+130 "Staples, Mathew"
+131 "Tollis, Ioannis"
+132 "Pinaud, Bruno"
+133 "Xiang, Yang"
+134 "Goldovsky, Leon"
+135 "Sprenger, Thomas"
+136 "Ramos, Gonzalo"
+137 "Graham, M."
+138 "Diehl, Stephan"
+139 "Wang, Xiting"
+140 "Auw{a}rter, Patrick"
+141 "Freeman, Tom"
+142 "Mothe, Josiane"
+143 "Pattison, Tim"
+144 "Bristow, Michael"
+145 "Weiskopf, Daniel"
+146 "Poulet, Fran\c{c}ois"
+147 "Wijk, Jarke"
+148 "Sinha, Vineet"
+149 "Frishman, Yaniv"
+150 "Misue, Kazuo"
+151 "Salomonis, Nathan"
+152 "Zaiane, Osmar"
+153 "Omote, Hiroki"
+154 "Petkov, Radoslav"
+155 "Kwee, AgusTrisnajaya"
+156 "Gall, Harald"
+157 "Zhao, Ye"
+158 "Deussen, Oliver"
+159 "Goel, Aakash"
+160 "Fittkau, Florian"
+161 "Noack, Andreas"
+162 "Gardy, Jennifer"
+163 "Ghoniem, Mohammad"
+164 "Unger, Andrea"
+165 "Abuthawabeh, Ala"
+166 "Montecchiani, Fabrizio"
+167 "Li, Liangyue"
+168 "Peng, Wu"
+169 "Knab, Patrick"
+170 "Guo, Baining"
+171 "Veeramoni, Sankar"
+172 "Jin, Ruoming"
+173 "Kottler, Stephan"
+174 "Lin, Zhiyuan"
+175 "Abello, James"
+176 "Dilek, Alptug"
+177 "Tong, Hanghang"
+178 "Wu, Wenbin"
+179 "Smit, Martine"
+180 "Bezerianos, Anastasia"
+181 "Radde, Nicole"
+182 "Kitano, Hiroaki"
+183 "Shneiderman, Ben"
+184 "Wagner, Dorothea"
+185 "Krieger, Michael"
+186 "Didimo, Walter"
+187 "Woodward, Michael"
+188 "Chaudron, Michel"
+189 "Kalkusch, Michael"
+190 "Hu, Yifan"
+191 "Purchase, Helen"
+192 "Barlowe, Scott"
+193 "Faeder, James"
+194 "Chen, Ding-Yi"
+195 "Dkaki, Taoufiq"
+196 "Williams, Rohan"
+197 "Zou, Futai"
+198 "Dai, Bing"
+199 "Forbes, Angus"
+200 "Raue, Andreas"
+201 "Demir, Emek"
+202 "Yamada, Takuji"
+203 "Giegerich, Robert"
+204 "Brosch, Markus"
+205 "Reinhardt, Thomas"
+206 "Wang, Yuke"
+207 "Sokolov, Konstantin"
+208 "Hanspers, Kristina"
+209 "Fu, Xiaoyan"
+210 "Dinkla, Kasper"
+211 "G{o}rg, Carsten"
+212 "Chen, Jianfei"
+213 "Xu, Kai"
+214 "Jusufi, Ilir"
+215 "Saket, Bahador"
+216 "Miyamoto, Isao"
+217 "Dekker, Anthony"
+218 "Skusa, Andre"
+219 "Schmalstieg, Dieter"
+220 "Zaidi, Faraz"
+221 "Mears, Christopher"
+222 "Shen, Zeqian"
+223 "Schreiber, Falk"
+224 "B{o}rner, Katy"
+225 "Yang, Jing"
+226 "Sese, Jun"
+227 "Bothorel, C{\'e}cile"
+228 "Reimann, Matthias"
+229 "Melan\c{c}on, Guy"
+230 "Partl, Christian"
+231 "Kieffer, Steve"
+232 "Theocharidis, Athanasios"
+233 "Yang, Sixiao"
+234 "Daniel, Donny"
+235 "Ham, Frank"
+236 "Gerasch, Andreas"
+237 "Liotta, Giuseppe"
+238 "Ogawa, Michael"
+239 "Dragan, Feodor"
+240 "Efrat, Alon"
+241 "R{u}egg, Alexander"
+242 "Renoust, Benjamin"
+243 "Lin, Xuemin"
+244 "Jansson, Andreas"
+245 "Pietriga, Emmanuel"
+246 "Klein, Karsten"
+247 "Gotz, David"
+248 "Carpendale, Sheelagh"
+249 "Byelas, Heorhiy"
+250 "Hung, Jui-Hung"
+251 "Hu, Zhenjun"
+252 "Kumar, Gautam"
+253 "Kobourov, Stephen"
+254 "Cetintas, Ahmet"
+255 "Pinzger, Martin"
+256 "Terada, Aika"
+257 "Qu, Huamin"
+258 "Kincaid, Robert"
+259 "Tsigas, Philippas"
+260 "Speckmann, Bettina"
+261 "Neumann, Petra"
+262 "Kerren, Andreas"
+263 "Jianu, Radu"
+264 "Giral, Erhan"
+265 "Six, Janet"
+266 "Dunne, Cody"
+267 "Stal, Michael"
+268 "Foerster, Florian"
+269 "Kohlbacher, Oliver"
+270 "Ersoy, Ozan"
+271 "Pupyrev, Sergey"
+272 "Pico, Alexander"
+273 "Perer, Adam"
+274 "Vihrovs, Jevgenijs"
+275 "Lex, Alexander"
+276 "Davis, Darcy"
+277 "Dimicco, Joan"
+278 "Vehlow, Corinna"
+279 "Hurter, Christophe"
+280 "Cao, Nan"
+281 "Meyer, Folker"
+282 "Pretorius, A."
+283 "DeLisi, Charles"
+284 "Schumann, Heidrun"
+285 "Grafenhain, Katja"
+286 "Ashktorab, Zahra"
+287 "Telea, Alexandru"
+288 "Di Giacomo, Emilio"
+289 "Wattenberg, Michael"
+290 "Dill, John"
+291 "Stuckey, Peter"
+292 "Balzer, Michael"
+293 "Borner, Katy"
+294 "Zhang, Xiaolong"
+295 "Dinkla, K."
+296 "Rohrschneider, Markus"
+297 "Du, Fan"
+298 "Marriott, Kim"
+299 "Kanehisa, Minoru"
+300 "McGuffin, Michael"
+301 "Lalanne, Fr\'ed\'eric"
+302 "Dubois, Jonathan"
+303 "Nagamochi, Hiroshi"
+304 "Huang, Mao"
+305 "Yeang, Chen-Hsiang"
+306 "Dubs, Shelli"
+307 "Garland, Michael"
+308 "Liu, Jiayi"
+309 "Mazi\'{e}re, Pierre"
+310 "Taggart, Douglas"
+311 "Cottret, Ludovic"
+312 "Santamar\'ia, Rodrigo"
+313 "Hug, Sabine"
+314 "Cohen, Robert"
+315 "Ratzinger, Jacek"
+316 "Tekin, Umut"
+317 "Qian, Weihong"
+318 "Madden, Patrick"
+319 "Huyck, Matt"
+320 "Vingron, Martin"
+321 "Tyers, Mike"
+322 "Felmlee, Diane"
+323 "Koren, Yehuda"
+324 "Holten, Danny"
+325 "Streit, Marc"
+326 "Brandes, Ulrik"
+327 "Yamashita, Takafumi"
+328 "Lim, Ee-Peng"
+329 "Holloway, Dustin"
+330 "Riche, N."
+331 "Brunella, R"
+332 "Kennedy, J.B."
+333 "Karp, Peter"
+334 "Czerwinski, Mary"
+335 "Chawla, Nitesh"
+336 "Yusufov, Roman"
+337 "Zatloukal, Kurt"
+338 "Plaisant, Catherine"
+339 "McPherson, Jonathan"
+340 "Siderius, Marco"
+341 "Ther\'on, Roberto"
+342 "Zhang, Xin"
+343 "Freilich, Shiri"
+344 "Bourqui, Romain"
+345 "Zhao, Jian"
+346 "Xu, Dong"
+347 "Schroeder, Michael"
+348 "Munz, Tanja"
+349 "AlTarawneh, Ragaad"
+350 "Boyd, Danah"
+351 "Muelder, Chris"
+352 "Hoferlin, Markus"
+353 "Zuo, Zhengping"
+354 "Verrier, Paul"
+355 "Ma, Kwan-Liu"
+356 "Si-Kun, Li"
+357 "Lacroix, Vincent"
+358 "Prusis, Krisjanis"
+359 "Hagen, Hans"
+360 "Sun, Jimeng"
+361 "Schlechtweg, Stefan"
+362 "Bieman, James"
+363 "Lehmann, Katharina"
+364 "Andreopoulos, Bill"
+365 "Bork, Peer"
+366 "Xu, Wen"
+367 "Wang, Guodong"
+368 "Alper, Basak"
+369 "Gross, Markus"
+370 "Stolper, Charles"
+371 "Reichenbach, Andr{\'e}"
+372 "Scheidegger, Carlos"
+373 "Zeckzer, Dirk"
+374 "Westenberg, Michel"
+375 "Ye, Yunming"
+376 "Reitz, Florian"
+377 "Cornelissen, Bas"
+378 "Madden, Brendan"
+379 "Chuang, Tyng-Ruey"
+380 "Schultz, Johannes"
+381 "Bucur, Cristina-Iulia"
+382 "Sansen, Joris"
+383 "Melancon, Guy"
+384 "Pich, Christian"
+385 "Erdemir, Ural"
+386 "Dogrusoz, Ugur"
+387 "Stitz, Holger"
+388 "Dwyer, Tim"
+389 "Eades, Peter"
+390 "Rawlings, Chris"
+391 "Fuhrman, Christopher"
+392 "Chevalier, Fanny"
+393 "Meidiana, Amyra"
+394 "Lau, Raymond"
+395 "Mader, Martin"
+396 "Dongen, Stijn"
+397 "Scheuermann, Gerik"
+398 "Freivalds, Karlis"
+399 "Zhang, Chao"
+400 "Westenberg, M.A."
+401 "Aris, Aleks"
+402 "Kashofer, Karl"
+403 "Kuntzer, Jan"
+404 "Zhang, Ji"
+405 "Gange, Graeme"
+406 "Bondarev, Egor"
+407 "Henry Riche, Nathalie"
+408 "Wang, Xiaobo"
+409 "Dragicevic, Pierre"
+410 "Junker, Bjorn"
+411 "Cantareiro, Gabriel"
+412 "Hua, Jie"
+413 "John, Mathias"
+414 "Lewerentz, Claus"
+415 "Jirstrand, Mats"
+416 "Heine, Christian"
+417 "Baumbach, Jan"
+418 "Kreveld, Marc"
+419 "Faber, Daniel"
+420 "Kaufmann, Michael"
+421 "Chiricota, Yves"
+422 "Simonetto, Paolo"
+423 "Letunic, Ivica"
+424 "Fuhry, David"
+425 "Romeo, Salvatore"
+426 "Crnovrsanin, Tarik"
+427 "Elzen, Stef"
+428 "Phillips, Matthew"
+429 "Grocock, Russell"
+430 "Kuchinsky, Allan"
+431 "Lambert, Antoine"
+432 "Paris, Gilles"
+433 "Dang, N."
+434 "Shi, Conglei"
+435 "Jourdan, Fabien"
+436 "Wybrow, Michael"
+437 "Pohl, Mathias"
+438 "Sugiyama, Kozo"
+439 "Wang, Yan"
+440 "Specht, Michael"
+441 "Stasko, John"
+442 "Zhu, Jun"
+443 "Humayoun, Shah"
+444 "Gao, Jie"
+445 "Do, Thanh-Nghi"
+446 "El-Kebir, Mohammed"
+447 "Greilich, Martin"
+448 "Huang, Chia-Ling"
+449 "Melville, A.G."
+450 "Ahmed, Adel"
+451 "Lin, Ching-Yung"
+452 "Hasselbring, Wilhelm"
+453 "Klau, Gunnar"
+454 "Balakrishnan, Ravin"
+455 "Ito, Takao"
+456 "Paley, Suzanne"
+457 "Hunter, Lawrence"
 *edges
 1 202 1
-1 282 1
+1 283 1
 1 329 1
-1 15 1
-1 248 1
-2 97 1
-2 365 1
+1 17 1
+1 251 1
+2 100 1
+2 366 1
 2 193 1
-2 75 1
-3 224 1
-3 118 2
-3 253 1
-3 68 1
-4 98 1
-5 69 1
-5 145 1
-5 14 1
-6 114 1
-6 115 1
-6 256 1
+2 79 1
+3 226 1
+3 121 2
+3 256 1
+3 72 1
+4 409 1
+5 73 1
+5 148 1
+5 16 1
+6 117 1
+6 118 1
+6 259 1
 6 445 1
-6 116 1
-7 218 1
-7 353 1
-7 416 1
-7 444 1
-7 328 1
-7 390 1
-7 440 1
-7 27 1
-8 427 1
-8 140 1
-9 124 1
-9 42 1
-9 279 1
-9 204 1
-10 455 1
-10 381 1
-10 147 2
-11 435 1
-11 356 1
-11 310 1
-11 344 2
-11 16 1
-11 43 2
-12 210 1
-12 98 1
-12 450 1
-12 213 1
-13 312 1
-13 276 1
-13 18 1
-13 142 1
-13 179 1
-13 200 1
-13 54 1
-13 102 1
-14 69 1
+6 119 1
+7 214 2
+7 262 2
+7 308 1
+8 218 1
+8 354 1
+8 70 1
+8 417 1
+8 390 1
+8 241 1
+8 440 1
+8 29 1
+9 428 1
+9 143 1
+10 44 1
+10 281 1
+10 203 1
+10 42 1
+11 455 1
+11 444 1
+11 150 2
+12 435 1
+12 357 1
+12 311 1
+12 344 2
+12 18 1
+12 45 2
+13 209 1
+13 101 1
+13 450 1
+13 213 1
 14 145 1
-15 282 1
-15 202 1
-15 329 1
-15 248 1
-16 435 1
-16 356 1
-16 310 1
-16 344 1
-16 43 1
-17 38 1
-17 36 1
-17 305 1
-17 289 1
-17 59 1
-17 352 1
-18 276 1
-18 142 1
-18 179 1
-18 312 1
-18 200 1
-18 54 1
-18 102 1
-19 354 1
-19 221 1
-20 233 1
-20 173 1
-21 357 1
-21 105 1
-21 272 1
-21 397 1
-22 324 1
-22 228 1
-22 401 1
-22 273 1
-22 219 1
-23 299 1
-23 391 1
-24 71 1
-24 286 1
-24 188 1
-25 98 1
-26 421 1
-26 344 1
-26 435 1
-26 220 1
-27 218 1
-27 353 1
-27 440 1
-27 416 1
-27 328 1
-27 390 1
-27 444 1
-28 62 1
-28 320 1
-29 46 1
-29 203 1
-29 418 1
-29 419 1
-29 267 1
-29 234 1
-30 41 1
-30 181 1
-30 263 1
-30 285 1
-31 452 1
-31 157 1
-32 65 1
-32 222 1
-33 324 1
-33 273 1
-33 219 1
-34 104 1
-35 37 1
-35 231 1
-35 176 1
-35 254 1
+14 106 1
+14 278 1
+15 313 1
+15 278 1
+15 20 1
+15 145 1
+15 181 1
+15 200 1
+15 56 1
+15 105 1
+16 73 1
+16 148 1
+17 283 1
+17 202 1
+17 329 1
+17 251 1
+18 435 1
+18 357 1
+18 311 1
+18 344 1
+18 45 1
+19 39 1
+19 37 1
+19 306 1
+19 290 1
+19 62 1
+19 353 1
+20 278 1
+20 145 1
+20 181 1
+20 313 1
+20 200 1
+20 56 1
+20 105 1
+21 355 1
+21 222 1
+22 235 1
+22 175 1
+23 358 1
+23 108 1
+23 274 1
+23 398 1
+24 325 1
+24 230 1
+24 402 1
+24 275 1
+24 219 1
+25 300 1
+25 391 1
+26 75 1
+26 287 1
+26 188 1
+27 101 1
+28 422 1
+28 344 1
+28 435 1
+28 220 1
+29 218 1
+29 354 1
+29 70 1
+29 417 1
+29 390 1
+29 241 1
+29 440 1
+30 65 1
+30 321 1
+31 48 1
+31 403 1
+31 419 1
+31 420 1
+31 269 1
+31 236 1
+32 43 1
+32 183 1
+32 266 1
+32 286 1
+33 452 1
+33 160 1
+34 325 1
+34 275 1
+34 219 1
+35 107 1
 36 38 1
-36 305 1
-36 289 1
-36 59 1
-36 352 1
-37 231 1
-37 176 1
-37 254 1
-38 305 1
-38 289 1
-38 59 1
-38 352 1
-39 103 1
-39 77 1
-39 136 1
-40 159 1
-40 66 1
-40 255 1
-40 227 1
-40 239 1
-40 86 5
-40 43 5
-41 181 1
-41 263 1
-41 285 1
-42 124 1
-42 204 1
-42 279 1
-43 435 3
-43 382 1
-43 356 2
-43 420 1
-43 310 1
-43 86 5
-43 344 4
-43 300 1
-43 383 1
-44 374 2
-44 394 2
-44 80 1
-44 113 2
-45 411 1
-45 303 3
-46 203 1
-46 418 1
-46 419 1
-46 267 1
-46 234 1
-47 147 1
-48 141 1
-48 163 1
-48 457 1
-48 276 1
-48 142 1
-49 322 1
-49 250 2
-49 190 2
-50 64 1
-50 342 1
-50 109 1
-50 82 1
-50 254 1
-50 192 1
-50 316 1
-50 168 1
-50 244 1
-50 278 2
-50 212 1
-50 55 1
-50 359 2
-50 61 1
-50 154 1
-50 442 1
-50 366 1
-50 137 1
-50 451 1
-50 223 1
-51 117 1
-51 138 1
-51 395 1
-51 308 1
-51 343 1
-51 132 1
-51 205 1
-51 428 1
-52 142 1
-52 103 1
-53 142 1
-53 103 1
-54 276 2
-54 142 2
-54 179 1
-54 312 1
-54 200 1
-54 102 2
-55 109 1
-55 342 1
-55 192 1
-55 154 1
-55 223 1
-56 92 2
-56 278 1
-56 434 1
-56 254 2
-56 295 1
-57 226 1
-57 363 1
-57 347 1
-58 385 1
-58 315 1
-59 289 1
-59 305 1
-59 352 1
-60 186 1
-60 287 1
-60 235 1
-61 366 1
-61 278 1
+36 233 1
+36 178 1
+36 257 1
+37 39 1
+37 306 1
+37 290 1
+37 62 1
+37 353 1
+38 233 1
+38 178 1
+38 257 1
+39 306 1
+39 290 1
+39 62 1
+39 353 1
+40 106 1
+40 80 1
+40 138 1
+41 162 1
+41 69 1
+41 258 1
+41 229 1
+41 242 1
+41 89 5
+41 45 5
+42 44 1
+42 281 1
+42 203 1
+43 183 1
+43 266 1
+43 286 1
+44 203 1
+44 281 1
+45 435 3
+45 382 1
+45 357 2
+45 421 1
+45 311 1
+45 89 5
+45 344 4
+45 301 1
+45 383 1
+46 375 2
+46 394 2
+46 83 1
+46 116 2
+47 412 1
+47 304 3
+48 403 1
+48 419 1
+48 420 1
+48 269 1
+48 236 1
+49 150 1
+50 211 1
+50 144 1
+50 457 1
+50 278 1
+50 145 1
+51 323 1
+51 253 2
+51 190 2
+52 67 1
+52 342 1
+52 112 1
+52 85 1
+52 257 1
+52 192 1
+52 317 1
+52 170 1
+52 247 1
+52 280 2
+52 212 1
+52 57 1
+52 360 2
+52 64 1
+52 157 1
+52 442 1
+52 367 1
+52 139 1
+52 451 1
+52 225 1
+53 120 1
+53 141 1
+53 396 1
+53 309 1
+53 343 1
+53 134 1
+53 204 1
+53 429 1
+54 145 1
+54 106 1
+55 145 1
+55 106 1
+56 278 2
+56 145 2
+56 181 1
+56 313 1
+56 200 1
+56 105 2
+57 112 1
+57 342 1
+57 192 1
+57 157 1
+57 225 1
+58 95 2
+58 280 1
+58 434 1
+58 257 2
+58 297 1
+59 235 1
+59 413 1
+59 277 1
+59 164 1
+59 284 1
+60 228 1
+60 364 1
+60 347 1
+61 385 1
 61 316 1
-61 359 1
-61 82 1
-61 451 1
-62 320 1
-63 156 1
-63 369 1
-63 73 1
-63 266 1
-63 441 1
-63 172 1
-64 175 1
-64 254 1
-64 244 1
-64 278 2
-64 359 1
-64 165 1
-65 222 2
-66 255 1
+62 290 1
+62 306 1
+62 353 1
+63 186 1
+63 288 1
+63 237 1
+64 367 1
+64 280 1
+64 317 1
+64 360 1
+64 85 1
+64 451 1
+65 321 1
 66 159 1
-67 115 1
-67 433 1
-67 338 1
-67 400 1
-68 118 1
-69 145 1
-70 127 1
-71 286 1
-71 188 1
-73 156 1
-73 369 1
-73 266 1
-73 441 1
-73 172 1
-74 87 1
-74 207 1
-75 97 1
-75 365 1
-75 193 1
-76 265 1
-76 412 1
-76 283 1
-77 103 3
-77 432 1
-77 276 3
-77 151 1
-77 136 6
-77 162 1
-77 372 1
-77 142 3
-78 326 1
-79 199 1
-80 394 1
-80 374 1
-80 113 1
-81 350 1
-82 366 1
-82 278 1
-82 316 1
-82 359 1
-82 451 1
-83 354 1
-83 351 1
-83 321 1
-83 425 1
-85 389 1
-86 191 1
-86 130 1
-87 207 1
-88 261 1
-88 386 1
-88 201 1
-88 251 1
-89 314 1
-89 153 1
-90 197 1
-91 115 1
-91 242 1
-92 278 1
-92 434 1
-92 254 2
-92 295 1
-93 220 1
-93 354 1
-93 351 1
-93 384 1
-93 383 1
-94 402 1
-94 98 1
-94 213 1
-94 196 1
-95 454 1
-95 245 1
-95 345 1
-95 392 1
-96 149 1
-96 100 1
-97 365 1
-97 193 1
-98 393 1
-98 210 1
-98 402 1
-98 213 2
-98 196 1
-98 450 1
-99 430 1
-99 344 1
-100 149 1
-101 186 2
-101 287 1
-101 164 1
-101 235 2
-102 312 1
-102 276 2
-102 142 2
-102 179 1
-102 200 1
-103 297 1
-103 276 3
-103 142 7
-103 136 5
-103 447 1
-103 403 1
-103 348 1
-105 357 1
-105 272 1
-105 397 1
-106 229 1
-106 388 1
-106 404 1
-106 296 1
-106 243 1
-107 286 1
-107 410 1
-107 277 1
-107 268 1
-108 387 1
-108 184 1
-108 324 1
-109 342 1
-109 192 1
-109 154 1
-109 223 1
-110 309 1
-110 260 1
-110 190 1
-111 194 1
-111 378 1
-112 247 1
-112 318 1
-112 439 1
-112 448 1
-112 282 1
-112 248 1
-113 394 2
-113 374 2
-114 115 1
-114 445 1
-114 116 1
-115 433 1
-115 400 1
-115 242 1
-115 160 1
-115 299 1
-115 445 1
-115 178 1
-115 338 1
-115 116 4
-116 299 1
-116 445 1
-116 178 1
-117 138 2
-117 230 1
-117 395 2
-117 308 1
-117 343 1
-117 132 1
-117 205 1
-117 428 1
-118 224 2
-118 253 1
-118 354 1
-118 351 1
-119 240 1
-119 389 4
-119 302 1
-119 313 1
-120 146 3
-121 225 1
-121 143 1
-122 292 1
-123 386 1
-123 174 1
-124 279 1
-124 204 1
-125 264 1
-125 208 1
-125 126 1
-125 232 1
-126 264 1
-126 208 1
-126 232 1
-128 361 1
-129 262 1
-130 191 1
-131 423 1
-131 237 1
-131 170 1
-132 138 1
-132 395 1
-132 308 1
-132 343 1
-132 205 1
-132 428 1
-133 331 1
-133 368 1
-134 334 1
-134 406 1
-134 367 1
-135 332 1
-135 449 1
-136 375 1
-136 276 2
-136 151 1
-136 437 1
-136 162 1
-136 372 1
-136 447 1
-136 142 2
-137 442 1
-137 212 1
-137 168 1
-138 230 1
-138 395 2
-138 308 1
-138 343 1
-138 205 1
-138 428 1
-139 195 1
-140 427 1
-141 163 1
-141 457 1
-141 276 1
-141 142 1
-142 276 8
-142 200 1
-142 432 1
-142 312 1
-142 457 1
-142 348 1
-142 179 1
-142 403 1
-142 206 1
-142 297 1
-142 163 1
-143 225 1
-144 426 1
-144 323 1
-144 233 1
-144 376 1
-144 281 3
-147 455 1
-147 381 1
-147 438 1
-148 270 1
-148 429 1
-148 209 1
-148 398 1
-148 346 1
-150 438 2
-152 327 1
-152 198 1
-153 284 1
-153 252 1
-153 314 1
-153 167 1
-154 342 1
-154 192 1
-154 223 1
-155 291 2
-156 369 1
-156 266 1
-156 441 1
-156 172 1
-157 452 1
-158 413 1
-159 255 1
-161 214 2
-161 259 2
-161 307 1
-162 372 2
-163 457 1
-163 276 1
-164 186 4
-164 235 2
-165 175 1
-165 278 1
-166 355 1
-167 284 1
-167 252 1
-168 442 1
-168 212 1
-169 250 1
-169 190 1
-170 423 1
-170 237 1
-171 362 1
-172 369 1
-172 266 1
-172 441 1
-173 233 1
-173 336 1
-173 250 1
-174 386 1
-175 278 1
-176 231 1
-176 254 1
-177 340 1
-177 453 1
-177 211 1
-177 380 1
-177 373 1
-177 446 1
-179 276 1
-179 312 1
-179 200 1
-181 263 2
-181 400 1
-181 285 1
-181 271 1
-182 408 1
-183 325 1
-184 387 1
-184 324 1
-185 250 1
-185 372 1
-185 358 1
-185 222 1
-185 421 1
-185 259 1
-185 215 1
-186 424 1
-186 287 2
-186 235 5
-187 290 1
+66 370 1
+66 77 1
+66 268 1
+66 441 1
+66 174 1
+67 177 1
+67 257 1
+67 247 1
+67 280 2
+67 360 1
+67 167 1
+68 410 1
+68 223 2
+69 258 1
+69 162 1
+70 218 1
+70 354 1
+70 417 1
+70 390 1
+70 241 1
+70 440 1
+71 118 1
+71 433 1
+71 338 1
+71 401 1
+72 121 1
+73 148 1
+74 129 1
+75 287 1
+75 188 1
+77 159 1
+77 370 1
+77 268 1
+77 441 1
+77 174 1
+78 90 1
+78 206 1
+79 100 1
+79 366 1
+79 193 1
+80 106 3
+80 278 3
+80 154 1
+80 138 6
+80 165 1
+80 373 1
+80 145 3
+80 140 1
+81 327 1
+82 199 1
+83 394 1
+83 375 1
+83 116 1
+84 350 1
+85 367 1
+85 280 1
+85 317 1
+85 360 1
+85 451 1
+86 355 1
+86 351 1
+86 322 1
+86 426 1
+88 389 1
+89 191 1
+89 132 1
+90 206 1
+91 264 1
+91 386 1
+91 201 1
+91 254 1
+92 315 1
+92 156 1
+93 197 1
+94 118 1
+94 245 1
+95 280 1
+95 434 1
+95 257 2
+95 297 1
+96 220 1
+96 355 1
+96 351 1
+96 384 1
+96 383 1
+97 404 1
+97 101 1
+97 213 1
+97 196 1
+98 454 1
+98 248 1
+98 345 1
+98 392 1
+99 152 1
+99 103 1
+100 366 1
+100 193 1
+101 395 1
+101 393 1
+101 209 1
+101 404 1
+101 213 2
+101 196 1
+101 450 1
+102 431 1
+102 344 1
+103 152 1
+104 186 2
+104 288 1
+104 166 1
+104 237 2
+105 313 1
+105 278 2
+105 145 2
+105 181 1
+105 200 1
+106 352 1
+106 278 3
+106 145 7
+106 138 5
+106 447 1
+106 348 1
+108 358 1
+108 274 1
+108 398 1
+109 231 1
+109 388 1
+109 405 1
+109 298 1
+109 246 1
+110 287 1
+110 411 1
+110 279 1
+110 270 1
+111 387 1
+111 185 1
+111 325 1
+112 342 1
+112 192 1
+112 157 1
+112 225 1
+113 310 1
+113 263 1
+113 190 1
+114 194 1
+114 379 1
+115 250 1
+115 319 1
+115 439 1
+115 448 1
+115 283 1
+115 251 1
+116 394 2
+116 375 2
+117 118 1
+117 445 1
+117 119 1
+118 433 1
+118 401 1
+118 245 1
+118 163 1
+118 300 1
+118 445 1
+118 180 1
+118 338 1
+118 119 4
+119 300 1
+119 445 1
+119 180 1
+120 141 2
+120 232 1
+120 396 2
+120 309 1
+120 343 1
+120 134 1
+120 204 1
+120 429 1
+121 226 2
+121 256 1
+121 355 1
+121 351 1
+122 243 1
+122 389 4
+122 303 1
+122 314 1
+123 149 3
+124 227 1
+124 146 1
+125 294 1
+126 386 1
+126 176 1
+127 267 1
+127 207 1
+127 128 1
+127 234 1
+128 267 1
+128 207 1
+128 234 1
+130 362 1
+131 265 1
+132 191 1
+133 424 1
+133 239 1
+133 172 1
+134 141 1
+134 396 1
+134 309 1
+134 343 1
+134 204 1
+134 429 1
+135 331 1
+135 369 1
+136 334 1
+136 407 1
+136 368 1
+137 332 1
+137 449 1
+138 376 1
+138 278 2
+138 154 1
+138 437 1
+138 165 1
+138 373 1
+138 447 1
+138 145 2
+139 442 1
+139 212 1
+139 170 1
+140 145 1
+140 278 1
+141 232 1
+141 396 2
+141 309 1
+141 343 1
+141 204 1
+141 429 1
+142 195 1
+143 428 1
+144 211 1
+144 457 1
+144 278 1
+144 145 1
+145 278 8
+145 200 1
+145 313 1
+145 457 1
+145 348 1
+145 181 1
+145 205 1
+145 352 1
+145 211 1
+146 227 1
+147 427 1
+147 324 1
+147 235 1
+147 377 1
+147 282 3
+150 455 1
+150 444 1
+150 438 1
+151 272 1
+151 430 1
+151 208 1
+151 399 1
+151 346 1
+153 438 2
+155 328 1
+155 198 1
+156 285 1
+156 255 1
+156 315 1
+156 169 1
+157 342 1
+157 192 1
+157 225 1
+158 292 2
+159 370 1
+159 268 1
+159 441 1
+159 174 1
+160 452 1
+161 414 1
+162 258 1
+164 413 1
+164 284 1
+165 373 2
+166 186 4
+166 237 2
+167 177 1
+167 280 1
+168 356 1
+169 285 1
+169 255 1
+170 442 1
+170 212 1
+171 253 1
+171 190 1
+172 424 1
+172 239 1
+173 363 1
+174 370 1
+174 268 1
+174 441 1
+175 235 1
+175 336 1
+175 253 1
+176 386 1
+177 280 1
+178 233 1
+178 257 1
+179 340 1
+179 453 1
+179 210 1
+179 381 1
+179 374 1
+179 446 1
+181 278 1
+181 313 1
+181 200 1
+183 266 2
+183 401 1
+183 286 1
+183 273 1
+184 326 1
+185 387 1
+185 325 1
+186 425 1
+186 288 2
+186 237 5
+187 291 1
 187 388 1
-187 222 1
-187 296 1
+187 223 1
+187 298 1
 187 436 1
-188 286 1
+188 287 1
 189 337 1
-189 324 1
-189 273 1
+189 325 1
+189 275 1
 189 219 1
-190 250 4
-190 309 1
-190 238 1
-190 260 1
-190 269 1
+190 253 4
+190 310 1
+190 240 1
+190 263 1
+190 271 1
 192 342 1
-192 223 1
-193 365 1
-194 378 1
-196 402 1
+192 225 1
+193 366 1
+194 379 1
+196 404 1
 196 213 1
-198 327 1
-200 276 1
-200 312 1
-201 261 1
+198 328 1
+200 278 1
+200 313 1
+201 264 1
 201 386 1
-201 251 1
-202 298 1
-202 422 1
+201 254 1
+202 299 1
+202 423 1
 202 329 1
-202 248 1
-202 282 1
-202 364 1
-203 418 1
-203 419 1
-203 267 1
-203 234 1
-204 279 1
-205 395 1
-205 308 1
-205 343 1
-205 428 1
-206 276 1
-208 264 1
-208 232 1
-209 270 1
-209 429 1
-209 398 1
-209 346 1
-210 450 1
-210 213 1
-211 340 1
-211 453 1
-211 380 1
-211 373 2
-211 417 1
-211 257 1
-211 446 1
+202 251 1
+202 283 1
+202 365 1
+203 281 1
+204 396 1
+204 309 1
+204 343 1
+204 429 1
+205 278 1
+207 267 1
+207 234 1
+208 272 1
+208 430 1
+208 399 1
+208 346 1
+209 450 1
+209 213 1
+210 340 1
+210 453 1
+210 381 1
+210 374 2
+210 418 1
+210 260 1
+210 446 1
+211 457 1
+211 278 1
 212 442 1
-213 402 1
+213 404 1
 213 450 1
-214 259 2
-214 307 1
-215 421 1
-215 250 2
-215 280 1
-215 371 1
-216 407 1
-218 444 1
-218 353 1
-218 416 1
-218 328 1
+214 262 2
+214 308 1
+215 372 1
+215 422 1
+215 253 2
+215 293 1
+215 224 1
+216 408 1
+218 354 1
+218 417 1
 218 390 1
+218 241 1
 218 440 1
-219 324 3
-219 401 1
-219 273 3
+219 325 3
+219 402 1
+219 275 3
 219 337 1
-219 228 1
+219 230 1
 220 435 1
 220 384 1
-220 421 1
+220 422 1
 220 344 1
 220 383 1
-221 354 1
-222 388 1
-222 358 1
-222 436 1
-222 372 1
-222 290 1
-222 259 1
-222 296 1
-223 342 1
-224 351 1
-224 354 1
+221 388 1
+221 298 1
+221 407 1
+222 355 1
+223 388 1
+223 359 1
+223 436 1
+223 373 1
+223 291 1
+223 410 1
+223 224 1
+223 262 1
+223 298 1
 224 253 1
-226 363 1
-226 347 1
-227 239 1
-228 324 1
-228 401 1
-228 273 1
-229 404 1
-229 388 1
-229 296 1
-229 243 1
-230 395 1
-231 254 1
-232 264 1
-233 275 1
-233 265 1
-233 288 1
-234 418 1
-234 419 1
+224 373 1
+224 359 1
+224 422 1
+224 262 1
+225 342 1
+226 351 1
+226 355 1
+226 256 1
+228 364 1
+228 347 1
+229 242 1
+230 325 1
+230 402 1
+230 275 1
+231 405 1
+231 388 1
+231 298 1
+231 246 1
+232 396 1
+233 257 1
 234 267 1
-235 424 1
-235 287 2
-236 354 1
-236 339 1
-237 423 1
-238 269 1
-238 250 1
-240 389 1
-241 414 1
-243 404 1
-243 388 1
-243 296 1
-244 278 1
-244 359 1
-244 254 1
-245 258 1
-245 360 1
-246 286 4
+235 277 1
+235 289 1
+236 403 1
+236 419 1
+236 420 1
+236 269 1
+237 425 1
+237 288 2
+238 355 1
+238 339 1
+239 424 1
+240 271 1
+240 253 1
+241 354 1
+241 417 1
+241 390 1
+241 440 1
+243 389 1
+244 415 1
 246 405 1
-247 439 1
-247 318 1
-247 448 1
-247 282 1
-247 248 1
-248 318 1
-248 329 1
-248 439 1
-248 448 1
-248 282 2
-249 306 1
-250 371 1
-250 280 1
-250 336 1
-250 421 1
-250 269 1
-251 261 1
-251 386 1
-252 284 1
-254 434 1
-254 278 2
-254 359 1
-254 295 1
-257 373 1
-257 417 1
-258 360 1
-259 307 1
-259 415 1
-259 370 1
-259 396 1
-259 294 1
-259 372 1
-259 358 1
-260 309 1
-261 386 1
-263 285 1
-265 412 1
-265 275 1
-265 283 1
-266 369 1
-266 441 1
-267 418 1
-267 419 1
-268 286 2
-268 410 1
-268 277 1
-270 346 1
-270 429 1
-270 398 1
-272 357 1
-272 397 1
-273 324 3
-273 401 1
-273 337 1
-274 335 1
-276 457 1
-276 312 1
-276 403 1
-276 432 1
-277 410 1
-277 286 1
-278 434 1
-278 295 1
-278 366 1
-278 316 1
-278 359 2
-278 451 1
-280 371 1
-282 318 1
-282 329 1
-282 439 1
-282 448 1
-283 412 1
-286 410 1
-286 405 1
-289 305 1
-289 352 1
-290 436 1
-290 388 1
-290 296 1
-293 399 1
-293 330 1
-294 415 1
-294 370 1
-294 396 1
-295 434 1
-296 406 1
-296 322 1
-296 388 4
-296 436 1
-296 409 1
-296 404 1
-298 422 1
-298 364 1
-299 391 1
-300 382 1
-300 344 1
-301 430 1
+246 388 1
+246 298 1
+247 280 1
+247 360 1
+247 257 1
+248 261 1
+248 361 1
+249 287 4
+249 406 1
+250 439 1
+250 319 1
+250 448 1
+250 283 1
+250 251 1
+251 319 1
+251 329 1
+251 439 1
+251 448 1
+251 283 2
+252 307 1
+253 293 1
+253 372 1
+253 336 1
+253 422 1
+253 271 1
+254 264 1
+254 386 1
+255 285 1
+257 434 1
+257 280 2
+257 360 1
+257 297 1
+260 374 1
+260 418 1
+261 361 1
+262 308 1
+262 416 1
+262 371 1
+262 397 1
+262 296 1
+262 373 1
+262 359 1
+263 310 1
+264 386 1
+266 286 1
+268 370 1
+268 441 1
+269 403 1
+269 419 1
+269 420 1
+270 287 2
+270 411 1
+270 279 1
+272 346 1
+272 430 1
+272 399 1
+274 358 1
+274 398 1
+275 325 3
+275 402 1
+275 337 1
+276 335 1
+278 313 1
+278 457 1
+279 411 1
+279 287 1
+280 434 1
+280 297 1
+280 367 1
+280 317 1
+280 360 2
+280 451 1
+283 319 1
+283 329 1
+283 439 1
+283 448 1
+284 413 1
+287 411 1
+287 406 1
+290 306 1
+290 353 1
+291 436 1
+291 388 1
+291 298 1
+293 372 1
+295 400 1
+295 330 1
+296 416 1
+296 371 1
+296 397 1
+297 434 1
+298 407 1
+298 323 1
+298 388 4
+298 436 1
+298 405 1
+299 423 1
+299 365 1
+300 391 1
+301 382 1
 301 344 1
-302 389 1
-303 411 1
+302 431 1
+302 344 1
 303 389 1
-304 319 1
-305 352 1
-308 395 1
-308 343 1
-308 428 1
-310 435 1
-310 356 1
-310 344 1
-311 341 1
-313 389 1
-315 385 1
-316 366 1
-316 359 1
-316 451 1
-317 377 1
-317 386 1
-318 439 1
-318 448 1
-321 354 1
-321 351 1
-321 425 1
-322 388 1
-323 376 1
-324 387 1
-324 401 1
-324 337 1
-328 353 1
-328 416 1
-328 444 1
-328 390 1
-328 440 1
-330 399 1
-331 368 1
+304 412 1
+304 389 1
+305 320 1
+306 353 1
+309 396 1
+309 343 1
+309 429 1
+311 435 1
+311 357 1
+311 344 1
+312 341 1
+314 389 1
+316 385 1
+317 367 1
+317 360 1
+317 451 1
+318 378 1
+318 386 1
+319 439 1
+319 448 1
+322 355 1
+322 351 1
+322 426 1
+323 388 1
+324 377 1
+325 387 1
+325 402 1
+325 337 1
+330 400 1
+331 369 1
 332 449 1
 333 456 1
-334 406 1
-334 367 1
+334 407 1
+334 368 1
 338 433 1
-338 400 1
-339 354 1
+338 401 1
+339 355 1
 340 453 1
-340 380 1
-340 373 1
+340 381 1
+340 374 1
 340 446 1
-343 395 1
-343 428 1
+343 396 1
+343 429 1
 344 435 3
-344 356 2
-344 430 2
+344 357 2
+344 431 2
 344 382 1
-344 421 1
+344 422 1
 345 454 1
 345 392 1
-346 429 1
-346 398 1
-347 363 1
-349 379 1
+346 430 1
+346 399 1
+347 364 1
+349 380 1
 349 443 1
-351 425 1
-351 354 4
-353 416 1
-353 444 1
-353 390 1
-353 440 1
-354 425 1
-356 435 2
-357 397 1
-358 372 1
-359 366 1
-359 451 1
-364 422 1
-366 451 1
-367 406 1
-369 441 1
-370 415 1
-370 396 1
-373 453 1
-373 380 1
-373 417 1
-373 446 1
-374 394 2
-375 437 1
-377 386 1
-379 443 1
-380 453 1
-380 446 1
+351 426 1
+351 355 4
+354 417 1
+354 390 1
+354 440 1
+355 426 1
+357 435 2
+358 398 1
+359 373 1
+360 367 1
+360 451 1
+365 423 1
+367 451 1
+368 407 1
+370 441 1
+371 416 1
+371 397 1
+374 453 1
+374 381 1
+374 418 1
+374 446 1
+375 394 2
+376 437 1
+378 386 1
+380 443 1
+381 453 1
+381 446 1
 383 435 1
 383 384 1
-383 420 1
-388 406 2
+383 421 1
+388 407 2
 388 436 1
-388 409 1
-388 404 1
-390 416 1
-390 444 1
+388 405 1
+390 417 1
 390 440 1
 392 454 1
-395 428 1
-396 415 1
-398 429 1
-400 433 1
-406 409 1
-416 440 1
-416 444 1
-418 419 1
-420 435 1
+396 429 1
+397 416 1
+399 430 1
+401 433 1
+403 419 1
+403 420 1
+417 440 1
+419 420 1
 421 435 1
+422 435 1
 439 448 1
-440 444 1
 446 453 1

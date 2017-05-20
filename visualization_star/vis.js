@@ -5,11 +5,18 @@ var svg = d3.select("svg"),
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
+var manyBody = d3.forceManyBody()
+					.strength(-2);
+
 var simulation = d3.forceSimulation()
     // .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("link", d3.forceLink())
-    .force("charge", d3.forceManyBody())
+    .force("charge", manyBody)
     .force("center", d3.forceCenter(width / 2, height / 2));
+
+var sizeScale = d3.scaleLinear()
+	.range([2, 10]);
+
 
 d3.json("coauthorship.json", function(error, graph) {
   if (error) throw error;
@@ -18,6 +25,8 @@ d3.json("coauthorship.json", function(error, graph) {
 	graph.nodes.forEach(function(d) {
 		// d.id = d.id.toString();
 	});
+
+	sizeScale.domain(d3.extent(graph.nodes, function(d) { return d.flow; }));
 
 
   var link = svg.append("g")
@@ -32,7 +41,8 @@ d3.json("coauthorship.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", 5)
+      // .attr("r", 5)
+      .attr("r", function(d) { return sizeScale(d.flow); })
       .attr("fill", function(d) { return color(d.cl_top); })
       .call(d3.drag()
           .on("start", dragstarted)
