@@ -1,4 +1,4 @@
-# History of community detection
+ cccccccccccccxcxdccckkkk
 
 Guide in Fortunato introduction
 
@@ -13,7 +13,4 @@ Across many disciplines of science, it is common to encounter data that can best
 
 The field of *network science* has emerged recently to study this and related topics. This field is highly interdisciplinary, comprising physicists, applied mathematicians, computer scientists, sociologists, and others. This interdisciplinarity arises both from the variety of methods that can be applied, and the breadth of potential applications, often requiring domain-specific knowledge [@porter_communities_2009]. Within this new field, the concept of *community* has been somewhat more formalized from the idea above as a group of nodes (a *subgraph*) with a high concentration of edges connecting vertices within the group, and a low concentration of edges with nodes outside the group [@fortunato_community_2010].
 
-The earliest analyses of communities were made by social scientists in the first half of the twentieth century.
-\TODO{examples}. Then, starting in the early 1970s, computer scientists started in...graph partitioning for parallel computing and circuit layout.
-
-Then came Girvan and Newman in 2002, ushering in the modern age of community detection [@lancichinetti_community_2009].
+The earliest analyses of communities were made by social scientists in the early- to mid-twentieth century; for example Weiss and Jacobson's analysis of the organizational structure of a government agency [@weiss_method_1955]. More developments were made by computer scientists, who began developing graph partitioning algorithms in the early 1970s to apply to problems in parallel computing and circuit layout. In 2002, a seminal paper by Girvan and Newman [@girvan_community_2002] marked the entrance of the physics community, and ushered in the modern age of community detection [@lancichinetti_community_2009]. Since then, the field has seen rapid growth and the development of many new methods.
