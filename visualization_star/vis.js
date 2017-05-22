@@ -50,7 +50,14 @@ d3.json("coauthorship.json", function(error, graph) {
           .on("end", dragended));
 
   node.append("title")
-      .text(function(d) { return d.author_name; });
+      // .text(function(d) { return d.author_name; });
+      .text(function(d) { 
+		  var titles = [];
+		  for (var i = 0, len = d.papers.length; i < len; i++) {
+		  	titles.push(d.papers[i].title);
+		  }
+		  return  txt = d.author_name + '\n' + titles.join('\n');
+	  });
 
   simulation
       .nodes(graph.nodes)
