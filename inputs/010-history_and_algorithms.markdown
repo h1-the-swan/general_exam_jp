@@ -1,4 +1,4 @@
- cccccccccccccxcxdccckkkk
+# History of community detection
 
 Guide in Fortunato introduction
 

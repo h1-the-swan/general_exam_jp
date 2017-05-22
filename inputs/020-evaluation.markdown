@@ -59,6 +59,8 @@ A very recent paper by Peel et al. breaks down these issues [@peel_ground_2017],
 
 The authors of this study introduce two interesting new statistical methods to address cases (i) and (ii) in the paragraph above. The first identifies the extent to which the metadata relates to the network structure by comparing the entropies of two probabilistic models: one representing the metadata partitions, and the other a null model with random permutations of the metadata (this null model preserves network structure and relative frequencies of metadata values but removes the correlation between the two). The second statistical method is meant to shed light on the relatedness between the structural aspects of the metadata versus the structural aspects that a community detection algorithm identifies. It does this by imposing a constraint on the community detection algorithm that fixes some portion of the community structure produced based on the metadata partitions. By varying this constraint, one can explore (visually, using a graph) how the imposition of the metadata affects the likelihood of the community detection method. Both of these methods are general enough to work with any sort of probabilistic generative network model; the authors implement them using stochastic blockmodels (see previous section on community detection methods), calling the first method the blockmodel entropy significance test (BESTest), and the second one the neoSBM.
 
+\TODO{2002 girvan and newman paper recognized the idea that metadata might not always be related to network structure. see my note in zotero}
+
 \TODO{Maybe think some more about implications of how community detection is an ill posed problem, and the No Free Lunch theorem}
 
 \TODO{emmons/borner paper.}
