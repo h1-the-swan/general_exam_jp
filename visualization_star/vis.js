@@ -49,6 +49,20 @@ d3.json("coauthorship.json", function(error, graph) {
           .on("drag", dragged)
           .on("end", dragended));
 
+	node.on('click', function(d) {
+		node.attr("fill", "black")
+			.style("opacity", .1);
+		link.style("opacity", .1);
+		var component_ids = graph.graph.connected_components[d.component];
+		var component = node.filter(function(d) {return component_ids.includes(d.id); });
+		var componentLink = link.filter(function(d) {return component_ids.includes(d.source.id);})
+		var componentColor = d3.scaleOrdinal(d3.schemeCategory10);
+		component.attr("fill", function(d) { return componentColor(d.cl_bottom); })
+			.style("opacity", 1);
+		componentLink.style("opacity", 1);
+
+	});
+
   node.append("title")
       // .text(function(d) { return d.author_name; });
       .text(function(d) { 
@@ -56,7 +70,7 @@ d3.json("coauthorship.json", function(error, graph) {
 		  for (var i = 0, len = d.papers.length; i < len; i++) {
 		  	titles.push(d.papers[i].title);
 		  }
-		  return  txt = d.author_name + '\n' + titles.join('\n');
+		  return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
 	  });
 
   simulation
