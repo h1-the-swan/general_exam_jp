@@ -12,6 +12,22 @@ The earliest analyses of communities were made by social scientists in the early
 
 What follows is an overview of some of the many community detection methods currently in use. The overview follows the taxonomy laid out in a recent paper by Schaub et al. [@schaub_many_2017]. The authors identify four different perspectives on the problem of community detection: (i) the *cut-based perspective*, (ii) the *(data) clustering perspective*, (iii) the *stochastic equivalence perspective*, and (iv) the *dynamical perspective*. The different perspectives represent different approaches to the problem, often with different kinds of data, different methods, and different goals. They also represent to some degree the different research communities that have been working on the problem.
 
+\TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. Link to discussion in the evaluation section on the need for splitting the problem up.}
+
 ## The cut-based perspective
 
 Some of the earliest work in community detection was in the area of circuit layout and design. A circuit can be represented as a graph describing the signal flows between its components. The efficient layout of of a circuit depends on partitioning the circuit into a fixed number of similarly sized groups with a small number of edges between groups---these inter-group edges are known as the *cut*. Similar problems can be found in load scheduling and parallel computing, where tasks must be divided into different portions with minimal dependencies between them. These need for these methods led to the development of the Kernighan-Lin algorithm in 1970 [@kernighan_efficient_1970], which has become a classical method that is still frequently used. It starts with an initial partition and attempts to optimize a quality function $Q$ representing the difference between intra-cluster edges and inter-cluster edges, by swapping equal-sized subsets of vertices between groups. The method works best if it starts with a decent initial partition, so in modern use it is often used to refine partitions obtained using other methods [@fortunato_community_2010].
+
+\TODO{spectral methods}
+
+## The clustering perspective
+
+\TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
+
+\TODO{hierarchical clustering? Schaub et al. don't mention it.}
+
+\TODO{modularity}
+
+## The stochastic equivalence perspective
+
+## The dynamical perspective
