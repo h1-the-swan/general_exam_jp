@@ -36,7 +36,7 @@ print:
 	echo $(SOURCES)
 
 inputs/%.tex: inputs/%.markdown
-	pandoc --filter=pandoc-citeproc -o $@ --biblatex $<
+	pandoc --filter=pandoc-crossref --filter=pandoc-citeproc -o $@ --biblatex $<
 
 # MAIN LATEXMK RULE
 

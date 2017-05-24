@@ -166,9 +166,20 @@ of a node is fixed, \(z_{in}\)---the expected internal degree of a
 node---depends on \(z_{out}\)). As \(z_{out}\) increases, the community
 structure of the graph becomes less apparent, until
 \(z_{out} = z_{in} = 8\), in which case the internal and external
-degrees are equal. Many algorithms are able to properly identify
-communities up to this limit \autocite{fortunato_community_2010}.
+degrees are equal (see Fig.~\ref{fig:gn_benchmarks}). Many algorithms
+are able to properly identify communities up to this limit
+\autocite{fortunato_community_2010}.
 \TODO{image for random networks increasing varying z}
+
+\begin{figure}
+\centering
+\includegraphics{img/guimera2005_fig1_gm-benchmarks.jpeg}
+\caption{Examples of the Girvan-Newman benchmark. From left to right,
+the parameter \(z_{out}\) increases (and \(z_{in}\) decreases), and the
+community structure becomes less apparent. In (a) \(z_{in}=15\); in (b)
+\(z_{in}=11\); and in (c) \(z_{in}=8\) and the four clusters are not
+visually apparent.}\label{fig:gn_benchmarks}
+\end{figure}
 
 The weakness of the GN benchmarks and the planted \(\ell\)-partition
 model in general lies in assumptions that all communities have the same
@@ -267,6 +278,8 @@ significance test (BESTest), and the second one the neoSBM.
 \TODO{2002 girvan and newman paper recognized the idea that metadata might not always be related to network structure. see my note in zotero}
 
 \TODO{Maybe think some more about implications of how community detection is an ill posed problem, and the No Free Lunch theorem}
+
+\TODO {actual comparisons. lancichinetti paper}
 
 \TODO{emmons/borner paper.}
 
