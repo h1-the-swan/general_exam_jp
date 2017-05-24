@@ -31,7 +31,7 @@ of edges with nodes outside the group
 \autocite{fortunato_community_2010}.
 
 The earliest analyses of communities were made by social scientists in
-the early- to mid-twentieth century; for example Weiss and Jacobson's
+the early- to mid-twentieth century---for example Weiss and Jacobson's
 analysis of the organizational structure of a government agency
 \autocite{weiss_method_1955}. More developments were made by computer
 scientists, who began developing graph partitioning algorithms in the
@@ -42,4 +42,65 @@ community, and ushered in the modern age of community detection
 \autocite{lancichinetti_community_2009}. Since then, the field has seen
 rapid growth and the development of many new methods.
 
-\TODO{Probably follow schaub et al to go through the different methods}
+\section{Community detection methods}\label{community-detection-methods}
+
+What follows is an overview of some of the many community detection
+methods currently in use. The overview follows the taxonomy laid out in
+a recent paper by Schaub et al. \autocite{schaub_many_2017}. The authors
+identify four different perspectives on the problem of community
+detection: (i) the \emph{cut-based perspective}, (ii) the \emph{(data)
+clustering perspective}, (iii) the \emph{stochastic equivalence
+perspective}, and (iv) the \emph{dynamical perspective}. The different
+perspectives represent different approaches to the problem, often with
+different kinds of data, different methods, and different goals. They
+also represent to some degree the different research communities that
+have been working on the problem.
+
+\TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. Link to discussion in the evaluation section on the need for splitting the problem up.}
+
+\subsection{The cut-based perspective}\label{the-cut-based-perspective}
+
+Some of the earliest work in community detection was in the area of
+circuit layout and design. A circuit can be represented as a graph
+describing the signal flows between its components. The efficient layout
+of of a circuit depends on partitioning the circuit into a fixed number
+of similarly sized groups with a small number of edges between
+groups---these inter-group edges are known as the \emph{cut}. Similar
+problems can be found in load scheduling and parallel computing, where
+tasks must be divided into different portions with minimal dependencies
+between them. These need for these methods led to the development of the
+Kernighan-Lin algorithm in 1970 \autocite{kernighan_efficient_1970},
+which has become a classical method that is still frequently used. It
+starts with an initial partition and attempts to optimize a quality
+function \(Q\) representing the difference between intra-cluster edges
+and inter-cluster edges, by swapping equal-sized subsets of vertices
+between groups. The method works best if it starts with a decent initial
+partition, so in modern use it is often used to refine partitions
+obtained using other methods \autocite{fortunato_community_2010}.
+
+The cut-based perspective has also seen the development of spectral
+methods for graph partitioning. The spectrum (eigenvalues) of a graph's
+adjacency matrix tend to be related to the connectivity of the graph,
+and the associated eigenvectors can be used for both cut-based
+partitioning and clustering. These methods typically make use of the
+Laplacian matrix \(L\) of a connected graph \(G\): \(L = D - A\) where
+\(A\) is the adjacency matrix of \(G\) and \(D\) is the diagonal degree
+matrix with \(D_{ii} = \sum_{j}{A_{ij}}\). The \emph{Fiedler vector} is
+the second-smallest eigenvector associated with the Laplacian matrix
+\(L\); the spectral bisection method uses this vector to quickly
+partition a graph into two groups with a low cut size
+\autocite{fiedler_algebraic_1973}.
+
+\subsection{The clustering
+perspective}\label{the-clustering-perspective}
+
+\TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
+
+\TODO{hierarchical clustering? Schaub et al. don't mention it.}
+
+\TODO{modularity}
+
+\subsection{The stochastic equivalence
+perspective}\label{the-stochastic-equivalence-perspective}
+
+\subsection{The dynamical perspective}\label{the-dynamical-perspective}
