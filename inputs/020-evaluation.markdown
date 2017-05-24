@@ -63,6 +63,8 @@ The authors of this study introduce two interesting new statistical methods to a
 
 \TODO{Maybe think some more about implications of how community detection is an ill posed problem, and the No Free Lunch theorem}
 
+\TODO {actual comparisons. lancichinetti paper}
+
 \TODO{emmons/borner paper.}
 
 ## Visualization
