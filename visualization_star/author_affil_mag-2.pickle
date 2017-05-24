@@ -1,0 +1,11423 @@
+(dp1
+Vzhenjun hu
+p2
+(dp3
+S'author_id'
+p4
+ccollections
+Counter
+p5
+((dp6
+I2162436920
+I10
+stRp7
+sS'affil_id'
+p8
+g5
+((dp9
+I111088046
+I10
+stRp10
+sS'affil_name'
+p11
+g5
+((dp12
+Vboston university
+p13
+I10
+stRp14
+ssVmats jirstrand
+p15
+(dp16
+g4
+g5
+((dp17
+I1152697354
+I7
+sI2013087594
+I3
+stRp18
+sg8
+g5
+((dp19
+I161046081
+I1
+sI4923324
+I6
+sI102134673
+I3
+stRp20
+sg11
+g5
+((dp21
+Vlinkoping university
+p22
+I3
+sVfraunhofer society
+p23
+I6
+sVuniversity of freiburg
+p24
+I1
+stRp25
+ssVguy melancon
+p26
+(dp27
+g4
+g5
+((dp28
+I2238570106
+I10
+stRp29
+sg8
+g5
+((dp30
+I1326498283
+I2
+sI1294671590
+I8
+stRp31
+sg11
+g5
+((dp32
+Vcentre national de la recherche scientifique
+p33
+I8
+sVfrench institute for research in computer science and automation
+p34
+I2
+stRp35
+ssVjanet thornton
+p36
+(dp37
+g4
+g5
+((dtRp38
+sg8
+g5
+((dtRp39
+sg11
+g5
+((dtRp40
+ssVnathan salomonis
+p41
+(dp42
+g4
+g5
+((dp43
+I349940622
+I9
+sI2567827207
+I1
+stRp44
+sg8
+g5
+((dp45
+I55176711
+I1
+sI36258959
+I1
+sI180670191
+I2
+sI1285204247
+I6
+stRp46
+sg11
+g5
+((dp47
+Vcincinnati children s hospital medical center
+p48
+I6
+sVuniversity of california
+p49
+I1
+sVuniversity of california san francisco
+p50
+I2
+sVuniversity of california san diego
+p51
+I1
+stRp52
+ssVtaowei wang
+p53
+(dp54
+g4
+g5
+((dtRp55
+sg8
+g5
+((dtRp56
+sg11
+g5
+((dtRp57
+ssVkarl kashofer
+p58
+(dp59
+g4
+g5
+((dp60
+I2597760345
+I2
+sI2485027799
+I8
+stRp61
+sg8
+g5
+((dp62
+I30147112
+I2
+sI202276237
+I8
+stRp63
+sg11
+g5
+((dp64
+Vsofia medical university
+p65
+I2
+sVmedical university of graz
+p66
+I8
+stRp67
+ssVrobert cohen
+p68
+(dp69
+g4
+g5
+((dtRp70
+sg8
+g5
+((dtRp71
+sg11
+g5
+((dtRp72
+ssVradu jianu
+p73
+(dp74
+g4
+g5
+((dp75
+I785418197
+I10
+stRp76
+sg8
+g5
+((dp77
+I27804330
+I7
+sI97018004
+I1
+sI19700959
+I2
+stRp78
+sg11
+g5
+((dp79
+Vstanford university
+p80
+I1
+sVbrown university
+p81
+I7
+sVflorida international university
+p82
+I2
+stRp83
+ssVmarkus rohrschneider
+p84
+(dp85
+g4
+g5
+((dp86
+I2087248613
+I6
+stRp87
+sg8
+g5
+((dp88
+I926574661
+I6
+stRp89
+sg11
+g5
+((dp90
+Vleipzig university
+p91
+I6
+stRp92
+ssVminoru kanehisa
+p93
+(dp94
+g4
+g5
+((dp95
+I2151300008
+I10
+stRp96
+sg8
+g5
+((dp97
+I22299242
+I10
+stRp98
+sg11
+g5
+((dp99
+Vkyoto university
+p100
+I10
+stRp101
+ssVmartin vingron
+p102
+(dp103
+g4
+g5
+((dp104
+I198286669
+I10
+stRp105
+sg8
+g5
+((dp106
+I149899117
+I10
+stRp107
+sg11
+g5
+((dp108
+Vmax planck society
+p109
+I10
+stRp110
+ssVwenbin wu
+p111
+(dp112
+g4
+g5
+((dp113
+I2420486752
+I3
+sI2552101361
+I1
+sI2110007699
+I6
+stRp114
+sg8
+g5
+((dp115
+I90610280
+I3
+sI143593769
+I3
+sI114150738
+I2
+sI19820366
+I1
+sNI1
+stRp116
+sg11
+g5
+((dp117
+Vchinese academy of sciences
+p118
+I1
+sVeast china university of science and technology
+p119
+I3
+sNI1
+sVsouth china university of technology
+p120
+I3
+sVfu jen catholic university
+p121
+I2
+stRp122
+ssVjoan dimicco
+p123
+(dp124
+g4
+g5
+((dtRp125
+sg8
+g5
+((dtRp126
+sg11
+g5
+((dtRp127
+ssVyanhong wu
+p128
+(dp129
+g4
+g5
+((dp130
+I2142767251
+I7
+sI2582521644
+I1
+sI2128423901
+I2
+stRp131
+sg8
+g5
+((dp132
+NI1
+sI20231570
+I2
+sI1330342723
+I6
+sI19920983
+I1
+stRp133
+sg11
+g5
+((dp134
+Vmayo clinic
+p135
+I6
+sVmayo medical school
+p136
+I1
+sVpeking university
+p137
+I2
+sNI1
+stRp138
+ssVpeter eades
+p139
+(dp140
+g4
+g5
+((dp141
+I336473884
+I10
+stRp142
+sg8
+g5
+((dp143
+I129604602
+I8
+sI78757542
+I2
+stRp144
+sg11
+g5
+((dp145
+Vuniversity of sydney
+p146
+I8
+sVuniversity of newcastle
+p147
+I2
+stRp148
+ssVosmar zaiane
+p149
+(dp150
+g4
+g5
+((dtRp151
+sg8
+g5
+((dtRp152
+sg11
+g5
+((dtRp153
+ssVdenis kalkofen
+p154
+(dp155
+g4
+g5
+((dp156
+I2091577687
+I10
+stRp157
+sg8
+g5
+((dp158
+I4092182
+I10
+stRp159
+sg11
+g5
+((dp160
+Vgraz university of technology
+p161
+I10
+stRp162
+ssVandre skusa
+p163
+(dp164
+g4
+g5
+((dp165
+I293947347
+I7
+sI2244128750
+I1
+sI2013685871
+I2
+stRp166
+sg8
+g5
+((dp167
+I55486353
+I2
+sI20121455
+I7
+sNI1
+stRp168
+sg11
+g5
+((dp169
+NI1
+sVbielefeld university
+p170
+I7
+sVreed college
+p171
+I2
+stRp172
+ssVev jordan
+p173
+(dp174
+g4
+g5
+((dp175
+I2114219218
+I2
+stRp176
+sg8
+g5
+((dp177
+NI2
+stRp178
+sg11
+g5
+((dp179
+NI2
+stRp180
+ssVmichel chaudron
+p181
+(dp182
+g4
+g5
+((dtRp183
+sg8
+g5
+((dtRp184
+sg11
+g5
+((dtRp185
+ssVdavid fuhry
+p186
+(dp187
+g4
+g5
+((dp188
+I2398106800
+I10
+stRp189
+sg8
+g5
+((dp190
+I149910238
+I3
+sI52357470
+I7
+stRp191
+sg11
+g5
+((dp192
+Vohio state university
+p193
+I7
+sVkent state university
+p194
+I3
+stRp195
+ssVbing dai
+p196
+(dp197
+g4
+g5
+((dp198
+I2505449123
+I1
+sI2121896106
+I1
+sI2230569963
+I1
+sI2370728883
+I1
+sI2142770677
+I1
+sI2152282840
+I2
+sI2311976377
+I2
+sI2318113151
+I1
+stRp199
+sg8
+g5
+((dp200
+I99065089
+I1
+sI177933477
+I2
+sI160606119
+I2
+sI91656880
+I1
+sI1300548115
+I1
+sI72816309
+I1
+sNI1
+sI170201317
+I1
+stRp201
+sg11
+g5
+((dp202
+Vchina medical university
+p203
+I1
+sVsecond military medical university
+p204
+I2
+sVtsinghua university
+p205
+I1
+sVindustrial research institute
+p206
+I1
+sVuniversity of pittsburgh
+p207
+I1
+sNI1
+sVuniversity of tennessee health science center
+p208
+I2
+sVdrexel university
+p209
+I1
+stRp210
+ssVyunming ye
+p211
+(dp212
+g4
+g5
+((dp213
+I2167640884
+I10
+stRp214
+sg8
+g5
+((dp215
+I204983213
+I10
+stRp216
+sg11
+g5
+((dp217
+Vharbin institute of technology
+p218
+I10
+stRp219
+ssVsabine hug
+p220
+(dp221
+g4
+g5
+((dp222
+I2146375315
+I9
+stRp223
+sg8
+g5
+((dp224
+NI9
+stRp225
+sg11
+g5
+((dp226
+NI9
+stRp227
+ssVdarcy davis
+p228
+(dp229
+g4
+g5
+((dtRp230
+sg8
+g5
+((dtRp231
+sg11
+g5
+((dtRp232
+ssVscott barlowe
+p233
+(dp234
+g4
+g5
+((dp235
+I1221686930
+I10
+stRp236
+sg8
+g5
+((dp237
+I102149020
+I8
+sI103406327
+I2
+stRp238
+sg11
+g5
+((dp239
+Vwestern carolina university
+p240
+I2
+sVuniversity of north carolina at charlotte
+p241
+I8
+stRp242
+ssValon efrat
+p243
+(dp244
+g4
+g5
+((dp245
+I167375625
+I10
+stRp246
+sg8
+g5
+((dp247
+I138006243
+I10
+stRp248
+sg11
+g5
+((dp249
+Vuniversity of arizona
+p250
+I10
+stRp251
+ssVmountaz hascoët
+p252
+(dp253
+g4
+g5
+((dtRp254
+sg8
+g5
+((dtRp255
+sg11
+g5
+((dtRp256
+ssVthomas sprenger
+p257
+(dp258
+g4
+g5
+((dtRp259
+sg8
+g5
+((dtRp260
+sg11
+g5
+((dtRp261
+ssVchia-ling huang
+p262
+(dp263
+g4
+g5
+((dtRp264
+sg8
+g5
+((dtRp265
+sg11
+g5
+((dtRp266
+ssVliang gou
+p267
+(dp268
+g4
+g5
+((dp269
+I2489912001
+I1
+sI2100405389
+I9
+stRp270
+sg8
+g5
+((dp271
+NI1
+sI130769515
+I7
+sI1341412227
+I2
+stRp272
+sg11
+g5
+((dp273
+Vpennsylvania state university
+p274
+I7
+sNI1
+sVibm
+p275
+I2
+stRp276
+ssVrudi vernik
+p277
+(dp278
+g4
+g5
+((dp279
+I2400766649
+I10
+stRp280
+sg8
+g5
+((dp281
+I170239107
+I4
+sI1303474014
+I6
+stRp282
+sg11
+g5
+((dp283
+Vdefence science and technology organisation
+p284
+I6
+sVuniversity of south australia
+p285
+I4
+stRp286
+ssVdaniel faber
+p287
+(dp288
+g4
+g5
+((dp289
+I2514939377
+I1
+sI2109481066
+I6
+sI2583484556
+I1
+sI2112387405
+I2
+stRp290
+sg8
+g5
+((dp291
+NI1
+sI8087733
+I1
+sI71965598
+I2
+sI12912129
+I6
+stRp292
+sg11
+g5
+((dp293
+NI1
+sVuniversity of tubingen
+p294
+I1
+sVnortheastern university
+p295
+I6
+sVadelphi university
+p296
+I2
+stRp297
+ssVjames bieman
+p298
+(dp299
+g4
+g5
+((dtRp300
+sg8
+g5
+((dtRp301
+sg11
+g5
+((dtRp302
+ssVtyng-ruey chuang
+p303
+(dp304
+g4
+g5
+((dtRp305
+sg8
+g5
+((dtRp306
+sg11
+g5
+((dtRp307
+ssVsixiao yang
+p308
+(dp309
+g4
+g5
+((dp310
+I2169072505
+I1
+sI2230326699
+I2
+sI2427733517
+I1
+stRp311
+sg8
+g5
+((dp312
+I2250955327
+I2
+sI19820366
+I1
+sI200769079
+I1
+stRp313
+sg11
+g5
+((dp314
+Vchinese academy of sciences
+p315
+I1
+sVhuawei
+p316
+I2
+sVhong kong university of science and technology
+p317
+I1
+stRp318
+ssVfeza buzluca
+p319
+(dp320
+g4
+g5
+((dp321
+I136456581
+I10
+stRp322
+sg8
+g5
+((dp323
+I84218800
+I1
+sI48912391
+I9
+stRp324
+sg11
+g5
+((dp325
+Vistanbul technical university
+p326
+I9
+sVuniversity of california davis
+p327
+I1
+stRp328
+ssVala abuthawabeh
+p329
+(dp330
+g4
+g5
+((dp331
+I318230568
+I6
+stRp332
+sg8
+g5
+((dp333
+I153267046
+I6
+stRp334
+sg11
+g5
+((dp335
+Vkaiserslautern university of technology
+p336
+I6
+stRp337
+ssVdaniel jackson
+p338
+(dp339
+g4
+g5
+((dp340
+I2435235114
+I1
+sI2422944348
+I1
+sI2120858950
+I8
+stRp341
+sg8
+g5
+((dp342
+NI1
+sI84884186
+I1
+sI63966007
+I8
+stRp343
+sg11
+g5
+((dp344
+NI1
+sVnewcastle university
+p345
+I1
+sVmassachusetts institute of technology
+p346
+I8
+stRp347
+ssVyao sun
+p348
+(dp349
+g4
+g5
+((dp350
+I2466881810
+I2
+sI2116864411
+I4
+sI2601504642
+I1
+sI2170932198
+I2
+sI2172116143
+I1
+stRp351
+sg8
+g5
+((dp352
+I99065089
+I2
+sI160606119
+I4
+sI105804677
+I1
+sI19820366
+I1
+sI139660479
+I2
+stRp353
+sg11
+g5
+((dp354
+Vtsinghua university
+p355
+I2
+sVchinese academy of sciences
+p356
+I1
+sVcentral south university
+p357
+I2
+sVinstitute of biophysics
+p358
+I1
+sVuniversity of tennessee health science center
+p359
+I4
+stRp360
+ssVdaniel weiskopf
+p361
+(dp362
+g4
+g5
+((dp363
+I2025685111
+I10
+stRp364
+sg8
+g5
+((dp365
+I100066346
+I10
+stRp366
+sg11
+g5
+((dp367
+Vuniversity of stuttgart
+p368
+I10
+stRp369
+ssVtina eliassi-rad
+p370
+(dp371
+g4
+g5
+((dtRp372
+sg8
+g5
+((dtRp373
+sg11
+g5
+((dtRp374
+ssVhiroki omote
+p375
+(dp376
+g4
+g5
+((dp377
+I2134284772
+I1
+sI2040061107
+I2
+sI2198985084
+I2
+sI1975873702
+I3
+sI2073004799
+I2
+stRp378
+sg8
+g5
+((dp379
+I177738480
+I3
+sNI3
+sI98285908
+I2
+sI4588055
+I2
+stRp380
+sg11
+g5
+((dp381
+Vosaka university
+p382
+I2
+sVjapan advanced institute of science and technology
+p383
+I3
+sVtottori university
+p384
+I2
+sNI3
+stRp385
+ssVpierre maziére
+p386
+(dp387
+g4
+g5
+((dtRp388
+sg8
+g5
+((dtRp389
+sg11
+g5
+((dtRp390
+ssVali civril
+p391
+(dp392
+g4
+g5
+((dp393
+I1655838045
+I10
+stRp394
+sg8
+g5
+((dp395
+I168864056
+I1
+sI165799507
+I9
+stRp396
+sg11
+g5
+((dp397
+Vbilkent university
+p398
+I1
+sVrensselaer polytechnic institute
+p399
+I9
+stRp400
+ssVsheelagh carpendale
+p401
+(dp402
+g4
+g5
+((dp403
+I2076420186
+I10
+stRp404
+sg8
+g5
+((dp405
+I168635309
+I10
+stRp406
+sg11
+g5
+((dp407
+Vuniversity of calgary
+p408
+I10
+stRp409
+ssVching-yung lin
+p410
+(dp411
+g4
+g5
+((dtRp412
+sg8
+g5
+((dtRp413
+sg11
+g5
+((dtRp414
+ssVkristina hanspers
+p415
+(dp416
+g4
+g5
+((dp417
+I302394737
+I8
+sI2157555243
+I1
+sI2571527897
+I1
+stRp418
+sg8
+g5
+((dp419
+I1321430492
+I9
+sI36258959
+I1
+stRp420
+sg11
+g5
+((dp421
+Vgladstone institutes
+p422
+I9
+sVuniversity of california san diego
+p423
+I1
+stRp424
+ssVclaus lewerentz
+p425
+(dp426
+g4
+g5
+((dp427
+I2428867824
+I1
+sI25798412
+I9
+stRp428
+sg8
+g5
+((dp429
+I51783024
+I9
+sI143379178
+I1
+stRp430
+sg11
+g5
+((dp431
+Vforschungszentrum informatik
+p432
+I1
+sVbrandenburg university of technology
+p433
+I9
+stRp434
+ssVayellet tal
+p435
+(dp436
+g4
+g5
+((dp437
+I2482196945
+I1
+sI2282829714
+I9
+stRp438
+sg8
+g5
+((dp439
+I174306211
+I9
+sI45129253
+I1
+stRp440
+sg11
+g5
+((dp441
+Vtechnion israel institute of technology
+p442
+I9
+sVuniversity college london
+p443
+I1
+stRp444
+ssVtanja munz
+p445
+(dp446
+g4
+g5
+((dp447
+I2562032984
+I1
+sI2565257721
+I1
+sI2228594996
+I4
+stRp448
+sg8
+g5
+((dp449
+NI1
+sI100066346
+I4
+sI196424126
+I1
+stRp450
+sg11
+g5
+((dp451
+NI1
+sVuniversity of stuttgart
+p452
+I4
+sVmax planck institute for the history of science
+p453
+I1
+stRp454
+ssVmichael ogawa
+p455
+(dp456
+g4
+g5
+((dp457
+I2561689174
+I1
+sI2154356511
+I7
+stRp458
+sg8
+g5
+((dp459
+I84218800
+I6
+sI47838141
+I1
+sI55176711
+I1
+stRp460
+sg11
+g5
+((dp461
+Vuniversity of california davis
+p462
+I6
+sVuniversity of california
+p463
+I1
+sVsaint louis university
+p464
+I1
+stRp465
+ssVyi-chien chang
+p466
+(dp467
+g4
+g5
+((dtRp468
+sg8
+g5
+((dtRp469
+sg11
+g5
+((dtRp470
+ssVqi zhou
+p471
+(dp472
+g4
+g5
+((dp473
+I2482959930
+I1
+sI2511673396
+I2
+sI2284851590
+I7
+stRp474
+sg8
+g5
+((dp475
+I98251732
+I7
+sI44921830
+I2
+sI36399199
+I1
+stRp476
+sg11
+g5
+((dp477
+Vmcmaster university
+p478
+I7
+sVnanjing university of science and technology
+p479
+I1
+sVinstitute of zoology
+p480
+I2
+stRp481
+ssVhiroaki kitano
+p482
+(dp483
+g4
+g5
+((dp484
+I2300419674
+I10
+stRp485
+sg8
+g5
+((dp486
+I1334257032
+I8
+sI142637625
+I1
+sI122411786
+I1
+stRp487
+sg11
+g5
+((dp488
+Vat t labs
+p489
+I8
+sVokinawa institute of science and technology
+p490
+I1
+sVcalifornia institute of technology
+p491
+I1
+stRp492
+ssVvictor kasyanov
+p493
+(dp494
+g4
+g5
+((dtRp495
+sg8
+g5
+((dtRp496
+sg11
+g5
+((dtRp497
+ssVchristian lange
+p498
+(dp499
+g4
+g5
+((dtRp500
+sg8
+g5
+((dtRp501
+sg11
+g5
+((dtRp502
+ssVchris stark
+p503
+(dp504
+g4
+g5
+((dp505
+I2177122352
+I10
+stRp506
+sg8
+g5
+((dp507
+I1324220072
+I8
+sI70931966
+I1
+sI1291836623
+I1
+stRp508
+sg11
+g5
+((dp509
+Vmount sinai hospital
+p510
+I8
+sVmount sinai hospital toronto
+p511
+I1
+sVuniversite de montreal
+p512
+I1
+stRp513
+ssVludovic cottret
+p514
+(dp515
+g4
+g5
+((dp516
+I2042242437
+I10
+stRp517
+sg8
+g5
+((dp518
+I203339264
+I1
+sI1314251682
+I6
+sI1326498283
+I1
+sI1294671590
+I2
+stRp519
+sg11
+g5
+((dp520
+Vinstitut national de la recherche agronomique
+p521
+I6
+sVuniversity of lyon
+p522
+I1
+sVcentre national de la recherche scientifique
+p523
+I2
+sVfrench institute for research in computer science and automation
+p524
+I1
+stRp525
+ssVbaining guo
+p526
+(dp527
+g4
+g5
+((dp528
+I2153421060
+I10
+stRp529
+sg8
+g5
+((dp530
+I99065089
+I1
+sI1290206253
+I9
+stRp531
+sg11
+g5
+((dp532
+Vtsinghua university
+p533
+I1
+sVmicrosoft
+p534
+I9
+stRp535
+ssVfabian theis
+p536
+(dp537
+g4
+g5
+((dtRp538
+sg8
+g5
+((dtRp539
+sg11
+g5
+((dtRp540
+ssVfolker meyer
+p541
+(dp542
+g4
+g5
+((dp543
+I2189089885
+I10
+stRp544
+sg8
+g5
+((dp545
+I1282105669
+I6
+sI40347166
+I1
+sI20121455
+I3
+stRp546
+sg11
+g5
+((dp547
+Vargonne national laboratory
+p548
+I6
+sVbielefeld university
+p549
+I3
+sVuniversity of chicago
+p550
+I1
+stRp551
+ssVjie hua
+p552
+(dp553
+g4
+g5
+((dp554
+I2252831281
+I3
+sI2108761724
+I5
+sI2029269438
+I1
+sI2555129049
+I1
+stRp555
+sg8
+g5
+((dp556
+I1288702032
+I3
+sNI1
+sI73614715
+I1
+sI116953780
+I5
+stRp557
+sg11
+g5
+((dp558
+Vministry of education
+p559
+I3
+sVtongji university
+p560
+I5
+sVit university
+p561
+I1
+sNI1
+stRp562
+ssVcody dunne
+p563
+(dp564
+g4
+g5
+((dp565
+I2133791059
+I10
+stRp566
+sg8
+g5
+((dp567
+I66946132
+I8
+sI1290206253
+I1
+sI22675022
+I1
+stRp568
+sg11
+g5
+((dp569
+Vuniversity of maryland college park
+p570
+I8
+sVmicrosoft
+p571
+I1
+sVwilliams college
+p572
+I1
+stRp573
+ssVzahra ashktorab
+p574
+(dp575
+g4
+g5
+((dp576
+I1823870228
+I1
+sI1395455470
+I8
+sI2549118591
+I1
+stRp577
+sg8
+g5
+((dp578
+NI1
+sI66946132
+I8
+sI887358342
+I1
+stRp579
+sg11
+g5
+((dp580
+NI1
+sVunited states national library of medicine
+p581
+I1
+sVuniversity of maryland college park
+p582
+I8
+stRp583
+ssVrina nakazawa
+p584
+(dp585
+g4
+g5
+((dp586
+I2102172331
+I4
+stRp587
+sg8
+g5
+((dp588
+I26120043
+I3
+sI74801974
+I1
+stRp589
+sg11
+g5
+((dp590
+Vochanomizu university
+p591
+I3
+sVuniversity of tokyo
+p592
+I1
+stRp593
+ssVr. zachariah
+p594
+(dp595
+g4
+g5
+((dtRp596
+sg8
+g5
+((dtRp597
+sg11
+g5
+((dtRp598
+ssVsankar veeramoni
+p599
+(dp600
+g4
+g5
+((dp601
+I2057255430
+I10
+stRp602
+sg8
+g5
+((dp603
+I138006243
+I10
+stRp604
+sg11
+g5
+((dp605
+Vuniversity of arizona
+p606
+I10
+stRp607
+ssVhans-peter lenhof
+p608
+(dp609
+g4
+g5
+((dtRp610
+sg8
+g5
+((dtRp611
+sg11
+g5
+((dtRp612
+ssVjohn dill
+p613
+(dp614
+g4
+g5
+((dp615
+I2156312165
+I8
+sI2557988533
+I2
+stRp616
+sg8
+g5
+((dp617
+I18014758
+I8
+sI867280407
+I2
+stRp618
+sg11
+g5
+((dp619
+Vsimon fraser university
+p620
+I8
+sVuniversity of texas southwestern medical center
+p621
+I2
+stRp622
+ssVilir jusufi
+p623
+(dp624
+g4
+g5
+((dp625
+I349917418
+I9
+sI2529452459
+I1
+stRp626
+sg8
+g5
+((dp627
+I84218800
+I3
+sI177721651
+I1
+sI223464139
+I6
+stRp628
+sg11
+g5
+((dp629
+Vuniversity of california davis
+p630
+I3
+sVlinnaeus university
+p631
+I6
+sVoakland university
+p632
+I1
+stRp633
+ssVkatharina lehmann
+p634
+(dp635
+g4
+g5
+((dtRp636
+sg8
+g5
+((dtRp637
+sg11
+g5
+((dtRp638
+ssVamyra meidiana
+p639
+(dp640
+g4
+g5
+((dp641
+I2224463814
+I2
+stRp642
+sg8
+g5
+((dp643
+I129604602
+I2
+stRp644
+sg11
+g5
+((dp645
+Vuniversity of sydney
+p646
+I2
+stRp647
+ssVjuan cruz
+p648
+(dp649
+g4
+g5
+((dtRp650
+sg8
+g5
+((dtRp651
+sg11
+g5
+((dtRp652
+ssVdavid kao
+p653
+(dp654
+g4
+g5
+((dtRp655
+sg8
+g5
+((dtRp656
+sg11
+g5
+((dtRp657
+ssVdonny daniel
+p658
+(dp659
+g4
+g5
+((dtRp660
+sg8
+g5
+((dtRp661
+sg11
+g5
+((dtRp662
+ssVrandy goebel
+p663
+(dp664
+g4
+g5
+((dp665
+I2127323036
+I10
+stRp666
+sg8
+g5
+((dp667
+I151746483
+I1
+sI154425047
+I9
+stRp668
+sg11
+g5
+((dp669
+Vuniversity of alberta
+p670
+I9
+sVuniversity of waterloo
+p671
+I1
+stRp672
+ssVmichael schroeder
+p673
+(dp674
+g4
+g5
+((dtRp675
+sg8
+g5
+((dtRp676
+sg11
+g5
+((dtRp677
+ssVchristopher collins
+p678
+(dp679
+g4
+g5
+((dtRp680
+sg8
+g5
+((dtRp681
+sg11
+g5
+((dtRp682
+ssVhiroshi nagamochi
+p683
+(dp684
+g4
+g5
+((dp685
+I224340343
+I10
+stRp686
+sg8
+g5
+((dp687
+I22299242
+I8
+sI136259955
+I2
+stRp688
+sg11
+g5
+((dp689
+Vtoyohashi university of technology
+p690
+I2
+sVkyoto university
+p691
+I8
+stRp692
+ssVaakash goel
+p693
+(dp694
+g4
+g5
+((dp695
+I2232018698
+I3
+sI2579869763
+I1
+stRp696
+sg8
+g5
+((dp697
+NI1
+sI130701444
+I3
+stRp698
+sg11
+g5
+((dp699
+Vgeorgia institute of technology
+p700
+I3
+sNI1
+stRp701
+ssVguodong wang
+p702
+(dp703
+g4
+g5
+((dp704
+I2109922073
+I1
+sI2302171746
+I2
+sI2604363418
+I2
+sI2288899205
+I5
+stRp705
+sg8
+g5
+((dp706
+I12912129
+I5
+sI183067930
+I2
+sI143302722
+I1
+sI19820366
+I2
+stRp707
+sg11
+g5
+((dp708
+Vchinese academy of sciences
+p709
+I2
+sVshanghai jiao tong university
+p710
+I2
+sVnortheastern university
+p711
+I5
+sVuniversity of kentucky
+p712
+I1
+stRp713
+ssVxiaolong zhang
+p714
+(dp715
+g4
+g5
+((dp716
+I2596333104
+I1
+sI2305080710
+I1
+sI2115674438
+I3
+sI2306915255
+I2
+sI2153276153
+I1
+sI2413086236
+I1
+sI2484616213
+I1
+stRp717
+sg8
+g5
+((dp718
+I43922553
+I1
+sI80947539
+I1
+sI32907511
+I1
+sI198357145
+I3
+sI76214153
+I1
+sI188950975
+I1
+sI205237279
+I2
+stRp719
+sg11
+g5
+((dp720
+Vnankai university
+p721
+I2
+sVfairleigh dickinson university
+p722
+I1
+sVglaxosmithkline
+p723
+I1
+sVlanzhou university
+p724
+I1
+sVwuhan university of science and technology
+p725
+I1
+sVfuzhou university
+p726
+I1
+sVnational heart lung and blood institute
+p727
+I3
+stRp728
+ssVneeraj krishnan
+p729
+(dp730
+g4
+g5
+((dp731
+I2579194038
+I2
+stRp732
+sg8
+g5
+((dp733
+I102322142
+I2
+stRp734
+sg11
+g5
+((dp735
+Vrutgers university
+p736
+I2
+stRp737
+ssVyan wang
+p738
+(dp739
+g4
+g5
+((dp740
+I2304985761
+I4
+sI2434269075
+I1
+sI2254212406
+I1
+sI2101795799
+I2
+sI2490654173
+I1
+sI2337057917
+I1
+stRp741
+sg8
+g5
+((dp742
+NI1
+sI76214153
+I1
+sI108468826
+I1
+sI2250955327
+I1
+sI16365422
+I2
+sI205237279
+I4
+stRp743
+sg11
+g5
+((dp744
+Vnankai university
+p745
+I4
+sVlanzhou university
+p746
+I1
+sVstevens institute of technology
+p747
+I1
+sVhuawei
+p748
+I1
+sVhefei university of technology
+p749
+I2
+sNI1
+stRp750
+ssVchen-hsiang yeang
+p751
+(dp752
+g4
+g5
+((dtRp753
+sg8
+g5
+((dtRp754
+sg11
+g5
+((dtRp755
+ssVstephan kottler
+p756
+(dp757
+g4
+g5
+((dp758
+I1988296295
+I10
+stRp759
+sg8
+g5
+((dp760
+I8087733
+I10
+stRp761
+sg11
+g5
+((dp762
+Vuniversity of tubingen
+p763
+I10
+stRp764
+ssVmehmet belviranli
+p765
+(dp766
+g4
+g5
+((dtRp767
+sg8
+g5
+((dtRp768
+sg11
+g5
+((dtRp769
+ssVradoslav petkov
+p770
+(dp771
+g4
+g5
+((dp772
+I2107032786
+I1
+sI2231063453
+I1
+sI2430794510
+I3
+stRp773
+sg8
+g5
+((dp774
+I30147112
+I3
+sNI1
+sI89864525
+I1
+stRp775
+sg11
+g5
+((dp776
+Vsofia medical university
+p777
+I3
+sVuniversity of trier
+p778
+I1
+sNI1
+stRp779
+ssVwu peng
+p780
+(dp781
+g4
+g5
+((dtRp782
+sg8
+g5
+((dtRp783
+sg11
+g5
+((dtRp784
+ssVryosuke saga
+p785
+(dp786
+g4
+g5
+((dp787
+I1947148526
+I2
+sI1793363511
+I8
+stRp788
+sg8
+g5
+((dp789
+I15807432
+I8
+sI182069643
+I2
+stRp790
+sg11
+g5
+((dp791
+Vosaka prefecture university
+p792
+I8
+sVkanagawa institute of technology
+p793
+I2
+stRp794
+ssValptug dilek
+p795
+(dp796
+g4
+g5
+((dp797
+I2463472198
+I2
+stRp798
+sg8
+g5
+((dp799
+I168864056
+I1
+sI198068145
+I1
+stRp800
+sg11
+g5
+((dp801
+Vbilkent university
+p802
+I1
+sVscientific and technological research council of turkey
+p803
+I1
+stRp804
+ssVgraeme gange
+p805
+(dp806
+g4
+g5
+((dp807
+I1952466777
+I10
+stRp808
+sg8
+g5
+((dp809
+I165779595
+I10
+stRp810
+sg11
+g5
+((dp811
+Vuniversity of melbourne
+p812
+I10
+stRp813
+ssVpanpan xu
+p814
+(dp815
+g4
+g5
+((dp816
+I2169579204
+I2
+sI2162967365
+I2
+sI2515314570
+I1
+sI2126531132
+I3
+sI2346417102
+I1
+sI2137120063
+I1
+stRp817
+sg8
+g5
+((dp818
+I205913397
+I1
+sI200769079
+I3
+sNI1
+sI113940042
+I2
+sI21193070
+I1
+sI151727225
+I2
+stRp819
+sg11
+g5
+((dp820
+Vbeijing jiaotong university
+p821
+I1
+sNI1
+sVharbin engineering university
+p822
+I2
+sVpeking university shenzhen graduate school
+p823
+I1
+sVhong kong university of science and technology
+p824
+I3
+sVshanghai university
+p825
+I2
+stRp826
+ssVchristian heine
+p827
+(dp828
+g4
+g5
+((dp829
+I2134391808
+I4
+sI2325371105
+I1
+sI2569368147
+I1
+sI2479977379
+I1
+sI2461892616
+I1
+sI2502444899
+I1
+sI2305094667
+I1
+stRp830
+sg8
+g5
+((dp831
+I148283060
+I1
+sI130438778
+I1
+sI195342982
+I1
+sNI2
+sI129604602
+I4
+sI119449181
+I1
+stRp832
+sg11
+g5
+((dp833
+Vmemorial university of newfoundland
+p834
+I1
+sVlawrence berkeley national laboratory
+p835
+I1
+sNI2
+sVtechnische universitat ilmenau
+p836
+I1
+sVuniversity of medicine and dentistry of new jersey
+p837
+I1
+sVuniversity of sydney
+p838
+I4
+stRp839
+ssVsteve kieffer
+p840
+(dp841
+g4
+g5
+((dp842
+I2114562596
+I4
+stRp843
+sg8
+g5
+((dp844
+I56590836
+I4
+stRp845
+sg11
+g5
+((dp846
+Vmonash university
+p847
+I4
+stRp848
+ssVjing yang
+p849
+(dp850
+g4
+g5
+((dp851
+I2433077697
+I1
+sI2249827155
+I4
+sI2140865061
+I1
+sI2570234111
+I2
+sI2587971733
+I2
+stRp852
+sg8
+g5
+((dp853
+I142797827
+I1
+sI162868743
+I1
+sI36258959
+I2
+sI66946132
+I2
+sI867280407
+I1
+sNI1
+sI135310074
+I1
+sI120240667
+I1
+stRp854
+sg11
+g5
+((dp855
+Vtianjin university
+p856
+I1
+sVwhitehead institute
+p857
+I1
+sVuniversity of california san diego school of medicine
+p858
+I1
+sVuniversity of california san diego
+p859
+I2
+sVuniversity of maryland college park
+p860
+I2
+sVuniversity of wisconsin madison
+p861
+I1
+sNI1
+sVuniversity of texas southwestern medical center
+p862
+I1
+stRp863
+ssVkrisjanis prusis
+p864
+(dp865
+g4
+g5
+((dp866
+I2226944522
+I2
+stRp867
+sg8
+g5
+((dp868
+I121934539
+I2
+stRp869
+sg11
+g5
+((dp870
+Vinstitute of mathematics
+p871
+I2
+stRp872
+ssVxin zhang
+p873
+(dp874
+g4
+g5
+((dp875
+I2258387296
+I2
+sI2536196210
+I2
+sI2603709142
+I1
+sI2433408040
+I3
+sI2162108029
+I1
+sI2287261151
+I1
+stRp876
+sg8
+g5
+((dp877
+I865419266
+I2
+sI114395901
+I1
+sI100671193
+I1
+sI20231570
+I2
+sI111088046
+I3
+sI180670191
+I1
+stRp878
+sg11
+g5
+((dp879
+Vbanting and best department of medical research
+p880
+I1
+sVuniversity of nebraska lincoln
+p881
+I1
+sVboston university
+p882
+I3
+sVcatholic university of leuven
+p883
+I2
+sVuniversity of california san francisco
+p884
+I1
+sVpeking university
+p885
+I2
+stRp886
+ssValexander lex
+p887
+(dp888
+g4
+g5
+((dp889
+I2034595988
+I10
+stRp890
+sg8
+g5
+((dp891
+I136199984
+I5
+sI121883995
+I1
+sI4092182
+I4
+stRp892
+sg11
+g5
+((dp893
+Vgraz university of technology
+p894
+I4
+sVjohannes kepler university of linz
+p895
+I1
+sVharvard university
+p896
+I5
+stRp897
+ssVmartin greilich
+p898
+(dp899
+g4
+g5
+((dp900
+I2278182379
+I1
+stRp901
+sg8
+g5
+((dp902
+I89864525
+I1
+stRp903
+sg11
+g5
+((dp904
+Vuniversity of trier
+p905
+I1
+stRp906
+ssVdouglas taggart
+p907
+(dp908
+g4
+g5
+((dp909
+I2274947029
+I2
+sI2133740334
+I1
+stRp910
+sg8
+g5
+((dp911
+NI1
+sI44265643
+I2
+stRp912
+sg11
+g5
+((dp913
+NI1
+sVrowan university
+p914
+I2
+stRp915
+ssVshixia liu
+p916
+(dp917
+g4
+g5
+((dp918
+I2111177146
+I9
+sI2135136333
+I1
+stRp919
+sg8
+g5
+((dp920
+I99065089
+I2
+sI1341412227
+I5
+sI1290206253
+I2
+sI118564535
+I1
+stRp921
+sg11
+g5
+((dp922
+Vtsinghua university
+p923
+I2
+sVuniversity of bern
+p924
+I1
+sVibm
+p925
+I5
+sVmicrosoft
+p926
+I2
+stRp927
+ssVchristopher fuhrman
+p928
+(dp929
+g4
+g5
+((dtRp930
+sg8
+g5
+((dtRp931
+sg11
+g5
+((dtRp932
+ssVneeraj sangal
+p933
+(dp934
+g4
+g5
+((dp935
+I1841092946
+I10
+stRp936
+sg8
+g5
+((dp937
+NI10
+stRp938
+sg11
+g5
+((dp939
+NI10
+stRp940
+ssVmichael bristow
+p941
+(dp942
+g4
+g5
+((dtRp943
+sg8
+g5
+((dtRp944
+sg11
+g5
+((dtRp945
+ssVr brunella
+p946
+(dp947
+g4
+g5
+((dp948
+I2584065434
+I1
+sI2225886358
+I1
+stRp949
+sg8
+g5
+((dp950
+NI2
+stRp951
+sg11
+g5
+((dp952
+NI2
+stRp953
+ssVnicole radde
+p954
+(dp955
+g4
+g5
+((dp956
+I2305032570
+I2
+sI2082225715
+I7
+sI2306901653
+I1
+stRp957
+sg8
+g5
+((dp958
+I180923762
+I1
+sI100066346
+I7
+sI926574661
+I2
+stRp959
+sg11
+g5
+((dp960
+Vuniversity of stuttgart
+p961
+I7
+sVuniversity of cologne
+p962
+I1
+sVleipzig university
+p963
+I2
+stRp964
+ssVmao huang
+p965
+(dp966
+g4
+g5
+((dp967
+I2116992717
+I9
+sI2465127877
+I1
+stRp968
+sg8
+g5
+((dp969
+I83519826
+I9
+sI177933477
+I1
+stRp970
+sg11
+g5
+((dp971
+Vnanjing medical university
+p972
+I9
+sVsecond military medical university
+p973
+I1
+stRp974
+ssVcharles stolper
+p975
+(dp976
+g4
+g5
+((dtRp977
+sg8
+g5
+((dtRp978
+sg11
+g5
+((dtRp979
+ssVbjörn zimmer
+p980
+(dp981
+g4
+g5
+((dtRp982
+sg8
+g5
+((dtRp983
+sg11
+g5
+((dtRp984
+ssVjanet six
+p985
+(dp986
+g4
+g5
+((dtRp987
+sg8
+g5
+((dtRp988
+sg11
+g5
+((dtRp989
+ssVfabrizio montecchiani
+p990
+(dp991
+g4
+g5
+((dp992
+I282852810
+I10
+stRp993
+sg8
+g5
+((dp994
+I27483092
+I10
+stRp995
+sg11
+g5
+((dp996
+Vuniversity of perugia
+p997
+I10
+stRp998
+ssVkazuo misue
+p999
+(dp1000
+g4
+g5
+((dp1001
+I80170140
+I10
+stRp1002
+sg8
+g5
+((dp1003
+I2252096349
+I2
+sI146399215
+I8
+stRp1004
+sg11
+g5
+((dp1005
+Vuniversity of tsukuba
+p1006
+I8
+sVfujitsu
+p1007
+I2
+stRp1008
+ssVjianfei chen
+p1009
+(dp1010
+g4
+g5
+((dp1011
+I2177245446
+I10
+stRp1012
+sg8
+g5
+((dp1013
+I98677209
+I6
+sI72212903
+I4
+stRp1014
+sg11
+g5
+((dp1015
+Vuniversity of edinburgh
+p1016
+I6
+sVharbin veterinary research institute
+p1017
+I4
+stRp1018
+ssVtim dwyer
+p1019
+(dp1020
+g4
+g5
+((dp1021
+I2517900996
+I1
+sI2059826982
+I1
+sI2420187967
+I8
+stRp1022
+sg8
+g5
+((dp1023
+I33213144
+I1
+sI56590836
+I4
+sI1290206253
+I3
+sI185261750
+I1
+sI78570951
+I1
+stRp1024
+sg11
+g5
+((dp1025
+Vuniversity of florida
+p1026
+I1
+sVmonash university
+p1027
+I4
+sVmicrosoft
+p1028
+I3
+sVuniversity of toronto
+p1029
+I1
+sVmonash university clayton campus
+p1030
+I1
+stRp1031
+ssVkatja grafenhain
+p1032
+(dp1033
+g4
+g5
+((dp1034
+I2557338787
+I1
+stRp1035
+sg8
+g5
+((dp1036
+I202697423
+I1
+stRp1037
+sg11
+g5
+((dp1038
+Vuniversity of zurich
+p1039
+I1
+stRp1040
+ssVkasper dinkla
+p1041
+(dp1042
+g4
+g5
+((dtRp1043
+sg8
+g5
+((dtRp1044
+sg11
+g5
+((dtRp1045
+ssVcatherine plaisant
+p1046
+(dp1047
+g4
+g5
+((dp1048
+I216611935
+I10
+stRp1049
+sg8
+g5
+((dp1050
+I66946132
+I10
+stRp1051
+sg11
+g5
+((dp1052
+Vuniversity of maryland college park
+p1053
+I10
+stRp1054
+ssVhans-jörg schulz
+p1055
+(dp1056
+g4
+g5
+((dtRp1057
+sg8
+g5
+((dtRp1058
+sg11
+g5
+((dtRp1059
+ssVmatt huyck
+p1060
+(dp1061
+g4
+g5
+((dtRp1062
+sg8
+g5
+((dtRp1063
+sg11
+g5
+((dtRp1064
+ssVnathalie henry
+p1065
+(dp1066
+g4
+g5
+((dp1067
+I2141074253
+I10
+stRp1068
+sg8
+g5
+((dp1069
+I129604602
+I1
+sI1326498283
+I8
+sI1290206253
+I1
+stRp1070
+sg11
+g5
+((dp1071
+Vuniversity of sydney
+p1072
+I1
+sVmicrosoft
+p1073
+I1
+sVfrench institute for research in computer science and automation
+p1074
+I8
+stRp1075
+ssVadam perer
+p1076
+(dp1077
+g4
+g5
+((dp1078
+I2049716498
+I10
+stRp1079
+sg8
+g5
+((dp1080
+I1341412227
+I6
+sI66946132
+I4
+stRp1081
+sg11
+g5
+((dp1082
+Vibm
+p1083
+I6
+sVuniversity of maryland college park
+p1084
+I4
+stRp1085
+ssVhelen gibson
+p1086
+(dp1087
+g4
+g5
+((dtRp1088
+sg8
+g5
+((dtRp1089
+sg11
+g5
+((dtRp1090
+ssVfeodor dragan
+p1091
+(dp1092
+g4
+g5
+((dtRp1093
+sg8
+g5
+((dtRp1094
+sg11
+g5
+((dtRp1095
+ssVrobert faris
+p1096
+(dp1097
+g4
+g5
+((dp1098
+I2255882521
+I8
+sI2162403149
+I2
+stRp1099
+sg8
+g5
+((dp1100
+I84218800
+I4
+sI193374721
+I2
+sI1297546910
+I1
+sI114027177
+I3
+stRp1101
+sg11
+g5
+((dp1102
+Vuniversity of california davis
+p1103
+I4
+sVuniversity of north carolina system
+p1104
+I1
+sVinternet society
+p1105
+I2
+sVuniversity of north carolina at chapel hill
+p1106
+I3
+stRp1107
+ssVchristian pich
+p1108
+(dp1109
+g4
+g5
+((dp1110
+I2070727085
+I5
+sI1971350245
+I5
+stRp1111
+sg8
+g5
+((dp1112
+I189712700
+I5
+sI181233156
+I5
+stRp1113
+sg11
+g5
+((dp1114
+Vuniversity of oregon
+p1115
+I5
+sVuniversity of konstanz
+p1116
+I5
+stRp1117
+ssVrobert kincaid
+p1118
+(dp1119
+g4
+g5
+((dp1120
+I1991332810
+I10
+stRp1121
+sg8
+g5
+((dp1122
+I138285227
+I10
+stRp1123
+sg11
+g5
+((dp1124
+Vagilent technologies
+p1125
+I10
+stRp1126
+ssVk. dinkla
+p1127
+(dp1128
+g4
+g5
+((dtRp1129
+sg8
+g5
+((dtRp1130
+sg11
+g5
+((dtRp1131
+ssVleon goldovsky
+p1132
+(dp1133
+g4
+g5
+((dp1134
+I2022784037
+I10
+stRp1135
+sg8
+g5
+((dp1136
+I1303153112
+I10
+stRp1137
+sg11
+g5
+((dp1138
+Veuropean bioinformatics institute
+p1139
+I10
+stRp1140
+ssVmohammed el-kebir
+p1141
+(dp1142
+g4
+g5
+((dtRp1143
+sg8
+g5
+((dtRp1144
+sg11
+g5
+((dtRp1145
+ssVfrançois poulet
+p1146
+(dp1147
+g4
+g5
+((dtRp1148
+sg8
+g5
+((dtRp1149
+sg11
+g5
+((dtRp1150
+ssVphilippas tsigas
+p1151
+(dp1152
+g4
+g5
+((dp1153
+I2274820914
+I10
+stRp1154
+sg8
+g5
+((dp1155
+I66862912
+I10
+stRp1156
+sg11
+g5
+((dp1157
+Vchalmers university of technology
+p1158
+I10
+stRp1159
+ssVflorian reitz
+p1160
+(dp1161
+g4
+g5
+((dp1162
+I2030005285
+I9
+stRp1163
+sg8
+g5
+((dp1164
+I89864525
+I9
+stRp1165
+sg11
+g5
+((dp1166
+Vuniversity of trier
+p1167
+I9
+stRp1168
+ssVpietro palladino
+p1169
+(dp1170
+g4
+g5
+((dp1171
+I2325060547
+I3
+sI2079640707
+I6
+sI2554243533
+I1
+stRp1172
+sg8
+g5
+((dp1173
+I59361560
+I1
+sI27483092
+I9
+stRp1174
+sg11
+g5
+((dp1175
+Vuniversity of perugia
+p1176
+I9
+sVinstituto politecnico nacional
+p1177
+I1
+stRp1178
+ssVsergey pupyrev
+p1179
+(dp1180
+g4
+g5
+((dp1181
+I335358257
+I10
+stRp1182
+sg8
+g5
+((dp1183
+I130823665
+I1
+sI138006243
+I7
+sI138819846
+I2
+stRp1184
+sg11
+g5
+((dp1185
+Vural state university
+p1186
+I2
+sVural federal university
+p1187
+I1
+sVuniversity of arizona
+p1188
+I7
+stRp1189
+ssVthanh-nghi do
+p1190
+(dp1191
+g4
+g5
+((dtRp1192
+sg8
+g5
+((dtRp1193
+sg11
+g5
+((dtRp1194
+ssVtim pattison
+p1195
+(dp1196
+g4
+g5
+((dp1197
+I2465031764
+I1
+sI1963698674
+I1
+sI2227107620
+I7
+sI2601893175
+I1
+stRp1198
+sg8
+g5
+((dp1199
+I28407311
+I1
+sI121881413
+I1
+sI1303474014
+I7
+sI76023543
+I1
+stRp1200
+sg11
+g5
+((dp1201
+Vdefence science and technology organization
+p1202
+I1
+sVdefence science and technology organisation
+p1203
+I7
+sVuniversity of manchester
+p1204
+I1
+sVkeck school of medicine of usc
+p1205
+I1
+stRp1206
+ssVdustin holloway
+p1207
+(dp1208
+g4
+g5
+((dtRp1209
+sg8
+g5
+((dtRp1210
+sg11
+g5
+((dtRp1211
+ssVfrédéric lalanne
+p1212
+(dp1213
+g4
+g5
+((dtRp1214
+sg8
+g5
+((dtRp1215
+sg11
+g5
+((dtRp1216
+ssVstephen kobourov
+p1217
+(dp1218
+g4
+g5
+((dtRp1219
+sg8
+g5
+((dtRp1220
+sg11
+g5
+((dtRp1221
+ssVallan kuchinsky
+p1222
+(dp1223
+g4
+g5
+((dp1224
+I1993782082
+I7
+sI2503198844
+I3
+stRp1225
+sg8
+g5
+((dp1226
+I138285227
+I3
+sI1324840837
+I7
+stRp1227
+sg11
+g5
+((dp1228
+Vagilent technologies
+p1229
+I3
+sVhewlett packard
+p1230
+I7
+stRp1231
+ssVee-peng lim
+p1232
+(dp1233
+g4
+g5
+((dtRp1234
+sg8
+g5
+((dtRp1235
+sg11
+g5
+((dtRp1236
+ssVjosiane mothe
+p1237
+(dp1238
+g4
+g5
+((dp1239
+I2141333472
+I10
+stRp1240
+sg8
+g5
+((dp1241
+I134560555
+I1
+sI1296747019
+I1
+sI17866349
+I5
+sI1294671590
+I2
+sI160993911
+I1
+stRp1242
+sg11
+g5
+((dp1243
+Vpaul sabatier university
+p1244
+I1
+sVcentre national de la recherche scientifique
+p1245
+I2
+sVunited parcel service
+p1246
+I1
+sVqueensland university of technology
+p1247
+I1
+sVuniversity of toulouse
+p1248
+I5
+stRp1249
+ssVvahan yoghourdjian
+p1250
+(dp1251
+g4
+g5
+((dp1252
+I2229043355
+I1
+stRp1253
+sg8
+g5
+((dp1254
+I56590836
+I1
+stRp1255
+sg11
+g5
+((dp1256
+Vmonash university
+p1257
+I1
+stRp1258
+ssVpeer bork
+p1259
+(dp1260
+g4
+g5
+((dp1261
+I2068107358
+I10
+stRp1262
+sg8
+g5
+((dp1263
+I1303153112
+I6
+sI1314251682
+I1
+sI205582932
+I1
+sI12708293
+I1
+sI21535869
+I1
+stRp1264
+sg11
+g5
+((dp1265
+Veuropean bioinformatics institute
+p1266
+I6
+sVmax delbruck center for molecular medicine
+p1267
+I1
+sVinstitut national de la recherche agronomique
+p1268
+I1
+sVswiss institute of bioinformatics
+p1269
+I1
+sVbirmingham city university faculty of health
+p1270
+I1
+stRp1271
+ssVn. riche
+p1272
+(dp1273
+g4
+g5
+((dtRp1274
+sg8
+g5
+((dtRp1275
+sg11
+g5
+((dtRp1276
+ssVliangyue li
+p1277
+(dp1278
+g4
+g5
+((dp1279
+I2144246580
+I10
+stRp1280
+sg8
+g5
+((dp1281
+I12912129
+I4
+sI55732556
+I5
+sI63190737
+I1
+stRp1282
+sg11
+g5
+((dp1283
+Varizona state university
+p1284
+I5
+sVnortheastern university
+p1285
+I4
+sVuniversity at buffalo
+p1286
+I1
+stRp1287
+ssVfrédéric gilbert
+p1288
+(dp1289
+g4
+g5
+((dtRp1290
+sg8
+g5
+((dtRp1291
+sg11
+g5
+((dtRp1292
+ssVquanhoang nguyen
+p1293
+(dp1294
+g4
+g5
+((dp1295
+I2589275490
+I1
+stRp1296
+sg8
+g5
+((dp1297
+NI1
+stRp1298
+sg11
+g5
+((dp1299
+NI1
+stRp1300
+ssVmarc kreveld
+p1301
+(dp1302
+g4
+g5
+((dtRp1303
+sg8
+g5
+((dtRp1304
+sg11
+g5
+((dtRp1305
+ssVxiaohui huang
+p1306
+(dp1307
+g4
+g5
+((dtRp1308
+sg8
+g5
+((dtRp1309
+sg11
+g5
+((dtRp1310
+ssVeric wang
+p1311
+(dp1312
+g4
+g5
+((dtRp1313
+sg8
+g5
+((dtRp1314
+sg11
+g5
+((dtRp1315
+ssVxiaolin du
+p1316
+(dp1317
+g4
+g5
+((dp1318
+I2109583984
+I4
+sI2222307937
+I1
+sI2563237397
+I1
+sI2585441686
+I1
+sI2509598929
+I1
+sI2476262362
+I1
+sI2145715918
+I1
+stRp1319
+sg8
+g5
+((dp1320
+I139759216
+I1
+sI32574673
+I1
+sI3923682
+I4
+sNI1
+sI149594827
+I1
+sI204983213
+I1
+sI154099455
+I1
+stRp1321
+sg11
+g5
+((dp1322
+Vharbin institute of technology
+p1323
+I1
+sVshandong university
+p1324
+I1
+sVshantou university
+p1325
+I1
+sVsoochow university
+p1326
+I4
+sNI1
+sVxidian university
+p1327
+I1
+sVbeijing university of posts and telecommunications
+p1328
+I1
+stRp1329
+ssVvaldis krebs
+p1330
+(dp1331
+g4
+g5
+((dtRp1332
+sg8
+g5
+((dtRp1333
+sg11
+g5
+((dtRp1334
+ssVfernando paulovich
+p1335
+(dp1336
+g4
+g5
+((dtRp1337
+sg8
+g5
+((dtRp1338
+sg11
+g5
+((dtRp1339
+ssVroman yusufov
+p1340
+(dp1341
+g4
+g5
+((dp1342
+I2528175264
+I1
+sI2346996368
+I1
+sI2299820670
+I1
+stRp1343
+sg8
+g5
+((dp1344
+NI2
+sI138006243
+I1
+stRp1345
+sg11
+g5
+((dp1346
+NI2
+sVuniversity of arizona
+p1347
+I1
+stRp1348
+ssVquang nguyen
+p1349
+(dp1350
+g4
+g5
+((dp1351
+I2437636290
+I1
+sI2568374019
+I1
+sI2488749476
+I1
+sI2580793669
+I1
+sI2195544295
+I1
+sI2151829416
+I1
+sI2582150089
+I1
+sI1984542744
+I1
+sI2144822172
+I2
+stRp1352
+sg8
+g5
+((dp1353
+I60488453
+I1
+sI142476485
+I1
+sNI4
+sI157725225
+I1
+sI129604602
+I1
+sI84470341
+I2
+stRp1354
+sg11
+g5
+((dp1355
+Vthe catholic university of america
+p1356
+I2
+sNI4
+sVmiddlesex university
+p1357
+I1
+sVuniversity of sydney
+p1358
+I1
+sVuniversity of illinois at urbana champaign
+p1359
+I1
+sVecole polytechnique
+p1360
+I1
+stRp1361
+ssVpaolo simonetto
+p1362
+(dp1363
+g4
+g5
+((dp1364
+I2092657714
+I10
+stRp1365
+sg8
+g5
+((dp1366
+I872287936
+I6
+sI138006243
+I2
+sI1294671590
+I2
+stRp1367
+sg11
+g5
+((dp1368
+Vl abri
+p1369
+I6
+sVcentre national de la recherche scientifique
+p1370
+I2
+sVuniversity of arizona
+p1371
+I2
+stRp1372
+ssVfanny chevalier
+p1373
+(dp1374
+g4
+g5
+((dp1375
+I2123408939
+I10
+stRp1376
+sg8
+g5
+((dp1377
+I1326498283
+I2
+sI1290206253
+I3
+sI185261750
+I2
+sI74753095
+I3
+stRp1378
+sg11
+g5
+((dp1379
+Vuniversity of toronto
+p1380
+I2
+sVocad university
+p1381
+I3
+sVmicrosoft
+p1382
+I3
+sVfrench institute for research in computer science and automation
+p1383
+I2
+stRp1384
+ssVmartin haubrock
+p1385
+(dp1386
+g4
+g5
+((dp1387
+I297552986
+I10
+stRp1388
+sg8
+g5
+((dp1389
+I74656192
+I10
+stRp1390
+sg11
+g5
+((dp1391
+Vuniversity of gottingen
+p1392
+I10
+stRp1393
+ssVkaty börner
+p1394
+(dp1395
+g4
+g5
+((dtRp1396
+sg8
+g5
+((dtRp1397
+sg11
+g5
+((dtRp1398
+ssVseok-hee hong
+p1399
+(dp1400
+g4
+g5
+((dtRp1401
+sg8
+g5
+((dtRp1402
+sg11
+g5
+((dtRp1403
+ssVraymond lau
+p1404
+(dp1405
+g4
+g5
+((dtRp1406
+sg8
+g5
+((dtRp1407
+sg11
+g5
+((dtRp1408
+ssVyouliang yan
+p1409
+(dp1410
+g4
+g5
+((dp1411
+I2100524292
+I7
+sI2529843205
+I2
+sI2232338014
+I1
+stRp1412
+sg8
+g5
+((dp1413
+I2250955327
+I6
+sI58200834
+I2
+sI31746571
+I1
+sI200769079
+I1
+stRp1414
+sg11
+g5
+((dp1415
+Vhuawei
+p1416
+I6
+sVuniversity of new south wales
+p1417
+I1
+sVsouthern medical university
+p1418
+I2
+sVhong kong university of science and technology
+p1419
+I1
+stRp1420
+ssVpeter stuckey
+p1421
+(dp1422
+g4
+g5
+((dtRp1423
+sg8
+g5
+((dtRp1424
+sg11
+g5
+((dtRp1425
+ssVhans hagen
+p1426
+(dp1427
+g4
+g5
+((dtRp1428
+sg8
+g5
+((dtRp1429
+sg11
+g5
+((dtRp1430
+ssVjoe faith
+p1431
+(dp1432
+g4
+g5
+((dp1433
+I2140494979
+I9
+sI2304819342
+I1
+stRp1434
+sg8
+g5
+((dp1435
+I32394136
+I9
+sI1291425158
+I1
+stRp1436
+sg11
+g5
+((dp1437
+Vgoogle
+p1438
+I1
+sVnorthumbria university
+p1439
+I9
+stRp1440
+ssVminsuk kahng
+p1441
+(dp1442
+g4
+g5
+((dp1443
+I2238818493
+I10
+stRp1444
+sg8
+g5
+((dp1445
+I139264467
+I7
+sI130701444
+I3
+stRp1446
+sg11
+g5
+((dp1447
+Vgeorgia institute of technology
+p1448
+I3
+sVseoul national university
+p1449
+I7
+stRp1450
+ssVtom freeman
+p1451
+(dp1452
+g4
+g5
+((dtRp1453
+sg8
+g5
+((dtRp1454
+sg11
+g5
+((dtRp1455
+ssVaika terada
+p1456
+(dp1457
+g4
+g5
+((dp1458
+I1966631153
+I10
+stRp1459
+sg8
+g5
+((dp1460
+I114531698
+I7
+sI26120043
+I1
+sI1336942987
+I1
+sI74801974
+I1
+stRp1461
+sg11
+g5
+((dp1462
+Vochanomizu university
+p1463
+I1
+sVtokyo institute of technology
+p1464
+I7
+sVuniversity of tokyo
+p1465
+I1
+sVnational presto industries
+p1466
+I1
+stRp1467
+ssVtakafumi yamashita
+p1468
+(dp1469
+g4
+g5
+((dp1470
+I2558644040
+I1
+sI2324418417
+I6
+sI2578722888
+I1
+sI2097829445
+I2
+stRp1471
+sg8
+g5
+((dp1472
+I15807432
+I1
+sNI2
+sI317356780
+I6
+sI135598925
+I1
+stRp1473
+sg11
+g5
+((dp1474
+NI2
+sVosaka prefecture university
+p1475
+I1
+sVosaka city university
+p1476
+I6
+sVkyushu university
+p1477
+I1
+stRp1478
+ssVpaul verrier
+p1479
+(dp1480
+g4
+g5
+((dtRp1481
+sg8
+g5
+((dtRp1482
+sg11
+g5
+((dtRp1483
+ssVxiaobo wang
+p1484
+(dp1485
+g4
+g5
+((dp1486
+I2166243473
+I1
+sI2150494508
+I8
+sI2281784462
+I1
+stRp1487
+sg8
+g5
+((dp1488
+I99065089
+I1
+sI153350211
+I1
+sI1343551460
+I1
+sI86501945
+I1
+sI145311948
+I1
+sI19820366
+I5
+stRp1489
+sg11
+g5
+((dp1490
+Vchinese academy of sciences
+p1491
+I5
+sVtsinghua university
+p1492
+I1
+sVuniversity of texas md anderson cancer center
+p1493
+I1
+sVuniversity of delaware
+p1494
+I1
+sVjohns hopkins university
+p1495
+I1
+sVjohns hopkins school of medicine
+p1496
+I1
+stRp1497
+ssVsaul greenberg
+p1498
+(dp1499
+g4
+g5
+((dp1500
+I2120666348
+I10
+stRp1501
+sg8
+g5
+((dp1502
+I168635309
+I10
+stRp1503
+sg11
+g5
+((dp1504
+Vuniversity of calgary
+p1505
+I10
+stRp1506
+ssVkwan-liu ma
+p1507
+(dp1508
+g4
+g5
+((dtRp1509
+sg8
+g5
+((dtRp1510
+sg11
+g5
+((dtRp1511
+ssVbruno pinaud
+p1512
+(dp1513
+g4
+g5
+((dp1514
+I2310213649
+I2
+sI2151680227
+I6
+sI2590727671
+I2
+stRp1515
+sg8
+g5
+((dp1516
+I872287936
+I4
+sI125801170
+I2
+sI1326498283
+I2
+sI15057530
+I2
+stRp1517
+sg11
+g5
+((dp1518
+Vl abri
+p1519
+I4
+sVecole polytechnique de l universite de nantes
+p1520
+I2
+sVuniversity of bordeaux
+p1521
+I2
+sVfrench institute for research in computer science and automation
+p1522
+I2
+stRp1523
+ssVyuke wang
+p1524
+(dp1525
+g4
+g5
+((dp1526
+I2308615526
+I2
+sI2167234662
+I2
+sI2569127111
+I6
+stRp1527
+sg8
+g5
+((dp1528
+I60158472
+I2
+sI63772739
+I2
+sI162577319
+I6
+stRp1529
+sg11
+g5
+((dp1530
+Vconcordia university
+p1531
+I2
+sVflorida atlantic university
+p1532
+I2
+sVuniversity of texas at dallas
+p1533
+I6
+stRp1534
+ssVmary czerwinski
+p1535
+(dp1536
+g4
+g5
+((dp1537
+I2071984077
+I10
+stRp1538
+sg8
+g5
+((dp1539
+I1290206253
+I10
+stRp1540
+sg11
+g5
+((dp1541
+Vmicrosoft
+p1542
+I10
+stRp1543
+ssVchris rawlings
+p1544
+(dp1545
+g4
+g5
+((dtRp1546
+sg8
+g5
+((dtRp1547
+sg11
+g5
+((dtRp1548
+ssVqing liu
+p1549
+(dp1550
+g4
+g5
+((dp1551
+I2235616418
+I1
+sI2148582422
+I2
+sI2576560246
+I1
+sI2305741575
+I1
+sI2496047640
+I1
+sI2429045852
+I3
+sI2311138796
+I1
+stRp1552
+sg8
+g5
+((dp1553
+I1330063522
+I1
+sI1294671590
+I1
+sI31746571
+I1
+sI157773358
+I1
+sI66946132
+I1
+sNI2
+sI146824383
+I1
+sI1292875679
+I2
+stRp1554
+sg11
+g5
+((dp1555
+Vuniversity of new south wales
+p1556
+I1
+sVhallym university
+p1557
+I1
+sVjohnson johnson
+p1558
+I1
+sVuniversity of maryland college park
+p1559
+I1
+sNI2
+sVcentre national de la recherche scientifique
+p1560
+I1
+sVcommonwealth scientific and industrial research organisation
+p1561
+I2
+sVsun yat sen university
+p1562
+I1
+stRp1563
+ssVozan ersoy
+p1564
+(dp1565
+g4
+g5
+((dp1566
+I2153232670
+I10
+stRp1567
+sg8
+g5
+((dp1568
+I169381384
+I9
+sI121934539
+I1
+stRp1569
+sg11
+g5
+((dp1570
+Vuniversity of groningen
+p1571
+I9
+sVinstitute of mathematics
+p1572
+I1
+stRp1573
+ssVpatrick knab
+p1574
+(dp1575
+g4
+g5
+((dp1576
+I2027472880
+I6
+stRp1577
+sg8
+g5
+((dp1578
+I202697423
+I6
+stRp1579
+sg11
+g5
+((dp1580
+Vuniversity of zurich
+p1581
+I6
+stRp1582
+ssVemek demir
+p1583
+(dp1584
+g4
+g5
+((dp1585
+I2156017416
+I10
+stRp1586
+sg8
+g5
+((dp1587
+I1334819555
+I10
+stRp1588
+sg11
+g5
+((dp1589
+Vmemorial sloan kettering cancer center
+p1590
+I10
+stRp1591
+ssVfaraz zaidi
+p1592
+(dp1593
+g4
+g5
+((dp1594
+I1972729971
+I10
+stRp1595
+sg8
+g5
+((dp1596
+I15057530
+I1
+sI1326498283
+I1
+sI103583917
+I4
+sI1294671590
+I4
+stRp1597
+sg11
+g5
+((dp1598
+Vkarachi institute of economics and technology
+p1599
+I4
+sVcentre national de la recherche scientifique
+p1600
+I4
+sVuniversity of bordeaux
+p1601
+I1
+sVfrench institute for research in computer science and automation
+p1602
+I1
+stRp1603
+ssVkang zhang
+p1604
+(dp1605
+g4
+g5
+((dp1606
+I2116548023
+I10
+stRp1607
+sg8
+g5
+((dp1608
+I223532165
+I2
+sI162577319
+I1
+sI1329882472
+I1
+sI56523146
+I1
+sI19820366
+I1
+sI36258959
+I4
+stRp1609
+sg11
+g5
+((dp1610
+Vchinese academy of sciences
+p1611
+I1
+sVvisual sciences
+p1612
+I1
+sVuniversity of utah
+p1613
+I2
+sVmoran eye center
+p1614
+I1
+sVuniversity of texas at dallas
+p1615
+I1
+sVuniversity of california san diego
+p1616
+I4
+stRp1617
+ssVjacek ratzinger
+p1618
+(dp1619
+g4
+g5
+((dp1620
+I2075500571
+I7
+sI2310036004
+I1
+stRp1621
+sg8
+g5
+((dp1622
+I145847075
+I7
+sI129774422
+I1
+stRp1623
+sg11
+g5
+((dp1624
+Vuniversity of vienna
+p1625
+I1
+sVvienna university of technology
+p1626
+I7
+stRp1627
+ssVjames abello
+p1628
+(dp1629
+g4
+g5
+((dp1630
+I2143609536
+I10
+stRp1631
+sg8
+g5
+((dp1632
+I1334257032
+I4
+sI102322142
+I6
+stRp1633
+sg11
+g5
+((dp1634
+Vat t labs
+p1635
+I4
+sVrutgers university
+p1636
+I6
+stRp1637
+ssVgonzalo ramos
+p1638
+(dp1639
+g4
+g5
+((dp1640
+I2137512077
+I10
+stRp1641
+sg8
+g5
+((dp1642
+I1290206253
+I5
+sI185261750
+I5
+stRp1643
+sg11
+g5
+((dp1644
+Vuniversity of toronto
+p1645
+I5
+sVmicrosoft
+p1646
+I5
+stRp1647
+ssVstef elzen
+p1648
+(dp1649
+g4
+g5
+((dtRp1650
+sg8
+g5
+((dtRp1651
+sg11
+g5
+((dtRp1652
+ssVjan küntzer
+p1653
+(dp1654
+g4
+g5
+((dtRp1655
+sg8
+g5
+((dtRp1656
+sg11
+g5
+((dtRp1657
+ssVjohn stasko
+p1658
+(dp1659
+g4
+g5
+((dtRp1660
+sg8
+g5
+((dtRp1661
+sg11
+g5
+((dtRp1662
+ssVandrei kramer
+p1663
+(dp1664
+g4
+g5
+((dp1665
+I2150987928
+I8
+sI2415896523
+I1
+stRp1666
+sg8
+g5
+((dp1667
+NI1
+sI100066346
+I8
+stRp1668
+sg11
+g5
+((dp1669
+NI1
+sVuniversity of stuttgart
+p1670
+I8
+stRp1671
+ssVjiro tanaka
+p1672
+(dp1673
+g4
+g5
+((dp1674
+I2117557937
+I1
+sI2505980963
+I1
+sI2216957534
+I7
+sI2137650214
+I1
+stRp1675
+sg8
+g5
+((dp1676
+I36426075
+I1
+sI163770644
+I1
+sI41802502
+I1
+sI146399215
+I7
+stRp1677
+sg11
+g5
+((dp1678
+Vuniversity of tsukuba
+p1679
+I7
+sVinstitute of medical science
+p1680
+I1
+sVkanagawa university
+p1681
+I1
+sVokayama university
+p1682
+I1
+stRp1683
+ssVweihong qian
+p1684
+(dp1685
+g4
+g5
+((dp1686
+I2153883332
+I6
+sI2106538477
+I4
+stRp1687
+sg8
+g5
+((dp1688
+I20231570
+I6
+sI1341412227
+I4
+stRp1689
+sg11
+g5
+((dp1690
+Vibm
+p1691
+I4
+sVpeking university
+p1692
+I6
+stRp1693
+ssVjun zhu
+p1694
+(dp1695
+g4
+g5
+((dp1696
+I2140934447
+I10
+stRp1697
+sg8
+g5
+((dp1698
+I1302978242
+I1
+sI1285764155
+I1
+sI135310074
+I8
+stRp1699
+sg11
+g5
+((dp1700
+Vuniversity of wisconsin madison
+p1701
+I8
+sVmerck co
+p1702
+I1
+sVacademy of medical sciences united kingdom
+p1703
+I1
+stRp1704
+ssVxuemin lin
+p1705
+(dp1706
+g4
+g5
+((dp1707
+I2125481875
+I10
+stRp1708
+sg8
+g5
+((dp1709
+I31746571
+I10
+stRp1710
+sg11
+g5
+((dp1711
+Vuniversity of new south wales
+p1712
+I10
+stRp1713
+ssVragaad altarawneh
+p1714
+(dp1715
+g4
+g5
+((dp1716
+I337781377
+I9
+sI2396483085
+I1
+stRp1717
+sg8
+g5
+((dp1718
+I21173400
+I1
+sI153267046
+I9
+stRp1719
+sg11
+g5
+((dp1720
+Vkaiserslautern university of technology
+p1721
+I9
+sVmutah university
+p1722
+I1
+stRp1723
+ssVegor bondarev
+p1724
+(dp1725
+g4
+g5
+((dtRp1726
+sg8
+g5
+((dtRp1727
+sg11
+g5
+((dtRp1728
+ssVjan taubert
+p1729
+(dp1730
+g4
+g5
+((dp1731
+I2510334536
+I1
+sI2104199087
+I9
+stRp1732
+sg8
+g5
+((dp1733
+I1303153112
+I1
+sI909457707
+I8
+sI20121455
+I1
+stRp1734
+sg11
+g5
+((dp1735
+Veuropean bioinformatics institute
+p1736
+I1
+sVthe hertz corporation
+p1737
+I8
+sVbielefeld university
+p1738
+I1
+stRp1739
+ssVwen xu
+p1740
+(dp1741
+g4
+g5
+((dp1742
+I2135946089
+I2
+sI2248898421
+I1
+sI2158844221
+I1
+sI2116176438
+I1
+sI2104845769
+I5
+stRp1743
+sg8
+g5
+((dp1744
+I1325886976
+I4
+sI126744593
+I2
+sI20089843
+I1
+sI157773358
+I1
+sI91045830
+I1
+sI137594350
+I1
+stRp1745
+sg11
+g5
+((dp1746
+Vsiemens
+p1747
+I4
+sVuniversity of maryland baltimore
+p1748
+I2
+sVsun yat sen university
+p1749
+I1
+sVinfineon technologies
+p1750
+I1
+sVprinceton university
+p1751
+I1
+sVtexas a m university
+p1752
+I1
+stRp1753
+ssVrobert giegerich
+p1754
+(dp1755
+g4
+g5
+((dp1756
+I154878420
+I10
+stRp1757
+sg8
+g5
+((dp1758
+I20121455
+I10
+stRp1759
+sg11
+g5
+((dp1760
+Vbielefeld university
+p1761
+I10
+stRp1762
+ssVmichael mcguffin
+p1763
+(dp1764
+g4
+g5
+((dtRp1765
+sg8
+g5
+((dtRp1766
+sg11
+g5
+((dtRp1767
+ssVthomas reinhardt
+p1768
+(dp1769
+g4
+g5
+((dtRp1770
+sg8
+g5
+((dtRp1771
+sg11
+g5
+((dtRp1772
+ssVmaurice termeer
+p1773
+(dp1774
+g4
+g5
+((dp1775
+I2232504356
+I10
+stRp1776
+sg8
+g5
+((dp1777
+I145847075
+I10
+stRp1778
+sg11
+g5
+((dp1779
+Vvienna university of technology
+p1780
+I10
+stRp1781
+ssVsuzanne paley
+p1782
+(dp1783
+g4
+g5
+((dtRp1784
+sg8
+g5
+((dtRp1785
+sg11
+g5
+((dtRp1786
+ssVjean-daniel fekete
+p1787
+(dp1788
+g4
+g5
+((dtRp1789
+sg8
+g5
+((dtRp1790
+sg11
+g5
+((dtRp1791
+ssVa. pretorius
+p1792
+(dp1793
+g4
+g5
+((dtRp1794
+sg8
+g5
+((dtRp1795
+sg11
+g5
+((dtRp1796
+ssVantoine lambert
+p1797
+(dp1798
+g4
+g5
+((dp1799
+I2139011268
+I9
+sI2507448437
+I1
+stRp1800
+sg8
+g5
+((dp1801
+I872287936
+I6
+sI51158804
+I1
+sI1294671590
+I3
+stRp1802
+sg11
+g5
+((dp1803
+Vl abri
+p1804
+I6
+sVcentre national de la recherche scientifique
+p1805
+I3
+sVmassey university
+p1806
+I1
+stRp1807
+ssVniklas elmqvist
+p1808
+(dp1809
+g4
+g5
+((dp1810
+I2193023912
+I10
+stRp1811
+sg8
+g5
+((dp1812
+I1326498283
+I3
+sI66946132
+I1
+sI219193219
+I6
+stRp1813
+sg11
+g5
+((dp1814
+Vfrench institute for research in computer science and automation
+p1815
+I3
+sVpurdue university
+p1816
+I6
+sVuniversity of maryland college park
+p1817
+I1
+stRp1818
+ssVgiuseppe liotta
+p1819
+(dp1820
+g4
+g5
+((dp1821
+I2106343442
+I7
+sI2005506613
+I3
+stRp1822
+sg8
+g5
+((dp1823
+I27804330
+I1
+sI27483092
+I6
+sI116067653
+I3
+stRp1824
+sg11
+g5
+((dp1825
+Vuniversity of perugia
+p1826
+I6
+sVbrown university
+p1827
+I1
+sVuniversity of rome tor vergata
+p1828
+I3
+stRp1829
+ssVbenjamin bach
+p1830
+(dp1831
+g4
+g5
+((dp1832
+I2100961798
+I10
+stRp1833
+sg8
+g5
+((dp1834
+I1326498283
+I6
+sI1290206253
+I4
+stRp1835
+sg11
+g5
+((dp1836
+Vmicrosoft
+p1837
+I4
+sVfrench institute for research in computer science and automation
+p1838
+I6
+stRp1839
+ssVmark roseman
+p1840
+(dp1841
+g4
+g5
+((dp1842
+I2050753819
+I10
+stRp1843
+sg8
+g5
+((dp1844
+I168635309
+I10
+stRp1845
+sg11
+g5
+((dp1846
+Vuniversity of calgary
+p1847
+I10
+stRp1848
+ssVyves chiricota
+p1849
+(dp1850
+g4
+g5
+((dp1851
+I259335324
+I10
+stRp1852
+sg8
+g5
+((dp1853
+I49663120
+I2
+sI104914703
+I8
+stRp1854
+sg11
+g5
+((dp1855
+Vuniversite du quebec a chicoutimi
+p1856
+I8
+sVuniversite du quebec
+p1857
+I2
+stRp1858
+ssVmathias john
+p1859
+(dp1860
+g4
+g5
+((dp1861
+I2127037666
+I2
+sI2158295813
+I5
+sI2468860767
+I3
+stRp1862
+sg8
+g5
+((dp1863
+I75951250
+I3
+sI4665924
+I4
+sI1294671590
+I1
+sI118019719
+I2
+stRp1864
+sg11
+g5
+((dp1865
+Vuniversity of rostock
+p1866
+I4
+sVfree university of berlin
+p1867
+I3
+sVcentre national de la recherche scientifique
+p1868
+I1
+sVhoffmann la roche
+p1869
+I2
+stRp1870
+ssVjie wu
+p1871
+(dp1872
+g4
+g5
+((dp1873
+I2103022394
+I10
+stRp1874
+sg8
+g5
+((dp1875
+I63772739
+I7
+sI84392919
+I3
+stRp1876
+sg11
+g5
+((dp1877
+Vflorida atlantic university
+p1878
+I7
+sVtemple university
+p1879
+I3
+stRp1880
+ssValeks aris
+p1881
+(dp1882
+g4
+g5
+((dp1883
+I2112023433
+I10
+stRp1884
+sg8
+g5
+((dp1885
+I66946132
+I9
+sI1290206253
+I1
+stRp1886
+sg11
+g5
+((dp1887
+Vmicrosoft
+p1888
+I1
+sVuniversity of maryland college park
+p1889
+I9
+stRp1890
+ssVrussell grocock
+p1891
+(dp1892
+g4
+g5
+((dtRp1893
+sg8
+g5
+((dtRp1894
+sg11
+g5
+((dtRp1895
+ssVrodrigo santamaría
+p1896
+(dp1897
+g4
+g5
+((dtRp1898
+sg8
+g5
+((dtRp1899
+sg11
+g5
+((dtRp1900
+ssVpeteris rucevskis
+p1901
+(dp1902
+g4
+g5
+((dp1903
+I2483833688
+I1
+sI2587271128
+I1
+sI1762801814
+I5
+stRp1904
+sg8
+g5
+((dp1905
+I1303153112
+I1
+sNI1
+sI121934539
+I4
+sI91123046
+I1
+stRp1906
+sg11
+g5
+((dp1907
+Veuropean bioinformatics institute
+p1908
+I1
+sNI1
+sVuniversity of latvia
+p1909
+I1
+sVinstitute of mathematics
+p1910
+I4
+stRp1911
+ssVnathalie henry riche
+p1912
+(dp1913
+g4
+g5
+((dp1914
+I1879266857
+I10
+stRp1915
+sg8
+g5
+((dp1916
+I1290206253
+I10
+stRp1917
+sg11
+g5
+((dp1918
+Vmicrosoft
+p1919
+I10
+stRp1920
+ssVcristina-iulia bucur
+p1921
+(dp1922
+g4
+g5
+((dtRp1923
+sg8
+g5
+((dtRp1924
+sg11
+g5
+((dtRp1925
+ssVpeter liggesmeyer
+p1926
+(dp1927
+g4
+g5
+((dp1928
+I2303977313
+I1
+sI104458551
+I8
+sI2182175857
+I1
+stRp1929
+sg8
+g5
+((dp1930
+I1325886976
+I1
+sI176453806
+I1
+sI153267046
+I8
+stRp1931
+sg11
+g5
+((dp1932
+Vkaiserslautern university of technology
+p1933
+I8
+sVuniversity of potsdam
+p1934
+I1
+sVsiemens
+p1935
+I1
+stRp1936
+ssVtarik crnovrsanin
+p1937
+(dp1938
+g4
+g5
+((dp1939
+I255746245
+I10
+stRp1940
+sg8
+g5
+((dp1941
+I84218800
+I10
+stRp1942
+sg11
+g5
+((dp1943
+Vuniversity of california davis
+p1944
+I10
+stRp1945
+ssVtakuji yamada
+p1946
+(dp1947
+g4
+g5
+((dp1948
+I2311767065
+I10
+stRp1949
+sg8
+g5
+((dp1950
+I1303153112
+I3
+sI114531698
+I6
+sI22299242
+I1
+stRp1951
+sg11
+g5
+((dp1952
+Veuropean bioinformatics institute
+p1953
+I3
+sVkyoto university
+p1954
+I1
+sVtokyo institute of technology
+p1955
+I6
+stRp1956
+ssVjoris sansen
+p1957
+(dp1958
+g4
+g5
+((dp1959
+I2225283623
+I3
+stRp1960
+sg8
+g5
+((dp1961
+I872287936
+I3
+stRp1962
+sg11
+g5
+((dp1963
+Vl abri
+p1964
+I3
+stRp1965
+ssVgerik scheuermann
+p1966
+(dp1967
+g4
+g5
+((dp1968
+I2044057687
+I10
+stRp1969
+sg8
+g5
+((dp1970
+I926574661
+I6
+sI153267046
+I4
+stRp1971
+sg11
+g5
+((dp1972
+Vkaiserslautern university of technology
+p1973
+I4
+sVleipzig university
+p1974
+I6
+stRp1975
+ssVmichael forster
+p1976
+(dp1977
+g4
+g5
+((dtRp1978
+sg8
+g5
+((dtRp1979
+sg11
+g5
+((dtRp1980
+ssVdanny holten
+p1981
+(dp1982
+g4
+g5
+((dp1983
+I2026092038
+I10
+stRp1984
+sg8
+g5
+((dp1985
+I83019370
+I10
+stRp1986
+sg11
+g5
+((dp1987
+Veindhoven university of technology
+p1988
+I10
+stRp1989
+ssVmartine smit
+p1990
+(dp1991
+g4
+g5
+((dtRp1992
+sg8
+g5
+((dtRp1993
+sg11
+g5
+((dtRp1994
+ssVn. dang
+p1995
+(dp1996
+g4
+g5
+((dtRp1997
+sg8
+g5
+((dtRp1998
+sg11
+g5
+((dtRp1999
+ssVguy melançon
+p2000
+(dp2001
+g4
+g5
+((dtRp2002
+sg8
+g5
+((dtRp2003
+sg11
+g5
+((dtRp2004
+ssVyueping li
+p2005
+(dp2006
+g4
+g5
+((dp2007
+I2494555224
+I1
+sI2164325553
+I1
+sI2105904720
+I6
+sI2305493575
+I2
+stRp2008
+sg8
+g5
+((dp2009
+I129708740
+I1
+sI182722699
+I6
+sI5740404
+I1
+sI157773358
+I2
+stRp2010
+sg11
+g5
+((dp2011
+Vfujian medical university
+p2012
+I1
+sVshenzhen polytechnic
+p2013
+I6
+sVtianjin medical university
+p2014
+I1
+sVsun yat sen university
+p2015
+I2
+stRp2016
+ssValexander krause
+p2017
+(dp2018
+g4
+g5
+((dtRp2019
+sg8
+g5
+((dtRp2020
+sg11
+g5
+((dtRp2021
+ssVgabriel cantareiro
+p2022
+(dp2023
+g4
+g5
+((dp2024
+I2566864494
+I1
+stRp2025
+sg8
+g5
+((dp2026
+I17974374
+I1
+stRp2027
+sg11
+g5
+((dp2028
+Vuniversity of sao paulo
+p2029
+I1
+stRp2030
+ssVlawrence hunter
+p2031
+(dp2032
+g4
+g5
+((dp2033
+I2124543161
+I9
+sI2568927477
+I1
+stRp2034
+sg8
+g5
+((dp2035
+I43360264
+I5
+sI1299303238
+I2
+sI921990950
+I1
+sI74801974
+I1
+sI51713134
+I1
+stRp2036
+sg11
+g5
+((dp2037
+Vanschutz medical campus
+p2038
+I1
+sVnational institutes of health
+p2039
+I2
+sVuniversity of colorado denver school of medicine
+p2040
+I5
+sVuniversity of tokyo
+p2041
+I1
+sVuniversity of colorado denver
+p2042
+I1
+stRp2043
+ssVandreas jansson
+p2044
+(dp2045
+g4
+g5
+((dtRp2046
+sg8
+g5
+((dtRp2047
+sg11
+g5
+((dtRp2048
+ssVyifan hu
+p2049
+(dp2050
+g4
+g5
+((dp2051
+I2104774040
+I1
+sI2161555278
+I1
+sI2145280021
+I7
+sI2581710342
+I1
+stRp2052
+sg8
+g5
+((dp2053
+I1334257032
+I6
+sI181326427
+I1
+sI21945476
+I1
+sI1327163397
+I1
+sI65760639
+I1
+stRp2054
+sg11
+g5
+((dp2055
+Vat t labs
+p2056
+I6
+sVstate university of new york system
+p2057
+I1
+sVdonghua university
+p2058
+I1
+sVshanghai normal university
+p2059
+I1
+sVwolfram research
+p2060
+I1
+stRp2061
+ssVli si-kun
+p2062
+(dp2063
+g4
+g5
+((dtRp2064
+sg8
+g5
+((dtRp2065
+sg11
+g5
+((dtRp2066
+ssVfabian beck
+p2067
+(dp2068
+g4
+g5
+((dp2069
+I2162039953
+I10
+stRp2070
+sg8
+g5
+((dp2071
+I100066346
+I3
+sI89864525
+I7
+stRp2072
+sg11
+g5
+((dp2073
+Vuniversity of trier
+p2074
+I7
+sVuniversity of stuttgart
+p2075
+I3
+stRp2076
+ssVjeffrey heer
+p2077
+(dp2078
+g4
+g5
+((dp2079
+I2112690490
+I10
+stRp2080
+sg8
+g5
+((dp2081
+I97018004
+I6
+sI201448701
+I1
+sI95457486
+I2
+sI55176711
+I1
+stRp2082
+sg11
+g5
+((dp2083
+Vuniversity of california berkeley
+p2084
+I2
+sVstanford university
+p2085
+I6
+sVuniversity of washington
+p2086
+I1
+sVuniversity of california
+p2087
+I1
+stRp2088
+ssVben shneiderman
+p2089
+(dp2090
+g4
+g5
+((dp2091
+I668764113
+I10
+stRp2092
+sg8
+g5
+((dp2093
+I66946132
+I10
+stRp2094
+sg11
+g5
+((dp2095
+Vuniversity of maryland college park
+p2096
+I10
+stRp2097
+ssVadel ahmed
+p2098
+(dp2099
+g4
+g5
+((dtRp2100
+sg8
+g5
+((dtRp2101
+sg11
+g5
+((dtRp2102
+ssVjie gao
+p2103
+(dp2104
+g4
+g5
+((dp2105
+I2285078649
+I1
+sI1982009142
+I8
+sI2309304198
+I1
+stRp2106
+sg8
+g5
+((dp2107
+I87445476
+I1
+sI59553526
+I3
+sI33213144
+I1
+sI97018004
+I1
+sI78577930
+I1
+sI19820366
+I2
+sI205783295
+I1
+stRp2108
+sg11
+g5
+((dp2109
+Vchinese academy of sciences
+p2110
+I2
+sVstony brook university
+p2111
+I3
+sVxi an jiaotong university
+p2112
+I1
+sVuniversity of florida
+p2113
+I1
+sVstanford university
+p2114
+I1
+sVcornell university
+p2115
+I1
+sVcolumbia university
+p2116
+I1
+stRp2117
+ssVadam smith
+p2118
+(dp2119
+g4
+g5
+((dtRp2120
+sg8
+g5
+((dtRp2121
+sg11
+g5
+((dtRp2122
+ssVugur dogrusoz
+p2123
+(dp2124
+g4
+g5
+((dp2125
+I54681137
+I10
+stRp2126
+sg8
+g5
+((dp2127
+I168864056
+I10
+stRp2128
+sg11
+g5
+((dp2129
+Vbilkent university
+p2130
+I10
+stRp2131
+ssVjoshua ho
+p2132
+(dp2133
+g4
+g5
+((dtRp2134
+sg8
+g5
+((dtRp2135
+sg11
+g5
+((dtRp2136
+ssVwalter didimo
+p2137
+(dp2138
+g4
+g5
+((dp2139
+I2168469989
+I10
+stRp2140
+sg8
+g5
+((dp2141
+I27483092
+I10
+stRp2142
+sg11
+g5
+((dp2143
+Vuniversity of perugia
+p2144
+I10
+stRp2145
+ssVcarsten görg
+p2146
+(dp2147
+g4
+g5
+((dtRp2148
+sg8
+g5
+((dtRp2149
+sg11
+g5
+((dtRp2150
+ssVmarc streit
+p2151
+(dp2152
+g4
+g5
+((dp2153
+I2138221895
+I10
+stRp2154
+sg8
+g5
+((dp2155
+I136199984
+I1
+sI121883995
+I5
+sI4092182
+I4
+stRp2156
+sg11
+g5
+((dp2157
+Vgraz university of technology
+p2158
+I4
+sVjohannes kepler university of linz
+p2159
+I5
+sVharvard university
+p2160
+I1
+stRp2161
+ssVdavid auber
+p2162
+(dp2163
+g4
+g5
+((dp2164
+I2098528998
+I10
+stRp2165
+sg8
+g5
+((dp2166
+I872287936
+I9
+sI1294671590
+I1
+stRp2167
+sg11
+g5
+((dp2168
+Vl abri
+p2169
+I9
+sVcentre national de la recherche scientifique
+p2170
+I1
+stRp2171
+ssVmichael fischer
+p2172
+(dp2173
+g4
+g5
+((dp2174
+I2428877507
+I1
+sI2147681545
+I1
+sI2488983179
+I2
+sI2553078542
+I1
+sI2055171377
+I1
+sI2310465907
+I1
+sI2291045017
+I1
+sI2552822555
+I1
+sI2498239293
+I1
+stRp2175
+sg8
+g5
+((dp2176
+I889804353
+I1
+sI141945490
+I1
+sI60668342
+I1
+sI71730758
+I1
+sNI4
+sI100066346
+I1
+sI149919469
+I1
+stRp2177
+sg11
+g5
+((dp2178
+Vuniversity of british columbia
+p2179
+I1
+sVuniversity of stuttgart
+p2180
+I1
+sVuniversity of regensburg
+p2181
+I1
+sNI4
+sVuniversity of louisiana at monroe
+p2182
+I1
+sVcalifornia polytechnic state university
+p2183
+I1
+sVbosch
+p2184
+I1
+stRp2185
+ssVshiri freilich
+p2186
+(dp2187
+g4
+g5
+((dp2188
+I2066938269
+I8
+sI2308263927
+I2
+stRp2189
+sg8
+g5
+((dp2190
+I1303153112
+I1
+sI16391192
+I7
+sI376102
+I2
+stRp2191
+sg11
+g5
+((dp2192
+Veuropean bioinformatics institute
+p2193
+I1
+sVtel aviv university
+p2194
+I7
+sVagricultural research organization volcani center
+p2195
+I2
+stRp2196
+ssVzhengping zuo
+p2197
+(dp2198
+g4
+g5
+((dtRp2199
+sg8
+g5
+((dtRp2200
+sg11
+g5
+((dtRp2201
+ssVmichael kaufmann
+p2202
+(dp2203
+g4
+g5
+((dp2204
+I2176702104
+I9
+sI2534652824
+I1
+stRp2205
+sg8
+g5
+((dp2206
+I155976169
+I1
+sI8087733
+I8
+sI91712215
+I1
+stRp2207
+sg11
+g5
+((dp2208
+Vwitten herdecke university
+p2209
+I1
+sVuniversity of tubingen
+p2210
+I8
+sVsaarland university
+p2211
+I1
+stRp2212
+ssVnan cao
+p2213
+(dp2214
+g4
+g5
+((dp2215
+I2524007322
+I1
+sI2310362532
+I1
+sI2306420466
+I1
+sI2101761023
+I7
+stRp2216
+sg8
+g5
+((dp2217
+NI2
+sI1341412227
+I3
+sI200769079
+I3
+sI19820366
+I1
+sI63966007
+I1
+stRp2218
+sg11
+g5
+((dp2219
+Vchinese academy of sciences
+p2220
+I1
+sNI2
+sVhong kong university of science and technology
+p2221
+I3
+sVibm
+p2222
+I3
+sVmassachusetts institute of technology
+p2223
+I1
+stRp2224
+ssVmarcel hlawatsch
+p2225
+(dp2226
+g4
+g5
+((dp2227
+I192478602
+I10
+stRp2228
+sg8
+g5
+((dp2229
+I100066346
+I10
+stRp2230
+sg11
+g5
+((dp2231
+Vuniversity of stuttgart
+p2232
+I10
+stRp2233
+ssVemden gansner
+p2234
+(dp2235
+g4
+g5
+((dtRp2236
+sg8
+g5
+((dtRp2237
+sg11
+g5
+((dtRp2238
+ssVivica letunic
+p2239
+(dp2240
+g4
+g5
+((dp2241
+I46769561
+I10
+stRp2242
+sg8
+g5
+((dp2243
+I1303153112
+I9
+sI1336263701
+I1
+stRp2244
+sg11
+g5
+((dp2245
+Veuropean bioinformatics institute
+p2246
+I9
+sVwellcome trust centre for human genetics
+p2247
+I1
+stRp2248
+ssVhansjörg schmauder
+p2249
+(dp2250
+g4
+g5
+((dtRp2251
+sg8
+g5
+((dtRp2252
+sg11
+g5
+((dtRp2253
+ssVvincent lacroix
+p2254
+(dp2255
+g4
+g5
+((dp2256
+I2144103282
+I10
+stRp2257
+sg8
+g5
+((dp2258
+I203339264
+I2
+sI1326498283
+I6
+sI1294671590
+I1
+sI170486558
+I1
+stRp2259
+sg11
+g5
+((dp2260
+Vcentre national de la recherche scientifique
+p2261
+I1
+sVfrench institute for research in computer science and automation
+p2262
+I6
+sVpompeu fabra university
+p2263
+I1
+sVuniversity of lyon
+p2264
+I2
+stRp2265
+ssVmichel westenberg
+p2266
+(dp2267
+g4
+g5
+((dtRp2268
+sg8
+g5
+((dtRp2269
+sg11
+g5
+((dtRp2270
+ssVtakayuki itoh
+p2271
+(dp2272
+g4
+g5
+((dp2273
+I2308037968
+I1
+sI2576504418
+I1
+sI2222288691
+I1
+sI2471229198
+I6
+sI2307092479
+I1
+stRp2274
+sg8
+g5
+((dp2275
+I150744194
+I1
+sI1341412227
+I3
+sI74801974
+I1
+sNI1
+sI26120043
+I3
+sI1292669757
+I1
+stRp2276
+sg11
+g5
+((dp2277
+Vibm
+p2278
+I3
+sNI1
+sVwaseda university
+p2279
+I1
+sVochanomizu university
+p2280
+I3
+sVuniversity of tokyo
+p2281
+I1
+sVtoshiba
+p2282
+I1
+stRp2283
+ssVandré reichenbach
+p2284
+(dp2285
+g4
+g5
+((dtRp2286
+sg8
+g5
+((dtRp2287
+sg11
+g5
+((dtRp2288
+ssVhanghang tong
+p2289
+(dp2290
+g4
+g5
+((dp2291
+I2224718883
+I10
+stRp2292
+sg8
+g5
+((dp2293
+I99065089
+I2
+sI74973139
+I5
+sI55732556
+I1
+sI1341412227
+I2
+stRp2294
+sg11
+g5
+((dp2295
+Vtsinghua university
+p2296
+I2
+sVcarnegie mellon university
+p2297
+I5
+sVarizona state university
+p2298
+I1
+sVibm
+p2299
+I2
+stRp2300
+ssVwilhelm hasselbring
+p2301
+(dp2302
+g4
+g5
+((dp2303
+I2055047545
+I10
+stRp2304
+sg8
+g5
+((dp2305
+I129877168
+I2
+sI193700539
+I2
+sI32021983
+I6
+stRp2306
+sg11
+g5
+((dp2307
+Vuniversity of kiel
+p2308
+I6
+sVuniversity of oldenburg
+p2309
+I2
+sVtilburg university
+p2310
+I2
+stRp2311
+ssVluca grilli
+p2312
+(dp2313
+g4
+g5
+((dp2314
+I2116521584
+I2
+sI2141143939
+I8
+stRp2315
+sg8
+g5
+((dp2316
+I59361560
+I8
+sI27483092
+I2
+stRp2317
+sg11
+g5
+((dp2318
+Vinstituto politecnico nacional
+p2319
+I8
+sVuniversity of perugia
+p2320
+I2
+stRp2321
+ssVharald gall
+p2322
+(dp2323
+g4
+g5
+((dtRp2324
+sg8
+g5
+((dtRp2325
+sg11
+g5
+((dtRp2326
+ssVqing-wen feng
+p2327
+(dp2328
+g4
+g5
+((dtRp2329
+sg8
+g5
+((dtRp2330
+sg11
+g5
+((dtRp2331
+ssVjames faeder
+p2332
+(dp2333
+g4
+g5
+((dtRp2334
+sg8
+g5
+((dtRp2335
+sg11
+g5
+((dtRp2336
+ssVrohan williams
+p2337
+(dp2338
+g4
+g5
+((dtRp2339
+sg8
+g5
+((dtRp2340
+sg11
+g5
+((dtRp2341
+ssVulrik brandes
+p2342
+(dp2343
+g4
+g5
+((dp2344
+I1226911827
+I10
+stRp2345
+sg8
+g5
+((dp2346
+I189712700
+I9
+sI186354981
+I1
+stRp2347
+sg11
+g5
+((dp2348
+Vuniversity of passau
+p2349
+I1
+sVuniversity of konstanz
+p2350
+I9
+stRp2351
+ssVpatrick madden
+p2352
+(dp2353
+g4
+g5
+((dtRp2354
+sg8
+g5
+((dtRp2355
+sg11
+g5
+((dtRp2356
+ssVemilio di giacomo
+p2357
+(dp2358
+g4
+g5
+((dp2359
+I2120045270
+I10
+stRp2360
+sg8
+g5
+((dp2361
+I27483092
+I10
+stRp2362
+sg11
+g5
+((dp2363
+Vuniversity of perugia
+p2364
+I10
+stRp2365
+ssVxiting wang
+p2366
+(dp2367
+g4
+g5
+((dp2368
+I2096164459
+I7
+sI2165014100
+I2
+sI2581957198
+I1
+stRp2369
+sg8
+g5
+((dp2370
+I99065089
+I7
+sI116953780
+I2
+sI157507598
+I1
+stRp2371
+sg11
+g5
+((dp2372
+Vtsinghua university
+p2373
+I7
+sVtongji university
+p2374
+I2
+sVshenyang university of technology
+p2375
+I1
+stRp2376
+ssVfabien jourdan
+p2377
+(dp2378
+g4
+g5
+((dp2379
+I2083426550
+I10
+stRp2380
+sg8
+g5
+((dp2381
+I1314251682
+I10
+stRp2382
+sg11
+g5
+((dp2383
+Vinstitut national de la recherche agronomique
+p2384
+I10
+stRp2385
+ssVdieter schmalstieg
+p2386
+(dp2387
+g4
+g5
+((dp2388
+I100176519
+I10
+stRp2389
+sg8
+g5
+((dp2390
+I145847075
+I1
+sI4092182
+I9
+stRp2391
+sg11
+g5
+((dp2392
+Vvienna university of technology
+p2393
+I1
+sVgraz university of technology
+p2394
+I9
+stRp2395
+ssVahmet cetintas
+p2396
+(dp2397
+g4
+g5
+((dp2398
+I2076633397
+I1
+sI223316566
+I6
+stRp2399
+sg8
+g5
+((dp2400
+I168864056
+I6
+sNI1
+stRp2401
+sg11
+g5
+((dp2402
+NI1
+sVbilkent university
+p2403
+I6
+stRp2404
+ssVheorhiy byelas
+p2405
+(dp2406
+g4
+g5
+((dp2407
+I2577949168
+I4
+sI1206645723
+I6
+stRp2408
+sg8
+g5
+((dp2409
+I169381384
+I4
+sI83019370
+I1
+sI1334415907
+I4
+sI121934539
+I1
+stRp2410
+sg11
+g5
+((dp2411
+Vuniversity of groningen
+p2412
+I4
+sVuniversity medical center groningen
+p2413
+I4
+sVinstitute of mathematics
+p2414
+I1
+sVeindhoven university of technology
+p2415
+I1
+stRp2416
+ssVdavid gotz
+p2417
+(dp2418
+g4
+g5
+((dp2419
+I2149494377
+I10
+stRp2420
+sg8
+g5
+((dp2421
+I114027177
+I6
+sI1341412227
+I4
+stRp2422
+sg11
+g5
+((dp2423
+Vuniversity of north carolina at chapel hill
+p2424
+I6
+sVibm
+p2425
+I4
+stRp2426
+ssVkarlis freivalds
+p2427
+(dp2428
+g4
+g5
+((dp2429
+I1513385022
+I6
+stRp2430
+sg8
+g5
+((dp2431
+I121934539
+I1
+sI91123046
+I5
+stRp2432
+sg11
+g5
+((dp2433
+Vuniversity of latvia
+p2434
+I5
+sVinstitute of mathematics
+p2435
+I1
+stRp2436
+ssVumut tekin
+p2437
+(dp2438
+g4
+g5
+((dp2439
+I2122598578
+I9
+sI2116129708
+I1
+stRp2440
+sg8
+g5
+((dp2441
+I45642913
+I9
+sI19920983
+I1
+stRp2442
+sg11
+g5
+((dp2443
+Vkirikkale university
+p2444
+I9
+sVmayo medical school
+p2445
+I1
+stRp2446
+ssVegon wuchner
+p2447
+(dp2448
+g4
+g5
+((dp2449
+I700186401
+I10
+stRp2450
+sg8
+g5
+((dp2451
+I1325886976
+I10
+stRp2452
+sg11
+g5
+((dp2453
+Vsiemens
+p2454
+I10
+stRp2455
+ssVj.b. kennedy
+p2456
+(dp2457
+g4
+g5
+((dtRp2458
+sg8
+g5
+((dtRp2459
+sg11
+g5
+((dtRp2460
+ssVmohammad ghoniem
+p2461
+(dp2462
+g4
+g5
+((dp2463
+I2570644134
+I3
+sI2332318879
+I7
+stRp2464
+sg8
+g5
+((dp2465
+I895027328
+I4
+sI168704049
+I3
+sI102149020
+I3
+stRp2466
+sg11
+g5
+((dp2467
+Vmodern sciences and arts university
+p2468
+I4
+sVecole des mines de nantes
+p2469
+I3
+sVuniversity of north carolina at charlotte
+p2470
+I3
+stRp2471
+ssVjörn kalinowski
+p2472
+(dp2473
+g4
+g5
+((dtRp2474
+sg8
+g5
+((dtRp2475
+sg11
+g5
+((dtRp2476
+ssVaaron barsky
+p2477
+(dp2478
+g4
+g5
+((dp2479
+I1991276153
+I6
+stRp2480
+sg8
+g5
+((dp2481
+I141945490
+I6
+stRp2482
+sg11
+g5
+((dp2483
+Vuniversity of british columbia
+p2484
+I6
+stRp2485
+ssVmichael wybrow
+p2486
+(dp2487
+g4
+g5
+((dp2488
+I1971752061
+I10
+stRp2489
+sg8
+g5
+((dp2490
+I165779595
+I1
+sI56590836
+I4
+sI78570951
+I5
+stRp2491
+sg11
+g5
+((dp2492
+Vmonash university
+p2493
+I4
+sVuniversity of melbourne
+p2494
+I1
+sVmonash university clayton campus
+p2495
+I5
+stRp2496
+ssVarnaud sallaberry
+p2497
+(dp2498
+g4
+g5
+((dp2499
+I2559295754
+I1
+sI198127655
+I9
+stRp2500
+sg8
+g5
+((dp2501
+I84218800
+I2
+sI872287936
+I1
+sI208215962
+I3
+sI1326498283
+I1
+sI1294671590
+I3
+stRp2502
+sg11
+g5
+((dp2503
+Vuniversity of california davis
+p2504
+I2
+sVl abri
+p2505
+I1
+sVcentre national de la recherche scientifique
+p2506
+I3
+sVpaul valery university montpellier iii
+p2507
+I3
+sVfrench institute for research in computer science and automation
+p2508
+I1
+stRp2509
+ssVstefan schlechtweg
+p2510
+(dp2511
+g4
+g5
+((dp2512
+I226930821
+I10
+stRp2513
+sg8
+g5
+((dp2514
+I95793202
+I10
+stRp2515
+sg11
+g5
+((dp2516
+Votto von guericke university magdeburg
+p2517
+I10
+stRp2518
+ssVvineet sinha
+p2519
+(dp2520
+g4
+g5
+((dp2521
+I2157436256
+I9
+sI2149956747
+I1
+stRp2522
+sg8
+g5
+((dp2523
+I1329621470
+I1
+sI63966007
+I9
+stRp2524
+sg11
+g5
+((dp2525
+Vbhabha atomic research centre
+p2526
+I1
+sVmassachusetts institute of technology
+p2527
+I9
+stRp2528
+ssVadrian rusu
+p2529
+(dp2530
+g4
+g5
+((dtRp2531
+sg8
+g5
+((dtRp2532
+sg11
+g5
+((dtRp2533
+ssVji zhang
+p2534
+(dp2535
+g4
+g5
+((dtRp2536
+sg8
+g5
+((dtRp2537
+sg11
+g5
+((dtRp2538
+ssVanthony dekker
+p2539
+(dp2540
+g4
+g5
+((dtRp2541
+sg8
+g5
+((dtRp2542
+sg11
+g5
+((dtRp2543
+ssValexander pico
+p2544
+(dp2545
+g4
+g5
+((dtRp2546
+sg8
+g5
+((dtRp2547
+sg11
+g5
+((dtRp2548
+ssVheidrun schumann
+p2549
+(dp2550
+g4
+g5
+((dp2551
+I2107935922
+I10
+stRp2552
+sg8
+g5
+((dp2553
+I4665924
+I10
+stRp2554
+sg11
+g5
+((dp2555
+Vuniversity of rostock
+p2556
+I10
+stRp2557
+ssVdanah boyd
+p2558
+(dp2559
+g4
+g5
+((dp2560
+I2149064801
+I10
+stRp2561
+sg8
+g5
+((dp2562
+I1325784139
+I1
+sI1290206253
+I7
+sI95457486
+I2
+stRp2563
+sg11
+g5
+((dp2564
+Vuniversity of california berkeley
+p2565
+I2
+sVmicrosoft
+p2566
+I7
+sVyahoo
+p2567
+I1
+stRp2568
+ssVfan du
+p2569
+(dp2570
+g4
+g5
+((dtRp2571
+sg8
+g5
+((dtRp2572
+sg11
+g5
+((dtRp2573
+ssVjoe mellor
+p2574
+(dp2575
+g4
+g5
+((dtRp2576
+sg8
+g5
+((dtRp2577
+sg11
+g5
+((dtRp2578
+ssVpatrick mary
+p2579
+(dp2580
+g4
+g5
+((dtRp2581
+sg8
+g5
+((dtRp2582
+sg11
+g5
+((dtRp2583
+ssVerhan giral
+p2584
+(dp2585
+g4
+g5
+((dp2586
+I2413301633
+I2
+sI380618745
+I4
+sI2591358835
+I1
+sI2518920367
+I1
+stRp2587
+sg8
+g5
+((dp2588
+I168864056
+I3
+sNI4
+sI124519637
+I1
+stRp2589
+sg11
+g5
+((dp2590
+NI4
+sVbilkent university
+p2591
+I3
+sVtom sawyer software
+p2592
+I1
+stRp2593
+ssVemmanuel pietriga
+p2594
+(dp2595
+g4
+g5
+((dp2596
+I36478446
+I10
+stRp2597
+sg8
+g5
+((dp2598
+I1326498283
+I8
+sI33976269
+I1
+sI1294671590
+I1
+stRp2599
+sg11
+g5
+((dp2600
+Vcentre national de la recherche scientifique
+p2601
+I1
+sVxerox
+p2602
+I1
+sVfrench institute for research in computer science and automation
+p2603
+I8
+stRp2604
+ssVjan hasenauer
+p2605
+(dp2606
+g4
+g5
+((dp2607
+I1898366314
+I10
+stRp2608
+sg8
+g5
+((dp2609
+I100066346
+I10
+stRp2610
+sg11
+g5
+((dp2611
+Vuniversity of stuttgart
+p2612
+I10
+stRp2613
+ssVyehuda koren
+p2614
+(dp2615
+g4
+g5
+((dp2616
+I1966367906
+I10
+stRp2617
+sg8
+g5
+((dp2618
+I1334257032
+I2
+sI1325784139
+I6
+sI1283103587
+I2
+stRp2619
+sg11
+g5
+((dp2620
+Vat t labs
+p2621
+I2
+sVyahoo
+p2622
+I6
+sVat t
+p2623
+I2
+stRp2624
+ssVlei shi
+p2625
+(dp2626
+g4
+g5
+((dp2627
+I2217740912
+I6
+sI2530790432
+I1
+sI2271555196
+I1
+sI2111997045
+I1
+sI2559000137
+I1
+stRp2628
+sg8
+g5
+((dp2629
+I99065089
+I2
+sI1302978242
+I1
+sI1341412227
+I1
+sI85207335
+I1
+sI204983213
+I1
+sI165932596
+I1
+sI142401562
+I1
+sI172675005
+I1
+sI205783295
+I1
+stRp2630
+sg11
+g5
+((dp2631
+Vtsinghua university
+p2632
+I2
+sVibm
+p2633
+I1
+sVcornell university
+p2634
+I1
+sVelectronics and telecommunications research institute
+p2635
+I1
+sVnanyang technological university
+p2636
+I1
+sVnational university of singapore
+p2637
+I1
+sVacademy of medical sciences united kingdom
+p2638
+I1
+sVpeking university health science center
+p2639
+I1
+sVharbin institute of technology
+p2640
+I1
+stRp2641
+ssVjarke wijk
+p2642
+(dp2643
+g4
+g5
+((dtRp2644
+sg8
+g5
+((dtRp2645
+sg11
+g5
+((dtRp2646
+ssVmichael wattenberg
+p2647
+(dp2648
+g4
+g5
+((dp2649
+I2604500435
+I1
+sI2596185182
+I1
+stRp2650
+sg8
+g5
+((dp2651
+NI2
+stRp2652
+sg11
+g5
+((dp2653
+NI2
+stRp2654
+ssVdorothea wagner
+p2655
+(dp2656
+g4
+g5
+((dp2657
+I2140363637
+I10
+stRp2658
+sg8
+g5
+((dp2659
+I102335020
+I10
+stRp2660
+sg11
+g5
+((dp2661
+Vkarlsruhe institute of technology
+p2662
+I10
+stRp2663
+ssVjun sese
+p2664
+(dp2665
+g4
+g5
+((dp2666
+I2155062495
+I10
+stRp2667
+sg8
+g5
+((dp2668
+I114531698
+I2
+sI26120043
+I3
+sI74801974
+I5
+stRp2669
+sg11
+g5
+((dp2670
+Vochanomizu university
+p2671
+I3
+sVtokyo institute of technology
+p2672
+I2
+sVuniversity of tokyo
+p2673
+I5
+stRp2674
+ssVsalvatore romeo
+p2675
+(dp2676
+g4
+g5
+((dp2677
+I2210767722
+I9
+sI2600399551
+I1
+stRp2678
+sg8
+g5
+((dp2679
+I121797337
+I9
+sI45204951
+I1
+stRp2680
+sg11
+g5
+((dp2681
+Vleiden university
+p2682
+I9
+sVuniversity of calabria
+p2683
+I1
+stRp2684
+ssVhoward goodell
+p2685
+(dp2686
+g4
+g5
+((dp2687
+I2031254715
+I5
+sI2310425207
+I5
+stRp2688
+sg8
+g5
+((dp2689
+I24603500
+I4
+sI1326498283
+I5
+sI133738476
+I1
+stRp2690
+sg11
+g5
+((dp2691
+Vuniversity of massachusetts lowell
+p2692
+I1
+sVuniversity of massachusetts amherst
+p2693
+I4
+sVfrench institute for research in computer science and automation
+p2694
+I5
+stRp2695
+ssVmathew staples
+p2696
+(dp2697
+g4
+g5
+((dtRp2698
+sg8
+g5
+((dtRp2699
+sg11
+g5
+((dtRp2700
+ssVnitesh chawla
+p2701
+(dp2702
+g4
+g5
+((dtRp2703
+sg8
+g5
+((dtRp2704
+sg11
+g5
+((dtRp2705
+ssVaaron quigley
+p2706
+(dp2707
+g4
+g5
+((dtRp2708
+sg8
+g5
+((dtRp2709
+sg11
+g5
+((dtRp2710
+ssVmarkus höferlin
+p2711
+(dp2712
+g4
+g5
+((dtRp2713
+sg8
+g5
+((dtRp2714
+sg11
+g5
+((dtRp2715
+ssVdong xu
+p2716
+(dp2717
+g4
+g5
+((dp2718
+I2094446072
+I7
+sI2583886488
+I1
+sI2552632756
+I1
+sI2340363748
+I1
+stRp2719
+sg8
+g5
+((dp2720
+I129604602
+I3
+sI157075465
+I1
+sI78577930
+I1
+sI181653535
+I1
+sI1290206253
+I1
+sI76835614
+I1
+sI172675005
+I2
+stRp2721
+sg11
+g5
+((dp2722
+Vuniversity of missouri
+p2723
+I1
+sVsan diego supercomputer center
+p2724
+I1
+sVnanyang technological university
+p2725
+I2
+sVbristol myers squibb
+p2726
+I1
+sVuniversity of sydney
+p2727
+I3
+sVmicrosoft
+p2728
+I1
+sVcolumbia university
+p2729
+I1
+stRp2730
+ssValexandru telea
+p2731
+(dp2732
+g4
+g5
+((dp2733
+I2080617136
+I10
+stRp2734
+sg8
+g5
+((dp2735
+I169381384
+I3
+sI83019370
+I7
+stRp2736
+sg11
+g5
+((dp2737
+Vuniversity of groningen
+p2738
+I3
+sVeindhoven university of technology
+p2739
+I7
+stRp2740
+ssVdoug schaffer
+p2741
+(dp2742
+g4
+g5
+((dp2743
+I2161366586
+I5
+stRp2744
+sg8
+g5
+((dp2745
+I168635309
+I5
+stRp2746
+sg11
+g5
+((dp2747
+Vuniversity of calgary
+p2748
+I5
+stRp2749
+ssVkonstantin sokolov
+p2750
+(dp2751
+g4
+g5
+((dp2752
+I2181736270
+I10
+stRp2753
+sg8
+g5
+((dp2754
+I1343551460
+I1
+sI86519309
+I9
+stRp2755
+sg11
+g5
+((dp2756
+Vuniversity of texas at austin
+p2757
+I9
+sVuniversity of texas md anderson cancer center
+p2758
+I1
+stRp2759
+ssVmartin mader
+p2760
+(dp2761
+g4
+g5
+((dp2762
+I2404254384
+I1
+sI2171769279
+I9
+stRp2763
+sg8
+g5
+((dp2764
+NI1
+sI189712700
+I9
+stRp2765
+sg11
+g5
+((dp2766
+NI1
+sVuniversity of konstanz
+p2767
+I9
+stRp2768
+ssVm. graham
+p2769
+(dp2770
+g4
+g5
+((dtRp2771
+sg8
+g5
+((dtRp2772
+sg11
+g5
+((dtRp2773
+ssVholger stitz
+p2774
+(dp2775
+g4
+g5
+((dp2776
+I2222993595
+I9
+stRp2777
+sg8
+g5
+((dp2778
+I121883995
+I9
+stRp2779
+sg11
+g5
+((dp2780
+Vjohannes kepler university of linz
+p2781
+I9
+stRp2782
+ssVpeter niermann
+p2783
+(dp2784
+g4
+g5
+((dp2785
+I2085414284
+I3
+stRp2786
+sg8
+g5
+((dp2787
+I8087733
+I3
+stRp2788
+sg11
+g5
+((dp2789
+Vuniversity of tubingen
+p2790
+I3
+stRp2791
+ssVandreas raue
+p2792
+(dp2793
+g4
+g5
+((dp2794
+I2163275849
+I10
+stRp2795
+sg8
+g5
+((dp2796
+I161046081
+I10
+stRp2797
+sg11
+g5
+((dp2798
+Vuniversity of freiburg
+p2799
+I10
+stRp2800
+ssVyujie liu
+p2801
+(dp2802
+g4
+g5
+((dp2803
+I2505913361
+I1
+sI2505751875
+I1
+sI2503660548
+I2
+sI2302891806
+I2
+sI2294573593
+I1
+sI2129216699
+I1
+sI2141903118
+I2
+stRp2804
+sg8
+g5
+((dp2805
+I1296604144
+I2
+sI130750295
+I2
+sNI1
+sI1335321130
+I1
+sI156144747
+I1
+sI86519309
+I2
+sI19820366
+I1
+stRp2806
+sg11
+g5
+((dp2807
+Vchinese academy of sciences
+p2808
+I1
+sVuniversity of texas at austin
+p2809
+I2
+sVxinyang normal university
+p2810
+I2
+sVchildren s hospital of philadelphia
+p2811
+I1
+sNI1
+sVmemorial hospital of south bend
+p2812
+I2
+sVharbin medical university
+p2813
+I1
+stRp2814
+ssVdaniel archambault
+p2815
+(dp2816
+g4
+g5
+((dp2817
+I2017897688
+I10
+stRp2818
+sg8
+g5
+((dp2819
+I872287936
+I1
+sI84218800
+I1
+sI141945490
+I3
+sI100930933
+I1
+sI1326498283
+I1
+sI39586589
+I3
+stRp2820
+sg11
+g5
+((dp2821
+Vuniversity of british columbia
+p2822
+I3
+sVl abri
+p2823
+I1
+sVfrench institute for research in computer science and automation
+p2824
+I1
+sVuniversity of california davis
+p2825
+I1
+sVuniversity college dublin
+p2826
+I1
+sVswansea university
+p2827
+I3
+stRp2828
+ssVpierre dragicevic
+p2829
+(dp2830
+g4
+g5
+((dp2831
+I89785269
+I10
+stRp2832
+sg8
+g5
+((dp2833
+I1326498283
+I8
+sI185261750
+I2
+stRp2834
+sg11
+g5
+((dp2835
+Vuniversity of toronto
+p2836
+I2
+sVfrench institute for research in computer science and automation
+p2837
+I8
+stRp2838
+ssVli tan
+p2839
+(dp2840
+g4
+g5
+((dtRp2841
+sg8
+g5
+((dtRp2842
+sg11
+g5
+((dtRp2843
+ssVding-yi chen
+p2844
+(dp2845
+g4
+g5
+((dtRp2846
+sg8
+g5
+((dtRp2847
+sg11
+g5
+((dtRp2848
+ssVloic royer
+p2849
+(dp2850
+g4
+g5
+((dtRp2851
+sg8
+g5
+((dtRp2852
+sg11
+g5
+((dtRp2853
+ssVjian zhao
+p2854
+(dp2855
+g4
+g5
+((dtRp2856
+sg8
+g5
+((dtRp2857
+sg11
+g5
+((dtRp2858
+ssVmichael garland
+p2859
+(dp2860
+g4
+g5
+((dp2861
+I2182953115
+I9
+sI2568587278
+I1
+stRp2862
+sg8
+g5
+((dp2863
+I8098720
+I1
+sI74973139
+I2
+sI1304085615
+I7
+stRp2864
+sg11
+g5
+((dp2865
+Vdepartment of computer science university of illinois at urbana champaign
+p2866
+I1
+sVcarnegie mellon university
+p2867
+I2
+sVnvidia
+p2868
+I7
+stRp2869
+ssVjan baumbach
+p2870
+(dp2871
+g4
+g5
+((dp2872
+I2147014847
+I10
+stRp2873
+sg8
+g5
+((dp2874
+I177969490
+I2
+sI149899117
+I6
+sI20121455
+I2
+stRp2875
+sg11
+g5
+((dp2876
+Vuniversity of southern denmark
+p2877
+I2
+sVbielefeld university
+p2878
+I2
+sVmax planck society
+p2879
+I6
+stRp2880
+ssVbenjamin schmidt
+p2881
+(dp2882
+g4
+g5
+((dtRp2883
+sg8
+g5
+((dtRp2884
+sg11
+g5
+((dtRp2885
+ssVravin balakrishnan
+p2886
+(dp2887
+g4
+g5
+((dp2888
+I2130130894
+I10
+stRp2889
+sg8
+g5
+((dp2890
+I185261750
+I10
+stRp2891
+sg11
+g5
+((dp2892
+Vuniversity of toronto
+p2893
+I10
+stRp2894
+ssVfrancesco paduano
+p2895
+(dp2896
+g4
+g5
+((dp2897
+I1860310202
+I10
+stRp2898
+sg8
+g5
+((dp2899
+I39422238
+I10
+stRp2900
+sg11
+g5
+((dp2901
+Vuniversity of illinois at chicago
+p2902
+I10
+stRp2903
+ssVzeqian shen
+p2904
+(dp2905
+g4
+g5
+((dp2906
+I2503946360
+I3
+sI2146863387
+I7
+stRp2907
+sg8
+g5
+((dp2908
+I84218800
+I3
+sI1321826891
+I3
+sI55176711
+I4
+stRp2909
+sg11
+g5
+((dp2910
+Vuniversity of california davis
+p2911
+I3
+sVuniversity of california
+p2912
+I4
+sVebay
+p2913
+I3
+stRp2914
+ssVhelen purchase
+p2915
+(dp2916
+g4
+g5
+((dtRp2917
+sg8
+g5
+((dtRp2918
+sg11
+g5
+((dtRp2919
+ssVmarie-france sagot
+p2920
+(dp2921
+g4
+g5
+((dtRp2922
+sg8
+g5
+((dtRp2923
+sg11
+g5
+((dtRp2924
+ssVcorinna vehlow
+p2925
+(dp2926
+g4
+g5
+((dp2927
+I2059869376
+I10
+stRp2928
+sg8
+g5
+((dp2929
+I100066346
+I10
+stRp2930
+sg11
+g5
+((dp2931
+Vuniversity of stuttgart
+p2932
+I10
+stRp2933
+ssVmarco siderius
+p2934
+(dp2935
+g4
+g5
+((dp2936
+I2078734240
+I10
+stRp2937
+sg8
+g5
+((dp2938
+I865915315
+I10
+stRp2939
+sg11
+g5
+((dp2940
+Vvu university amsterdam
+p2941
+I10
+stRp2942
+ssVchao zhang
+p2943
+(dp2944
+g4
+g5
+((dp2945
+I2158985936
+I8
+sI2432804233
+I1
+sI2442692725
+I1
+stRp2946
+sg8
+g5
+((dp2947
+I1344073410
+I1
+sI1302836756
+I2
+sI57206974
+I1
+sNI1
+sI19820366
+I1
+sI205783295
+I4
+stRp2948
+sg11
+g5
+((dp2949
+Vhoward hughes medical institute
+p2950
+I1
+sVchinese academy of sciences
+p2951
+I1
+sVnew york university
+p2952
+I1
+sNI1
+sVcornell university
+p2953
+I4
+sVplexxikon
+p2954
+I2
+stRp2955
+ssVye zhao
+p2956
+(dp2957
+g4
+g5
+((dtRp2958
+sg8
+g5
+((dtRp2959
+sg11
+g5
+((dtRp2960
+ssVs. chaturvedi
+p2961
+(dp2962
+g4
+g5
+((dtRp2963
+sg8
+g5
+((dtRp2964
+sg11
+g5
+((dtRp2965
+ssVmarkus brosch
+p2966
+(dp2967
+g4
+g5
+((dp2968
+I2087029465
+I2
+sI1878867961
+I8
+stRp2969
+sg8
+g5
+((dp2970
+NI2
+sI87048295
+I8
+stRp2971
+sg11
+g5
+((dp2972
+Vwellcome trust
+p2973
+I8
+sNI2
+stRp2974
+ssVural erdemir
+p2975
+(dp2976
+g4
+g5
+((dp2977
+I2007752261
+I5
+stRp2978
+sg8
+g5
+((dp2979
+NI5
+stRp2980
+sg11
+g5
+((dp2981
+NI5
+stRp2982
+ssVjacob köhler
+p2983
+(dp2984
+g4
+g5
+((dtRp2985
+sg8
+g5
+((dtRp2986
+sg11
+g5
+((dtRp2987
+ssVgautam kumar
+p2988
+(dp2989
+g4
+g5
+((dtRp2990
+sg8
+g5
+((dtRp2991
+sg11
+g5
+((dtRp2992
+ssVconglei shi
+p2993
+(dp2994
+g4
+g5
+((dp2995
+I2143837512
+I10
+stRp2996
+sg8
+g5
+((dp2997
+I1341412227
+I4
+sI200769079
+I6
+stRp2998
+sg11
+g5
+((dp2999
+Vhong kong university of science and technology
+p3000
+I6
+sVibm
+p3001
+I4
+stRp3002
+ssVchristian partl
+p3003
+(dp3004
+g4
+g5
+((dp3005
+I1920782647
+I10
+stRp3006
+sg8
+g5
+((dp3007
+I4092182
+I10
+stRp3008
+sg11
+g5
+((dp3009
+Vgraz university of technology
+p3010
+I10
+stRp3011
+ssVdirk zeckzer
+p3012
+(dp3013
+g4
+g5
+((dp3014
+I285281174
+I10
+stRp3015
+sg8
+g5
+((dp3016
+I4923324
+I1
+sI926574661
+I3
+sI153267046
+I6
+stRp3017
+sg11
+g5
+((dp3018
+Vkaiserslautern university of technology
+p3019
+I6
+sVleipzig university
+p3020
+I3
+sVfraunhofer society
+p3021
+I1
+stRp3022
+ssVmartin pinzger
+p3023
+(dp3024
+g4
+g5
+((dp3025
+I335874646
+I10
+stRp3026
+sg8
+g5
+((dp3027
+I134023368
+I2
+sI98358874
+I2
+sI145847075
+I1
+sI202697423
+I5
+stRp3028
+sg11
+g5
+((dp3029
+Valpen adria universitat klagenfurt
+p3030
+I2
+sVvienna university of technology
+p3031
+I1
+sVuniversity of zurich
+p3032
+I5
+sVdelft university of technology
+p3033
+I2
+stRp3034
+ssVanastasia bezerianos
+p3035
+(dp3036
+g4
+g5
+((dp3037
+I1993958020
+I10
+stRp3038
+sg8
+g5
+((dp3039
+I216852786
+I2
+sI1326498283
+I1
+sI185261750
+I3
+sI1294671590
+I4
+stRp3040
+sg11
+g5
+((dp3041
+Vuniversity of toronto
+p3042
+I3
+sVecole centrale paris
+p3043
+I2
+sVcentre national de la recherche scientifique
+p3044
+I4
+sVfrench institute for research in computer science and automation
+p3045
+I1
+stRp3046
+ssVpeter fritz
+p3047
+(dp3048
+g4
+g5
+((dp3049
+I2553784994
+I1
+sI2303027459
+I8
+sI2238056718
+I1
+stRp3050
+sg8
+g5
+((dp3051
+NI1
+sI223822909
+I1
+sI889804353
+I7
+sI8087733
+I1
+stRp3052
+sg11
+g5
+((dp3053
+NI1
+sVbosch
+p3054
+I7
+sVuniversity of tubingen
+p3055
+I1
+sVheidelberg university
+p3056
+I1
+stRp3057
+ssVandreas kerren
+p3058
+(dp3059
+g4
+g5
+((dp3060
+I242315540
+I10
+stRp3061
+sg8
+g5
+((dp3062
+I223464139
+I8
+sI4923324
+I1
+sI875846653
+I1
+stRp3063
+sg11
+g5
+((dp3064
+Vmicro star international
+p3065
+I1
+sVlinnaeus university
+p3066
+I8
+sVfraunhofer society
+p3067
+I1
+stRp3068
+ssVgilles paris
+p3069
+(dp3070
+g4
+g5
+((dp3071
+I2177096404
+I3
+sI2129829198
+I2
+stRp3072
+sg8
+g5
+((dp3073
+I884165496
+I2
+sNI3
+stRp3074
+sg11
+g5
+((dp3075
+NI3
+sViresq
+p3076
+I2
+stRp3077
+ssVmichael krieger
+p3078
+(dp3079
+g4
+g5
+((dtRp3080
+sg8
+g5
+((dtRp3081
+sg11
+g5
+((dtRp3082
+ssValexander rüegg
+p3083
+(dp3084
+g4
+g5
+((dtRp3085
+sg8
+g5
+((dtRp3086
+sg11
+g5
+((dtRp3087
+ssVbasak alper
+p3088
+(dp3089
+g4
+g5
+((dp3090
+I2171099181
+I10
+stRp3091
+sg8
+g5
+((dp3092
+I154570441
+I9
+sI1290206253
+I1
+stRp3093
+sg11
+g5
+((dp3094
+Vmicrosoft
+p3095
+I1
+sVuniversity of california santa barbara
+p3096
+I9
+stRp3097
+ssVfutai zou
+p3098
+(dp3099
+g4
+g5
+((dp3100
+I2224440558
+I10
+stRp3101
+sg8
+g5
+((dp3102
+I183067930
+I10
+stRp3103
+sg11
+g5
+((dp3104
+Vshanghai jiao tong university
+p3105
+I10
+stRp3106
+ssVpatrick auwärter
+p3107
+(dp3108
+g4
+g5
+((dtRp3109
+sg8
+g5
+((dtRp3110
+sg11
+g5
+((dtRp3111
+ssVmatthias reimann
+p3112
+(dp3113
+g4
+g5
+((dp3114
+I2223439120
+I8
+sI2460765842
+I2
+stRp3115
+sg8
+g5
+((dp3116
+I902798049
+I2
+sI78650965
+I6
+sI193291145
+I2
+stRp3117
+sg11
+g5
+((dp3118
+Vschiller international university
+p3119
+I2
+sVbiotec
+p3120
+I2
+sVdresden university of technology
+p3121
+I6
+stRp3122
+ssVandrea unger
+p3123
+(dp3124
+g4
+g5
+((dp3125
+I2114385021
+I3
+sI2164597103
+I7
+stRp3126
+sg8
+g5
+((dp3127
+I182212641
+I2
+sI4665924
+I7
+sI129774422
+I1
+stRp3128
+sg11
+g5
+((dp3129
+Vuniversity of vienna
+p3130
+I1
+sVuniversity of rostock
+p3131
+I7
+sVuniversity of salzburg
+p3132
+I2
+stRp3133
+ssVcécile bothorel
+p3134
+(dp3135
+g4
+g5
+((dtRp3136
+sg8
+g5
+((dtRp3137
+sg11
+g5
+((dtRp3138
+ssVmarkus gross
+p3139
+(dp3140
+g4
+g5
+((dtRp3141
+sg8
+g5
+((dtRp3142
+sg11
+g5
+((dtRp3143
+ssVcarlos scheidegger
+p3144
+(dp3145
+g4
+g5
+((dtRp3146
+sg8
+g5
+((dtRp3147
+sg11
+g5
+((dtRp3148
+ssVchristophe hurter
+p3149
+(dp3150
+g4
+g5
+((dp3151
+I1770354363
+I10
+stRp3152
+sg8
+g5
+((dp3153
+I126595327
+I3
+sI17866349
+I1
+sI100296615
+I6
+stRp3154
+sg11
+g5
+((dp3155
+Vdepartment of trade and industry
+p3156
+I3
+sVecole nationale de l aviation civile
+p3157
+I6
+sVuniversity of toulouse
+p3158
+I1
+stRp3159
+ssVfalk schreiber
+p3160
+(dp3161
+g4
+g5
+((dp3162
+I2166292476
+I10
+stRp3163
+sg8
+g5
+((dp3164
+I315704651
+I7
+sI68956291
+I3
+stRp3165
+sg11
+g5
+((dp3166
+Vmartin luther university of halle wittenberg
+p3167
+I3
+sVleibniz association
+p3168
+I7
+stRp3169
+ssVjonathan dubois
+p3170
+(dp3171
+g4
+g5
+((dtRp3172
+sg8
+g5
+((dtRp3173
+sg11
+g5
+((dtRp3174
+ssVjimeng sun
+p3175
+(dp3176
+g4
+g5
+((dp3177
+I2110385854
+I10
+stRp3178
+sg8
+g5
+((dp3179
+I1341412227
+I4
+sI130701444
+I1
+sI74973139
+I4
+sI200769079
+I1
+stRp3180
+sg11
+g5
+((dp3181
+Vgeorgia institute of technology
+p3182
+I1
+sVcarnegie mellon university
+p3183
+I4
+sVibm
+p3184
+I4
+sVhong kong university of science and technology
+p3185
+I1
+stRp3186
+ssVflorian fittkau
+p3187
+(dp3188
+g4
+g5
+((dp3189
+I2600241064
+I1
+sI2602518772
+I1
+sI18143253
+I8
+stRp3190
+sg8
+g5
+((dp3191
+NI2
+sI32021983
+I8
+stRp3192
+sg11
+g5
+((dp3193
+NI2
+sVuniversity of kiel
+p3194
+I8
+stRp3195
+ssVfrank ham
+p3196
+(dp3197
+g4
+g5
+((dp3198
+I2214094224
+I10
+stRp3199
+sg8
+g5
+((dp3200
+I69678593
+I6
+sI97018004
+I3
+sI123387679
+I1
+stRp3201
+sg11
+g5
+((dp3202
+Vstanford university
+p3203
+I3
+sVuppsala university
+p3204
+I1
+sVcenter for turbulence research
+p3205
+I6
+stRp3206
+ssVjustin fagnan
+p3207
+(dp3208
+g4
+g5
+((dp3209
+I1727185924
+I10
+stRp3210
+sg8
+g5
+((dp3211
+I154425047
+I10
+stRp3212
+sg11
+g5
+((dp3213
+Vuniversity of alberta
+p3214
+I10
+stRp3215
+ssVtaoufiq dkaki
+p3216
+(dp3217
+g4
+g5
+((dp3218
+I2485012744
+I1
+sI199628434
+I9
+stRp3219
+sg8
+g5
+((dp3220
+I109963312
+I1
+sI197659720
+I1
+sI17866349
+I7
+sI1294671590
+I1
+stRp3221
+sg11
+g5
+((dp3222
+Vuniversity of tennessee at martin
+p3223
+I1
+sVcentre national de la recherche scientifique
+p3224
+I1
+sVinstitut universitaire de formation des maitres
+p3225
+I1
+sVuniversity of toulouse
+p3226
+I7
+stRp3227
+ssVjevgenijs vihrovs
+p3228
+(dp3229
+g4
+g5
+((dp3230
+I2226162919
+I2
+stRp3231
+sg8
+g5
+((dp3232
+I121934539
+I2
+stRp3233
+sg11
+g5
+((dp3234
+Vinstitute of mathematics
+p3235
+I2
+stRp3236
+ssVchristopher mears
+p3237
+(dp3238
+g4
+g5
+((dp3239
+I2134789570
+I10
+stRp3240
+sg8
+g5
+((dp3241
+I56590836
+I9
+sI78570951
+I1
+stRp3242
+sg11
+g5
+((dp3243
+Vmonash university
+p3244
+I9
+sVmonash university clayton campus
+p3245
+I1
+stRp3246
+ssVpetra neumann
+p3247
+(dp3248
+g4
+g5
+((dp3249
+I2150451489
+I8
+sI2464035423
+I2
+stRp3250
+sg8
+g5
+((dp3251
+I168635309
+I8
+sI196349391
+I2
+stRp3252
+sg11
+g5
+((dp3253
+Vuniversity of calgary
+p3254
+I8
+sVuniversity of ulm
+p3255
+I2
+stRp3256
+ssVmichael woodward
+p3257
+(dp3258
+g4
+g5
+((dtRp3259
+sg8
+g5
+((dtRp3260
+sg11
+g5
+((dtRp3261
+ssVchris muelder
+p3262
+(dp3263
+g4
+g5
+((dp3264
+I1868676881
+I10
+stRp3265
+sg8
+g5
+((dp3266
+I84218800
+I9
+sI55176711
+I1
+stRp3267
+sg11
+g5
+((dp3268
+Vuniversity of california davis
+p3269
+I9
+sVuniversity of california
+p3270
+I1
+stRp3271
+ssVgunnar klau
+p3272
+(dp3273
+g4
+g5
+((dtRp3274
+sg8
+g5
+((dtRp3275
+sg11
+g5
+((dtRp3276
+ssVkai xu
+p3277
+(dp3278
+g4
+g5
+((dtRp3279
+sg8
+g5
+((dtRp3280
+sg11
+g5
+((dtRp3281
+ssVshah humayoun
+p3282
+(dp3283
+g4
+g5
+((dtRp3284
+sg8
+g5
+((dtRp3285
+sg11
+g5
+((dtRp3286
+ssVjennifer gardy
+p3287
+(dp3288
+g4
+g5
+((dtRp3289
+sg8
+g5
+((dtRp3290
+sg11
+g5
+((dtRp3291
+ssVstijn dongen
+p3292
+(dp3293
+g4
+g5
+((dtRp3294
+sg8
+g5
+((dtRp3295
+sg11
+g5
+((dtRp3296
+ssVshelli dubs
+p3297
+(dp3298
+g4
+g5
+((dp3299
+I2042984139
+I5
+stRp3300
+sg8
+g5
+((dp3301
+I132125694
+I5
+stRp3302
+sg11
+g5
+((dp3303
+Valberta research council
+p3304
+I5
+stRp3305
+ssVbrendan madden
+p3306
+(dp3307
+g4
+g5
+((dtRp3308
+sg8
+g5
+((dtRp3309
+sg11
+g5
+((dtRp3310
+ssVa.g. melville
+p3311
+(dp3312
+g4
+g5
+((dtRp3313
+sg8
+g5
+((dtRp3314
+sg11
+g5
+((dtRp3315
+ssVjens timmer
+p3316
+(dp3317
+g4
+g5
+((dp3318
+I1987727939
+I10
+stRp3319
+sg8
+g5
+((dp3320
+I161046081
+I9
+sI223822909
+I1
+stRp3321
+sg11
+g5
+((dp3322
+Vheidelberg university
+p3323
+I1
+sVuniversity of freiburg
+p3324
+I9
+stRp3325
+ssVandreas noack
+p3326
+(dp3327
+g4
+g5
+((dp3328
+I2603379713
+I1
+sI2261828260
+I9
+stRp3329
+sg8
+g5
+((dp3330
+I51783024
+I9
+sNI1
+stRp3331
+sg11
+g5
+((dp3332
+NI1
+sVbrandenburg university of technology
+p3333
+I9
+stRp3334
+ssVxiaoyan fu
+p3335
+(dp3336
+g4
+g5
+((dp3337
+I2256397833
+I4
+sI2133314331
+I3
+sI2364275389
+I1
+sI2312124662
+I1
+sI2170807998
+I1
+stRp3338
+sg8
+g5
+((dp3339
+I82880672
+I1
+sI119454577
+I3
+sI129604602
+I1
+sI153374732
+I4
+sI204465549
+I1
+stRp3340
+sg11
+g5
+((dp3341
+Vuniversity of sydney
+p3342
+I1
+sVliaoning normal university
+p3343
+I4
+sVwashington university in st louis
+p3344
+I1
+sVbeihang university
+p3345
+I1
+sVnanjing agricultural university
+p3346
+I3
+stRp3347
+ssVangus forbes
+p3348
+(dp3349
+g4
+g5
+((dp3350
+I2294420700
+I9
+sI2557317501
+I1
+stRp3351
+sg8
+g5
+((dp3352
+I183935753
+I5
+sI171738146
+I4
+sI154570441
+I1
+stRp3353
+sg11
+g5
+((dp3354
+Vking s college london
+p3355
+I5
+sVuniversity of california santa barbara
+p3356
+I1
+sVflorence nightingale school of nursing and midwifery
+p3357
+I4
+stRp3358
+ssVkarsten klein
+p3359
+(dp3360
+g4
+g5
+((dp3361
+I2142182795
+I10
+stRp3362
+sg8
+g5
+((dp3363
+I129604602
+I1
+sI200332995
+I2
+sI56590836
+I7
+stRp3364
+sg11
+g5
+((dp3365
+Vuniversity of sydney
+p3366
+I1
+sVmonash university
+p3367
+I7
+sVtechnical university of dortmund
+p3368
+I2
+stRp3369
+ssVmichael kalkusch
+p3370
+(dp3371
+g4
+g5
+((dp3372
+I127886350
+I4
+stRp3373
+sg8
+g5
+((dp3374
+I4092182
+I4
+stRp3375
+sg11
+g5
+((dp3376
+Vgraz university of technology
+p3377
+I4
+stRp3378
+ssVbill andreopoulos
+p3379
+(dp3380
+g4
+g5
+((dp3381
+I61408089
+I10
+stRp3382
+sg8
+g5
+((dp3383
+I192455969
+I6
+sI78650965
+I3
+sI902798049
+I1
+stRp3384
+sg11
+g5
+((dp3385
+Vyork university
+p3386
+I6
+sVbiotec
+p3387
+I1
+sVdresden university of technology
+p3388
+I3
+stRp3389
+ssVernst kruijff
+p3390
+(dp3391
+g4
+g5
+((dp3392
+I2127188182
+I10
+stRp3393
+sg8
+g5
+((dp3394
+I864441908
+I1
+sI4923324
+I1
+sI4092182
+I8
+stRp3395
+sg11
+g5
+((dp3396
+Vgraz university of technology
+p3397
+I8
+sVweimar institute
+p3398
+I1
+sVfraunhofer society
+p3399
+I1
+stRp3400
+ssVbenjamin renoust
+p3401
+(dp3402
+g4
+g5
+((dp3403
+I2487777810
+I1
+sI2487922674
+I1
+sI1378565086
+I5
+sI2569745415
+I3
+stRp3404
+sg8
+g5
+((dp3405
+I872287936
+I5
+sNI1
+sI1326498283
+I1
+sI184597095
+I3
+stRp3406
+sg11
+g5
+((dp3407
+Vl abri
+p3408
+I5
+sNI1
+sVnational institute of informatics
+p3409
+I3
+sVfrench institute for research in computer science and automation
+p3410
+I1
+stRp3411
+ssVmatthew phillips
+p3412
+(dp3413
+g4
+g5
+((dtRp3414
+sg8
+g5
+((dtRp3415
+sg11
+g5
+((dtRp3416
+ssVhuamin qu
+p3417
+(dp3418
+g4
+g5
+((dp3419
+I2103237498
+I10
+stRp3420
+sg8
+g5
+((dp3421
+I200769079
+I10
+stRp3422
+sg11
+g5
+((dp3423
+Vhong kong university of science and technology
+p3424
+I10
+stRp3425
+ssVanton enright
+p3426
+(dp3427
+g4
+g5
+((dtRp3428
+sg8
+g5
+((dtRp3429
+sg11
+g5
+((dtRp3430
+ssVbas cornelissen
+p3431
+(dp3432
+g4
+g5
+((dtRp3433
+sg8
+g5
+((dtRp3434
+sg11
+g5
+((dtRp3435
+ssVbettina speckmann
+p3436
+(dp3437
+g4
+g5
+((dp3438
+I2004349175
+I10
+stRp3439
+sg8
+g5
+((dp3440
+I83019370
+I10
+stRp3441
+sg11
+g5
+((dp3442
+Veindhoven university of technology
+p3443
+I10
+stRp3444
+ssVpushpa kumar
+p3445
+(dp3446
+g4
+g5
+((dp3447
+I2199454166
+I10
+stRp3448
+sg8
+g5
+((dp3449
+I162577319
+I10
+stRp3450
+sg11
+g5
+((dp3451
+Vuniversity of texas at dallas
+p3452
+I10
+stRp3453
+ssVduen chau
+p3454
+(dp3455
+g4
+g5
+((dp3456
+I2465072871
+I1
+stRp3457
+sg8
+g5
+((dp3458
+I130701444
+I1
+stRp3459
+sg11
+g5
+((dp3460
+Vgeorgia institute of technology
+p3461
+I1
+stRp3462
+ssVchristian klukas
+p3463
+(dp3464
+g4
+g5
+((dp3465
+I2083291279
+I10
+stRp3466
+sg8
+g5
+((dp3467
+I315704651
+I10
+stRp3468
+sg11
+g5
+((dp3469
+Vleibniz association
+p3470
+I10
+stRp3471
+ssVbobby-joe breitkreutz
+p3472
+(dp3473
+g4
+g5
+((dtRp3474
+sg8
+g5
+((dtRp3475
+sg11
+g5
+((dtRp3476
+ssVbjörn junker
+p3477
+(dp3478
+g4
+g5
+((dtRp3479
+sg8
+g5
+((dtRp3480
+sg11
+g5
+((dtRp3481
+ssVruoming jin
+p3482
+(dp3483
+g4
+g5
+((dp3484
+I2119237514
+I10
+stRp3485
+sg8
+g5
+((dp3486
+I149910238
+I8
+sI52357470
+I2
+stRp3487
+sg11
+g5
+((dp3488
+Vohio state university
+p3489
+I2
+sVkent state university
+p3490
+I8
+stRp3491
+ssVcharles delisi
+p3492
+(dp3493
+g4
+g5
+((dp3494
+I79138794
+I10
+stRp3495
+sg8
+g5
+((dp3496
+I111088046
+I9
+sI90494735
+I1
+stRp3497
+sg11
+g5
+((dp3498
+Vboston university
+p3499
+I9
+sVnational cancer institute
+p3500
+I1
+stRp3501
+ssValexander goesmann
+p3502
+(dp3503
+g4
+g5
+((dp3504
+I282996175
+I10
+stRp3505
+sg8
+g5
+((dp3506
+I200763008
+I4
+sI20121455
+I6
+stRp3507
+sg11
+g5
+((dp3508
+Vuniversity of giessen
+p3509
+I4
+sVbielefeld university
+p3510
+I6
+stRp3511
+ssVjiayi liu
+p3512
+(dp3513
+g4
+g5
+((dp3514
+I2502257060
+I1
+sI2297441997
+I1
+sI2128926424
+I1
+sI2158539795
+I1
+sI2498537812
+I1
+sI2501027224
+I1
+sI2439410483
+I1
+sI2294411708
+I1
+sI2575928029
+I1
+sI2525490078
+I1
+stRp3515
+sg8
+g5
+((dp3516
+I99065089
+I1
+sI47720641
+I1
+sI204983213
+I1
+sI20231570
+I1
+sI180585399
+I1
+sNI3
+sI158842170
+I1
+sI67415387
+I1
+stRp3517
+sg11
+g5
+((dp3518
+Vtsinghua university
+p3519
+I1
+sVpeking university
+p3520
+I1
+sVchongqing university
+p3521
+I1
+sVhuazhong university of science and technology
+p3522
+I1
+sNI3
+sVdalian institute of chemical physics
+p3523
+I1
+sVlancaster university
+p3524
+I1
+sVharbin institute of technology
+p3525
+I1
+stRp3526
+ssVhong zhou
+p3527
+(dp3528
+g4
+g5
+((dp3529
+I2434004064
+I1
+sI2476340036
+I3
+sI2569113109
+I1
+sI2485926822
+I1
+sI2434196695
+I1
+sI2442748808
+I1
+sI2248980825
+I2
+stRp3530
+sg8
+g5
+((dp3531
+I84218800
+I3
+sI12912129
+I1
+sI64558907
+I1
+sI200769079
+I1
+sI1314596251
+I1
+sI1289490764
+I2
+sI157773358
+I1
+stRp3532
+sg11
+g5
+((dp3533
+Vcenters for disease control and prevention
+p3534
+I2
+sVsun yat sen university
+p3535
+I1
+sVnortheastern university
+p3536
+I1
+sVuniversity of california davis
+p3537
+I3
+sVallen institute for brain science
+p3538
+I1
+sVhong kong university of science and technology
+p3539
+I1
+sVmillennium pharmaceuticals
+p3540
+I1
+stRp3541
+ssVjohannes schultz
+p3542
+(dp3543
+g4
+g5
+((dp3544
+I2222148520
+I1
+sI2132495444
+I9
+stRp3545
+sg8
+g5
+((dp3546
+I190082696
+I1
+sI45129253
+I1
+sI153267046
+I1
+sI149899117
+I7
+stRp3547
+sg11
+g5
+((dp3548
+Vkaiserslautern university of technology
+p3549
+I1
+sVdurham university
+p3550
+I1
+sVmax planck society
+p3551
+I7
+sVuniversity college london
+p3552
+I1
+stRp3553
+ssVmichael balzer
+p3554
+(dp3555
+g4
+g5
+((dp3556
+I1968041922
+I10
+stRp3557
+sg8
+g5
+((dp3558
+I189712700
+I10
+stRp3559
+sg11
+g5
+((dp3560
+Vuniversity of konstanz
+p3561
+I10
+stRp3562
+ssVromain bourqui
+p3563
+(dp3564
+g4
+g5
+((dp3565
+I2019835715
+I10
+stRp3566
+sg8
+g5
+((dp3567
+I872287936
+I6
+sI83019370
+I1
+sI1294671590
+I3
+stRp3568
+sg11
+g5
+((dp3569
+Vl abri
+p3570
+I6
+sVcentre national de la recherche scientifique
+p3571
+I3
+sVeindhoven university of technology
+p3572
+I1
+stRp3573
+ssVmarcus raitner
+p3574
+(dp3575
+g4
+g5
+((dp3576
+I115793380
+I10
+stRp3577
+sg8
+g5
+((dp3578
+I186354981
+I10
+stRp3579
+sg11
+g5
+((dp3580
+Vuniversity of passau
+p3581
+I10
+stRp3582
+ssVsébastien rufiange
+p3583
+(dp3584
+g4
+g5
+((dtRp3585
+sg8
+g5
+((dtRp3586
+sg11
+g5
+((dtRp3587
+ssVtakao ito
+p3588
+(dp3589
+g4
+g5
+((dp3590
+I2293862752
+I1
+sI2586902481
+I1
+sI2291470917
+I2
+sI2303461400
+I1
+sI2528029832
+I1
+sI2309073144
+I1
+sI2189236414
+I3
+stRp3591
+sg8
+g5
+((dp3592
+I40677808
+I1
+sI190930483
+I1
+sNI3
+sI159601577
+I1
+sI173865709
+I1
+sI190805021
+I3
+stRp3593
+sg11
+g5
+((dp3594
+Vgifu pharmaceutical university
+p3595
+I1
+sVkyoto prefectural university of medicine
+p3596
+I1
+sVkyorin university
+p3597
+I1
+sVjapan tobacco
+p3598
+I1
+sNI3
+sVwakayama medical university
+p3599
+I3
+stRp3600
+ssVathanasios theocharidis
+p3601
+(dp3602
+g4
+g5
+((dp3603
+I1824918096
+I3
+sI2563631585
+I1
+sI2563649653
+I1
+sI2050030742
+I5
+stRp3604
+sg8
+g5
+((dp3605
+I72702400
+I1
+sI98677209
+I1
+sI133960621
+I1
+sI240339774
+I2
+sI200777214
+I5
+stRp3606
+sg11
+g5
+((dp3607
+Vroyal dick school of veterinary studies
+p3608
+I2
+sVathens state university
+p3609
+I1
+sVuniversity of edinburgh
+p3610
+I1
+sVnational and kapodistrian university of athens
+p3611
+I5
+sVthe roslin institute
+p3612
+I1
+stRp3613
+ssVxiaoru yuan
+p3614
+(dp3615
+g4
+g5
+((dp3616
+I2147723296
+I10
+stRp3617
+sg8
+g5
+((dp3618
+I20231570
+I10
+stRp3619
+sg11
+g5
+((dp3620
+Vpeking university
+p3621
+I10
+stRp3622
+ssVlyn bartram
+p3623
+(dp3624
+g4
+g5
+((dp3625
+I2119786465
+I1
+sI2153175125
+I9
+stRp3626
+sg8
+g5
+((dp3627
+I141945490
+I1
+sI18014758
+I9
+stRp3628
+sg11
+g5
+((dp3629
+Vuniversity of british columbia
+p3630
+I1
+sVsimon fraser university
+p3631
+I9
+stRp3632
+ssVroberto therón
+p3633
+(dp3634
+g4
+g5
+((dtRp3635
+sg8
+g5
+((dtRp3636
+sg11
+g5
+((dtRp3637
+ssVm.a. westenberg
+p3638
+(dp3639
+g4
+g5
+((dtRp3640
+sg8
+g5
+((dtRp3641
+sg11
+g5
+((dtRp3642
+ssVchin-lung chang
+p3643
+(dp3644
+g4
+g5
+((dtRp3645
+sg8
+g5
+((dtRp3646
+sg11
+g5
+((dtRp3647
+ssVjonathan mcpherson
+p3648
+(dp3649
+g4
+g5
+((dp3650
+I2105866264
+I2
+sI2232471284
+I2
+sI2549522852
+I1
+sI2524753518
+I1
+sI2098424143
+I2
+stRp3651
+sg8
+g5
+((dp3652
+I84218800
+I2
+sNI6
+stRp3653
+sg11
+g5
+((dp3654
+Vuniversity of california davis
+p3655
+I2
+sNI6
+stRp3656
+ssVtamara munzner
+p3657
+(dp3658
+g4
+g5
+((dp3659
+I544170546
+I10
+stRp3660
+sg8
+g5
+((dp3661
+I141945490
+I8
+sI97018004
+I2
+stRp3662
+sg11
+g5
+((dp3663
+Vuniversity of british columbia
+p3664
+I8
+sVstanford university
+p3665
+I2
+stRp3666
+ssVtakafumi saito
+p3667
+(dp3668
+g4
+g5
+((dp3669
+I2531112133
+I1
+sI2164618823
+I9
+stRp3670
+sg8
+g5
+((dp3671
+I112524849
+I6
+sI92614990
+I2
+sI74801974
+I1
+sNI1
+stRp3672
+sg11
+g5
+((dp3673
+NI1
+sVtokyo university of agriculture and technology
+p3674
+I2
+sVyamagata university
+p3675
+I6
+sVuniversity of tokyo
+p3676
+I1
+stRp3677
+ssVg. marai
+p3678
+(dp3679
+g4
+g5
+((dtRp3680
+sg8
+g5
+((dtRp3681
+sg11
+g5
+((dtRp3682
+ssVkim marriott
+p3683
+(dp3684
+g4
+g5
+((dp3685
+I2139022045
+I10
+stRp3686
+sg8
+g5
+((dp3687
+I165779595
+I1
+sI56590836
+I6
+sI78570951
+I3
+stRp3688
+sg11
+g5
+((dp3689
+Vmonash university
+p3690
+I6
+sVuniversity of melbourne
+p3691
+I1
+sVmonash university clayton campus
+p3692
+I3
+stRp3693
+ssVjui-hung hung
+p3694
+(dp3695
+g4
+g5
+((dtRp3696
+sg8
+g5
+((dtRp3697
+sg11
+g5
+((dtRp3698
+ssVyang xiang
+p3699
+(dp3700
+g4
+g5
+((dp3701
+I2427191634
+I1
+sI2540637924
+I9
+stRp3702
+sg8
+g5
+((dp3703
+I881766915
+I1
+sI74899385
+I2
+sI1344073410
+I1
+sI149704539
+I6
+stRp3704
+sg11
+g5
+((dp3705
+Vcentral queensland university
+p3706
+I2
+sVhoward hughes medical institute
+p3707
+I1
+sVnanjing university
+p3708
+I1
+sVdeakin university
+p3709
+I6
+stRp3710
+ssVagustrisnajaya kwee
+p3711
+(dp3712
+g4
+g5
+((dtRp3713
+sg8
+g5
+((dtRp3714
+sg11
+g5
+((dtRp3715
+ssVpeter karp
+p3716
+(dp3717
+g4
+g5
+((dtRp3718
+sg8
+g5
+((dtRp3719
+sg11
+g5
+((dtRp3720
+ssVkozo sugiyama
+p3721
+(dp3722
+g4
+g5
+((dp3723
+I2186272345
+I10
+stRp3724
+sg8
+g5
+((dp3725
+I177738480
+I7
+sI880766802
+I1
+sI2252096349
+I2
+stRp3726
+sg11
+g5
+((dp3727
+Vjapan advanced institute of science and technology
+p3728
+I7
+sVfujitsu
+p3729
+I2
+sVgraduate school usa
+p3730
+I1
+stRp3731
+ssVyaniv frishman
+p3732
+(dp3733
+g4
+g5
+((dp3734
+I2490921817
+I1
+sI2278151068
+I2
+sI2048331574
+I6
+sI2342689167
+I1
+stRp3735
+sg8
+g5
+((dp3736
+NI4
+sI174306211
+I6
+stRp3737
+sg11
+g5
+((dp3738
+NI4
+sVtechnion israel institute of technology
+p3739
+I6
+stRp3740
+ssVisao miyamoto
+p3741
+(dp3742
+g4
+g5
+((dp3743
+I2347160929
+I1
+sI2434291842
+I5
+sI2011508006
+I4
+stRp3744
+sg8
+g5
+((dp3745
+I118347220
+I1
+sI159385669
+I5
+sI1331384533
+I4
+stRp3746
+sg11
+g5
+((dp3747
+Vuniversity of hawaii
+p3748
+I4
+sVchiba university
+p3749
+I5
+sVnec
+p3750
+I1
+stRp3751
+ssVoliver kohlbacher
+p3752
+(dp3753
+g4
+g5
+((dp3754
+I178069865
+I10
+stRp3755
+sg8
+g5
+((dp3756
+I8087733
+I10
+stRp3757
+sg11
+g5
+((dp3758
+Vuniversity of tubingen
+p3759
+I10
+stRp3760
+ssVdiane felmlee
+p3761
+(dp3762
+g4
+g5
+((dtRp3763
+sg8
+g5
+((dtRp3764
+sg11
+g5
+((dtRp3765
+ssVfrancois queyroi
+p3766
+(dp3767
+g4
+g5
+((dp3768
+I2503256170
+I1
+sI2012301547
+I2
+sI2535913967
+I7
+stRp3769
+sg8
+g5
+((dp3770
+I872287936
+I2
+sI204730241
+I1
+sI1294671590
+I7
+stRp3771
+sg11
+g5
+((dp3772
+Vl abri
+p3773
+I2
+sVcentre national de la recherche scientifique
+p3774
+I7
+sVuniversity of paris
+p3775
+I1
+stRp3776
+ssVstephan philippi
+p3777
+(dp3778
+g4
+g5
+((dp3779
+I2103406372
+I10
+stRp3780
+sg8
+g5
+((dp3781
+I20121455
+I10
+stRp3782
+sg11
+g5
+((dp3783
+Vbielefeld university
+p3784
+I10
+stRp3785
+ssVmichael specht
+p3786
+(dp3787
+g4
+g5
+((dp3788
+I2006871570
+I4
+sI2409184995
+I1
+sI2070045002
+I3
+sI2518995965
+I2
+stRp3789
+sg8
+g5
+((dp3790
+I1320897668
+I3
+sI202367325
+I4
+sI1294671590
+I2
+sI20121455
+I1
+stRp3791
+sg11
+g5
+((dp3792
+Voffis
+p3793
+I4
+sVcentre national de la recherche scientifique
+p3794
+I2
+sVmax planck institute of psychiatry
+p3795
+I3
+sVbielefeld university
+p3796
+I1
+stRp3797
+ssVmike tyers
+p3798
+(dp3799
+g4
+g5
+((dp3800
+I1896730060
+I10
+stRp3801
+sg8
+g5
+((dp3802
+I1324220072
+I2
+sI70931966
+I6
+sI185261750
+I1
+sI1291836623
+I1
+stRp3803
+sg11
+g5
+((dp3804
+Vuniversity of toronto
+p3805
+I1
+sVmount sinai hospital
+p3806
+I2
+sVmount sinai hospital toronto
+p3807
+I1
+sVuniversite de montreal
+p3808
+I6
+stRp3809
+ssVbahador saket
+p3810
+(dp3811
+g4
+g5
+((dp3812
+I2224044904
+I1
+sI2599966056
+I3
+sI2013181858
+I6
+stRp3813
+sg8
+g5
+((dp3814
+I165932596
+I1
+sI138006243
+I6
+sI130701444
+I3
+stRp3815
+sg11
+g5
+((dp3816
+Vgeorgia institute of technology
+p3817
+I3
+sVnational university of singapore
+p3818
+I1
+sVuniversity of arizona
+p3819
+I6
+stRp3820
+ssVoliver deussen
+p3821
+(dp3822
+g4
+g5
+((dp3823
+I74604451
+I10
+stRp3824
+sg8
+g5
+((dp3825
+I95793202
+I1
+sI189712700
+I7
+sI78650965
+I2
+stRp3826
+sg11
+g5
+((dp3827
+Votto von guericke university magdeburg
+p3828
+I1
+sVuniversity of konstanz
+p3829
+I7
+sVdresden university of technology
+p3830
+I2
+stRp3831
+ssVandreas gerasch
+p3832
+(dp3833
+g4
+g5
+((dp3834
+I264884574
+I9
+sI2564642735
+I1
+stRp3835
+sg8
+g5
+((dp3836
+NI1
+sI8087733
+I7
+sI91712215
+I2
+stRp3837
+sg11
+g5
+((dp3838
+NI1
+sVuniversity of tubingen
+p3839
+I7
+sVsaarland university
+p3840
+I2
+stRp3841
+ssVmathias pohl
+p3842
+(dp3843
+g4
+g5
+((dp3844
+I2297507796
+I7
+sI2490658382
+I3
+stRp3845
+sg8
+g5
+((dp3846
+I91712215
+I1
+sI167576493
+I3
+sI89864525
+I6
+stRp3847
+sg11
+g5
+((dp3848
+Vcolorado school of mines
+p3849
+I3
+sVuniversity of trier
+p3850
+I6
+sVsaarland university
+p3851
+I1
+stRp3852
+ssVkurt zatloukal
+p3853
+(dp3854
+g4
+g5
+((dp3855
+I1833946218
+I10
+stRp3856
+sg8
+g5
+((dp3857
+I202276237
+I10
+stRp3858
+sg11
+g5
+((dp3859
+Vmedical university of graz
+p3860
+I10
+stRp3861
+ssVzhiyuan lin
+p3862
+(dp3863
+g4
+g5
+((dp3864
+I2493594944
+I1
+sI2477733314
+I1
+sI2488739449
+I1
+sI2144984370
+I3
+sI2573972956
+I2
+sI2238013805
+I2
+stRp3865
+sg8
+g5
+((dp3866
+I130828816
+I1
+sI20231570
+I1
+sI24943067
+I2
+sI130701444
+I3
+sI859038795
+I1
+sI55732556
+I2
+stRp3867
+sg11
+g5
+((dp3868
+Vpeking university
+p3869
+I1
+sVgeorgia institute of technology
+p3870
+I3
+sVfudan university
+p3871
+I2
+sVuniversity of leeds
+p3872
+I1
+sVvirginia tech
+p3873
+I1
+sVarizona state university
+p3874
+I2
+stRp3875
+ssVivan lisitsyn
+p3876
+(dp3877
+g4
+g5
+((dtRp3878
+sg8
+g5
+((dtRp3879
+sg11
+g5
+((dtRp3880
+ssVstephan diehl
+p3881
+(dp3882
+g4
+g5
+((dp3883
+I2578943784
+I1
+sI2064750564
+I9
+stRp3884
+sg8
+g5
+((dp3885
+NI1
+sI91712215
+I1
+sI89864525
+I7
+sI84470341
+I1
+stRp3886
+sg11
+g5
+((dp3887
+NI1
+sVuniversity of trier
+p3888
+I7
+sVthe catholic university of america
+p3889
+I1
+sVsaarland university
+p3890
+I1
+stRp3891
+ssVmichael burch
+p3892
+(dp3893
+g4
+g5
+((dp3894
+I2530731235
+I10
+stRp3895
+sg8
+g5
+((dp3896
+I100066346
+I9
+sI9364636
+I1
+stRp3897
+sg11
+g5
+((dp3898
+Vsalisbury university
+p3899
+I1
+sVuniversity of stuttgart
+p3900
+I9
+stRp3901
+ssVioannis tollis
+p3902
+(dp3903
+g4
+g5
+((dtRp3904
+sg8
+g5
+((dtRp3905
+sg11
+g5
+((dtRp3906
+ssVmichael stal
+p3907
+(dp3908
+g4
+g5
+((dp3909
+I2170343445
+I10
+stRp3910
+sg8
+g5
+((dp3911
+I1325886976
+I10
+stRp3912
+sg11
+g5
+((dp3913
+Vsiemens
+p3914
+I10
+stRp3915
+ssVsamuel gratzl
+p3916
+(dp3917
+g4
+g5
+((dp3918
+I1997569821
+I10
+stRp3919
+sg8
+g5
+((dp3920
+I121883995
+I10
+stRp3921
+sg11
+g5
+((dp3922
+Vjohannes kepler university of linz
+p3923
+I10
+stRp3924
+ssVflorian foerster
+p3925
+(dp3926
+g4
+g5
+((dp3927
+I2111531089
+I5
+sI2581954531
+I4
+sI2580133861
+I1
+stRp3928
+sg8
+g5
+((dp3929
+I8204097
+I4
+sI130701444
+I5
+sNI1
+stRp3930
+sg11
+g5
+((dp3931
+Vgeorgia institute of technology
+p3932
+I5
+sVludwig maximilian university of munich
+p3933
+I4
+sNI1
+stRp3934
+ssVyu-ru lin
+p3935
+(dp3936
+g4
+g5
+((dtRp3937
+sg8
+g5
+((dtRp3938
+sg11
+g5
+((dtRp3939
+ss.
