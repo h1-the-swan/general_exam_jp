@@ -1,6 +1,10 @@
 general_exam_jp.pdf
 .refresh
 
+*secret*
+.ipynb_checkpoints/
+*.pickle
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
