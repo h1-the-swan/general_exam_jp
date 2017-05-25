@@ -24,7 +24,7 @@ The cut-based perspective has also seen the development of spectral methods for 
 
 The clustering perspective comes from the world of data clustering, in which data points are thought of as having "distance" between each other based on their (dis)similarity, and the goal is to group together data point that are close to each other. For community detection, this distance is in relation to the connections between nodes in the network. This perspective is related to but different from the cut-based perspective above, which seeks to place divisions among the nodes so as to form balanced groups with weak connections between groups.
 
-\TODO{hierarchical clustering? Schaub et al. don't mention it.}
+A classical method with this perspective is *hierarchical clustering*, which when used on graphs yields a hierarchical partitioning that can be viewed as a dendrogram. The common method uses an agglomerative approach in which each node starts in its own cluster, and they are joined together one by one based on some similarity measure calculated using the graph's adjacency matrix. This approach to community detection has several weaknesses. It necessarily infers a hierarchical community structure even if one does not exist; the hierarchy is not always easy to interpret; it often misclassifies nodes, especially nodes with only one neighbor, which it tends to put it in its own cluster; and it does not scale well to large networks [@fortunato_community_2010].
 
 \TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
 
