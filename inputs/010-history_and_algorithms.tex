@@ -163,6 +163,29 @@ term \(k_i k_j / 2m\) represents the standard null model used for
 modularity---the configuration model which preserves the degree sequence
 of the original graph.
 
+Once modularity was introduced, network researchers, especially those in
+the physics community, seized on the idea and began developing
+clustering algorithms that aim to maximize it---it has become the most
+popular and best known quality function
+\autocite{fortunato_community_2010}. Finding the optimal modularity for
+a graph is an NP-complete problem; finding the global maximum for
+modularity on all but the smallest networks is computationally
+infeasable, so algorithms attempt to approximate the global maximum of
+modularity in a reasonable amount of time. Algorithms tend to have a
+tradeoff between speed and accuracy. Greedy algorithms, such as the
+original method of Newman \autocite{newman_fast_2004} and the Louvain
+method \autocite{blondel_fast_2008} discussed below in the section on
+\protect\hyperlink{the-dynamical-perspective}{the dynamical
+perspective}, tend to be fast but inaccurate---they discard much of the
+problem space in order to arrive at a solution more quickly. Simulated
+annealing techniques improve accuracy at the expense of speed by
+introducing stochastic noise to nudge the algorithm away from local
+maxima; the standard simulated annealing algorithm for modularity can be
+found in \autocite{guimera_functional_2005}. Many other techniques,
+including spectral optimization and genetic algorithms, have been
+employed in attempts to get accurate solutions quickly---see a summary
+in \autocite{fortunato_community_2010}.
+
 \hypertarget{the-stochastic-equivalence-perspective}{\subsection{The
 stochastic equivalence
 perspective}\label{the-stochastic-equivalence-perspective}}
