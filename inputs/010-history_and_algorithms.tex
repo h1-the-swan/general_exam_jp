@@ -105,6 +105,14 @@ the second-smallest eigenvector associated with the Laplacian matrix
 partition a graph into two groups with a low cut size
 \autocite{fiedler_algebraic_1973}.
 
+A cut-based measure for the quality of a partition is the
+\emph{conductance}. The conductance of a subgraph \(S \in V\) for a
+graph \(G(V, E)\) is:
+\[\phi(S) = \frac{c(S, V \setminus S)}{\min(k_S, k_{V \setminus S})}\]
+Where \(c(S, V \setminus S)\) is the cut size of \(S\), and \(k_S\) and
+\(k_{V \setminus S}\) are the total degrees of \(S\) and the rest of the
+graph, respectively \autocite{schaeffer_graph_2007}.
+
 \hypertarget{the-clustering-perspective}{\subsection{The clustering
 perspective}\label{the-clustering-perspective}}
 
@@ -117,7 +125,18 @@ This perspective is related to but different from the cut-based
 perspective above, which seeks to place divisions among the nodes so as
 to form balanced groups with weak connections between groups.
 
-\TODO{hierarchical clustering? Schaub et al. don't mention it.}
+A classical method with this perspective is \emph{hierarchical
+clustering}, which when used on graphs yields a hierarchical
+partitioning that can be viewed as a dendrogram. The common method uses
+an agglomerative approach in which each node starts in its own cluster,
+and they are joined together one by one based on some similarity measure
+calculated using the graph's adjacency matrix. This approach to
+community detection has several weaknesses. It necessarily infers a
+hierarchical community structure even if one does not exist; the
+hierarchy is not always easy to interpret; it often misclassifies nodes,
+especially nodes with only one neighbor, which it tends to put it in its
+own cluster; and it does not scale well to large networks
+\autocite{fortunato_community_2010}.
 
 \TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
 

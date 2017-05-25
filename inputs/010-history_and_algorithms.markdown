@@ -20,6 +20,10 @@ Some of the earliest work in community detection was in the area of circuit layo
 
 The cut-based perspective has also seen the development of spectral methods for graph partitioning. The spectrum (eigenvalues) of a graph's adjacency matrix tend to be related to the connectivity of the graph, and the associated eigenvectors can be used for both cut-based partitioning and clustering. These methods typically make use of the Laplacian matrix $L$ of a connected graph $G$: $L = D - A$ where $A$ is the adjacency matrix of $G$ and $D$ is the diagonal degree matrix with $D_{ii} = \sum_{j}{A_{ij}}$. The *Fiedler vector* is the second-smallest eigenvector associated with the Laplacian matrix $L$; the spectral bisection method uses this vector to quickly partition a graph into two groups with a low cut size [@fiedler_algebraic_1973].
 
+A cut-based measure for the quality of a partition is the *conductance*. The conductance of a subgraph $S \in V$ for a graph $G(V, E)$ is:
+$$\phi(S) = \frac{c(S, V \setminus S)}{\min(k_S, k_{V \setminus S})}$$
+Where $c(S, V \setminus S)$ is the cut size of $S$, and $k_S$ and $k_{V \setminus S}$ are the total degrees of $S$ and the rest of the graph, respectively [@schaeffer_graph_2007].
+
 ## The clustering perspective
 
 The clustering perspective comes from the world of data clustering, in which data points are thought of as having "distance" between each other based on their (dis)similarity, and the goal is to group together data point that are close to each other. For community detection, this distance is in relation to the connections between nodes in the network. This perspective is related to but different from the cut-based perspective above, which seeks to place divisions among the nodes so as to form balanced groups with weak connections between groups.
