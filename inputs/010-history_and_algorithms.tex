@@ -170,7 +170,7 @@ popular and best known quality function
 \autocite{fortunato_community_2010}. Finding the optimal modularity for
 a graph is an NP-complete problem; finding the global maximum for
 modularity on all but the smallest networks is computationally
-infeasable, so algorithms attempt to approximate the global maximum of
+infeasible, so algorithms attempt to approximate the global maximum of
 modularity in a reasonable amount of time. Algorithms tend to have a
 tradeoff between speed and accuracy. Greedy algorithms, such as the
 original method of Newman \autocite{newman_fast_2004} and the Louvain
@@ -185,6 +185,19 @@ found in \autocite{guimera_functional_2005}. Many other techniques,
 including spectral optimization and genetic algorithms, have been
 employed in attempts to get accurate solutions quickly---see a summary
 in \autocite{fortunato_community_2010}.
+
+Modularity became popular in part because it was one of the first
+attempts to formalize the concept of community, including in its
+mathematical form the definition of community in relation to a defined
+null model. The measure has been shown to have some problems, however,
+most notably its resolution limit. Modularity-maximizing techniques have
+a lower limit on the size of communities it is able to detect which
+depends on the number of links and the interconnectedness of communities
+\autocite{fortunato_resolution_2007}. This can be a problem in many
+real-world networks, which can contain communities of many different
+sizes. In addition, modularity can be very sensitive to even individual
+connections, which can be a problem in any noisy dataset which can
+contain false positives \autocite{fortunato_community_2010}.
 
 \hypertarget{the-stochastic-equivalence-perspective}{\subsection{The
 stochastic equivalence
