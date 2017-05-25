@@ -12,7 +12,7 @@ The earliest analyses of communities were made by social scientists in the early
 
 What follows is an overview of some of the many community detection methods currently in use. The overview follows the taxonomy laid out in a recent paper by Schaub et al. [@schaub_many_2017]. The authors identify four different perspectives on the problem of community detection: (i) the *cut-based perspective*, (ii) the *(data) clustering perspective*, (iii) the *stochastic equivalence perspective*, and (iv) the *dynamical perspective*. The different perspectives represent different approaches to the problem, often with different kinds of data, different methods, and different goals. They also represent to some degree the different research communities that have been working on the problem.
 
-\TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. Link to discussion in the evaluation section on the need for splitting the problem up.}
+\TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. It does not divide the methods cleanly, but neither do other classification. This is maybe because there are so many connections between methods. Link to discussion in the evaluation section on the need for splitting the problem up.}
 
 ## The cut-based perspective
 
@@ -22,9 +22,11 @@ The cut-based perspective has also seen the development of spectral methods for 
 
 ## The clustering perspective
 
-\TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
+The clustering perspective comes from the world of data clustering, in which data points are thought of as having "distance" between each other based on their (dis)similarity, and the goal is to group together data point that are close to each other. For community detection, this distance is in relation to the connections between nodes in the network. This perspective is related to but different from the cut-based perspective above, which seeks to place divisions among the nodes so as to form balanced groups with weak connections between groups.
 
 \TODO{hierarchical clustering? Schaub et al. don't mention it.}
+
+\TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
 
 \TODO{modularity}
 
