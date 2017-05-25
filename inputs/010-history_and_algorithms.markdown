@@ -10,7 +10,7 @@ The earliest analyses of communities were made by social scientists in the early
 
 # Community detection methods
 
-What follows is an overview of some of the many community detection methods currently in use. The overview follows the taxonomy laid out in a recent paper by Schaub et al. [@schaub_many_2017]. The authors identify four different perspectives on the problem of community detection: (i) [the *cut-based perspective*](#the-cut-based-perspective), (ii) [the *(data) clustering perspective*](#the-clustering-perspective), (iii) (the *stochastic equivalence perspective*)[#the-stochastic-equivalence-perspective], and (iv) (the *dynamical perspective*)[|#the-dynamical-perspective]. The different perspectives represent different approaches to the problem, often with different kinds of data, different methods, and different goals. They also represent to some degree the different research communities that have been working on the problem.
+What follows is an overview of some of the many community detection methods currently in use. The overview follows the taxonomy laid out in a recent paper by Schaub et al. [@schaub_many_2017]. The authors identify four different perspectives on the problem of community detection: (i) [the *cut-based perspective*](#the-cut-based-perspective), (ii) [the *(data) clustering perspective*](#the-clustering-perspective), (iii) [the *stochastic equivalence perspective*](#the-stochastic-equivalence-perspective), and (iv) [the *dynamical perspective*](#the-dynamical-perspective). The different perspectives represent different approaches to the problem, often with different kinds of data, different methods, and different goals. They also represent, to some degree, the different research communities that have been working on the problem.
 
 \TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. It does not divide the methods cleanly, but neither do other classification. This is maybe because there are so many connections between methods. Link to discussion in the evaluation section on the need for splitting the problem up.}
 
@@ -22,15 +22,13 @@ The cut-based perspective has also seen the development of spectral methods for 
 
 A cut-based measure for the quality of a partition is the *conductance*. The conductance of a subgraph $S \in V$ for a graph $G(V, E)$ is:
 $$\phi(S) = \frac{c(S, V \setminus S)}{\min(k_S, k_{V \setminus S})}$$
-Where $c(S, V \setminus S)$ is the cut size of $S$, and $k_S$ and $k_{V \setminus S}$ are the total degrees of $S$ and the rest of the graph, respectively [@schaeffer_graph_2007].
+Where $c(S, V \setminus S)$ is the cut size of $S$, and $k_S$ and $k_{V \setminus S}$ are the total degrees of $S$ and the rest of the graph, respectively [@schaeffer_graph_2007]. While this measure was originally used globally to optimize a bisection of a graph, it has also seen use as a local quality function to find good clusters around certain nodes; in this way it can also be viewed as part of the clustering perspective [@schaub_many_2017]. Conductance has its roots in computer science, and its use in network science appears still to be especially popular in the computer science community [@schaeffer_graph_2007;@yang_defining_2015].
 
 ## The clustering perspective
 
 The clustering perspective comes from the world of data clustering, in which data points are thought of as having "distance" between each other based on their (dis)similarity, and the goal is to group together data point that are close to each other. For community detection, this distance is in relation to the connections between nodes in the network. This perspective is related to but different from the cut-based perspective above, which seeks to place divisions among the nodes so as to form balanced groups with weak connections between groups.
 
 A classical method with this perspective is *hierarchical clustering*, which when used on graphs yields a hierarchical partitioning that can be viewed as a dendrogram. The common method uses an agglomerative approach in which each node starts in its own cluster, and they are joined together one by one based on some similarity measure calculated using the graph's adjacency matrix. This approach to community detection has several weaknesses. It necessarily infers a hierarchical community structure even if one does not exist; the hierarchy is not always easy to interpret; it often misclassifies nodes, especially nodes with only one neighbor, which it tends to put it in its own cluster; and it does not scale well to large networks [@fortunato_community_2010].
-
-\TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
 
 \TODO{modularity}
 

@@ -60,14 +60,14 @@ identify four different perspectives on the problem of community
 detection: (i) \protect\hyperlink{the-cut-based-perspective}{the
 \emph{cut-based perspective}}, (ii)
 \protect\hyperlink{the-clustering-perspective}{the \emph{(data)
-clustering perspective}}, (iii) (the \emph{stochastic equivalence
-perspective}){[}\#the-stochastic-equivalence-perspective{]}, and (iv)
-(the \emph{dynamical
-perspective}){[}\textbar{}\#the-dynamical-perspective{]}. The different
-perspectives represent different approaches to the problem, often with
-different kinds of data, different methods, and different goals. They
-also represent to some degree the different research communities that
-have been working on the problem.
+clustering perspective}}, (iii)
+\protect\hyperlink{the-stochastic-equivalence-perspective}{the
+\emph{stochastic equivalence perspective}}, and (iv)
+\protect\hyperlink{the-dynamical-perspective}{the \emph{dynamical
+perspective}}. The different perspectives represent different approaches
+to the problem, often with different kinds of data, different methods,
+and different goals. They also represent to some degree the different
+research communities that have been working on the problem.
 
 \TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. It does not divide the methods cleanly, but neither do other classification. This is maybe because there are so many connections between methods. Link to discussion in the evaluation section on the need for splitting the problem up.}
 
@@ -111,7 +111,14 @@ graph \(G(V, E)\) is:
 \[\phi(S) = \frac{c(S, V \setminus S)}{\min(k_S, k_{V \setminus S})}\]
 Where \(c(S, V \setminus S)\) is the cut size of \(S\), and \(k_S\) and
 \(k_{V \setminus S}\) are the total degrees of \(S\) and the rest of the
-graph, respectively \autocite{schaeffer_graph_2007}.
+graph, respectively \autocite{schaeffer_graph_2007}. While this measure
+was originally used globally to optimize a bisection of a graph, it has
+also seen use as a local quality function to find good clusters around
+certain nodes; in this way it can also be viewed as part of the
+clustering perspective \autocite{schaub_many_2017}. Conductance has its
+roots in computer science, and its use in network science appears still
+to be especially popular in the computer science community
+\autocites{schaeffer_graph_2007}{yang_defining_2015}.
 
 \hypertarget{the-clustering-perspective}{\subsection{The clustering
 perspective}\label{the-clustering-perspective}}
@@ -138,14 +145,14 @@ especially nodes with only one neighbor, which it tends to put it in its
 own cluster; and it does not scale well to large networks
 \autocite{fortunato_community_2010}.
 
-\TODO{conductance: originally developed with the cut-based perspective, but adapted as a local measure to be a clustering quality measure}
-
 \TODO{modularity}
 
-\subsection{The stochastic equivalence
-perspective}\label{the-stochastic-equivalence-perspective}
+\hypertarget{the-stochastic-equivalence-perspective}{\subsection{The
+stochastic equivalence
+perspective}\label{the-stochastic-equivalence-perspective}}
 
-\subsection{The dynamical perspective}\label{the-dynamical-perspective}
+\hypertarget{the-dynamical-perspective}{\subsection{The dynamical
+perspective}\label{the-dynamical-perspective}}
 
 \subsection{Future/open problems}\label{futureopen-problems}
 
