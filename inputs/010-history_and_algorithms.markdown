@@ -30,7 +30,9 @@ The clustering perspective comes from the world of data clustering, in which dat
 
 A classical method with this perspective is *hierarchical clustering*, which when used on graphs yields a hierarchical partitioning that can be viewed as a dendrogram. The common method uses an agglomerative approach in which each node starts in its own cluster, and they are joined together one by one based on some similarity measure calculated using the graph's adjacency matrix. This approach to community detection has several weaknesses. It necessarily infers a hierarchical community structure even if one does not exist; the hierarchy is not always easy to interpret; it often misclassifies nodes, especially nodes with only one neighbor, which it tends to put it in its own cluster; and it does not scale well to large networks [@fortunato_community_2010].
 
-\TODO{modularity}
+\TODO{modularity [@newman_finding_2004; @newman_modularity_2006]}
+
+$$Q = \frac{1}{2m} \sum_{ij} \left(A_{ij} - \frac{k_i k_j}{2m}\right) \delta(C_i, C_j)$$
 
 ## The stochastic equivalence perspective
 
