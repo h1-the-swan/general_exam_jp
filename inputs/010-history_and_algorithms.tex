@@ -39,8 +39,17 @@ early 1970s to apply to problems in parallel computing and circuit
 layout. In 2002, a seminal paper by Girvan and Newman
 \autocite{girvan_community_2002} marked the entrance of the physics
 community, and ushered in the modern age of community detection
-\autocite{lancichinetti_community_2009}. Since then, the field has seen
-rapid growth and the development of many new methods.
+\autocite{lancichinetti_community_2009}. The Girvan and Newman algorithm
+introduced in their paper involved successively calculating the
+\emph{edge betweenness}---the number of shortest path between all nodes
+that run along the edge---of all edges, then removing the edge with the
+highest betweenness and repeating. The idea is that the edges with the
+highest betweenness centralities are the ones that connect communities,
+and the communities can be separated by this divisive algorithm. This
+work inspired the development of modularity as a quality measure (see
+section on \protect\hyperlink{the-clustering-perspective}{the clustering
+perspective} below). Since then, the field has seen rapid growth and the
+development of many new methods.
 
 \section{Community detection methods}\label{community-detection-methods}
 
@@ -48,9 +57,13 @@ What follows is an overview of some of the many community detection
 methods currently in use. The overview follows the taxonomy laid out in
 a recent paper by Schaub et al. \autocite{schaub_many_2017}. The authors
 identify four different perspectives on the problem of community
-detection: (i) the \emph{cut-based perspective}, (ii) the \emph{(data)
-clustering perspective}, (iii) the \emph{stochastic equivalence
-perspective}, and (iv) the \emph{dynamical perspective}. The different
+detection: (i) \protect\hyperlink{the-cut-based-perspective}{the
+\emph{cut-based perspective}}, (ii)
+\protect\hyperlink{the-clustering-perspective}{the \emph{(data)
+clustering perspective}}, (iii) (the \emph{stochastic equivalence
+perspective}){[}\#the-stochastic-equivalence-perspective{]}, and (iv)
+(the \emph{dynamical
+perspective}){[}\textbar{}\#the-dynamical-perspective{]}. The different
 perspectives represent different approaches to the problem, often with
 different kinds of data, different methods, and different goals. They
 also represent to some degree the different research communities that
@@ -58,7 +71,8 @@ have been working on the problem.
 
 \TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. It does not divide the methods cleanly, but neither do other classification. This is maybe because there are so many connections between methods. Link to discussion in the evaluation section on the need for splitting the problem up.}
 
-\subsection{The cut-based perspective}\label{the-cut-based-perspective}
+\hypertarget{the-cut-based-perspective}{\subsection{The cut-based
+perspective}\label{the-cut-based-perspective}}
 
 Some of the earliest work in community detection was in the area of
 circuit layout and design. A circuit can be represented as a graph
@@ -91,8 +105,8 @@ the second-smallest eigenvector associated with the Laplacian matrix
 partition a graph into two groups with a low cut size
 \autocite{fiedler_algebraic_1973}.
 
-\subsection{The clustering
-perspective}\label{the-clustering-perspective}
+\hypertarget{the-clustering-perspective}{\subsection{The clustering
+perspective}\label{the-clustering-perspective}}
 
 The clustering perspective comes from the world of data clustering, in
 which data points are thought of as having ``distance'' between each
@@ -113,3 +127,7 @@ to form balanced groups with weak connections between groups.
 perspective}\label{the-stochastic-equivalence-perspective}
 
 \subsection{The dynamical perspective}\label{the-dynamical-perspective}
+
+\subsection{Future/open problems}\label{futureopen-problems}
+
+\TODO{hierarchical. overlapping.}
