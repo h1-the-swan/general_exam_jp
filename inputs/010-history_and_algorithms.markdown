@@ -1,4 +1,4 @@
-# History of community detection
+# History of community detection {#history}
 
 Across many disciplines of science, it is common to encounter data that can best be represented as a network, with entities linked to each other in some meaningful way, such as through association or flow. These entities are represented by *nodes* or *vertices* connected to each other with *links* or *edges*. This overall representation is known as a *network* or *graph*.[^networkgraph] The idea of community detection as a research topic comes from a basic intuition that there exist in these networks groups of nodes that are structurally more related to each other than they are to members of other groups. 
 
@@ -22,7 +22,7 @@ The cut-based perspective has also seen the development of spectral methods for 
 
 A cut-based measure for the quality of a partition is the *conductance*. The conductance of a subgraph $S \in V$ for a graph $G(V, E)$ is:
 $$\phi(S) = \frac{c(S, V \setminus S)}{\min(k_S, k_{V \setminus S})}$$
-Where $c(S, V \setminus S)$ is the cut size of $S$, and $k_S$ and $k_{V \setminus S}$ are the total degrees of $S$ and the rest of the graph, respectively [@schaeffer_graph_2007]. While this measure was originally used globally to optimize a bisection of a graph, it has also seen use as a local quality function to find good clusters around certain nodes; in this way it can also be viewed as part of the clustering perspective [@schaub_many_2017]. Conductance has its roots in computer science, and its use in network science appears still to be especially popular in the computer science community [@schaeffer_graph_2007;@yang_defining_2015].
+where $c(S, V \setminus S)$ is the cut size of $S$, and $k_S$ and $k_{V \setminus S}$ are the total degrees of $S$ and the rest of the graph, respectively [@schaeffer_graph_2007]. While this measure was originally used globally to optimize a bisection of a graph, it has also seen use as a local quality function to find good clusters around certain nodes; in this way it can also be viewed as part of the clustering perspective [@schaub_many_2017]. Conductance has its roots in computer science, and its use in network science appears still to be especially popular in the computer science community [@schaeffer_graph_2007;@yang_defining_2015].
 
 ## The clustering perspective
 
@@ -30,9 +30,11 @@ The clustering perspective comes from the world of data clustering, in which dat
 
 A classical method with this perspective is *hierarchical clustering*, which when used on graphs yields a hierarchical partitioning that can be viewed as a dendrogram. The common method uses an agglomerative approach in which each node starts in its own cluster, and they are joined together one by one based on some similarity measure calculated using the graph's adjacency matrix. This approach to community detection has several weaknesses. It necessarily infers a hierarchical community structure even if one does not exist; the hierarchy is not always easy to interpret; it often misclassifies nodes, especially nodes with only one neighbor, which it tends to put it in its own cluster; and it does not scale well to large networks [@fortunato_community_2010].
 
-\TODO{modularity [@newman_finding_2004; @newman_modularity_2006]}
+The *modularity* is a quality function originally developed as stopping criterion for the Girvan-Newman algorithm (see [section on history](#history) above) [@newman_finding_2004; @newman_modularity_2006]. The algorithm partitions a graph by successively removing links, but the original formulation did not have a clear stopping point at which the communities have been identified. The modularity compares an overall partitioning against a null model. For a given graph $G(V, E)$ and partitioning $\mathcal{C}$, the modularity is:
+$$Q = \frac{1}{2m} \sum_{i,j \in V} \left(A_{ij} - \frac{k_i k_j}{2m}\right) \delta(C_i, C_j)$$
+where $m$ is the total number of edges in $G$, $A$ is the adjacency matrix of $G$, $k_i$ is the degree of vertex $i$, and $\delta(C_i, C_j)$ is a function that yields one if vertices $i$ and $j$ are in the same community in $\mathcal{C}$, zero otherwise. The term $k_i k_j / 2m$ represents the standard null model used for modularity---the configuration model which preserves the degree sequence of the original graph.
 
-$$Q = \frac{1}{2m} \sum_{ij} \left(A_{ij} - \frac{k_i k_j}{2m}\right) \delta(C_i, C_j)$$
+Once modularity was introduced, network researchers, especially those in the physics community, seized on the idea and began developing clustering algorithms that aim to maximize it---it has become the most popular and best known quality function [@fortunato_community_2010].
 
 ## The stochastic equivalence perspective
 
