@@ -2,7 +2,9 @@
 
 ## Social network analysis
 
-[@traud_comparing_2011]
+[@traud_comparing_2011] Comparing Community Structure to Characteristics in Online Collegiate Social Networks
+
+[@weng_virality_2013] Applied Infomap to help predict virality of memes.
 
 ## Networks of scholarly communication
 
