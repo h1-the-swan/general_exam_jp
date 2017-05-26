@@ -41,6 +41,7 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("circle")
       // .attr("r", 5)
+		.attr("class", "node")
       .attr("r", function(d) { return d.radius = sizeScale(d.flow); })
       .attr("fill", function(d) { return d.color_orig = color(d.cl_top); })
       .call(d3.drag()
@@ -63,15 +64,23 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 
 	});
 
-  node.append("title")
-      // .text(function(d) { return d.author_name; });
-      .text(function(d) { 
-		  var titles = [];
-		  for (var i = 0, len = d.papers.length; i < len; i++) {
-		  	titles.push(d.papers[i].title);
-		  }
-		  return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
-	  });
+  // node.append("title")
+  //     // .text(function(d) { return d.author_name; });
+  //     .text(function(d) { 
+	// 	  var titles = [];
+	// 	  for (var i = 0, len = d.papers.length; i < len; i++) {
+	// 	  	titles.push(d.papers[i].title);
+	// 	  }
+	// 	  return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
+	//   });
+	node.attr("title", function(d) {
+		  // var titles = [];
+		  // for (var i = 0, len = d.papers.length; i < len; i++) {
+		  // 	titles.push(d.papers[i].title);
+		  // }
+		  // return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
+		return d.author_name + ' ' + d.affil_name;
+	});
 
   simulation
       .nodes(graph.nodes)
@@ -106,6 +115,7 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 			.style("opacity", 1);
 		link.style("opacity", 1);
 	}
+	nodeTooltips();
 	svg.on("click", reset_layout);
 
 });
@@ -125,4 +135,20 @@ function dragended(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
   d.fx = null;
   d.fy = null;
+}
+
+function nodeTooltips() {
+	var windowWidth = $(window).width();
+	console.log('nodeTooltips();')
+	$('.node').tooltipster({
+		theme: 'tooltipster-noir',
+		maxWidth: windowWidth * .5,
+		// animation: null,
+		// animationduration: 0,
+		delay: 0,
+		updateAnimation: null
+		// content: otherHtml,
+		// contentAsHTML: true
+	});
+	
 }
