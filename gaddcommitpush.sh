@@ -1,1 +1,1 @@
-git status; git add .; git commit -m "writing"; git push
+git add .; git status; git commit -m "writing"; git push
