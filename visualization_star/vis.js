@@ -1,4 +1,3 @@
-console.log('d');
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -6,7 +5,7 @@ var svg = d3.select("svg"),
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var manyBody = d3.forceManyBody()
-					.strength(-2);
+					.strength(-5);
 
 var simulation = d3.forceSimulation()
     // .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -15,10 +14,10 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 var sizeScale = d3.scaleLinear()
-	.range([2, 10]);
+	.range([4, 12]);
 
 
-d3.json("coauthorship.json", function(error, graph) {
+d3.json("coauthorship_largest_cc.json", function(error, graph) {
   if (error) throw error;
 	console.log(graph);
 
@@ -42,8 +41,8 @@ d3.json("coauthorship.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("circle")
       // .attr("r", 5)
-      .attr("r", function(d) { return sizeScale(d.flow); })
-      .attr("fill", function(d) { return color(d.cl_top); })
+      .attr("r", function(d) { return d.radius = sizeScale(d.flow); })
+      .attr("fill", function(d) { return d.color_orig = color(d.cl_top); })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -60,6 +59,7 @@ d3.json("coauthorship.json", function(error, graph) {
 		component.attr("fill", function(d) { return componentColor(d.cl_bottom); })
 			.style("opacity", 1);
 		componentLink.style("opacity", 1);
+		d3.event.stopPropagation();
 
 	});
 
@@ -81,16 +81,33 @@ d3.json("coauthorship.json", function(error, graph) {
       .links(graph.links);
 
   function ticked() {
+    // node
+    //     .attr("cx", function(d) { return d.x; })
+    //     .attr("cy", function(d) { return d.y; });
+	// add bounding box
+	  // https://bl.ocks.org/mbostock/1129492
+    node
+        .attr("cx", function(d) { 
+			d.x = Math.max(d.radius, Math.min(width - d.radius, d.x));
+			return d.x; })
+        .attr("cy", function(d) { 
+			d.y = Math.max(d.radius, Math.min(width - d.radius, d.y));
+			return d.y; })
+
     link
         .attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
-
-    node
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
   }
+
+	function reset_layout() {
+		node.attr("fill", function(d) { return d.color_orig; })
+			.style("opacity", 1);
+		link.style("opacity", 1);
+	}
+	svg.on("click", reset_layout);
+
 });
 
 function dragstarted(d) {
