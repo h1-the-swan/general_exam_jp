@@ -46,7 +46,7 @@ There are several advantages to using a generative model such as the SBM to desc
 
 ## The dynamical perspective
 
-The fourth perspective that Schaub et al. identify is the dynamical perspective, and it differs from the above three in that it is not directly concerned with the structure of the network, but rather the dynamical processes acting on the network.
+The fourth perspective that Schaub et al. identify is the dynamical perspective, and it differs from the above three in that it is not directly concerned with the structure of the network, but rather the dynamical processes acting on the network. In other words, it aims to find coarse-grained, simplified representations of the *behavior* of a system, rather than its topology. Since the structure of a network has a strong influence on its behavior, the results of these methods can actually be very related to the above methods. For example, when modeling the network dynamics using a random walk, the random walker tends to get "stuck" in communities that look very similar to those identified using [the clustering perspective], e.g., modularity. So a modular description of the random walker's behavior will closely resemble modularity methods' clustering of the network topology.
 
 ## Future/open problems
 
