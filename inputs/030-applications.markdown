@@ -2,7 +2,13 @@
 
 ## Social network analysis
 
+[@traud_comparing_2011]
+
 ## Networks of scholarly communication
+
+## Biology
+
+[@bacik_flow-based_2016; @holme_subnetwork_2003]
 
 ## Legislative networks
 
@@ -12,4 +18,4 @@
 
 \TODO{see fortunato paper. see porter paper.}
 
-\TODO{terrorism? crime? marketing? maybe not reflected in the research.}
+\TODO{terrorism? crime? marketing? maybe not reflected in the research. Community detection to identify fraud events in telecommunication networks.}
