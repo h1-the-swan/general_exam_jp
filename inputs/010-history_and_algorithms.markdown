@@ -56,7 +56,7 @@ An analogy can be made to the world of cartography, which is where the map equat
 
 Information theory states that this lower bound for the average length of a codeword to describe a random variable $X$ with $n$ possible states that occur with frequences $p_i$ is equal to the entropy of that random variable: $H(X) = -\sum_{i=1}^{n}{p_i\log{p_i}}$ [@cover_elements_2012]. (It is standard to use base-2 for the logarithms, which yields calculations in bits.) The map equation imagines that there are separate codebooks for each module (community), and is thus the combined entropy of each codebook plus an additional index codebook that allows for switching between modules, rated by their rates of use:
 $$L(\mathsf{M}) = q_{\curvearrowright} H(\mathcal{Q}) + \sum_{i=1}^{m}{p_{\circlearrowright} H(\mathcal{P}^i)}$$
-...see section "[Infomap implementation in Python](#pyinfomap)".
+Where $\mathsf{M}$ is the module partitioning; the left term is the average length of codewords (entropy) in the index codebook weighted by the rate of use of the index codebook $q_{\curvearrowright}$; and the right term is the average length of codewords in module codebook $i$ weighted by the rate of use of this module $p_{\circlearrowright}$. This equation can be expanded in terms of the individual node visit rates; see section "[Infomap implementation in Python](#pyinfomap)" for details.
 
 \TODO{describe Infomap}
 
