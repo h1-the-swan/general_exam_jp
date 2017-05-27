@@ -8,7 +8,7 @@ The field of *network science* has emerged recently to study this and related to
 
 The earliest analyses of communities were made by social scientists in the early- to mid-twentieth century---for example Weiss and Jacobson's analysis of the organizational structure of a government agency [@weiss_method_1955]. More developments were made by computer scientists, who began developing graph partitioning algorithms in the early 1970s to apply to problems in parallel computing and circuit layout. In 2002, a seminal paper by Girvan and Newman [@girvan_community_2002] marked the entrance of the physics community, and ushered in the modern age of community detection [@lancichinetti_community_2009]. The Girvan and Newman algorithm introduced in their paper involved successively calculating the *edge betweenness*---the number of shortest path between all nodes that run along the edge---of all edges, then removing the edge with the highest betweenness and repeating. The idea is that the edges with the highest betweenness centralities are the ones that connect communities, and the communities can be separated by this divisive algorithm. This work inspired the development of modularity as a quality measure (see section on [the clustering perspective] below). Since then, the field has seen rapid growth and the development of many new methods.
 
-# Community detection methods
+# Community detection methods {#community-detection-methods}
 
 What follows is an overview of some of the many community detection methods currently in use. The overview follows the taxonomy laid out in a recent paper by Schaub et al. [@schaub_many_2017]. The authors identify four different perspectives on the problem of community detection: (i) [the *cut-based perspective*](#the-cut-based-perspective), (ii) [the *(data) clustering perspective*](#the-clustering-perspective), (iii) [the *stochastic equivalence perspective*](#the-stochastic-equivalence-perspective), and (iv) [the *dynamical perspective*](#the-dynamical-perspective). The different perspectives represent different approaches to the problem, often with different kinds of data, different methods, and different goals. They also represent, to some degree, the different research communities that have been working on the problem.
 
@@ -56,7 +56,7 @@ An analogy can be made to the world of cartography, which is where the map equat
 
 \TODO{describe Infomap}
 
-\TODO{extensions to Infomap. hierarchical. overlapping. higher-order dynamics}
+\TODO{extensions to Infomap. hierarchical. overlapping. higher-order dynamics. note: point out that while first-order dynamics are highly related to structure/topology, higher-order dynamics can yield new insight}
 
 ## Future/open problems
 

@@ -12,7 +12,17 @@ The extensive work behind developing and validating methods for community detect
 
 ## Biological networks
 
+Many biological systems can be thought of as structured interactions between functional elements, often with (possibly hierarchical) modular structure. It is natural to think of these systems as networks, and to see promise in the prospect of identifying communities in this network representation.
+
+Protein-protein interaction networks are constructed from data collected in experiments that identify molecular interactions between proteins. Community detection on these networks, for example using the Girvan-Newman edge betweenness method, has been shown to be effective in identifying what are known as "functional modules" in these networks---groups of proteins that interact in the service of a particular cellular process. Clusters found in these networks correspond to existing annotations, suggesting promise for the automated analysis of experiments. These methods were also found to be robust against false positive interactions, which is important considering that experimental results can contain considerable noise [@dunn_use_2005]. Chen and Yuan [@chen_detecting_2006] integrated multiple protein interaction datasets containing hundreds of microarray expression profiles for *Saccharomyces cerevisiae* (brewer's yeast) to form a weighted graph, in which the weights correspond to dissimilarity between genes' expression profiles. By classifying the genes into functional modules using a modified version of the Girvan-Newman method, they were able to predict the function of the as-yet not annotated yeast gene *YLR419w* to be chromosome segregation.
+
+Another biological network that has been studied is the directed network of neuronal connections---the "connectome". Dynamically minded community detection methods (see subsection "[The dynamical perspective]" in section "[Community detection methods](#community-detection-methods)" above) are especially relevant for these networks as the connectome represents a system of information flow which is what these methods model.
+
 [@bacik_flow-based_2016; @holme_subnetwork_2003]
+
+Detecting functional modules in the yeast protein–protein interaction network, 2006 (shows how GN algorithm can be used on protein-protein interaction networks)
+
+The Use of Edge-Betweenness Clustering to Investigate Biological Function in Protein Interaction Networks, 2005 -- Gene function **prediction**
 
 ## Other examples in the research literature {#other-research}
 

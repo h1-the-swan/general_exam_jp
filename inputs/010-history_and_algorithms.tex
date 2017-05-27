@@ -254,6 +254,35 @@ clustering perspective}, e.g., modularity. So a modular description of
 the random walker's behavior will closely resemble modularity methods'
 clustering of the network topology.
 
+The \emph{map equation} uses elements of information theory to describe
+a random walker's movements on a network. It does this by quantifying
+the amount of information (in bits) it takes to describe the walker's
+movements given a particular modular structure of the nodes. The goal is
+to exploit the relationship between compression and relevant modular
+structure of a system. The optimal compression means that the smallest
+number of bits of information is needed to describe the random walker's
+movements. The map equation is the minimal description length (MDL) of
+the diffusion process modeled by the random walker given a modular
+structure.
+
+An analogy can be made to the world of cartography, which is where the
+map equation derives its name. Assigning an address to a location in a
+city is a way of encoding that location. Parts of an address can be
+reused in different locations---there can exist multiple Main Streets in
+different cities. Reusing these names makes Describing an individual's
+movement within a city more efficient (fewer bits), since as long as we
+know the individual is staying within the city limits we can just use
+street names without causing confusion. The map equation formalizes this
+idea mathematically, providing a function that can be optimized to find
+good community structure given a network and a model of the dynamics on
+that network.
+
+\TODO{write out map equation. describe its parts}
+
+\TODO{describe Infomap}
+
+\TODO{extensions to Infomap. hierarchical. overlapping. higher-order dynamics}
+
 \subsection{Future/open problems}\label{futureopen-problems}
 
 \TODO{hierarchical. overlapping.}
