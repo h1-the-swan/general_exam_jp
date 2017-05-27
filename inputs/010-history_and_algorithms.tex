@@ -326,7 +326,24 @@ are so tightly coupled \autocite{schaub_many_2017}. However, for
 directed networks, differences can be seen, as the clustering
 perspective is more concerned with pair-wise structural relationships
 between nodes, while the dynamical perspective deals with directed flow.
-\TODO{modularity image from map equation paper. also, results can be different by tweaking the dynamics (e.g., smart teleportation)}
+This is illustrated in Fig.~\ref{fig:mapvsmod}, in which the difference
+between directed links that allow flow between clusters vs.~links that
+trap flow within clusters has an effect on the optimal partitioning for
+the map equation, but not for modularity.
+
+The map equation approach is flexible and can give different results
+given different dynamics induced on the system. For example, instead of
+the standard PageRank implementation of the random walker, the
+teleportation can be tweaked, e.g., by employing teleportation to links
+instead of nodes, or changing the direction of links in strategic
+ways---this changes the node visit probabilities used in calculating the
+map equation \autocite{lambiotte_ranking_2012}. Another possibility is
+the use of higher-order dynamics: instead of modeling the flow as a
+first-order Markov process, in which every step of the walker depends
+only on the current position, we can take into account the influence of
+the position before the current one, or include several time points
+before the present. This can have important impacts on the communities
+found \autocite{rosvall_memory_2014}.
 
 \begin{figure}
 \centering
@@ -343,9 +360,27 @@ map equation ((a) and (d)). Figure from
 \autocite{rosvall_map_2010}}\label{fig:mapvsmod}
 \end{figure}
 
-\TODO{describe Infomap}
-
-\TODO{extensions to Infomap. hierarchical. overlapping. higher-order dynamics. note: point out that while first-order dynamics are highly related to structure/topology, higher-order dynamics can yield new insight}
+The algorithm used to find the community structure that optimizes is
+called Infomap, and the code is available at
+\url{http://www.mapequation.org/}. It works similarly to the Louvain
+algorithm used to optimize modularity \autocite{blondel_fast_2008}. Each
+node starts out in its own module; the modules are joined in a greedy
+fashion (examining each node one at a time, in a random order) to yield
+the largest increase of the map equation. These modules are joined into
+super-modules, the network is reconstructed with these super-modules as
+the nodes, and the process is repeated until no further improvement can
+be made. This greedy approach has a danger of finding a local optimum,
+so at the end, the solution space is further explored by reapplying the
+algorithm for each module, and by rerunning the algorithm but allowing
+for single-node movements between modules. This method is fast, and so
+can be repeated multiple times (with different random seeds) to broaden
+the search space more
+\autocites{rosvall_maps_2008}{rosvall_map_2010}{rosvall_multilevel_2011}.
+See section ``\protect\hyperlink{pyinfomap}{Infomap implementation in
+Python} for further discussion on Infomap. The method has been extended
+to allow for hierarchical partitions \autocite{rosvall_multilevel_2011},
+overlapping communities \autocite{viamontes_esquivel_compression_2011},
+and higher-order Markov dynamics \autocite{rosvall_memory_2014}.
 
 \subsection{Future/open problems}\label{futureopen-problems}
 
