@@ -60,8 +60,32 @@ year and community structure can be seen. Figure from
 \autocite{traud_social_2012}}\label{fig:facebook}
 \end{figure}
 
-\autocite{weng_virality_2013} Applied Infomap to help predict virality
-of memes.
+Weng et al. \autocite{weng_virality_2013} used community detection to
+study the virality of memes on Twitter. Since the question of interest
+was one of information flow, they used Infomap, a flow-based community
+detection method (see subsection
+``\protect\hyperlink{the-dynamical-perspective}{The dynamical
+perspective}'' in section
+``\protect\hyperlink{community-detection-methods}{Community detection
+methods}'' above). They identified communities in networks of
+reciprocal-follower relationships among Twitter users.
+Fig.~\ref{fig:viraltwitter} shows the evolution of a viral meme (here a
+meme corresponds to a hashtag) vs.~a non-viral meme, with the
+communities represented as nodes. The results suggest that a meme that
+is less concentrated in one community is more likely to spread, and that
+community structure might be helpful in predicting the virality of
+memes. They go on to apply a random forest classifier for new memes that
+takes into account community features, and find that these features are
+helpful in predicting whether a meme will go viral.
+
+\begin{figure}
+\centering
+\includegraphics{img/weng2013_fig4_viraltwitter.jpg}
+\caption{The evolution of a viral meme (A) vs.~a non-viral meme (B).
+Each node is a community, with size proportional to the number of tweets
+produced by the community, and color indicating the relative time that
+the hashtag was first used by the community.}\label{fig:viraltwitter}
+\end{figure}
 
 \hypertarget{networks-of-scholarship}{\subsection{Networks of
 scholarship}\label{networks-of-scholarship}}
