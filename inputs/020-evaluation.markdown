@@ -69,4 +69,6 @@ The authors of this study introduce two interesting new statistical methods to a
 
 \TODO{emmons/borner paper. see "Comparison of Clustering Algorithms" section: they use benchmarks with a large community size. this works in the favor of Louvain, which has modularity's resolution limit. (they take the bottom level of Infomap's hierarchy)}
 
+\TODO{remark on how LFR benchmarks are based on SBMs, so they would be expected to score best. can find this in fortunato and hric 2016 (and also i think in schaub 2017)}
+
 ## Visualization
