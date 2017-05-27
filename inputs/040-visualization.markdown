@@ -4,3 +4,5 @@ http://groups-in-graphs.corinna-vehlow.com/
 + Labs:
 	+ Stuttgart: Beck, Weiskopf
 	+ 
+
+\TODO{Appendix describing methods?}
