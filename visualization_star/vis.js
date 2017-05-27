@@ -37,28 +37,36 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 
   var node = svg.append("g")
       .attr("class", "nodes")
-    .selectAll("circle")
+    .selectAll(".node")
     .data(graph.nodes)
-    .enter().append("circle")
+    .enter().append("g")
       // .attr("r", 5)
 		.attr("class", "node")
-      .attr("r", function(d) { return d.radius = sizeScale(d.flow); })
-      .attr("fill", function(d) { return d.color_orig = color(d.cl_top); })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
 
-	node.on('click', function(d) {
-		node.attr("fill", "black")
+	var nodeCircle = node.append("circle")
+      .attr("r", function(d) { return d.radius = sizeScale(d.flow); })
+      .attr("fill", function(d) { return d.color_orig = color(d.cl_top); });
+
+	node.append("text")
+		.style("display", "none")  // hidden initially
+		.text(function(d) { return d.affil_name; });
+
+	nodeCircle.on('click', function(d) {
+		node.selectAll("text").style("display", "none");
+		nodeCircle.attr("fill", "black")
 			.style("opacity", .1);
 		link.style("opacity", .1);
 		var component_ids = graph.graph.connected_components[d.component];
 		var component = node.filter(function(d) {return component_ids.includes(d.id); });
 		var componentLink = link.filter(function(d) {return component_ids.includes(d.source.id);})
 		var componentColor = d3.scaleOrdinal(d3.schemeCategory10);
-		component.attr("fill", function(d) { return componentColor(d.cl_bottom); })
+		component.selectAll("circle").attr("fill", function(d) { return componentColor(d.cl_bottom); })
 			.style("opacity", 1);
+		component.selectAll("text").style("display", "");  // show these labels
 		componentLink.style("opacity", 1);
 		d3.event.stopPropagation();
 
@@ -73,14 +81,14 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 	// 	  }
 	// 	  return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
 	//   });
-	node.attr("title", function(d) {
-		  // var titles = [];
-		  // for (var i = 0, len = d.papers.length; i < len; i++) {
-		  // 	titles.push(d.papers[i].title);
-		  // }
-		  // return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
-		return d.author_name + ' ' + d.affil_name;
-	});
+	// node.attr("title", function(d) {
+	// 	  // var titles = [];
+	// 	  // for (var i = 0, len = d.papers.length; i < len; i++) {
+	// 	  // 	titles.push(d.papers[i].title);
+	// 	  // }
+	// 	  // return  d.author_name + '\n' + d.cl_bottom + '\n' + titles.join('\n');
+	// 	return d.author_name_detex + ' ' + d.affil_name;
+	// });
 
   simulation
       .nodes(graph.nodes)
@@ -102,6 +110,7 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
         .attr("cy", function(d) { 
 			d.y = Math.max(d.radius, Math.min(width - d.radius, d.y));
 			return d.y; })
+	  	.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
     link
         .attr("x1", function(d) { return d.source.x; })
@@ -111,11 +120,12 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
   }
 
 	function reset_layout() {
-		node.attr("fill", function(d) { return d.color_orig; })
+		node.selectAll("text").style("display", "none");
+		nodeCircle.attr("fill", function(d) { return d.color_orig; })
 			.style("opacity", 1);
 		link.style("opacity", 1);
 	}
-	nodeTooltips();
+	// nodeTooltips();  // not working!!
 	svg.on("click", reset_layout);
 
 });
@@ -139,16 +149,32 @@ function dragended(d) {
 
 function nodeTooltips() {
 	var windowWidth = $(window).width();
-	console.log('nodeTooltips();')
+	getTooltipHtml();
 	$('.node').tooltipster({
 		theme: 'tooltipster-noir',
 		maxWidth: windowWidth * .5,
 		// animation: null,
 		// animationduration: 0,
-		delay: 0,
-		updateAnimation: null
-		// content: otherHtml,
-		// contentAsHTML: true
+		// delay: 0,
+		// updateAnimation: null,
+		// content: "error",
+		// contentAsHTML: true,
+		functionInit: function(instance, helper) {
+			// var tooltipHtml = getTooltipHtml(helper.origin);
+			// instance.content = $(helper.origin).data("tooltipHtml");
+			instance.content('ddd');
+		}
 	});
+
+
+	function getTooltipHtml() {
+		// store tooltip html as data attribute
+		d3.selectAll(".node").each(function(d) {
+			var span = $( '<span>' );
+			span.append( '<p class="tooltip author_name">' ).text(d.author_name_detex);
+			html = span.html();
+			d3.select(this).attr("data-tooltipHtml", html);
+		});
+	}
 	
 }
