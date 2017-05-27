@@ -9,8 +9,7 @@ examples where the methods have been applied to solve a specific problem
 or gain significant new insight into a system. Below, I discuss some of
 the examples that do exist in the research literature, in the fields of
 \protect\hyperlink{social-network-analysis}{social network analysis},
-\protect\hyperlink{networks-of-scholarship-and-scholarly-communication}{networks
-of scholarship and scholarly communication},
+\protect\hyperlink{networks-of-scholarship}{networks of scholarship},
 \protect\hyperlink{biological-networks}{biological networks}, and
 \protect\hyperlink{other-research}{others}. Besides published research,
 I speculate on the (mostly unpublished) applications of community
@@ -27,9 +26,19 @@ Characteristics in Online Collegiate Social Networks
 \autocite{weng_virality_2013} Applied Infomap to help predict virality
 of memes.
 
-\hypertarget{networks-of-scholarship-and-scholarly-communication}{\subsection{Networks
-of scholarship and scholarly
-communication}\label{networks-of-scholarship-and-scholarly-communication}}
+\hypertarget{networks-of-scholarship}{\subsection{Networks of
+scholarship}\label{networks-of-scholarship}}
+
+The collective human endeavor of knowledge generation and organization
+can be represented as a directed network of scholarly publications with
+citations between them. The citation links between publications can been
+viewed as a proxy for influence or information flow. De Solla Price
+recognized the potential of this representation in the mid 20th century
+\autocite{de_solla_price_networks_1965}, and over the years much work
+has been done in this meta-scientific research area, which has been
+given terms such as ``bibliometrics,'' ``scientometrics,'' and ``science
+of science''.
+\TODO{Communities represent fields of study. Dynamic methods are good for this. They analyzed JSTOR. Can identify related literature and possibly unknown connections. Recommendation paper. Cultural holes? Mapping change--neuroscience?}
 
 \hypertarget{biological-networks}{\subsection{Biological
 networks}\label{biological-networks}}
@@ -61,12 +70,13 @@ able to predict the function of the as-yet not annotated yeast gene
 \emph{YLR419w} to be chromosome segregation.
 
 Another biological network that has been studied is the directed network
-of neuronal connections---the ``connectome''. Dynamically minded
-community detection methods (see subsection ``{[}The dynamical
-perspective{]}'' in section
+of neuronal connections---the ``connectome''. Dynamically-minded
+community detection methods (see subsection
+``\protect\hyperlink{the-dynamical-perspective}{The dynamical
+perspective}'' in section
 ``\protect\hyperlink{community-detection-methods}{Community detection
 methods}'' above) are especially relevant for these networks as the
-connectome represents a system of information flow which is what these
+connectome represents a system of information flow, which is what these
 methods model. Bacik et al. \autocite{bacik_flow-based_2016} grouped the
 neurons of \emph{C. elegans} using flow-based methods---these detected
 communities showed good agreement with previous understanding of
@@ -79,15 +89,7 @@ organism. These included neurons known to be important, as well as
 previously uninvestigated neurons that can be candidates for future
 study.
 
-\autocites{bacik_flow-based_2016}{holme_subnetwork_2003}
-
-Detecting functional modules in the yeast protein--protein interaction
-network, 2006 (shows how GN algorithm can be used on protein-protein
-interaction networks)
-
-The Use of Edge-Betweenness Clustering to Investigate Biological
-Function in Protein Interaction Networks, 2005 -- Gene function
-\textbf{prediction}
+\TODO{Metabolic networks? Maybe can skip this.}
 
 \hypertarget{other-research}{\subsection{Other examples in the research
 literature}\label{other-research}}
