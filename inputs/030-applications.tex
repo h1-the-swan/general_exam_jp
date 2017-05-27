@@ -20,8 +20,45 @@ question of interest.
 \hypertarget{social-network-analysis}{\subsection{Social network
 analysis}\label{social-network-analysis}}
 
-\autocite{traud_comparing_2011} Comparing Community Structure to
-Characteristics in Online Collegiate Social Networks
+Social networks often contain intuitive and potentially interesting
+community organization, so it is not surprising that there has been
+interest in applying community detection to various forms of social
+data. The enormous popularity of online social network platforms like
+Facebook and Twitter have made detailed social network data available at
+a massive scale. These data are not available equally to
+everybody---most popular social networking applications are proprietary
+and much of their data are reserved for internal research. It is likely
+that these companies are using community detection to explore patterns
+in their data, but not publishing all of their results.
+
+One published study of Facebook was conducted by Traud et al.
+\autocite{traud_social_2012}. They examined the Facebook friend network
+from 100 American colleges and universities (at the time of this study,
+Facebook was restricted to these institutions). They performed community
+detection using several modularity-optimizing techniques and compared
+the community structure against several (self-reported) categorical
+demographic variables---gender, class year, high school, major, and
+residence. Fig.~\ref{fig:facebook} shows a visualization of community
+structure with class year---the variable most strongly associated with
+community structure. The authors find some patterns that we might
+reasonably expect, such as class year being associated with friend
+communities, and high school being more associated with communities at
+larger institutions (where one is more likely to find multiple people
+from the same high school). They also identify some patterns that would
+be interesting to study further, such as that females were more likely
+to have friends within their same residence.
+
+\begin{figure}
+\centering
+\includegraphics{img/traud2012_fig2_facebook.jpg}
+\caption{Community structure from the Reed College Facebook friend
+network. On the left, colors and shapes of nodes indicate different
+class years. On the right, the communities are condensed into pies. The
+size of the pies correspond to the number of nodes, and darker edges
+mean more connections between communities. A correlation between class
+year and community structure can be seen. Figure from
+\autocite{traud_social_2012}}\label{fig:facebook}
+\end{figure}
 
 \autocite{weng_virality_2013} Applied Infomap to help predict virality
 of memes.

@@ -13,3 +13,5 @@ As fortunato points out: What is unrealistic about the typical null model is tha
 see also fortunato and hric 2016
 
 also... latent space models? stochastic block models?
+
+random seed: I think the louvain paper talks about this (blondel)
