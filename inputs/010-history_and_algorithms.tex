@@ -51,7 +51,7 @@ section on \protect\hyperlink{the-clustering-perspective}{the clustering
 perspective} below). Since then, the field has seen rapid growth and the
 development of many new methods.
 
-\section{Community detection methods}\label{community-detection-methods}
+\section{Community detection methods}\label{communitydetectionmethods}
 
 What follows is an overview of some of the many community detection
 methods currently in use. The overview follows the taxonomy laid out in
@@ -269,15 +269,28 @@ An analogy can be made to the world of cartography, which is where the
 map equation derives its name. Assigning an address to a location in a
 city is a way of encoding that location. Parts of an address can be
 reused in different locations---there can exist multiple Main Streets in
-different cities. Reusing these names makes Describing an individual's
+different cities. Reusing these names makes describing an individual's
 movement within a city more efficient (fewer bits), since as long as we
 know the individual is staying within the city limits we can just use
 street names without causing confusion. The map equation formalizes this
 idea mathematically, providing a function that can be optimized to find
 good community structure given a network and a model of the dynamics on
-that network.
+that network. The method does not actually find the description of the
+network (the codewords that would be used to compress the network), but
+rather the lower theoretical limit on the number of bits that would be
+needed to do the encoding.
 
-\TODO{write out map equation. describe its parts}
+Information theory states that this lower bound for the average length
+of a codeword to describe a random variable \(X\) with \(n\) possible
+states that occur with frequences \(p_i\) is equal to the entropy of
+that random variable: \(H(X) = -\sum_{i=1}^{n}{p_i\log{p_i}}\)
+\autocite{cover_elements_2012}. (It is standard to use base-2 for the
+logarithms, which yields calculations in bits.) The map equation
+imagines that there are separate codebooks for each module (community),
+and is thus the combined entropy of each codebook plus an additional
+index codebook that allows for switching between modules, rated by their
+rates of use:
+\[L(\mathsf{M}) = q_{\curvearrowright} H(\mathcal{Q}) + \sum_{i=1}^{m}{p_{\circlearrowright} H(\mathcal{P}^i)}\]
 
 \TODO{describe Infomap}
 
