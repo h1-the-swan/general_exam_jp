@@ -10,7 +10,9 @@ One published study of Facebook was conducted by Traud et al. [@traud_social_201
 
 ![Community structure from the Reed College Facebook friend network. On the left, colors and shapes of nodes indicate different class years. On the right, the communities are condensed into pies. The size of the pies correspond to the number of nodes, and darker edges mean more connections between communities. A correlation between class year and community structure can be seen. Figure from [@traud_social_2012]](img/traud2012_fig2_facebook.jpg){#fig:facebook}
 
-[@weng_virality_2013] Applied Infomap to help predict virality of memes.
+Weng et al. [@weng_virality_2013] used community detection to study the virality of memes on Twitter. Since the question of interest was one of information flow, they used Infomap, a flow-based community detection method (see subsection "[The dynamical perspective](#the-dynamical-perspective)" in section "[Community detection methods](#community-detection-methods)" above).
+
+![The evolution of a viral meme (A) vs. a non-viral meme (B). Each node is a community, with size proportional to the number of tweets produced by the community, and color indicating the relative time that the hashtag was first used by the community.](img/weng2013_fig4_viraltwitter.jpg){#fig:viraltwitter}
 
 ## Networks of scholarship
 
