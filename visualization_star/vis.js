@@ -125,7 +125,7 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 			.style("opacity", 1);
 		link.style("opacity", 1);
 	}
-	// nodeTooltips();  // not working!!
+	nodeTooltips();  // not working!!
 	svg.on("click", reset_layout);
 
 });
@@ -149,7 +149,6 @@ function dragended(d) {
 
 function nodeTooltips() {
 	var windowWidth = $(window).width();
-	getTooltipHtml();
 	$('.node').tooltipster({
 		theme: 'tooltipster-noir',
 		maxWidth: windowWidth * .5,
@@ -158,23 +157,30 @@ function nodeTooltips() {
 		// delay: 0,
 		// updateAnimation: null,
 		// content: "error",
-		// contentAsHTML: true,
+		contentAsHTML: true,
 		functionInit: function(instance, helper) {
-			// var tooltipHtml = getTooltipHtml(helper.origin);
-			// instance.content = $(helper.origin).data("tooltipHtml");
-			instance.content('ddd');
+			var tooltipHtml = getTooltipHtml(helper.origin);
+			// instance.content($(helper.origin).data("tooltipHtml"));
+			// d3.select(helper.origin).each(function(d) {instance.content(d.author_name_detex)});
+			instance.content(tooltipHtml);
 		}
 	});
 
 
-	function getTooltipHtml() {
+	function getTooltipHtml(node) {
 		// store tooltip html as data attribute
-		d3.selectAll(".node").each(function(d) {
+		var html;
+		d3.select(node).each(function(d) {
 			var span = $( '<span>' );
-			span.append( '<p class="tooltip author_name">' ).text(d.author_name_detex);
+			span.append( $('<p class="tooltip author_name">').text(d.author_name_detex) );
+			span.append( $('<p class="tooltip affil_name">').text(d.affil_name) );
+			for (var i = 0, len = d.papers.length; i < len; i++) {
+				span.append( $( '<p class="tooltip paper_title">' ).text(d.papers[i].title) );
+			}
+			console.log(span)
 			html = span.html();
-			d3.select(this).attr("data-tooltipHtml", html);
 		});
+		return html;
 	}
 	
 }
