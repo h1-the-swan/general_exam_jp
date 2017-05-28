@@ -27,4 +27,10 @@ The node visit probability $p_{\alpha}$ is related to the dynamics being modeled
 $$q_{i\curvearrowright} = \tau \frac{n-n_i}{n} \sum_{\alpha \in i}{p_{\alpha}} + (1-\tau) \sum_{\alpha \in i}{\sum_{\beta \notin i}{p_{\alpha}w_{\alpha \beta}}}$$
 where $n_i$ is the number of nodes in module $i$, and $w_{\alpha \beta}$ is the normalized weight of the link from $\alpha$ to $\beta$ (if $\alpha$ is a dangling node, this weight is replaced by $1-n_i/n$).
 
-Version 1 implements a `Module` class and a `Clustering` class. I build a `PyInfomap` on top of these in order to be able to calculate the map equation for different partitionings of an input graph.
+Version 1 implements a `Module` class and a `Clustering` class. I build a `PyInfomap` on top of these in order to be able to calculate the map equation for different clusterings of an input graph. What follows is my work implementing an optimization algorithm.
+
+The test example I use is network (a) in [@Fig:mapvsmod] in this document (Fig. 3 in [@rosvall_map_2010]). A pajek version of this network was included in the forked repository as `2009_figure3ab.net`. We know that the clustering seen in the figure should have a value for the map equation $L = 3.33$. We know from the text that the clustering seen in the figure should have a value for the map equation $L = 3.33$, and that this is the optimal (minimum) value for this network. Thus, my algorithm should be able to find this clustering.
+
+One approach to find the clustering would be to calculate the map equation for every possible partition of the network. I implement this in `search_all_possible_partitions.py`. However, there are far too many combinations of partitions for network data, even for the small 16-node network I use to test. As of this writing, this code has not yet finished after running for 212 hours (almost 9 days), having tried over $6.15 \times 10^9$ different partitions.
+
+A more realistic option is to use some sort of search algorithm. I implement the Louvain method, which was originally developed as a modularity-optimizing community detection algorithm [@blondel_fast_2008], and which is the starting point for the official version of Infomap [@rosvall_map_2010].

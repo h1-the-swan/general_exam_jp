@@ -26,7 +26,7 @@ A cut-based measure for the quality of a partition is the *conductance*. The con
 $$\phi(S) = \frac{c(S, V \setminus S)}{\min(k_S, k_{V \setminus S})}$$
 where $c(S, V \setminus S)$ is the cut size of $S$, and $k_S$ and $k_{V \setminus S}$ are the total degrees of $S$ and the rest of the graph, respectively [@schaeffer_graph_2007]. While this measure was originally used globally to optimize a bisection of a graph, it has also seen use as a local quality function to find good clusters around certain nodes; in this way it can also be viewed as part of the clustering perspective [@schaub_many_2017]. Conductance has its roots in computer science, and its use in network science appears still to be especially popular in the computer science community [@schaeffer_graph_2007;@yang_defining_2015].
 
-## The clustering perspective {#clustering-perspective}
+## The clustering perspective {#the-clustering-perspective}
 
 The clustering perspective comes from the world of data clustering, in which data points are thought of as having "distance" between each other based on their (dis)similarity, and the goal is to group together data point that are close to each other. For community detection, this distance is in relation to the connections between nodes in the network. This perspective is related to but different from the cut-based perspective above, which seeks to place divisions among the nodes so as to form balanced groups with weak connections between groups.
 
