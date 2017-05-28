@@ -65,7 +65,11 @@ The authors of this study introduce two interesting new statistical methods to a
 
 \TODO{Maybe think some more about implications of how community detection is an ill posed problem, and the No Free Lunch theorem}
 
-\TODO {actual comparisons. lancichinetti paper}
+## Results of comparative analyses of algorithms
+
+A 2009 paper by Lancichinetti and Fortunato [@lancichinetti_community_2009] has gained some acceptance in the network science community as a comparative analysis of the performance of some of the most popular community detection algorithm. The 12 algorithms studied included most of those previously discussed (see section "[Community detection methods](#community-detection-methods)"), including the original Girvan-Newman algorithm, several greedy and more exhaustive modularity-optimizing algorithms, an Expectation-Maximization Bayesian model-fitting approach similar to stochastic block models, a spectral algorithm, the Markov cluster algorithm popular in bioinformatics, and the flow-compression-based Infomap algorithm of Rosvall and Bergstrom, among several others. They also included one algorithm that can find overlapping partitions, called Cfinder.
+
+The algorithms were tested on random graphs generated using the LFR method (see section "[Synthetic benchmark networks]" and tested using their variant of normalized mutual information (see section "[Comparison measures]").
 
 \TODO{emmons/borner paper. see "Comparison of Clustering Algorithms" section: they use benchmarks with a large community size. this works in the favor of Louvain, which has modularity's resolution limit. (they take the bottom level of Infomap's hierarchy)}
 
