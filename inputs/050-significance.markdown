@@ -1,4 +1,6 @@
-# Confidence in communities
+# Confidence in communities {#confidence-in-communities}
+
+[](#confidence-in-communities)
 
 Although it is counterintuitive, completely random graphs, when viewed a certain way, can be seen to have community structure. In a random graph, known as an Erdős–Rényi graph [@erdos_evolution_1960], every node has an equal probability of being linked to every other node. [@Fig:randomcommunities] shows how a random graph can show group structure. The top left shows the adjacency matrix of a random graph with nodes in arbitrary order; this looks like random white noise. By rearranging the order of the nodes in the same random graph, as in the other panes of the figure, a community structure becomes apparent. This is not actual community structure we are interested in, but rather artifacts of the randomness. Nevertheless, community detection methods can pick up on them and find artificial structure in what should be random. These effects are even more pronounced for sparse graphs, a category which includes most real-world networks we would like to analyze [@fortunato_community_2016].
 

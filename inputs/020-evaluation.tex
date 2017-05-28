@@ -40,7 +40,8 @@ treated as ground-truth communities. In either case, the results of a
 community detection algorithm can be evaluated against the expected
 structure using some comparison measure.
 
-\subsection{Comparison measures}\label{comparison-measures}
+\hypertarget{comparison-measures}{\subsection{Comparison
+measures}\label{comparison-measures}}
 
 Evaluating a community detection method against either a synthetic
 benchmark network or a real-world network with known community structure
@@ -138,8 +139,8 @@ information because it gives different values when used to compare
 normal ``hard'' clusterings, they contend that the difference is small
 \autocite{lancichinetti_community_2009}.
 
-\subsection{Synthetic benchmark
-networks}\label{synthetic-benchmark-networks}
+\hypertarget{synthetic-benchmark-networks}{\subsection{Synthetic
+benchmark networks}\label{synthetic-benchmark-networks}}
 
 Evaluating community detection methods can mean comparing their results
 with the expected results on some network with known community
@@ -279,7 +280,58 @@ significance test (BESTest), and the second one the neoSBM.
 
 \TODO{Maybe think some more about implications of how community detection is an ill posed problem, and the No Free Lunch theorem}
 
-\TODO {actual comparisons. lancichinetti paper}
+\subsection{Results of comparative analyses of
+algorithms}\label{results-of-comparative-analyses-of-algorithms}
+
+A 2009 paper by Lancichinetti and Fortunato
+\autocite{lancichinetti_community_2009} has gained some acceptance in
+the network science community as a comparative analysis of the
+performance of some of the most popular community detection algorithm.
+The 12 algorithms studied included most of those previously discussed
+(see section ``\protect\hyperlink{community-detection-methods}{Community
+detection methods}''), including the original Girvan-Newman algorithm,
+several greedy and more exhaustive modularity-optimizing algorithms, an
+Expectation-Maximization Bayesian model-fitting approach similar to
+stochastic block models, a spectral algorithm, the Markov cluster
+algorithm popular in bioinformatics, and the flow-compression-based
+Infomap algorithm of Rosvall and Bergstrom, among several others. They
+also included one algorithm that can find overlapping partitions, called
+Cfinder.
+
+The algorithms were tested on random graphs generated using the LFR
+method (see section
+``\protect\hyperlink{synthetic-benchmark-networks}{Synthetic benchmark
+networks}''; these benchmark graphs are more rigorous than the
+Girvan-Newman benchmarks that came before. The results were compared
+using their variant of normalized mutual information (see section
+``\protect\hyperlink{comparison-measures}{Comparison measures}'').
+Briefly, the results were as follows: The original Girvan-Newman
+algorithm suffered from too many performance issues to be considered,
+failing to finish on most networks (the authors included this method
+mostly for historical reasons; the other methods are more modern and
+improved). The modularity-based methods tended to suffer from that
+approaches resolution limit (see section
+``\protect\hyperlink{the-clustering-perspective}{The clustering
+perspective}''), failing to detect smaller planted communities on larger
+graphs. The authors concluded that Infomap was overall the best
+performing algorithm, with good performance on different sized graphs,
+and also directed and weighted graphs. It was also one of the fastest
+methods, along with the Louvain method---the authors were able to test
+these two on larger graphs (up to 100,000 nodes), and only Infomap
+maintained good performance. The study did not study hierarchical
+partitions, or the overlapping or higher-order versions of Infomap.
+
+The authors also test the methods on random graphs. An algorithm taking
+as input a random graph, in which every pair of nodes having an equal
+probability of being linked, should not find a community structure, but
+this is not always the case (see section
+\protect\hyperlink{confidence-in-communities}{``Confidence in
+communities''}). Methods based on modularity fall short here, finding
+some communities in random graphs. Infomap tends to perform better,
+finding a single module comprising all nodes. However, Infomap still
+does find some community structure when the average degree of the nodes
+is low---i.e., the graph is sparse. This could pose a problem, as many
+real-world graphs are sparse.
 
 \TODO{emmons/borner paper. see "Comparison of Clustering Algorithms" section: they use benchmarks with a large community size. this works in the favor of Louvain, which has modularity's resolution limit. (they take the bottom level of Infomap's hierarchy)}
 
