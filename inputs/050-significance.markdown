@@ -4,6 +4,10 @@ Although it is counterintuitive, completely random graphs, when viewed a certain
 
 ![Artificial community structure in a random graph. Each of the four graphs represent the adjacency matrix of the same 5000-node random graph, in which every pair of nodes has equal probility of sharing a link. The top right matrix shows the nodes in arbitrary order, and the impression is one of random white noise. The others are simply rearrangements of the nodes for the same random graph. A community structure can be seen from what is actually random fluctuations in the network construction process. Figure from [@fortunato_community_2016].](img/fortunato2016_fig29_randomcommunities.jpg){#fig:randomcommunities}
 
+This raises the question: how can we be confident that the communities detected by an algorithm reflect actual community structure, and not an artifact of random noise? This is an open problem in network science, but several attempts have been made to address it.
+
+One approach is to compare the results to an appropriate null model. The most popular null model has been the configuration model, which can generate any configuration of a network given a number of nodes, number of edges, and degree sequence for every node. One can use an ensemble of these networks and compare them against empirical results. Any measure of the graph, for example a centrality measure of a given node, can be compared with the same measure on a number of generated null models; a $p$-value can then be calculated as the fraction of model configurations that yield the same value for the measure as the observed network [@fortunato_community_2016]. (It may be difficult to operationalize "same value" here---requiring an exact match might make this test too insensitive, but allowing for variation would introduce more noise.)
+
 section 14 in fortunato 2010:
 
 The first three examples all relate to introducing noise into the edges? How are they different from each other?
@@ -20,4 +24,6 @@ see also fortunato and hric 2016
 
 also... latent space models? stochastic block models?
 
-random seed: I think the louvain paper talks about this (blondel)
+random seed: I think the louvain paper talks about this (blondel). I have also encountered some fluctuation in Infomap depending on the random seed. We can do work to assess the extent of the fluctuation, and what is causing it. We can also run the algorithm several times and take the best score.
+
+
