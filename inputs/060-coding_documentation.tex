@@ -82,6 +82,55 @@ One approach to find the clustering would be to calculate the map
 equation for every possible partition of the network. I implement this
 in \texttt{search\_all\_possible\_partitions.py}. However, there are far
 too many combinations of partitions for network data, even for the small
-16-node network I use to test. As of this writing, this code has been
-running for 212 hours (almost 9 days), having tried over
-\(6.15 \times 10^9\) clusterings.
+16-node network I use to test. As of this writing, this code has not yet
+finished after running for 212 hours (almost 9 days), having tried over
+\(6.15 \times 10^9\) different partitions.
+
+A more realistic option is to use some sort of search algorithm. I
+implement the Louvain method, which was originally developed as a
+modularity-optimizing community detection algorithm
+\autocite{blondel_fast_2008}, and which is the starting point for the
+official version of Infomap \autocite{rosvall_map_2010}. This method
+consists of two phases, which are performed repeatedly. It starts with
+every node in it's own separate module. In the first phase, each node,
+one at a time in random order, is moved to be in the same module as its
+neighbor that gives the lowest value of the map equation. This is
+repeated until no improvement can be made. In the second phase, a new
+network is constructed in which the nodes represent the clusters found
+in the previous step, edges are weighted by the number of
+between-cluster edges in the original graph, and within cluster edges
+become self-loops (i.e., edges from one node in the new network to
+itself). The algorithm is then repeated on this new graph, with each
+calculation of the map equation done using the original graph. Phase one
+and two are repeated until no improvement is seen.
+Fig.~\ref{fig:louvain} shows a schematic of this procedure.
+
+\begin{figure}
+\centering
+\includegraphics{img/blondel2008_fig1_louvain.jpg}
+\caption{Schematic of the Louvain algorithm from
+\autocite{blondel_fast_2008}. Each pass consists of a phase in which
+local merges of communities are made to optimize the objective function,
+and a phase in which a new meta-graph is constructed with the
+communities as nodes. The two phases are repeated until no improvement
+is found.}\label{fig:louvain}
+\end{figure}
+
+The official Infomap algorithm takes additional steps after this point
+to broaden the search space and avoid local optima. These include
+recursively running the algorithm on the clusters, and freeing
+individual nodes to move between modules. My implementation does not yet
+include this.
+
+My implementation can find the optimal four-way partition of the test
+network. It can also find the optimal partition for network (d) in the
+same figure, in which all nodes are grouped into the same module. It run
+in under 1 second on these test networks (after loading the needed
+libraries). It is able to run the larger karate club network (34 nodes)
+in under 5 seconds.
+
+Next steps would include tests on synthetic benchmarks, and further
+analysis of the results of the karate club network, as well as other
+standard examples (see section
+\protect\hyperlink{evaluation}{``Evaluation of community detection
+methods''}).

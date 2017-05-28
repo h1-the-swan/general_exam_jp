@@ -1,4 +1,6 @@
-# Evaluation of community detection methods
+# Evaluation of community detection methods {#evaluation}
+
+[](#evaluation)
 
 The lack of consensus on exactly what a community is and what is meant to be achieved by its detection has presented problems for the evaluation of community detection methods. Still, attempts have been made to systematically evaluate the performance and output of different methods.
 
