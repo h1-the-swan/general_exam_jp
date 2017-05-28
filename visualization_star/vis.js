@@ -149,7 +149,7 @@ function dragended(d) {
 
 function nodeTooltips() {
 	var windowWidth = $(window).width();
-	$('.node').tooltipster({
+	$('.node').find('circle').tooltipster({
 		theme: 'tooltipster-noir',
 		maxWidth: windowWidth * .5,
 		// animation: null,
@@ -177,7 +177,6 @@ function nodeTooltips() {
 			for (var i = 0, len = d.papers.length; i < len; i++) {
 				span.append( $( '<p class="tooltip paper_title">' ).text(d.papers[i].title) );
 			}
-			console.log(span)
 			html = span.html();
 		});
 		return html;
