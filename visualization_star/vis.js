@@ -1,3 +1,17 @@
+var fuseOptions = {
+	id: "id",
+	shouldSort: true,
+	threshold: 0.3,
+	location: 0,
+	distance: 100,
+	maxPatternLength: 32,
+	minMatchCharLength: 1,
+	keys: [
+		"author_name_detex",
+		"affil_name"
+	]
+};
+
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -128,6 +142,35 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 	nodeTooltips();  // not working!!
 	svg.on("click", reset_layout);
 
+	var fuse = new Fuse(graph.nodes, fuseOptions);
+	var result = fuse.search("ehlow");
+	console.log(result);
+	$( '#textSearch' ).on( 'input', fuseSelect );
+	function fuseSelect() {
+		// reset node sizes and styles
+		d3.selectAll(".node circle")
+			.style("stroke-width", 1)
+			.style("stroke", "white")
+			.attr("r", function(d) { return d.radius; });
+
+		var $this = $( this );
+		var query = $this.val();
+		console.log($this.val());
+		if (query.length > 3) {
+			var result = fuse.search(query);
+			if (result.length !=0) {
+				for (var i = 0, len = result.length; i < len; i++) {
+					var authorId = result[i];
+					node.filter(function(d) { return d.id == authorId; })
+						.select("circle")
+						.style("stroke-width", 2)
+						.style("stroke", "black")
+						.attr("r", function(d) { return d.radius * 1.5; });
+				}
+			}
+		}
+	}
+
 });
 
 function dragstarted(d) {
@@ -181,5 +224,6 @@ function nodeTooltips() {
 		});
 		return html;
 	}
+
 	
 }
