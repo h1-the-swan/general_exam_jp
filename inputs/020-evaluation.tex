@@ -249,13 +249,13 @@ Karate Club data that is frequently ``misclassified'' by algorithms
 actually represents a student who had strong ties to the club's
 president after the split, but nominally remained aligned to the
 instructor so as not to lose his progress toward his black belt. Girvan
-and Newman, in their original paper on their novel method in 2002
-\autocite{girvan_community_2002}, also seem aware of this, clarifying
-some results on the football conference network, ``Naturally, our
-algorithm fails in cases like this where the network structure genuinely
-does not correspond to the conference structure. In all other respects,
-however, it performs remarkably well.'' Despite this awareness, however,
-these issues have been largely ignored when evaluating methods.
+and Newman, in their original paper on their novel method in 2002, also
+seem aware of this, clarifying some results on the football conference
+network, ``Naturally, our algorithm fails in cases like this where the
+network structure genuinely does not correspond to the conference
+structure. In all other respects, however, it performs remarkably well''
+\autocite{girvan_community_2002}. Despite this awareness, however, these
+issues have been largely ignored when evaluating methods.
 
 Peel et al.~propose a No Free Lunch theorem for community detection,
 claiming that no one method can outperform any other on all cases,
@@ -291,10 +291,6 @@ using stochastic blockmodels (see previous section on community
 detection methods), calling the first method the blockmodel entropy
 significance test (BESTest), and the second one the neoSBM.
 
-\TODO{2002 girvan and newman paper recognized the idea that metadata might not always be related to network structure. see my note in zotero}
-
-\TODO{Maybe think some more about implications of how community detection is an ill posed problem, and the No Free Lunch theorem}
-
 \subsection{Results of comparative analyses of
 algorithms}\label{results-of-comparative-analyses-of-algorithms}
 
@@ -316,7 +312,7 @@ Cfinder.
 The algorithms were tested on random graphs generated using the LFR
 method (see section
 ``\protect\hyperlink{synthetic-benchmark-networks}{Synthetic benchmark
-networks}''; these benchmark graphs are more rigorous than the
+networks}''); these benchmark graphs are more rigorous than the
 Girvan-Newman benchmarks that came before. The results were compared
 using their variant of normalized mutual information (see section
 ``\protect\hyperlink{comparison-measures}{Comparison measures}'').
@@ -324,8 +320,8 @@ Briefly, the results were as follows: The original Girvan-Newman
 algorithm suffered from too many performance issues to be considered,
 failing to finish on most networks (the authors included this method
 mostly for historical reasons; the other methods are more modern and
-improved). The modularity-based methods tended to suffer from that
-approaches resolution limit (see section
+improved). The modularity-based methods tended to suffer from the
+resolution limit (see section
 ``\protect\hyperlink{the-clustering-perspective}{The clustering
 perspective}''), failing to detect smaller planted communities on larger
 graphs. The authors concluded that Infomap was overall the best
@@ -365,5 +361,3 @@ when usually they are a detriment. The results of Infomap are based on
 the lowest level of the hierarchical partitioning---at this level
 Infomap finds smaller clusters than those planted, leading to the lower
 information recovery scores.
-
-\TODO{remark on how LFR benchmarks are based on SBMs, so they would be expected to score best. can find this in fortunato and hric 2016 (and also i think in schaub 2017)}

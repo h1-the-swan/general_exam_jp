@@ -24,7 +24,8 @@ bibliography was presented: What are the labs doing work in this area?
 While the bibliography presented important papers related to the topic,
 they were not organized by lab. In order to address this question, I
 perform a community analysis and visualization on the bibliography data
-provided. The visualization is available \ldots{} I also use this
+provided. The visualization is available at
+\url{http://students.washington.edu/jporteno/groups/}. I also use this
 endeavor as a first-hand illustration of the utility and challenges
 around detecting and visualizing communities in network data.
 
@@ -33,24 +34,22 @@ of research in different labs seemed like an appropriate situation to
 apply community detection methods. I first constructed a co-authorship
 network in which nodes represent authors, and weighted links represent
 the number of papers in which a pair appear as authors. In addition, I
-used the Microsoft Academic API \TODO{cite} to attempt to assign an
-affiliation to each author by querying Microsoft Academic Graph for the
-author and retrieving the most prevalent affiliation for that author
-among the papers returned. I then used
+used the Microsoft Academic API\footnote{\url{https://docs.microsoft.com/en-us/azure/cognitive-services/academic-knowledge/home}}
+to attempt to assign an affiliation to each author by querying Microsoft
+Academic Graph for the author and retrieving the most prevalent
+affiliation for that author among the papers returned. I then used
 \protect\hyperlink{the-dynamical-perspective}{Infomap} to find a
 hierarchical clustering of the nodes. To visualize the results, I
 include only the connected components with at least 10 nodes. Each node
-represents a single author; \TODO{NUMBER} authors appear in the
-visualization. The sizes of the nodes correspond to the amount of
-flow---the relative importance of an author in this co-authorship
-network. The color of each node is assigned based on the top-level
-cluster assignment of that author. Clicking on any node of a connected
-component will shift the focus to that component, and reassign colors,
-this time based on the bottom-level cluster assignment. I also provide a
-search box which makes it easier to find specific authors or
-affiliations.
-
-\TODO{note that there might be errors due to using names as unique IDs}
+represents a single author; 238 authors appear in the visualization. The
+sizes of the nodes correspond to the amount of flow---the relative
+importance of an author in this co-authorship network. The color of each
+node is assigned based on the top-level cluster assignment of that
+author. Clicking on any node of a connected component will shift the
+focus to that component, and reassign colors, this time based on the
+bottom-level cluster assignment. I also provide a search box which makes
+it easier to find specific authors or affiliations. Note that there may
+be some errors due to using author names as unique IDs.
 
 \subsection{Labs involved in visualizing group structure in
 networks}\label{labs-involved-in-visualizing-group-structure-in-networks}

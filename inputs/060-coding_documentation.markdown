@@ -25,7 +25,7 @@ $$
 
 [^entropydef]: For a random variable $X$ that can have $n$ states with probability $p_i$, the entropy is $H(X) = -\sum_{i=1}^{n}{p_i\log{p_i}}$.
 
-The node visit probability $p_{\alpha}$ is related to the dynamics being modeled. Dr. Halperin's code uses PageRank with teleportation probability $\tau = 0.15$. This is modeling a random walker on the network that has a 15% chance, on every step, of teleporting to a random node instead of following a link as normal. The code uses the Python package NetworkX \TODO{cite} to handle graph storage and operations; this package has its own method for calculating PageRank for every node. The exit probability $q_{i\curvearrowright}$ is then calculated as [@rosvall_map_2010]:
+The node visit probability $p_{\alpha}$ is related to the dynamics being modeled. Dr. Halperin's code uses PageRank with teleportation probability $\tau = 0.15$. This is modeling a random walker on the network that has a 15% chance, on every step, of teleporting to a random node instead of following a link as normal. The code uses the Python package NetworkX [@hagberg_exploring_2008] to handle graph storage and operations; this package has its own method for calculating PageRank for every node. The exit probability $q_{i\curvearrowright}$ is then calculated as [@rosvall_map_2010]:
 $$q_{i\curvearrowright} = \tau \frac{n-n_i}{n} \sum_{\alpha \in i}{p_{\alpha}} + (1-\tau) \sum_{\alpha \in i}{\sum_{\beta \notin i}{p_{\alpha}w_{\alpha \beta}}}$$
 where $n_i$ is the number of nodes in module $i$, and $w_{\alpha \beta}$ is the normalized weight of the link from $\alpha$ to $\beta$ (if $\alpha$ is a dangling node, this weight is replaced by $1-n_i/n$).
 
