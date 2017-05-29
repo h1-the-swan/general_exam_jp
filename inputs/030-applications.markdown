@@ -36,10 +36,10 @@ Another biological network that has been studied is the directed network of neur
 
 Zhang et al. [@zhang_community_2008] analyzed Congressional cosponsorship networks in the United States Congress in order to study partisan polarization. They created a two-mode (bipartite) network between legislators and legislation, and then projected this network to a one-mode (unipartite) network in which nodes are legislators, and links between legislators represent the fact that they have cosponsored bills together. They then compared the optimal modularity of these networks at different time points with the observed modularity using party affiliation as community membership. In other words, they were interested in how close the structural communities seen in the network were to the "communities" of political party. They found that the difference between these two values decreased over time (1979--2004), indicating that the cosponsorship behavior of legislators was increasingly aligning with party affiliation---i.e., that polarization was increasing.
 
-+ [@lupu_trading_2013]: States that trade with each other are known to have less conflict with each other. This paper extends this to trade communities, so that states that don't trade with each other that much, but are indirectly linked by trade, also have less conflict with each other. They use community detection (via modularity maximization) to test this theory.
-
-\TODO{see fortunato paper. see porter paper.}
+Lupu and Traag [@lupu_trading_2013] used community detection to study the impact of trade networks among nations on the potential for conflict between nations. States that trade with each other are known to have less conflict with each other. The authors argue for extending this to trade communities. Two states may also see a reduced risk of conflict even if they do not have a strong trade relationship, if they are indirectly linked by trade. The authors test this theory by applying the Louvain modularity-optimizing community detection algorithm on a network of trade flows between states. They find that states in the same trade community are significantly less likely to experience conflict with each other, even controlling for direct trade relationships.
 
 ## Non-research applications
 
 \TODO{terrorism? crime? marketing? maybe not reflected in the research. Community detection to identify fraud events in telecommunication networks.}
+
+...this exam, to answer the question of which labs are working on group structure in graph visualization. This is a question that can be addressed with network (co-authorship) data. ...
