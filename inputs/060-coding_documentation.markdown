@@ -4,7 +4,7 @@
 
 The code I am submitting is my work on a Python implementation of Infomap: <https://github.com/h1-the-swan/pyinfomap>
 
-As far as I know, there does not yet exist a pure Python implementation of Infomap, the algorithm to detect communities in network data by minimizing the map equation. The Infomap software, available at <http://www.mapequation.org/code.html>, is written in C++, although it has extensions in other languages including Python. A Python repository was created by Daniel Halperin in 2013.[^uwescience-repo] This code, deemed version 1 by Dr. Halperin, is capable of calculating the map equation for a given network and a given two-level clustering of its nodes.[^twolevel] My code is a fork of this repository: I coded the algorithm starting with this code that can calculate the function to optimize.
+As far as I know, there does not yet exist a pure Python implementation of Infomap, the algorithm to detect communities in network data by minimizing the map equation. The Infomap software, available at <http://www.mapequation.org/code.html>, is written in C++, although it has extensions in other languages including Python. A Python repository was created by Daniel Halperin in 2013.[^uwescience-repo] This code, deemed version 1 by Dr. Halperin, is capable of calculating the map equation for a given network and a given two-level clustering of its nodes.[^twolevel] My code is a fork of this repository: I coded the algorithm starting with this base code that can calculate the function to optimize.
 
 [^uwescience-repo]: <https://github.com/uwescience/pyinfomap>
 

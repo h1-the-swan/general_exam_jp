@@ -3,10 +3,10 @@ networks}\label{visualization}}
 
 \protect\hyperlink{visualization}{}
 
-A recent paper in the Eurovis conference by Vehlow et al.
+A recent paper in the EuroVis conference by Vehlow et al.
 \autocite{vehlow_state_2015} gives a thorough overview of the state of
 the art in visualizing group structure in networks. In addition to
-providing a literature survey as well as a taxonomy for these
+giving a literature survey as well as a taxonomy for these
 visualizations, they provide a detailed curated bibliography at
 \url{http://groups-in-graphs.corinna-vehlow.com/}. There one finds a
 visualization tool for exploring the surveyed literature on this topic,
@@ -27,7 +27,7 @@ of research in different labs seemed like an appropriate situation to
 apply community detection methods. I first constructed a co-authorship
 network in which nodes represent authors, and weighted links represent
 the number of papers in which a pair appear as authors. In addition, I
-used the Microsoft Academic API /TODO\{cite\} to attempt to assign an
+used the Microsoft Academic API \TODO{cite} to attempt to assign an
 affiliation to each author by querying Microsoft Academic Graph for the
 author and retrieving the most prevalent affiliation for that author
 among the papers returned. I then used
@@ -42,6 +42,16 @@ connected component will shift the focus to that component, and reassign
 colors, this time based on the bottom-level cluster assignment. I also
 provide a search box which makes it easier to find specific authors or
 affiliations.
+
+\TODO{note that there might be errors due to using names as unique IDs}
+
+\TODO{Results of exploration. Talk about labs}
+
+\TODO{Back to vis. Describe taxonomy}
+
+\TODO{Briefly talk about tasks and evaluation}
+
+\TODO{Discuss open problems}
 
 \begin{itemize}
 \tightlist
@@ -63,8 +73,18 @@ affiliations.
     Prof Daniel Weiskopf, Research associate Dr.~Fabien Beck, and former
     PhD student Corinna Vehlow (these are the authors of the STAR paper)
   \item
+    UC Davis Center for Visualization headed by Kwan-Liu Ma. there are
+    problems with their website
+  \item
     University of Arizona Graph and Map Algorithm (GAMA) Lab headed by
     Stephen Kobourov
+  \item
+    Johannes Kepler University Linz -- Institute of Computer Graphics --
+    Deputy head of the institute Marc Streit. off on its own connected
+    component.
+  \item
+    David Auber at LaBRI works a lot with Daniel Archambault and Tamara
+    Munzner at UBC
   \end{itemize}
 \end{itemize}
 
