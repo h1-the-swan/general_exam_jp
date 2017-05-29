@@ -149,7 +149,7 @@ especially nodes with only one neighbor, which it tends to put it in its
 own cluster; and it does not scale well to large networks
 \autocite{fortunato_community_2010}.
 
-The \emph{modularity} is a quality function originally developed as
+The \emph{modularity} is a quality function originally developed as a
 stopping criterion for the Girvan-Newman algorithm (see
 \protect\hyperlink{history}{section on history} above)
 \autocites{newman_finding_2004}{newman_modularity_2006}. The algorithm
@@ -177,31 +177,29 @@ modularity on all but the smallest networks is computationally
 infeasible, so algorithms attempt to approximate the global maximum of
 modularity in a reasonable amount of time. Algorithms tend to have a
 tradeoff between speed and accuracy. Greedy algorithms, such as the
-original method of Newman \autocite{newman_fast_2004} and the Louvain
-method \autocite{blondel_fast_2008} discussed below in the section on
-\protect\hyperlink{the-dynamical-perspective}{the dynamical
-perspective}, tend to be fast but inaccurate---they discard much of the
-problem space in order to arrive at a solution more quickly. Simulated
-annealing techniques improve accuracy at the expense of speed by
-introducing stochastic noise to nudge the algorithm away from local
-maxima; the standard simulated annealing algorithm for modularity can be
-found in \autocite{guimera_functional_2005}. Many other techniques,
-including spectral optimization and genetic algorithms, have been
-employed in attempts to get accurate solutions quickly---see a summary
-in \autocite{fortunato_community_2010}.
+original method of Newman \autocite{newman_fast_2004}, tend to be fast
+but inaccurate---they discard much of the problem space in order to
+arrive at a solution more quickly. Simulated annealing techniques
+improve accuracy at the expense of speed by introducing stochastic noise
+to nudge the algorithm away from local maxima; the standard simulated
+annealing algorithm for modularity can be found in
+\autocite{guimera_functional_2005}. Many other techniques, including
+spectral optimization and genetic algorithms, have been employed in
+attempts to get accurate solutions quickly---see a summary in
+\autocite{fortunato_community_2010}.
 
 Modularity became popular in part because it was one of the first
 attempts to formalize the concept of community, including in its
 mathematical form the definition of community in relation to a defined
-null model. The measure has been shown to have some problems, however,
-most notably its resolution limit. Modularity-maximizing techniques have
-a lower limit on the size of communities it is able to detect which
-depends on the number of links and the interconnectedness of communities
-\autocite{fortunato_resolution_2007}. This can be a problem in many
-real-world networks, which can contain communities of many different
-sizes. In addition, modularity can be very sensitive to even individual
-connections, which can be a problem in any noisy dataset which can
-contain false positives \autocite{fortunato_community_2010}.
+null model. The measure has been shown to have some problems,
+however---most notably its resolution limit. Modularity-maximizing
+techniques have a lower limit on the size of communities it is able to
+detect which depends on the number of links and the interconnectedness
+of communities \autocite{fortunato_resolution_2007}. This can be a
+problem in many real-world networks, which can contain communities of
+many different sizes. In addition, modularity can be very sensitive to
+even individual connections, which can be a problem in any noisy dataset
+which can contain false positives \autocite{fortunato_community_2010}.
 
 \hypertarget{the-stochastic-equivalence-perspective}{\subsection{The
 stochastic equivalence
@@ -226,7 +224,7 @@ parameters that give the highest likelihood
 equivalence between nodes is not bound by definitions of community that
 describe the relative density of edges within and across groups, so
 these models can capture a broader range of structure than the
-previously described techniques; for example, if the diagonal of the
+previously described techniques. For example, if the diagonal of the
 affinity matrix \(p_{kk} = 0, \forall k\), the model describes a
 multipartite graph, in which members of a given group can only link to
 members of a different group.
@@ -239,8 +237,11 @@ statistical claims about the network data and its properties, such as
 calculating \(p\)-values and confidence intervals for node properties.
 By generating new instances of the model, we are also able to speculate
 about possible noise in the data, including predicting missing links.
-
-\TODO{disadvantages: see hric 2016 sec 4.10. SBMs are slow and not necessarily possible for very large networks. how to determine the number of clusters is an open problem, although it seems to be solvable}
+However, these methods have disadvantages as well. For one, they do not
+scale well to very large networks. They also require that the number of
+communities to identify be specified, and while ideas have been proposed
+for how one can select this number, it remains an open problem
+\autocite{fortunato_community_2016}.
 
 \hypertarget{the-dynamical-perspective}{\subsection{The dynamical
 perspective}\label{the-dynamical-perspective}}
