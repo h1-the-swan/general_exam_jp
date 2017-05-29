@@ -2,12 +2,12 @@
 detection}\label{history}}
 
 Across many disciplines of science, it is common to encounter data that
-can best be represented as a network, with entities linked to each other
-in some meaningful way, such as through association or flow. These
-entities are represented by \emph{nodes} or \emph{vertices} connected to
-each other with \emph{links} or \emph{edges}. This overall
-representation is known as a \emph{network} or \emph{graph}.\footnote{The
-  term \emph{graph} generally refers to a mathematical representation of
+can be represented as a network, with entities linked to each other in
+some meaningful way, such as through association or flow. These entities
+are represented by \emph{nodes} or \emph{vertices} connected to each
+other with \emph{links} or \emph{edges}. This overall representation is
+known as a \emph{network} or \emph{graph}.\footnote{The term
+  \emph{graph} generally refers to a mathematical representation of
   data, while \emph{network} usually has additional connotations related
   to the meaning and context associated with the data
   \autocite{porter_communities_2009}; however, as is the case with many
@@ -47,9 +47,9 @@ highest betweenness and repeating. The idea is that the edges with the
 highest betweenness centralities are the ones that connect communities,
 and the communities can be separated by this divisive algorithm. This
 work inspired the development of modularity as a quality measure (see
-section on \protect\hyperlink{the-clustering-perspective}{the clustering
-perspective} below). Since then, the field has seen rapid growth and the
-development of many new methods.
+section ``\protect\hyperlink{the-clustering-perspective}{The clustering
+perspective}'' below). Since then, the field has seen rapid growth and
+the development of many new methods.
 
 \hypertarget{community-detection-methods}{\section{Community detection
 methods}\label{community-detection-methods}}
@@ -58,7 +58,7 @@ methods}\label{community-detection-methods}}
 
 What follows is an overview of some of the many community detection
 methods currently in use. The overview follows the taxonomy laid out in
-a recent paper by Schaub et al. \autocite{schaub_many_2017}. The authors
+a recent paper by Schaub et al.~\autocite{schaub_many_2017}. The authors
 identify four different perspectives on the problem of community
 detection: (i) \protect\hyperlink{the-cut-based-perspective}{the
 \emph{cut-based perspective}}, (ii)
@@ -70,9 +70,10 @@ clustering perspective}}, (iii)
 perspective}}. The different perspectives represent different approaches
 to the problem, often with different kinds of data, different methods,
 and different goals. They also represent, to some degree, the different
-research communities that have been working on the problem.
-
-\TODO{Add a note about how this might not be the only way to classify the problem space, but it is one way. It does not divide the methods cleanly, but neither do other classification. This is maybe because there are so many connections between methods. Link to discussion in the evaluation section on the need for splitting the problem up.}
+research communities that have been working on the problem. While this
+is not the only way to classify the problem space, and there is some
+overlap due to the many connections between methods, it is helpful in
+examining different approaches that have seen use.
 
 \hypertarget{the-cut-based-perspective}{\subsection{The cut-based
 perspective}\label{the-cut-based-perspective}}

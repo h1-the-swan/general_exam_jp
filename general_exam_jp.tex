@@ -1,5 +1,6 @@
 \documentclass[11pt,article]{memoir}
 \setsecnumdepth{none} % Turn off section numbering
+\setcounter{tocdepth}{2}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
@@ -59,9 +60,13 @@ Jason Portenoy
 
 \clearpage
 
-% BEGIN INPUTS
-\input{inputs/000-general_exam_questions_email_jw}
+\tableofcontents
+
 \clearpage
+
+% BEGIN INPUTS
+% \input{inputs/000-general_exam_questions_email_jw}
+% \clearpage
 \input{inputs/010-history_and_algorithms}
 \clearpage
 \input{inputs/020-evaluation}

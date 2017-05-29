@@ -3,6 +3,12 @@ networks}\label{visualization}}
 
 \protect\hyperlink{visualization}{}
 
+\hypertarget{visualizing-labs}{\subsection{Applying community analysis
+and visualization to identify visualization
+researchers}\label{visualizing-labs}}
+
+\protect\hyperlink{visualizing-labs}{}
+
 A recent paper in the EuroVis conference by Vehlow et al.
 \autocite{vehlow_state_2015} gives a thorough overview of the state of
 the art in visualizing group structure in networks. In addition to
@@ -44,15 +50,20 @@ this time based on the bottom-level cluster assignment. I also provide a
 search box which makes it easier to find specific authors or
 affiliations.
 
+\TODO{note that there might be errors due to using names as unique IDs}
+
+\subsection{Labs involved in visualizing group structure in
+networks}\label{labs-involved-in-visualizing-group-structure-in-networks}
+
 I represent the co-authorship network as a node-link diagram, which is a
 very common way of visualizing networks. The nodes are visualized using
 a force-directed algorithm, in which forces of attraction and repulsion
 are applied to nodes and links and then placed so as to minimize the
 energy. Interestingly, the force-directed layout has been shown to be
 equivalent to the commonly used modularity quality function for
-communities \TODO{cite}---this is why a visualization of a network that
-uses this layout can have show implicit community structure by grouping
-similar nodes together visually.
+communities \autocite{noack_modularity_2009}---this is why a
+visualization of a network that uses this layout can have show implicit
+community structure by grouping similar nodes together visually.
 
 Using this system can help to identify some of the key researchers in
 this area and the relationships between them. To find the labs, I can
@@ -107,58 +118,53 @@ University, headed by Huamin Qu. One paper from the VisLab is
 \autocite{wu_interactive_2015}, in which contour overlays using Voronoi
 cells are superimposed over nodes to show communities.
 
-\TODO{note that there might be errors due to using names as unique IDs}
+\subsection{Visualizing group structure in graphs: State of the art and
+open
+problems}\label{visualizing-group-structure-in-graphs-state-of-the-art-and-open-problems}
 
-\TODO{Results of exploration. Talk about labs. Highlight some interesting work coming out of labs. }
+The review article (\autocite{vehlow_state_2015}) proposes a taxonomy of
+methods for visualizing group structure in graphs. This taxonomy
+characterizes techniques along two axes. The group structure taxonomy
+identifies the type of groups being visualized---disjoint flat groups,
+overlapping flat groups, disjoint hierarchical groups, or overlapping
+hierarchical groups. The group visualization taxonomy characterizes the
+way that the group structure is presented in the visualization---node
+attributes (such as color); juxtaposed views; superimposed views; or
+embedded views. The authors organize all of the papers in their review
+according to this taxonomy and include this information in their curated
+bibliography. This taxonomy is useful for navigating the space of
+visualizing communities, and can help find examples of techniques that
+have been used.
 
-\TODO{Brushing and linking. Cao et al. g-miner. abello et al. ask-graphview.}
+\TODO{taxonomy figure?}
 
-\TODO{Contours. Wu et al (in hong kong univ VisLab) use voronoi overlays}
+Vehlow et al. also include a discussion of open research challenges in
+visualizing group structure in graphs, informed by interviews with
+experts in the field. They identify five main areas with work to do:
 
-\TODO{Back to vis. Describe taxonomy}
-
-\TODO{Briefly talk about tasks and evaluation}
-
-\TODO{Discuss open problems}
-
-\TODO{Interestingly, modularity and force-directed layout are the same -- Noack 2009}
-
-\begin{itemize}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Labs:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Tong Ji Intelligent Big Data Visualization Lab
-    (\url{https://idvxlab.github.io/}) headed by Nan Cao
-  \item
-    Hong Kong University's VisLab headed by Huamin Qu. Together with
-    above (Tong Ji) in their own component
-  \item
-    MArVL: Monash Adaptive Visualisation Lab
-    (\url{http://marvl.infotech.monash.edu/members/}) headed by Kim
-    Marriott (includes Tim Dwyer)
-  \item
-    University of Stuttgart Visualisation Research Centre
-    (\url{http://www.visus.uni-stuttgart.de/en/institute.html}) includes
-    Prof Daniel Weiskopf, Research associate Dr.~Fabien Beck, and former
-    PhD student Corinna Vehlow (these are the authors of the STAR paper)
-  \item
-    UC Davis Center for Visualization headed by Kwan-Liu Ma. there are
-    problems with their website
-  \item
-    University of Arizona Graph and Map Algorithm (GAMA) Lab headed by
-    Stephen Kobourov
-  \item
-    Johannes Kepler University Linz -- Institute of Computer Graphics --
-    Deputy head of the institute Marc Streit. off on its own connected
-    component.
-  \item
-    David Auber at LaBRI works a lot with Daniel Archambault and Tamara
-    Munzner at UBC
-  \end{itemize}
-\end{itemize}
+  Representating \emph{time-varying} group structure, especially the
+  simultaneous representation of group evolution and graph topology.
+  Similarly, we need ways of \emph{comparing} sets of graphs.
+\item
+  More \emph{data complexity}---for instance, visualizing fuzzy
+  overlapping groups, in which any node can be assigned to multiple
+  communities, possibly with different probabilities.
+\item
+  \emph{Scalable approaches}---for example, representing community
+  assignment by coloring the nodes becomes difficult for more than seven
+  groups.
+\item
+  \emph{Interactive visualizations} provide many possibilities, and
+  there already exist many examples, but much of this space remains to
+  be explored.
+\item
+  The question of how to best \emph{evaluate} visualization techniques
+  is still open, including the identification of \emph{tasks} that these
+  visualizations can support.
+\end{enumerate}
 
 \TODO{Appendix describing methods?}
