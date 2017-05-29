@@ -69,14 +69,13 @@ to calculate the map equation for different clusterings of an input
 graph. What follows is my work implementing an optimization algorithm.
 
 The test example I use is network (a) in Fig.~\ref{fig:mapvsmod} in this
-document (Fig. 3 in \autocite{rosvall_map_2010}). A pajek version of
-this network was included in the forked repository as
-\texttt{2009\_figure3ab.net}. We know that the clustering seen in the
-figure should have a value for the map equation \(L = 3.33\). We know
-from the text that the clustering seen in the figure should have a value
-for the map equation \(L = 3.33\), and that this is the optimal
-(minimum) value for this network. Thus, my algorithm should be able to
-find this clustering.
+document (in the original work \autocite{rosvall_map_2010} it is fig.
+3). A pajek version of this network was included in the forked
+repository as \texttt{2009\_figure3ab.net}. We know from the text
+\autocite{rosvall_map_2010} that the clustering seen in the figure
+should have a value for the map equation \(L = 3.33\), and that this is
+the optimal (minimum) value for this network. Thus, my algorithm should
+be able to find this clustering.
 
 One approach to find the clustering would be to calculate the map
 equation for every possible partition of the network. I implement this
@@ -124,8 +123,8 @@ include this.
 
 My implementation can find the optimal four-way partition of the test
 network. It can also find the optimal partition for network (d) in the
-same figure, in which all nodes are grouped into the same module. It run
-in under 1 second on these test networks (after loading the needed
+same figure, in which all nodes are grouped into the same module. It
+runs in under 1 second on these test networks (after loading the needed
 libraries). It is able to run the larger karate club network (34 nodes)
 in under 5 seconds.
 
