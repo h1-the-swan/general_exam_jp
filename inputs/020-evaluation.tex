@@ -243,16 +243,29 @@ three alternative interpretations: (i) that the metadata do not actually
 correspond with network structure, (ii) that the metadata correspond to
 a different aspect of the network structure than that revealed by the
 community detection method, or (iii) that the network actually has no
-detectable community structure. The authors propose a No Free Lunch
-theorem for community detection, claiming that no one method can
-outperform any other on all cases, implying that methods that have an
-advantage for a certain set of cases will have decreased performance in
-other cases. They stress that this does not imply that community
-detection is a useless endeavor, but they do contend that it is
-impossible to find one optimal method, and that efforts should instead
-be put into understanding the problem space of different community
-detection tasks, so that different algorithms can be developed for each
-one. The recent review paper by Schaub et
+detectable community structure. People have been aware of these issues
+for some time. Peel et al.~point out one example, a node in the Zachary
+Karate Club data that is frequently ``misclassified'' by algorithms
+actually represents a student who had strong ties to the club's
+president after the split, but nominally remained aligned to the
+instructor so as not to lose his progress toward his black belt. Girvan
+and Newman, in their original paper on their novel method in 2002
+\autocite{girvan_community_2002}, also seem aware of this, clarifying
+some results on the football conference network, ``Naturally, our
+algorithm fails in cases like this where the network structure genuinely
+does not correspond to the conference structure. In all other respects,
+however, it performs remarkably well.'' Despite this awareness, however,
+these issues have been largely ignored when evaluating methods.
+
+Peel et al.~propose a No Free Lunch theorem for community detection,
+claiming that no one method can outperform any other on all cases,
+implying that methods that have an advantage for a certain set of cases
+will have decreased performance in other cases. They stress that this
+does not imply that community detection is a useless endeavor, but they
+do contend that it is impossible to find one optimal method, and that
+efforts should instead be put into understanding the problem space of
+different community detection tasks, so that different algorithms can be
+developed for each one. The recent review paper by Schaub et
 al.~\autocite{schaub_many_2017} is one example of this kind of effort,
 classifying and distinguishing the different perspectives on community
 detection.
