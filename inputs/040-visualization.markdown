@@ -1,4 +1,6 @@
-# Visualizing community structure in networks
+# Visualizing community structure in networks {#visualization}
+
+[](#visualization)
 
 http://groups-in-graphs.corinna-vehlow.com/
 + Labs:
