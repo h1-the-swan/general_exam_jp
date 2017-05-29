@@ -34,7 +34,7 @@ Another biological network that has been studied is the directed network of neur
 
 ## Other examples in the research literature {#other-research}
 
-\TODO{Legislative networks: see porter paper}
+Zhang et al. [@zhang_community_2008] analyzed Congressional cosponsorship networks in the United States Congress in order to study partisan polarization. They created a two-mode (bipartite) network between legislators and legislation, and then projected this network to a one-mode (unipartite) network in which nodes are legislators, and links between legislators represent the fact that they have cosponsored bills together. They then compared the optimal modularity of these networks at different time points with the observed modularity using party affiliation as community membership. In other words, they were interested in how close the structural communities seen in the network were to the "communities" of political party. They found that the difference between these two values decreased over time (1979--2004), indicating that the cosponsorship behavior of legislators was increasingly aligning with party affiliation---i.e., that polarization was increasing.
 
 + [@lupu_trading_2013]: States that trade with each other are known to have less conflict with each other. This paper extends this to trade communities, so that states that don't trade with each other that much, but are indirectly linked by trade, also have less conflict with each other. They use community detection (via modularity maximization) to test this theory.
 
