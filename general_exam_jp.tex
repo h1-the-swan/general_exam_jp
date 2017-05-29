@@ -28,8 +28,11 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \usepackage{color}
 \newcommand{\TODO}[1]{\textcolor{magenta}{\textbf{TODO: #1}}}
 
-\usepackage[style=ieee]{biblatex}
+\usepackage[style=numeric,url=false]{biblatex}
 \addbibresource{general_exam.bib}
+
+% https://tex.stackexchange.com/questions/296476/cant-define-apa-as-bibstyle-undefined-control-sequence-argument-mkbibdatea
+% \DeclareLanguageMapping{american}{american-apa}
 
 \OnehalfSpacing
 

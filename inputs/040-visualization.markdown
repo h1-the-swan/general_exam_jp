@@ -3,6 +3,7 @@
 [](#visualization)
 
 http://groups-in-graphs.corinna-vehlow.com/
+
 + Labs:
 	+ Tong Ji Intelligent Big Data Visualization Lab (<https://idvxlab.github.io/>) headed by Nan Cao
 	+ MArVL: Monash Adaptive Visualisation Lab (<http://marvl.infotech.monash.edu/members/>) headed by Kim Marriott (includes Tim Dwyer)
