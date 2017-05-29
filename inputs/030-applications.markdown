@@ -18,7 +18,7 @@ Weng et al. [@weng_virality_2013] used community detection to study the virality
 
 ## Networks of scholarship {#networks-of-scholarship}
 
-[](#networks-of-scholarship)}
+[](#networks-of-scholarship)
 
 The collective human endeavor of knowledge generation and organization can be represented as a directed network of scholarly publications with citations between them. The citation links between publications can been viewed as a proxy for influence or information flow. De Solla Price recognized the potential of this representation in the mid 20th century [@de_solla_price_networks_1965], and over the years much work has been done in this meta-scientific research area, which has been given terms such as "bibliometrics," "scientometrics," and "science of science". In these networks, publications (or journals, or authors) form communities, which intuitively represent different fields of scholarship. Rosvall and Bergstrom [@rosvall_maps_2008] applied the [Infomap](#the-dynamical-perspective) algorithm on the journal citation network to build a map of science, visualizing information flows between disciplines (see [@fig:journals]). Rosvall and Bergstrom also applied community detection at different time points to build maps of how science changes over time, revealing the formation of the standalone field of neuroscience by 2007 from various other disciplines starting in 2001, shown in [@Fig:alluvial] [@rosvall_mapping_2010]. Communities in citation networks have also been used in a recommendation system for scholarly articles [@west_recommendation_2016]; and as a way of representing distance between scientific fields, in combination with other measures of distance such as language barriers arising from the use of jargon [@vilhena_finding_2014].
 
