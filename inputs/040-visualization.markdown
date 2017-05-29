@@ -18,13 +18,11 @@ Close to the Stuttgart lab is the team at LaBRI at the University of Bordeaux, F
 
 Other groups can be seen in the largest connected component. A group of researchers appears as a maroon community; this is the MArVL group at Monash University in Melbourne, Australia, which includes Kim Marriott and Tim Dwyer (I have seen Tim's work before---he created cola.js, a constraint-based graph visualization layout that works with D3). The UC Davis Center for Visualization appears as a mostly blue community. The University of Arizona Graph and Map Algorithm (GAMA) Lab, headed by Stephen Kobourov, is well connected in the component. An interesting paper out of this last lab is [@gansner_gmap:_2010], in which communities are visualized to look like cartographic maps. This method has a pleasing aesthetic that people might find preferable to the standard node-link diagram, as many people are turned off by the "hairball" that tends to result from the standard approach. Indeed, the authors use their mapping technique to visualize a co-authorship network, and this may be a superior way to visualize this data than what I have done. Another paper [@saket_map-based_2015] found that the cartographic map technique improved people's recall of data.
 
-The repre
+Some labs are represented in the smaller components as well. One such component contains two labs in China---the Tong Ji Intelligent Big Data Visualization Lab, headed by Nan Cao; and the VisLab at Hong Kong University, headed by Huamin Qu. One paper from the VisLab is [@wu_interactive_2015], in which contour overlays using Voronoi cells are superimposed over nodes to show communities.
 
 \TODO{note that there might be errors due to using names as unique IDs}
 
 \TODO{Results of exploration. Talk about labs. Highlight some interesting work coming out of labs. }
-
-\TODO{GMap from Arizona/ATT. It is more visually appealing than a node-link diagram--- the "hairball" can turn people off. They also show in Saket et al. 2010 that people recall the data better in this form.}
 
 \TODO{Brushing and linking. Cao et al. g-miner. abello et al. ask-graphview.}
 
