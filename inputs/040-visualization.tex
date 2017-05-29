@@ -39,30 +39,44 @@ to attempt to assign an affiliation to each author by querying Microsoft
 Academic Graph for the author and retrieving the most prevalent
 affiliation for that author among the papers returned. I then used
 \protect\hyperlink{the-dynamical-perspective}{Infomap} to find a
-hierarchical clustering of the nodes. To visualize the results, I
-include only the connected components with at least 10 nodes. Each node
-represents a single author; 238 authors appear in the visualization. The
-sizes of the nodes correspond to the amount of flow---the relative
-importance of an author in this co-authorship network. The color of each
-node is assigned based on the top-level cluster assignment of that
-author. Clicking on any node of a connected component will shift the
-focus to that component, and reassign colors, this time based on the
-bottom-level cluster assignment. I also provide a search box which makes
-it easier to find specific authors or affiliations. Note that there may
-be some errors due to using author names as unique IDs.
+hierarchical clustering of the nodes. To visualize the results
+(Fig.~\ref{fig:groupsvis}), I include only the connected components with
+at least 10 nodes. Each node represents a single author; 238 authors
+appear in the visualization. The sizes of the nodes correspond to the
+amount of flow---the relative importance of an author in this
+co-authorship network. The color of each node is assigned based on the
+top-level cluster assignment of that author. Clicking on any node of a
+connected component will shift the focus to that component, and reassign
+colors, this time based on the bottom-level cluster assignment. I also
+provide a search box which makes it easier to find specific authors or
+affiliations, and a pop up box on mouseover with details about the
+author and titles of papers. Note that there may be some errors due to
+using author names as unique IDs.
 
-\subsection{Labs involved in visualizing group structure in
-networks}\label{labs-involved-in-visualizing-group-structure-in-networks}
+\begin{figure}
+\centering
+\includegraphics{img/groups_vis.png}
+\caption{Coauthorship network of the visualization methods papers
+surveyed in \autocite{vehlow_state_2015}. Nodes represent authors, with
+weighted links indicating co-authorship. Nodes in this view are colored
+by the top level of the hierarchical Infomap community assignment, and
+roughly correspond to labs and institutions. Available at
+\url{http://students.washington.edu/jporteno/groups/}}\label{fig:groupsvis}
+\end{figure}
 
-I represent the co-authorship network as a node-link diagram, which is a
-very common way of visualizing networks. The nodes are visualized using
-a force-directed algorithm, in which forces of attraction and repulsion
+I represent the co-authorship network using D3
+\autocite{bostock_d3:_2011} as a node-link diagram, which is a very
+common way of visualizing networks. The nodes are visualized using a
+force-directed algorithm, in which forces of attraction and repulsion
 are applied to nodes and links and then placed so as to minimize the
 energy. Interestingly, the force-directed layout has been shown to be
 equivalent to the commonly used modularity quality function for
 communities \autocite{noack_modularity_2009}---this is why a
 visualization of a network that uses this layout can show implicit
 community structure by grouping similar nodes together visually.
+
+\subsection{Labs involved in visualizing group structure in
+networks}\label{labs-involved-in-visualizing-group-structure-in-networks}
 
 Using this system can help to identify some of the key researchers in
 this area and the relationships between them. To find the labs, I can
@@ -82,6 +96,17 @@ community structure is visualized as rectangular blocks (in a way
 resembling the alluvial diagrams in Rosvall and Bergstrom
 \autocite{rosvall_mapping_2010} see Fig.~\ref{fig:alluvial}), and these
 are combined with node-link representations of the community subgraphs.
+Fig.~\ref{fig:vehlow} shows the evolution of a network of soccer teams
+over time.
+
+\begin{figure}
+\centering
+\includegraphics{img/vehlow2015_fig7_dynamic.png}
+\caption{Evolution of the community structure of a network of soccer
+matches from 1992 to 2005 (teams are connected if they played each
+other) From Vehlow et
+al.~\autocite{vehlow_visualizing_2015}.}\label{fig:vehlow}
+\end{figure}
 
 Close to the Stuttgart lab is the team at LaBRI at the University of
 Bordeaux, France. Researchers here include Romain Bourqui and David
@@ -101,14 +126,22 @@ UC Davis Center for Visualization appears as a mostly blue community.
 The University of Arizona Graph and Map Algorithm (GAMA) Lab, headed by
 Stephen Kobourov, is well connected in the component. An interesting
 paper out of this last lab is \autocite{gansner_gmap:_2010}, in which
-communities are visualized to look like cartographic maps. This method
-has a pleasing aesthetic that people might find preferable to the
-standard node-link diagram, as many people are turned off by the
-``hairball'' that tends to result from the standard approach. Indeed,
-the authors use their mapping technique to visualize a co-authorship
-network, and this may be a superior way to visualize this data than what
-I have done. Another paper \autocite{saket_map-based_2015} found that
-the cartographic map technique improved people's recall of data.
+communities are visualized to look like cartographic maps. This method,
+which the authors call GMap has a pleasing aesthetic that people might
+find preferable to the standard node-link diagram, as many people are
+turned off by the ``hairball'' that tends to result from the standard
+approach. Indeed, the authors use their mapping technique to visualize a
+co-authorship network (Fig.~\ref{fig:gmap}), and this may be a superior
+way to visualize this data than what I have done. Another paper
+\autocite{saket_map-based_2015} found that the cartographic map
+technique improved people's recall of data.
+
+\begin{figure}
+\centering
+\includegraphics{img/ganser2010_fig6_gmap.png}
+\caption{GMap \autocite{gansner_gmap:_2010} representation of an author
+collaboration network among visualization ressearchers.}\label{fig:gmap}
+\end{figure}
 
 Some labs are represented in the smaller components as well. One such
 component contains two labs in China---the Tong Ji Intelligent Big Data
