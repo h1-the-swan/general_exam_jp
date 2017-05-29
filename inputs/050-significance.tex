@@ -3,6 +3,8 @@ communities}\label{confidence-in-communities}}
 
 \protect\hyperlink{confidence-in-communities}{}
 
+\subsection{Statistical significance}\label{statistical-significance}
+
 Although it is counterintuitive, completely random graphs, when viewed a
 certain way, can be seen to have community structure. In a random graph,
 known as an Erdős--Rényi graph \autocite{erdos_evolution_1960}, every
@@ -113,10 +115,67 @@ detection}'')
 
 Mirshahvalad et al. \autocite{mirshahvalad_significant_2012} propose a
 \emph{constructive} perturbation approach suitable for sparse networks.
+These networks have a danger that communities can be ``shattered'' into
+small modules if there are missing links due to noise in the data.
+\emph{Link prediction} is employed to add links to the network,
+strengthening the communities. The link prediction strategy used is
+triangle completion, in which a fraction of open triangles are completed
+by adding a link. This is a relatively simple strategy, and more
+sophisticated methods can be used, but the authors show that it performs
+well on benchmark graphs that have been shattered. This method can be
+used as a bootstrap resampling technique, and significance can be
+measured based on the resampled distribution. A weakness of this method
+is that the number of links to be added needs to be chosen, but the
+benchmark experiments suggest that results are robust to this choice.
 
 In summary, measuring our confidence in community detection techniques
-seems to be a hard problem. \ldots{}
+seems to be a hard problem. Network data are highly interrelated, so
+typical independence assumptions that underlie many statistical methods
+do not apply. One important issue is the lack of a realistic null model.
+Typical null models assume that any node can be connected to any other
+with equal probability, but this assumption does not intuitively hold
+for large networks. More appropriate would be to have a ``horizon'' of
+nodes that each node is more likely to interact with, but such horizons
+have yet to be defined \autocite{fortunato_community_2010}. The lack of
+appropriate null models is a problem for generative models that rely on
+them explicitly, but they tend to underlie assumptions behind link
+perturbation and resampling strategies as well. More work remains to be
+done to arrive at standard ways of measuring our confidence in the
+results of community detection.
 
-\TODO{As fortunato points out: What is unrealistic about the typical null model is that any node can be connected to any other with equal probability. Typically large networks have nodes that have some "horizon" of other nodes that they can reasonably be expected to be connected to. "How to define such ‘‘horizons’’ and, more in general, realistic null models is still an open problem."}
+\subsection{Algorithmic inaccuracy}\label{algorithmic-inaccuracy}
 
-\TODO{random seed: I think the louvain paper talks about this (blondel). I have also encountered some fluctuation in Infomap depending on the random seed. We can do work to assess the extent of the fluctuation, and what is causing it. We can also run the algorithm several times and take the best score.}
+Our confidence in the performance of a given algorithm due to, for
+instance, using different random seeds is a distinct issue. The
+statistical significance of community detection is a question of
+confidence in the \emph{theory} behind our method. Variation in the
+results due to the fact that we are necessarily using approximating
+algorithms (due to the complexity of the problem), on the other hand,
+affects our confidence in the \emph{implementation} of our method. In
+the case of Infomap, during each pass of the core algorithm, the nodes
+are considered one at a time in random order, and merged with one of its
+neighbors in order to give maximum improvement to the objective function
+(the map equation). In principle, there should be one global minimum for
+the map equation, corresponding to the one optimal community structure.
+In practice, it does seem like the order that the nodes are considered
+does make a difference in the final value of the map equation---i.e.,
+how well Infomap is able to approximate this global optimum. For
+example, in a recent experiment in which I performed 106 runs of Infomap
+on the JSTOR article citation network, I found an approximately normal
+distribution of final values between 11.334 and 11.364 (mean 11.348,
+standard dev 0.00577). These numbers are of course difficult to
+interpret, but they do show that there is at least some variation.
+
+The Infomap algorithm is based on the Louvain method for modularity
+maximization. In the paper introducing the Louvain method, Blondel el
+al. report on this issue. While they see the same type of variation in
+relation to the random order, they claim the effect is small, and they
+are more concerned with the effect the order has on computation time.
+They leave further understanding of the issue to future study
+\autocite{blondel_fast_2008}.
+
+In light of this, it would not be a bad idea for someone using any
+approximating method to perform multiple runs if she is interested in
+finding the best solution possible. More work is needed to understand
+specifically the effect of the random seed on the performance of
+Infomap.
