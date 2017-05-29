@@ -8,10 +8,23 @@ One question was somewhat difficult to answer given the format this bibliography
 
 Starting with data on papers and seeking insight into the organization of research in different labs seemed like an appropriate situation to apply community detection methods. I first constructed a co-authorship network in which nodes represent authors, and weighted links represent the number of papers in which a pair appear as authors. In addition, I used the Microsoft Academic API /TODO{cite} to attempt to assign an affiliation to each author by querying Microsoft Academic Graph for the author and retrieving the most prevalent affiliation for that author among the papers returned. I then used [Infomap](#the-dynamical-perspective) to find a hierarchical clustering of the nodes. To visualize the results, I include only the connected components with at least 10 nodes. Each node represents a single author. The sizes of the nodes correspond to the amount of flow---the relative importance of an author in this co-authorship network. The color of each node is assigned based on the top-level cluster assignment of that author. Clicking on any node of a connected component will shift the focus to that component, and reassign colors, this time based on the bottom-level cluster assignment. I also provide a search box which makes it easier to find specific authors or affiliations.
 
+\TODO{note that there might be errors due to using names as unique IDs}
+
+\TODO{Results of exploration. Talk about labs}
+
+\TODO{Back to vis. Describe taxonomy}
+
+\TODO{Briefly talk about tasks and evaluation}
+
+\TODO{Discuss open problems}
+
 + Labs:
 	+ Tong Ji Intelligent Big Data Visualization Lab (<https://idvxlab.github.io/>) headed by Nan Cao
 	+ MArVL: Monash Adaptive Visualisation Lab (<http://marvl.infotech.monash.edu/members/>) headed by Kim Marriott (includes Tim Dwyer)
 	+ University of Stuttgart Visualisation Research Centre (<http://www.visus.uni-stuttgart.de/en/institute.html>) includes Prof Daniel Weiskopf, Research associate Dr. Fabien Beck, and former PhD student Corinna Vehlow (these are the authors of the STAR paper)
+	+ UC Davis Center for Visualization headed by Kwan-Liu Ma. there are problems with their website
 	+ University of Arizona Graph and Map Algorithm (GAMA) Lab headed by Stephen Kobourov
+	+ Johannes Kepler University Linz -- Institute of Computer Graphics -- Deputy head of the institute Marc Streit. off on its own connected component.
+	+ David Auber at LaBRI works a lot with Daniel Archambault  and Tamara Munzner at UBC
 
 \TODO{Appendix describing methods?}
