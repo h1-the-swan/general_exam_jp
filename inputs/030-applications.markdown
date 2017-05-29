@@ -40,6 +40,9 @@ Lupu and Traag [@lupu_trading_2013] used community detection to study the impact
 
 ## Non-research applications
 
+Besides the published examples of applications of community detection, there are likely many that have not been published, either due to secrecy around industry or state knowledge, or simply because the people involved are not oriented toward academic publishing. One such area is marketing: community information on various types of consumer networks could be useful for targeted marketing [@labatut_detection_2012]. This is also related to recommendation systems, as discussed in the context of scholarly publications above; graph clustering approaches to recommendation have appeared in the published literature [@reddy_graph_2002; @fouss_random-walk_2007], and it is probable that more exists unpublished.
+
+recommendation: [@fouss_random-walk_2007; @reddy_graph_2002]
 \TODO{terrorism? crime? marketing? maybe not reflected in the research. Community detection to identify fraud events in telecommunication networks.}
 
 ...this exam, to answer the question of which labs are working on group structure in graph visualization. This is a question that can be addressed with network (co-authorship) data. ...
