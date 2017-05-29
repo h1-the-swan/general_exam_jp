@@ -86,7 +86,7 @@ of similarly sized groups with a small number of edges between
 groups---these inter-group edges are known as the \emph{cut}. Similar
 problems can be found in load scheduling and parallel computing, where
 tasks must be divided into different portions with minimal dependencies
-between them. These need for these methods led to the development of the
+between them. The need for these methods led to the development of the
 Kernighan-Lin algorithm in 1970 \autocite{kernighan_efficient_1970},
 which has become a classical method that is still frequently used. It
 starts with an initial partition and attempts to optimize a quality
@@ -102,7 +102,7 @@ adjacency matrix tend to be related to the connectivity of the graph,
 and the associated eigenvectors can be used for both cut-based
 partitioning and clustering. These methods typically make use of the
 Laplacian matrix \(L\) of a connected graph \(G\): \(L = D - A\) where
-\(A\) is the adjacency matrix of \(G\) and \(D\) is the diagonal degree
+\(A\) is the adjacency matrix of \(G\), and \(D\) is the diagonal degree
 matrix with \(D_{ii} = \sum_{j}{A_{ij}}\). The \emph{Fiedler vector} is
 the second-smallest eigenvector associated with the Laplacian matrix
 \(L\); the spectral bisection method uses this vector to quickly
@@ -130,7 +130,7 @@ perspective}\label{the-clustering-perspective}}
 The clustering perspective comes from the world of data clustering, in
 which data points are thought of as having ``distance'' between each
 other based on their (dis)similarity, and the goal is to group together
-data point that are close to each other. For community detection, this
+data points that are close to each other. For community detection, this
 distance is in relation to the connections between nodes in the network.
 This perspective is related to but different from the cut-based
 perspective above, which seeks to place divisions among the nodes so as
@@ -142,7 +142,7 @@ partitioning that can be viewed as a dendrogram. The common method uses
 an agglomerative approach in which each node starts in its own cluster,
 and they are joined together one by one based on some similarity measure
 calculated using the graph's adjacency matrix. This approach to
-community detection has several weaknesses. It necessarily infers a
+community detection has several weaknesses: It necessarily infers a
 hierarchical community structure even if one does not exist; the
 hierarchy is not always easy to interpret; it often misclassifies nodes,
 especially nodes with only one neighbor, which it tends to put it in its
