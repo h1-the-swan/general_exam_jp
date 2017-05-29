@@ -1,4 +1,6 @@
-# Applications of community detection
+# Applications of community detection {#applications}
+
+[](#applications)
 
 The extensive work behind developing and validating methods for community detection is presumably meant to work toward a goal of using community detection for some concrete applications. In this area, the field shows its (young) age---it is somewhat difficult to find published examples where the methods have been applied to solve a specific problem or gain significant new insight into a system. Below, I discuss some of the examples that do exist in the research literature, in the fields of [social network analysis], [networks of scholarship], [biological networks], and [others](#other-research). Besides published research, I speculate on the (mostly unpublished) applications of community detection outside of academia, and present an example of using community detection in the context of a small data science project to address a question of interest.
 
@@ -14,7 +16,9 @@ One published study of Facebook was conducted by Traud et al. [@traud_social_201
 
 Weng et al. [@weng_virality_2013] used community detection to study the virality of memes on Twitter. Since the question of interest was one of information flow, they used Infomap, a flow-based community detection method (see subsection "[The dynamical perspective](#the-dynamical-perspective)" in section "[Community detection methods](#community-detection-methods)" above). They identified communities in networks of reciprocal-follower relationships among Twitter users. [@Fig:viraltwitter] shows the evolution of a viral meme vs. a non-viral meme (here a meme corresponds to a hashtag), with the communities represented as nodes. The results suggest that a meme that is less concentrated in one community is more likely to spread, and that community structure might be helpful in predicting the virality of memes. They go on to apply a random forest classifier for new memes that takes into account community features, and find that these features are helpful in predicting whether a meme will go viral.
 
-## Networks of scholarship
+## Networks of scholarship {#networks-of-scholarship}
+
+[](#networks-of-scholarship)}
 
 The collective human endeavor of knowledge generation and organization can be represented as a directed network of scholarly publications with citations between them. The citation links between publications can been viewed as a proxy for influence or information flow. De Solla Price recognized the potential of this representation in the mid 20th century [@de_solla_price_networks_1965], and over the years much work has been done in this meta-scientific research area, which has been given terms such as "bibliometrics," "scientometrics," and "science of science". In these networks, publications (or journals, or authors) form communities, which intuitively represent different fields of scholarship. Rosvall and Bergstrom [@rosvall_maps_2008] applied the [Infomap](#the-dynamical-perspective) algorithm on the journal citation network to build a map of science, visualizing information flows between disciplines (see [@fig:journals]). Rosvall and Bergstrom also applied community detection at different time points to build maps of how science changes over time, revealing the formation of the standalone field of neuroscience by 2007 from various other disciplines starting in 2001, shown in [@Fig:alluvial] [@rosvall_mapping_2010]. Communities in citation networks have also been used in a recommendation system for scholarly articles [@west_recommendation_2016]; and as a way of representing distance between scientific fields, in combination with other measures of distance such as language barriers arising from the use of jargon [@vilhena_finding_2014].
 

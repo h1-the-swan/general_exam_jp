@@ -50,36 +50,73 @@ configurations that yield the same value for the measure as the observed
 network \autocite{fortunato_community_2016}. (It may be difficult to
 operationalize ``same value'' here---requiring an exact match might make
 this test too insensitive, but allowing for variation would introduce
-more noise.)
+more noise.) One could apply this approach to the community structure as
+a whole, or to individual communities, or to community membership of
+individual nodes, measuring these phenomena against their presence in an
+ensemble of generated graphs.
 
-section 14 in fortunato 2010:
+Another approach is to consider the robustness of a given network to
+perturbations in the network structure. From a conceptual standpoint,
+this approach differs from the above one in that it does not consider
+the network structure as having been generated from a stochastic
+process, and attempt to model that process. Rather, it takes the
+structure as given and observes the effects of random noise introduced
+into this structure on the communities that are detected. This approach
+has the advantages that it is applicable to any method, and it is not
+restricted to a particular null model
+\autocites{rosvall_mapping_2010}{mirshahvalad_significant_2012}.\footnote{In
+  practice, however, a particular null model is often implied in a
+  perturbation strategy, as can be seen in the discussed examples.}
 
-The first three examples all relate to introducing noise into the edges?
-How are they different from each other?
+Several strategies for perturbing networks have been proposed. Gfeller
+et al. \autocite{gfeller_finding_2005} employ a strategy on weighted
+graphs in which edge weights are increased or decreased by a relative
+amount \(0 < \delta < 1\). After choosing \(\delta\), multiple
+realizations of the graph are clustered using any method, and the
+\emph{in-cluster} probability of each pair of adjacent vertices
+\(p_{ij}\) is calculated as the fraction of realizations in which they
+were clustered together. Edges with \(p_{ij} < \theta\) are considered
+to be \emph{external} edges. This approach has as a weakness the need to
+choose values for \(\delta\) and \(\theta\). The authors also provide a
+way to measure the overall stability of the partition using these
+in-cluster probabilities; this measure needs to be compared against a
+null model.
 
-Massen and Doye\ldots{} temperature, thermodynamics. could be in
-interesting, but a lot of problems, and rely heavily on modularity---not
-clear how it would apply to other quality functions like map equation.
+Karrer et al. \autocite{karrer_robustness_2008} use a strategy for
+unweighted graphs of network rewiring. Each edge is considered and
+either left alone or, with probability \(\alpha\), it is removed and
+replaced with another edge between a pair of vertices \((i, j)\) chosen
+at random with probability \(p_{ij} = k_i k_j / 2m\) (\(k_i\) and
+\(k_j\) are the degrees of \(i\) and \(j\); \(m\) is the number of edges
+in the graph). This probability is the same one used in the null model
+of modularity. The authors generated multiple graphs for different
+values of \(\alpha\), and compared their clusterings to each other using
+the variation of information \(V\). They then plotted \(V\) against
+\(\alpha\) to see how different levels of perturbation would affect the
+stability of the network structure. They compared the function
+\(V(\alpha)\) against a null model---again, the null model of
+modularity.
 
-Comparing with a random graph with similar properties:
+Rosvall and Bergstrom use a parametric bootstrap resampling method to
+measure significance of communities. To resample the graph, each edge is
+assigned a weight from a Poisson distribution with mean equal to the
+original edge weight. The authors then cluster both the original and
+resampled networks (any clustering method can be used; the authors used
+Infomap). Each cluster of the original graph is considered, and of these
+nodes the largest subset clustered in the same group in at least 95\% of
+the resampled networks is deemed a significant cluster. By applying this
+technique on citation graphs at different time points, the authors track
+the change in the community structure over time (see subsection
+``\protect\hyperlink{networks-of-scholarship}{Networks of scholarship}''
+in section ``\protect\hyperlink{applications}{Applications of community
+detection}'')
 
-Bianconi et al. compares entropy of clustering with the average entropy
-of an ensemble with the same degree sequence but a random permutation of
-the cluster labels.
+Mirshahvalad et al. \autocite{mirshahvalad_significant_2012} propose a
+\emph{constructive} perturbation approach suitable for sparse networks.
 
-As fortunato points out: What is unrealistic about the typical null
-model is that any node can be connected to any other with equal
-probability. Typically large networks have nodes that have some
-``horizon'' of other nodes that they can reasonably be expected to be
-connected to. ``How to define such ``horizons'' and, more in general,
-realistic null models is still an open problem.''
+In summary, measuring our confidence in community detection techniques
+seems to be a hard problem. \ldots{}
 
-see also fortunato and hric 2016
+\TODO{As fortunato points out: What is unrealistic about the typical null model is that any node can be connected to any other with equal probability. Typically large networks have nodes that have some "horizon" of other nodes that they can reasonably be expected to be connected to. "How to define such ‘‘horizons’’ and, more in general, realistic null models is still an open problem."}
 
-also\ldots{} latent space models? stochastic block models?
-
-random seed: I think the louvain paper talks about this (blondel). I
-have also encountered some fluctuation in Infomap depending on the
-random seed. We can do work to assess the extent of the fluctuation, and
-what is causing it. We can also run the algorithm several times and take
-the best score.
+\TODO{random seed: I think the louvain paper talks about this (blondel). I have also encountered some fluctuation in Infomap depending on the random seed. We can do work to assess the extent of the fluctuation, and what is causing it. We can also run the algorithm several times and take the best score.}
