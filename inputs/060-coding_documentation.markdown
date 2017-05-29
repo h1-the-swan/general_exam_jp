@@ -31,7 +31,7 @@ where $n_i$ is the number of nodes in module $i$, and $w_{\alpha \beta}$ is the 
 
 Version 1 implements a `Module` class and a `Clustering` class. I build a `PyInfomap` on top of these in order to be able to calculate the map equation for different clusterings of an input graph. What follows is my work implementing an optimization algorithm.
 
-The test example I use is network (a) in [@Fig:mapvsmod] in this document (Fig. 3 in [@rosvall_map_2010]). A pajek version of this network was included in the forked repository as `2009_figure3ab.net`. We know that the clustering seen in the figure should have a value for the map equation $L = 3.33$. We know from the text that the clustering seen in the figure should have a value for the map equation $L = 3.33$, and that this is the optimal (minimum) value for this network. Thus, my algorithm should be able to find this clustering.
+The test example I use is network (a) in [@Fig:mapvsmod] in this document (in the original work [@rosvall_map_2010] it is fig. 3). A pajek version of this network was included in the forked repository as `2009_figure3ab.net`. We know from the text [@rosvall_map_2010] that the clustering seen in the figure should have a value for the map equation $L = 3.33$, and that this is the optimal (minimum) value for this network. Thus, my algorithm should be able to find this clustering.
 
 One approach to find the clustering would be to calculate the map equation for every possible partition of the network. I implement this in `search_all_possible_partitions.py`. However, there are far too many combinations of partitions for network data, even for the small 16-node network I use to test. As of this writing, this code has not yet finished after running for 212 hours (almost 9 days), having tried over $6.15 \times 10^9$ different partitions.
 
@@ -41,6 +41,6 @@ A more realistic option is to use some sort of search algorithm. I implement the
 
 The official Infomap algorithm takes additional steps after this point to broaden the search space and avoid local optima. These include recursively running the algorithm on the clusters, and freeing individual nodes to move between modules. My implementation does not yet include this.
 
-My implementation can find the optimal four-way partition of the test network. It can also find the optimal partition for network (d) in the same figure, in which all nodes are grouped into the same module. It run in under 1 second on these test networks (after loading the needed libraries). It is able to run the larger karate club network (34 nodes) in under 5 seconds.
+My implementation can find the optimal four-way partition of the test network. It can also find the optimal partition for network (d) in the same figure, in which all nodes are grouped into the same module. It runs in under 1 second on these test networks (after loading the needed libraries). It is able to run the larger karate club network (34 nodes) in under 5 seconds.
 
 Next steps would include tests on synthetic benchmarks, and further analysis of the results of the karate club network, as well as other standard examples (see section ["Evaluation of community detection methods"](#evaluation)).
