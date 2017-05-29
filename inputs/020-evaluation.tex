@@ -132,7 +132,7 @@ VI(\mathcal{C}, \mathcal{C'}) &= H(\mathcal{C}) + H(\mathcal{C'}) - 2I(\mathcal{
 \end{aligned}
 \]
 
-Finally, Lancichinetti et al. proposed a version of the normalized
+Finally, Lancichinetti et al.~proposed a version of the normalized
 mutual information that can handle the case of \emph{covers},
 clusterings in which a node can be assigned to more than one cluster
 \autocite{lancichinetti_detecting_2009}. While the authors point out
@@ -163,7 +163,7 @@ standard is known as the Girvan and Newman (GM) benchmark
 \autocite{girvan_community_2002}. In this version, the number of
 clusters is set at 4, with 32 nodes per cluster, and an average total
 degree of 12. The parameter one uses to change how pronounced is the
-community structure of the generated network is \(z{out}\)---the
+community structure of the generated network is \(z_{out}\)---the
 expected external degree of a node. (Because the expected total degree
 of a node is fixed, \(z_{in}\)---the expected internal degree of a
 node---depends on \(z_{out}\)). As \(z_{out}\) increases, the community
@@ -188,7 +188,7 @@ The weakness of the GN benchmarks and the planted \(\ell\)-partition
 model in general lies in assumptions that all communities have the same
 size and all nodes have the same degree on average. Real-world networks
 tend to exhibit skewed, power-law-like distributions for cluster size
-and node degree. Lancichinetti et al. have taken steps to address these
+and node degree. Lancichinetti et al.~have taken steps to address these
 issues with their LFR benchmark, which is generally seen as an
 improvement over the GN benchmark
 \autocites{lancichinetti_benchmark_2008}{fortunato_community_2010}. When
@@ -234,26 +234,26 @@ poor job of recovering these classifications on many large networks
 \autocites{yang_defining_2015}{hric_community_2014}. This may represent
 something of a crisis for the field.
 
-A very recent paper by Peel et al. breaks down these issues
-\autocite{peel_ground_2017}, providing a very interesting and
-provocative perspective. While it has been assumed that a method's
-failure to recover the metadata associated with the network means that
-the method has performed poorly, the authors point out that there are
-actually three alternative interpretations: (i) that the metadata do not
-actually correspond with network structure, (ii) that the metadata
-correspond to a different aspect of the network structure than that
-revealed by the community detection method, or (iii) that the network
-actually has no detectable community structure. The authors propose a No
-Free Lunch theorem for community detection, claiming that no one method
-can outperform any other on all cases, implying that methods that have
-an advantage for a certain set of cases will have decreased performance
-in other cases. They stress that this does not imply that community
+A very recent paper by Peel et al.~breaks down these issues
+\autocite{peel_ground_2017}, providing an interesting and provocative
+perspective. While it has been assumed that a method's failure to
+recover the metadata associated with the network means that the method
+has performed poorly, the authors point out that there are actually
+three alternative interpretations: (i) that the metadata do not actually
+correspond with network structure, (ii) that the metadata correspond to
+a different aspect of the network structure than that revealed by the
+community detection method, or (iii) that the network actually has no
+detectable community structure. The authors propose a No Free Lunch
+theorem for community detection, claiming that no one method can
+outperform any other on all cases, implying that methods that have an
+advantage for a certain set of cases will have decreased performance in
+other cases. They stress that this does not imply that community
 detection is a useless endeavor, but they do contend that it is
 impossible to find one optimal method, and that efforts should instead
 be put into understanding the problem space of different community
 detection tasks, so that different algorithms can be developed for each
-one. The recent review paper by Schaub et al.
-\autocite{schaub_many_2017} is one example of this kind of effort,
+one. The recent review paper by Schaub et
+al.~\autocite{schaub_many_2017} is one example of this kind of effort,
 classifying and distinguishing the different perspectives on community
 detection.
 
@@ -335,7 +335,7 @@ does find some community structure when the average degree of the nodes
 is low---i.e., the graph is sparse. This could pose a problem, as many
 real-world graphs are sparse.
 
-A recent paper by Emmons et al. \autocite{emmons_analysis_2016} is an
+A recent paper by Emmons et al.~\autocite{emmons_analysis_2016} is an
 update to the Lancichinetti and Fortunato paper. Computation has
 advanced, and they were able to test LFR benchmark graphs up to 1
 million nodes on four algorithms: Louvain, Smart Local Moving (SLM),

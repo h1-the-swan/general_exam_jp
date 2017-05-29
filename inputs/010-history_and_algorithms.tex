@@ -246,7 +246,7 @@ for how one can select this number, it remains an open problem
 \hypertarget{the-dynamical-perspective}{\subsection{The dynamical
 perspective}\label{the-dynamical-perspective}}
 
-The fourth perspective that Schaub et al. identify is the dynamical
+The fourth perspective that Schaub et al.~identify is the dynamical
 perspective, and it differs from the above three in that it is not
 directly concerned with the structure of the network, but rather the
 dynamical processes acting on the network. In other words, it aims to
@@ -272,20 +272,20 @@ movements. The map equation is the minimal description length (MDL) of
 the diffusion process modeled by the random walker given a modular
 structure.
 
-An analogy can be made to the world of cartography, which is where the
-map equation derives its name. Assigning an address to a location in a
-city is a way of encoding that location. Parts of an address can be
-reused in different locations---there can exist multiple Main Streets in
-different cities. Reusing these names makes describing an individual's
-movement within a city more efficient (fewer bits), since as long as we
-know the individual is staying within the city limits we can just use
-street names without causing confusion. The map equation formalizes this
-idea mathematically, providing a function that can be optimized to find
-good community structure given a network and a model of the dynamics on
-that network. The method does not actually find the description of the
-network (the codewords that would be used to compress the network), but
-rather the lower theoretical limit on the number of bits that would be
-needed to do the encoding.
+To make this idea clearer, an analogy can be made to the world of
+cartography, which is where the map equation derives its name. Assigning
+an address to a location in a city is a way of encoding that location.
+Parts of an address can be reused in different locations---there can
+exist multiple Main Streets in different cities. Reusing these names
+makes describing an individual's movement within a city more efficient
+(fewer bits), since as long as we know the individual is staying within
+the city limits we can just use street names without causing confusion.
+The map equation formalizes this idea mathematically, providing a
+function that can be optimized to find good community structure given a
+network and a model of the dynamics on that network. The method does not
+actually find the description of the network (the codewords that would
+be used to compress the network), but rather the lower theoretical limit
+on the number of bits that would be needed to do the encoding.
 
 Information theory states that this lower bound for the average length
 of a codeword to describe a random variable \(X\) with \(n\) possible
@@ -302,10 +302,11 @@ where \(\mathsf{M}\) is the module partitioning; the left term is the
 average length of codewords (entropy) in the index codebook weighted by
 the rate of use of the index codebook \(q_{\curvearrowright}\); and the
 right term is the average length of codewords in module codebook \(i\)
-weighted by the rate of use of this module \(p_{\circlearrowright}\).
-This equation can be expanded in terms of the individual node visit
-rates; see section ``\protect\hyperlink{pyinfomap}{Infomap
-implementation in Python}'' for details.
+weighted by the rate of use of this module
+\(p_{\circlearrowright}^{i}\). This equation can be expanded in terms of
+the individual node visit rates; see section
+``\protect\hyperlink{pyinfomap}{Infomap implementation in Python}'' for
+details.
 
 The node-visit probabilities that define the \(p\)'s and \(q\)'s in the
 map equation can be calculated using the PageRank algorithm
@@ -361,11 +362,11 @@ allows flow between clusters; the latter traps flow so that the clusters
 act as flow sinks. The optimal partitioning---(a) and (c)---are
 identical for optimizing modularity, but different for optimizing the
 map equation ((a) and (d)). Figure from
-\autocite{rosvall_map_2010}}\label{fig:mapvsmod}
+\autocite{rosvall_map_2010}.}\label{fig:mapvsmod}
 \end{figure}
 
-The algorithm used to find the community structure that optimizes is
-called Infomap, and the code is available at
+The algorithm used to find the community structure that optimizes the
+map equation is called Infomap, and the code is available at
 \url{http://www.mapequation.org/}. It works similarly to the Louvain
 algorithm used to optimize modularity \autocite{blondel_fast_2008}. Each
 node starts out in its own module; the modules are joined in a greedy
@@ -385,7 +386,3 @@ Python} for further discussion on Infomap. The method has been extended
 to allow for hierarchical partitions \autocite{rosvall_multilevel_2011},
 overlapping communities \autocite{viamontes_esquivel_compression_2011},
 and higher-order Markov dynamics \autocite{rosvall_memory_2014}.
-
-\subsection{Future/open problems}\label{futureopen-problems}
-
-\TODO{hierarchical. overlapping.}
