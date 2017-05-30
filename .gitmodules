@@ -1,0 +1,3 @@
+[submodule "visualization_star/groups/tooltipster-discovery"]
+	path = visualization_star/groups/tooltipster-discovery
+	url = git@github.com:louisameline/tooltipster-discovery.git
