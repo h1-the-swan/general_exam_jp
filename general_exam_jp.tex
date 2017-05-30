@@ -31,6 +31,7 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 
 \usepackage[style=numeric,url=false]{biblatex}
 \addbibresource{general_exam.bib}
+\AtEveryBibitem{\clearfield{note}}  % suppress the 'note' field
 
 % https://tex.stackexchange.com/questions/296476/cant-define-apa-as-bibstyle-undefined-control-sequence-argument-mkbibdatea
 % \DeclareLanguageMapping{american}{american-apa}
