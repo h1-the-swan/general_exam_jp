@@ -66,10 +66,16 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
       .attr("fill", function(d) { return d.color_orig = color(d.cl_top); });
 
 	node.append("text")
+		.attr("class", "affil_name")
 		.style("display", "none")  // hidden initially
 		.text(function(d) { return d.affil_name; });
+	node.append("text")
+		.attr("class", "author_name")
+		.style("display", "none")  // hidden initially
+		.text(function(d) { return d.author_name_detex; });
 
 	nodeCircle.on('click', function(d) {
+		node.classed('focus', false);
 		node.selectAll("text").style("display", "none");
 		nodeCircle.attr("fill", "black")
 			.style("opacity", .1);
@@ -78,10 +84,15 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
 		var component = node.filter(function(d) {return component_ids.includes(d.id); });
 		var componentLink = link.filter(function(d) {return component_ids.includes(d.source.id);})
 		var componentColor = d3.scaleOrdinal(d3.schemeCategory10);
+		component.classed("focus", true);
 		component.selectAll("circle").attr("fill", function(d) { return componentColor(d.cl_bottom); })
 			.style("opacity", 1);
 		component.selectAll("text").style("display", "");  // show these labels
 		componentLink.style("opacity", 1);
+		
+		$( '#nodelab-form' ).css( 'visibility' , 'visible' );
+		applyRadioSelection();
+
 		d3.event.stopPropagation();
 
 	});
@@ -134,10 +145,12 @@ d3.json("coauthorship_largest_cc.json", function(error, graph) {
   }
 
 	function reset_layout() {
+		node.classed("focus", false);
 		node.selectAll("text").style("display", "none");
 		nodeCircle.attr("fill", function(d) { return d.color_orig; })
 			.style("opacity", 1);
 		link.style("opacity", 1);
+		$( '#nodelab-form' ).css( 'visibility' , 'hidden' );
 	}
 	nodeTooltips();  // not working!!
 	svg.on("click", reset_layout);
@@ -227,3 +240,17 @@ function nodeTooltips() {
 
 	
 }
+
+function applyRadioSelection() {
+	var val = $( 'input[type=radio][name=nodelab-radio]:checked' ).val();
+	console.log(val);
+	$( '.node' ).find( 'text' ).hide();
+	if (val !== 'none') {
+		$( '.node.focus' ).find( '.' + val ).show();
+	}
+}
+
+$( document ).ready(function() {
+	var $nodelabRadio = $( 'input[type=radio][name=nodelab-radio]' );
+	$nodelabRadio.change( applyRadioSelection );
+})
